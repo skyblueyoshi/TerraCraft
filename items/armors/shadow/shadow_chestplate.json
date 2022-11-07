@@ -1,0 +1,13 @@
+
+{
+  "shadow_chestplate": {
+    "type": "TOOLS",
+    "iconTextureData": "chestplate3.png",
+    "textureData": "body3.png",
+    "group": "GROUP_CHESTPLATE",
+    "toolType": "CHESTPLATE",
+    "isArmor": true,
+    "defense": 6,
+    "durable": 788
+  }
+}

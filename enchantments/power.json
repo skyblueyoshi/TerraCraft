@@ -1,0 +1,11 @@
+
+{
+  "power": {
+    "noCreating": false,
+    "minCreatingLevel": 7,
+    "allowMaxLevel": 8,
+    "tool": [
+      "BOW"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+
+{
+  "gore_shulker": {
+    "ai": "Gore",
+    "textureData": "shulker.png",
+    "width": 16,
+    "height": 16,
+    "gfxOffsetX": -8,
+    "gfxOffsetY": -1,
+    "gfxWidth": 32,
+    "gfxHeight": 18,
+    "frameStyle": 0,
+    "frameStyles": 1,
+    "frames": 1,
+    "frameSpeed": 8,
+    "disappearTime": 600,
+    "isForeground": false,
+    "gravity": true,
+    "collisionWithBlocks": true,
+    "fixByBlocks": true,
+    "fadeScale": false,
+    "fadeAlpha": false,
+    "slowSpeed": false,
+    "slowRotateSpeed": false
+  }
+}

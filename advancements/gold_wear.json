@@ -1,0 +1,9 @@
+
+{
+  "gold_wear": {
+    "itemId": "golden_chestplate",
+    "parentId": "gold",
+    "showTip": true,
+    "broadcase": true
+  }
+}

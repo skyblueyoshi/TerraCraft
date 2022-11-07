@@ -1,0 +1,16 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "bone_block",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "AAA",
+    "AAA",
+    "AAA"
+  ],
+  "elements": [ [ "A", "bone_meal" ] ]
+}

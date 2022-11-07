@@ -1,0 +1,10 @@
+
+{
+  "RedstoneTorch": {
+    "pOnDraw": "DrawTorch",
+    "pOnScreenUpdate": "UpdateRedstoneTorch",
+    "isTrigger": true,
+    "pOnClicked": "ClickSwitch",
+    "noSmartAct": true
+  }
+}

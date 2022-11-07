@@ -1,0 +1,7 @@
+
+{
+  "Pot": {
+    "pOnDraw": "DrawPot",
+    "pOnDestroy": "PotDestroy"
+  }
+}

@@ -1,0 +1,16 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "bronze_leggings",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "AAA",
+    "AOA",
+    "AOA"
+  ],
+  "elements": [ [ "A", "bronze_ingot" ] ]
+}

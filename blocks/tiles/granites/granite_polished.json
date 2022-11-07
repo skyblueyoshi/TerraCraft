@@ -1,0 +1,33 @@
+{
+  "block": {
+    "granite_polished": {
+      "textureData": "granite_polished.png",
+      "color": [ 145, 112, 85 ],
+      "renderMode": "RENDER_BORDER_CUT",
+      "renderSortedInterval": 4,
+      "type": "TILE",
+      "group": "ARTIFICAL",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "STONE",
+      "hardness": 170,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": false,
+      "wallCheck": "NATURE_GENERABLE_ONLY",
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 175, 137, 122 ]
+    }
+  },
+  "item": {
+    "granite_polished": {
+      "type": "BLOCKS",
+      "iconTextureData": "granite_polished_icon.png",
+      "group": "GROUP_GRANITE",
+      "blockId": "granite_polished"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+
+{
+  "DungeonEater": {
+    "script": {
+      "path": "DungeonEater.lua"
+    }
+  }
+}

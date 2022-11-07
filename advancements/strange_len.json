@@ -1,0 +1,9 @@
+
+{
+  "strange_len": {
+    "itemId": "strange_len",
+    "parentId": "hunter",
+    "showTip": true,
+    "broadcase": true
+  }
+}

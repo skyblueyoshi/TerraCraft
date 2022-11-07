@@ -1,0 +1,9 @@
+
+{
+  "mirror": {
+    "itemId": "ender_mirror",
+    "parentId": "ender_pearl",
+    "showTip": true,
+    "broadcase": true
+  }
+}

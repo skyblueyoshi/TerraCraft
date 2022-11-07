@@ -1,0 +1,9 @@
+
+{
+  "recipe_book": {
+    "itemId": "book",
+    "parentId": "crafting_table",
+    "showTip": true,
+    "broadcase": true
+  }
+}

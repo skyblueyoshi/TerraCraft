@@ -1,0 +1,17 @@
+
+{
+  "config": "Repair",
+  "results": [
+    {
+      "id": "tin_axe",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [ "AB" ],
+  "elements": [
+    [ "A", "tin_axe" ],
+    [ "B", "tin_ingot" ]
+  ],
+  "exData": { "repairRate": 0.25 },
+  "importantElements": [ "A" ]
+}

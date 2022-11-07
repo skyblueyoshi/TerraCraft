@@ -1,0 +1,58 @@
+{
+  "wolf": {
+    "ai": "Wolf",
+    "textureData": "wolf.png",
+    "type": "ANIMAL",
+    "width": 48,
+    "height": 48,
+    "gfxWidth": 80,
+    "gfxHeight": 64,
+    "gfxOffsetX": -16,
+    "gfxOffsetY": -16,
+    "frameStyle": 1,
+    "frames": 4,
+    "frameSpeed": 8,
+    "shape": "BOX",
+    "maxSpeed": 6.0,
+    "jumpForce": 8.0,
+    "disappearTime": 750,
+    "spawnCount": 1.0,
+    "health": 40,
+    "defense": 5,
+    "attack": 5,
+    "knockBack": 5,
+    "knockBackDefense": 0.35,
+    "gravity": true,
+    "climbWall": false,
+    "foreground": false,
+    "noFixByBlock": false,
+    "friendly": true,
+    "exps": 5,
+    "sunBurning": false,
+    "angry": true,
+    "antiLava": false,
+    "saySounds": [
+      "wolf_bark1",
+      "wolf_bark2",
+      "wolf_bark3"
+    ],
+    "hurtSounds": [
+      "wolf_death",
+      "wolf_hurt1",
+      "wolf_hurt2",
+      "wolf_hurt3"
+    ],
+    "loots": [
+      {
+        "item": "leather",
+        "count": [ 1, 3 ]
+      }
+    ],
+    "special": 0,
+    "paticularColor": [ 255, 200, 100, 50 ],
+    "spawn": "LAND",
+    "magicRate": 0,
+    "checkPlayerTarget": true,
+    "visionNoCrossTile": false
+  }
+}

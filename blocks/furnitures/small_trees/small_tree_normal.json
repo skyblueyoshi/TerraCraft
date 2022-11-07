@@ -1,0 +1,23 @@
+{
+  "block": {
+    "small_tree_normal": {
+      "textureData": "small_tree.png",
+      "color": [ 183, 165, 80 ],
+      "type": "FURNITURE",
+      "width": 3,
+      "height": 3,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "placeCheck": "PLACE_PLANT_CHECK",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 200,
+      "slipperiness": 1.0,
+      "isKilledByLava": true,
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 110, 100, 50 ]
+    }
+  }
+}

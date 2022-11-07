@@ -1,0 +1,8 @@
+
+{
+  "Paimon": {
+    "script": {
+      "path": "Paimon.lua"
+    }
+  }
+}

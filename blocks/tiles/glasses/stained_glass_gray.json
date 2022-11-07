@@ -1,0 +1,35 @@
+{
+  "block": {
+    "stained_glass_gray": {
+      "textureData": "stained_glass_gray.png",
+      "color": [ 125, 125, 128 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 4,
+      "type": "TILE",
+      "group": "GLASS",
+      "collision": "SOLID",
+      "lightOpacity": 1,
+      "lightTransparent": true,
+      "toolType": "PICKAXE",
+      "mineGrade": "GRASS",
+      "hardness": 50,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": false,
+      "wallCheck": "NO_GENERABLE",
+      "soundGroupId": "glass",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 60, 60, 60 ]
+    }
+  },
+  "item": {
+    "stained_glass_gray": {
+      "type": "BLOCKS",
+      "iconTextureData": "stained_glass_gray_icon.png",
+      "group": "GROUP_GLASS",
+      "blockId": "stained_glass_gray",
+      "oreDictionary": [ "OD_GLASS" ]
+    }
+  }
+}

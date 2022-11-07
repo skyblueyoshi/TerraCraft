@@ -1,0 +1,8 @@
+
+{
+  "flesh_ingot": {
+    "type": "MATERIALS",
+    "iconTextureData": "flesh_ingot.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

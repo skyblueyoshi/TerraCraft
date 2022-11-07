@@ -1,0 +1,17 @@
+
+{
+  "killp": {
+    "isClient": false,
+    "fromPlayer": false,
+    "gameMode": "creative",
+    "op": "admin",
+    "parameters": [
+      {
+        "type": "CP_PLAYER"
+      }
+    ],
+    "script": {
+      "path": "kill.lua"
+    }
+  }
+}

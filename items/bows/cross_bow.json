@@ -1,0 +1,33 @@
+
+{
+  "cross_bow": {
+    "type": "TOOLS",
+    "iconTextureData": "cross_bow_icon.png",
+    "textureData": "cross_bow_entity.png",
+    "group": "GROUP_CROSS_BOW",
+    "toolType": "CROSS_BOW",
+    "ai": "Bow",
+    "ammo": "arrow",
+    "entityWidth": 48,
+    "entityHeight": 18,
+    "handX": 12,
+    "handY": 14,
+    "firePoints": [[48,8]],
+    "noConsumeChance": 0.0,
+    "speed": 12.0,
+    "deviation": 0.06,
+    "shootTimes": 1,
+    "ammoLevel": 0,
+    "shootProjectileId": "wooden_arrow",
+    "usePosture": 0,
+    "useSound": "bow",
+    "coldTime": 32,
+    "holdType": "FOLLOW_MOUSE",
+    "twoHands": true,
+    "backForce": false,
+    "durable": 1000,
+    "damage": 14,
+    "knockBack": 5,
+    "crit": 3
+  }
+}

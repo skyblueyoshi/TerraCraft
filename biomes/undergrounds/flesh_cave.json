@@ -1,0 +1,213 @@
+
+{
+  "flesh_cave": {
+    "biomeType": "Underground",
+    "scale": 1.0,
+    "wallParallaxe": "flesh_wall",
+    "musics": {
+      "underground": [
+        "mcunder1",
+        "mcunder2",
+        "mcunder3",
+        "mcunder4"
+      ]
+    },
+    "composition": {
+      "main": {
+        "id": "flesh_dirt"
+      },
+      "subs": [
+        {
+          "id": "flesh_stone"
+        },
+        {
+          "id": "flesh_gut"
+        },
+        {
+          "id": "flesh_gut"
+        }
+      ]
+    },
+    "wall": {
+      "id": "flesh_dirt",
+      "full": false
+    },
+    "oreGroupName": "default",
+    "liquidInfo": {
+      "liquid": "water",
+      "maxAllowCount": 500
+    },
+    "distributions": {
+      "airWeight": 100,
+      "surfacePlaceables": [
+        {
+          "id": "pot",
+          "tag": 4,
+          "weight": 40
+        },
+        {
+          "id": "eyeball_grass",
+          "weight": 40
+        },
+        {
+          "id": "large_eyeball_grass",
+          "weight": 40
+        },
+        {
+          "id": "flesh_tentacle",
+          "weight": 80
+        },
+        {
+          "id": "blood_grass",
+          "weight": 200
+        }
+      ],
+      "hangingWeight": 100,
+      "hangingPlaceables": [
+        {
+          "id": "flesh_tentacle_hanging",
+          "weight": 80
+        },
+        {
+          "id": "eyeball_vine",
+          "weight": 40
+        }
+      ]
+    },
+    "pot": [
+      {
+        "itemId": "torch",
+        "min": 1,
+        "max": 5,
+        "weight": 15
+      },
+      {
+        "itemId": "potion_healing",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "potion_night_vision",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "potion_strength",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "potion_leaping",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "potion_water_breathing",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "wooden_arrow",
+        "min": 3,
+        "max": 10,
+        "weight": 12
+      },
+      {
+        "itemId": "lighting_arrow",
+        "min": 3,
+        "max": 10,
+        "weight": 5
+      },
+      {
+        "itemId": "coal",
+        "min": 1,
+        "max": 2,
+        "weight": 10
+      },
+      {
+        "itemId": "flint",
+        "min": 1,
+        "max": 4,
+        "weight": 10
+      },
+      {
+        "itemId": "grenade",
+        "min": 1,
+        "max": 1,
+        "weight": 4
+      },
+      {
+        "itemId": "bomb",
+        "min": 1,
+        "max": 1,
+        "weight": 2
+      }
+    ],
+    "spawn": {
+      "mobSpeed": 240,
+      "maxMobSpawn": 6,
+      "mobs": [
+        {
+          "id": "blood_eye",
+          "weight": 10
+        },
+        {
+          "id": "iron_zombie",
+          "weight": 8
+        },
+        {
+          "id": "blood_slime",
+          "weight": 8
+        },
+        {
+          "id": "blood_skeleton",
+          "weight": 6
+        },
+        {
+          "id": "blood_bat",
+          "weight": 5
+        },
+        {
+          "id": "flower_creeper",
+          "weight": 1
+        },
+        {
+          "id": "enderman",
+          "weight": 1
+        }
+      ],
+      "animalSpeed": 600,
+      "maxAnimalSpawn": 5,
+      "animals": [
+        {
+          "id": "squid",
+          "weight": 10
+        }
+      ]
+    },
+    "buildingInfo": [
+      {
+        "buildingId": "fossils",
+        "density": 16.0
+      }
+    ],
+    "environmentBlocks": {
+      "total": 100,
+      "blocks": [
+        {
+          "id": "flesh_dirt",
+          "weight": 1
+        },
+        {
+          "id": "flesh_stone",
+          "weight": 1
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,56 @@
+local CrossBow = class("CrossBow", ModItem)
+
+--function CrossBow:OnShootFromPlayer(itemSlot, player, hitbox, consumeItemID, projectileID, fireX, fireY, shootSpeed, shootAngle,
+--    baseAttack)
+--    local shootTimes = itemSlot.shootTimes
+--    if shootTimes == 1 then
+--        local multishotLevel = itemSlot:GetEnchantmentLevel(Reg.EnchantmentID("multishot"))
+--        shootTimes = shootTimes + multishotLevel
+--    end
+--    if shootTimes > 1 then
+--        baseAttack.attack = math.ceil(baseAttack.attack * 0.75)
+--    end
+--    local piercingLevel = itemSlot:GetEnchantmentLevel(Reg.EnchantmentID("piercing"))
+--    for i = 1, shootTimes do
+--        local angle = shootAngle + Utils.RandSym(itemSlot.deviation)
+--        local speed = shootSpeed
+--        local proj = ProjectileUtils.CreateFromPlayer(player, projectileID, fireX, fireY, math.cos(angle) * speed,
+--                         math.sin(angle) * speed, baseAttack)
+--        proj.isCheckPlayer = true
+--        proj.isCheckNpc = true
+--        if proj.modData:DataOf("Arrow") then
+--            if i == 1 and consumeItemID > 0 then
+--                proj.modData.attachItemID = consumeItemID
+--            end
+--            proj.modData.piercingCount = math.floor(piercingLevel * 0.5)
+--        end
+--    end
+--    return true
+--end
+--
+--function CrossBow:OnShootFromNpc(itemSlot, npc, hitbox, consumeItemID, projectileID, fireX, fireY, shootSpeed, shootAngle,
+--    baseAttack)
+--    local shootTimes = itemSlot.shootTimes
+--    if shootTimes == 1 then
+--        local multishotLevel = itemSlot:GetEnchantmentLevel(Reg.EnchantmentID("multishot"))
+--        shootTimes = shootTimes + multishotLevel
+--    end
+--    local piercingLevel = itemSlot:GetEnchantmentLevel(Reg.EnchantmentID("piercing"))
+--    for i = 1, shootTimes do
+--        local angle = shootAngle + Utils.RandSym(itemSlot.deviation)
+--        local speed = shootSpeed
+--        local proj = ProjectileUtils.CreateFromNpc(npc, projectileID, fireX, fireY, math.cos(angle) * speed,
+--                         math.sin(angle) * speed, baseAttack)
+--        proj.isCheckPlayer = true
+--        proj.isCheckNpc = false
+--        if proj.modData:DataOf("Arrow") then
+--            if i == 1 and consumeItemID > 0 then
+--                proj.modData.attachItemID = consumeItemID
+--            end
+--            proj.modData.piercingCount = math.floor(piercingLevel * 0.5)
+--        end
+--    end
+--    return true
+--end
+
+return CrossBow

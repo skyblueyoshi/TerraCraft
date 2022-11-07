@@ -1,0 +1,13 @@
+
+{
+  "pumpkin_pie": {
+    "ai": "Food",
+    "type": "MATERIALS",
+    "iconTextureData": "pumpkin_pie_icon.png",
+    "group": "GROUP_FOOD",
+    "eatable": true,
+    "useSoundGroup": "eat",
+    "food": 40,
+    "foodSaturation": 48
+  }
+}

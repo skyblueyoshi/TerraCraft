@@ -1,0 +1,16 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "chair_spruce",
+      "stackSize": 2
+    }
+  ],
+  "pattern": [
+    "AOO",
+    "AAA",
+    "AOA"
+  ],
+  "elements": [ [ "A", "spruce_plank" ] ]
+}

@@ -1,0 +1,13 @@
+
+{
+  "melon_slice": {
+    "ai": "Food",
+    "type": "MATERIALS",
+    "iconTextureData": "melon_slice_icon.png",
+    "group": "GROUP_FOOD",
+    "eatable": true,
+    "useSoundGroup": "eat",
+    "food": 10,
+    "foodSaturation": 12
+  }
+}

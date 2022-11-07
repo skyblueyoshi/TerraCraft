@@ -1,0 +1,26 @@
+
+{
+  "gore_arrow_zombie": {
+    "ai": "Gore",
+    "textureData": "arrow_zombie.png",
+    "width": 24,
+    "height": 24,
+    "gfxOffsetX": -12,
+    "gfxOffsetY": -1,
+    "gfxWidth": 48,
+    "gfxHeight": 26,
+    "frameStyle": 0,
+    "frameStyles": 1,
+    "frames": 1,
+    "frameSpeed": 8,
+    "disappearTime": 600,
+    "isForeground": false,
+    "gravity": true,
+    "collisionWithBlocks": true,
+    "fixByBlocks": true,
+    "fadeScale": false,
+    "fadeAlpha": false,
+    "slowSpeed": false,
+    "slowRotateSpeed": false
+  }
+}

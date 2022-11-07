@@ -1,0 +1,8 @@
+
+{
+  "glistering_melon_slice": {
+    "type": "MATERIALS",
+    "iconTextureData": "glistering_melon_slice_icon.png",
+    "group": "GROUP_FOOD"
+  }
+}

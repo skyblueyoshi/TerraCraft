@@ -1,0 +1,29 @@
+{
+  "block": {
+    "nether_altar": {
+      "textureData": "nether_altar.png",
+      "color": [ 166, 0, 0 ],
+      "type": "FURNITURE",
+      "width": 3,
+      "height": 3,
+      "collision": "NONE",
+      "attach": "NONE",
+      "attachable": "NONE",
+      "toolType": "PICKAXE",
+      "mineGrade": "DIAMOND",
+      "hardness": 1000,
+      "slipperiness": 1.0,
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 166, 0, 0 ],
+      "preset": "NetherAltar"
+    }
+  },
+  "item": {
+    "nether_altar": {
+      "type": "MATERIALS",
+      "iconTextureData": "nether_altar_icon.png",
+      "group": "GROUP_OTHERS_FURNITURE"
+    }
+  }
+}

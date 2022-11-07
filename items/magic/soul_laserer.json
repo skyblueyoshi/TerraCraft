@@ -1,0 +1,33 @@
+
+{
+  "soul_laserer": {
+    "type": "TOOLS",
+    "iconTextureData": "soul_laserer.png",
+    "textureData": "soul_laserer.png",
+    "group": "GROUP_GUN",
+    "toolType": "GUN",
+    "ai": "InfBow",
+    "entityWidth": 56,
+    "entityHeight": 22,
+    "handX": 5,
+    "handY": 15,
+    "firePoints": [[56,8]],
+    "noConsumeChance": 0.0,
+    "speed": 16.0,
+    "deviation": 0.085,
+    "shootTimes": 1,
+    "special": 2,
+    "shootProjectileId": "magic_wave3",
+    "usePosture": 0,
+    "coldTime": 42,
+    "holdType": "FOLLOW_MOUSE",
+    "twoHands": true,
+    "backForce": true,
+    "damage": 24,
+    "knockBack": 0,
+    "crit": 3,
+    "noEnchanted": true,
+    "consumeMana": 20,
+    "useSound": "cannon"
+  }
+}

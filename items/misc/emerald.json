@@ -1,0 +1,8 @@
+
+{
+  "emerald": {
+    "type": "MATERIALS",
+    "iconTextureData": "emerald_icon.png",
+    "group": "GROUP_EMERALD"
+  }
+}

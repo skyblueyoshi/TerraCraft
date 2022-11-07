@@ -1,0 +1,12 @@
+{
+  "textureInfo": {
+    "name": "tc:advance_tip"
+  },
+  "style": "Slices9",
+  "slices9": {
+    "left": 20,
+    "right": 20,
+    "top": 20,
+    "bottom": 20
+  }
+}

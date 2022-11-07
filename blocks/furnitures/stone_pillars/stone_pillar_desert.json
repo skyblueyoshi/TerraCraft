@@ -1,0 +1,22 @@
+{
+  "block": {
+    "stone_pillar_desert": {
+      "textureData": "stone_pillar_desert.png",
+      "type": "FURNITURE",
+      "width": 2,
+      "height": 3,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "placeCheck": "PLACE_SAND_DECO_CHECK",
+      "toolType": "PICKAXE",
+      "mineGrade": "WOOD",
+      "hardness": 200,
+      "slipperiness": 1.0,
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 150, 160, 110 ],
+      "preset": "RandomDisplay"
+    }
+  }
+}

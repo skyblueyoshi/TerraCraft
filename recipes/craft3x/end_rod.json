@@ -1,0 +1,19 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "end_rod",
+      "stackSize": 4
+    }
+  ],
+  "pattern": [
+    "AOO",
+    "BOO",
+    "OOO"
+  ],
+  "elements": [
+    [ "A", "blaze_rod" ],
+    [ "B", "popped_chorus_fruits" ]
+  ]
+}

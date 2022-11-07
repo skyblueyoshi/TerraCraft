@@ -1,0 +1,19 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "redstone_lamp",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "OAO",
+    "ABA",
+    "OAO"
+  ],
+  "elements": [
+    [ "A", "redstone" ],
+    [ "B", "glowstone" ]
+  ]
+}

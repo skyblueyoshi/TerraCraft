@@ -1,0 +1,11 @@
+
+{
+  "Fireball": {
+    "script": {
+      "path": "Fireball.lua"
+    },
+    "modData": [
+      [ "bool", "boom" ]
+    ]
+  }
+}

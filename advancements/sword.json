@@ -1,0 +1,9 @@
+
+{
+  "sword": {
+    "itemId": "wooden_sword",
+    "parentId": "crafting_table",
+    "showTip": true,
+    "broadcase": true
+  }
+}

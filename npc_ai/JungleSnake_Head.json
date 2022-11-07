@@ -1,0 +1,8 @@
+
+{
+  "JungleSnake_Head": {
+    "script": {
+      "path": "JungleSnake.lua"
+    }
+  }
+}

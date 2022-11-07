@@ -1,0 +1,11 @@
+
+{
+  "feather_falling": {
+    "noCreating": false,
+    "minCreatingLevel": 10,
+    "allowMaxLevel": 8,
+    "tool": [
+      "LEGGINGS"
+    ]
+  }
+}

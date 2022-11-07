@@ -1,0 +1,9 @@
+
+{
+  "go_dark_dungeon": {
+    "itemId": "more_dungeons:dungeon_wall_green",
+    "parentId": "go_ghost_house",
+    "showTip": true,
+    "broadcase": true
+  }
+}

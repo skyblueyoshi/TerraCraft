@@ -1,0 +1,16 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "red_gold_ingot",
+      "stackSize": 2
+    }
+  ],
+  "pattern": [
+    "OBO",
+    "BAB",
+    "OBO"
+  ],
+  "elements": [ [ "A", "gold_ingot" ], [ "B", "red_crystal" ] ]
+}

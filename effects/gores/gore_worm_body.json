@@ -1,0 +1,26 @@
+
+{
+  "gore_worm_body": {
+    "ai": "Gore",
+    "textureData": "worm_body.png",
+    "width": 30,
+    "height": 30,
+    "gfxOffsetX": -8,
+    "gfxOffsetY": -11,
+    "gfxWidth": 46,
+    "gfxHeight": 52,
+    "frameStyle": 0,
+    "frameStyles": 1,
+    "frames": 1,
+    "frameSpeed": 8,
+    "disappearTime": 300,
+    "isForeground": false,
+    "gravity": true,
+    "collisionWithBlocks": true,
+    "fixByBlocks": true,
+    "fadeScale": false,
+    "fadeAlpha": false,
+    "slowSpeed": false,
+    "slowRotateSpeed": false
+  }
+}

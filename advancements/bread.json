@@ -1,0 +1,9 @@
+
+{
+  "bread": {
+    "itemId": "bread",
+    "parentId": "farm",
+    "showTip": true,
+    "broadcase": true
+  }
+}

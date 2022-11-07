@@ -1,0 +1,16 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "dye_light_blue",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "AOO",
+    "OOO",
+    "OOO"
+  ],
+  "elements": [ [ "A", "blue_orchid" ] ]
+}

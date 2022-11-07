@@ -1,0 +1,66 @@
+
+{
+  "crison_eye": {
+    "ai": "CrisonEye",
+    "textureData": "crison_eye.png",
+    "type": "NORMAL",
+    "width": 112,
+    "height": 112,
+    "gfxWidth": 192,
+    "gfxHeight": 112,
+    "gfxOffsetX": -48,
+    "gfxOffsetY": 0,
+    "frameStyle": 0,
+    "frames": 1,
+    "frameSpeed": 8,
+    "shape": "BOX",
+    "maxSpeed": 3.2,
+    "jumpForce": 5.0,
+    "disappearTime": 750,
+    "spawnCount": 1.0,
+    "health": 2600,
+    "defense": 5,
+    "attack": 22,
+    "knockBack": 8,
+    "knockBackDefense": 0.99,
+    "gravity": false,
+    "climbWall": false,
+    "foreground": true,
+    "noFixByBlock": true,
+    "friendly": false,
+    "exps": 217,
+    "sunBurning": false,
+    "angry": false,
+    "antiLava": false,
+    "saySounds": [],
+    "hurtSounds": [
+      "gore3",
+      "gore1",
+      "gore2"
+    ],
+    "loots": [
+      {
+        "item": "diamond",
+        "count": [ 1, 2 ]
+      },
+      {
+        "item": "star_ingot",
+        "count": [ 5, 12 ]
+      },
+      {
+        "item": "evil_part",
+        "count": [ 8, 20 ]
+      },
+      {
+        "item": "magic_cell",
+        "count": [ 18, 25 ]
+      }
+    ],
+    "special": 0,
+    "paticularColor": [ 255, 50, 50, 20 ],
+    "spawn": "AIR",
+    "magicRate": 30,
+    "checkPlayerTarget": true,
+    "visionNoCrossTile": false
+  }
+}

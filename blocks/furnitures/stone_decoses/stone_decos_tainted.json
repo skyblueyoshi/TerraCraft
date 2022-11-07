@@ -1,0 +1,23 @@
+{
+  "block": {
+    "stone_decos_tainted": {
+      "textureData": "stone_decos_tainted.png",
+      "color": [ 108, 65, 156 ],
+      "type": "FURNITURE",
+      "width": 3,
+      "height": 2,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "placeCheck": "PLACE_TAINTED_DECO_CHECK",
+      "toolType": "PICKAXE",
+      "mineGrade": "WOOD",
+      "hardness": 200,
+      "slipperiness": 1.0,
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 100, 60, 140 ],
+      "preset": "RandomDisplay"
+    }
+  }
+}

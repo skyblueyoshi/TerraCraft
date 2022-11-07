@@ -1,0 +1,26 @@
+
+{
+  "gore_evoker": {
+    "ai": "Gore",
+    "textureData": "evoker.png",
+    "width": 30,
+    "height": 30,
+    "gfxOffsetX": -1,
+    "gfxOffsetY": 0,
+    "gfxWidth": 32,
+    "gfxHeight": 30,
+    "frameStyle": 0,
+    "frameStyles": 1,
+    "frames": 1,
+    "frameSpeed": 8,
+    "disappearTime": 600,
+    "isForeground": false,
+    "gravity": true,
+    "collisionWithBlocks": true,
+    "fixByBlocks": true,
+    "fadeScale": false,
+    "fadeAlpha": false,
+    "slowSpeed": false,
+    "slowRotateSpeed": false
+  }
+}

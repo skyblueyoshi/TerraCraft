@@ -1,0 +1,15 @@
+{
+  "Brew": {
+    "iconItem": "brewing_stand",
+    "sourceGroups": [
+      {
+        "slotCount": 2,
+        "searchAction": "SA_FIX"
+      }
+    ],
+    "resultSlotCount": 1,
+    "exData": [
+      ["int", "time"]
+    ]
+  }
+}

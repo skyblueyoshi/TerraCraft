@@ -1,0 +1,9 @@
+
+{
+  "Cobweb": {
+    "script": {
+      "path": "Cobweb.lua"
+    },
+    "pOnDraw": "DrawCobweb"
+  }
+}

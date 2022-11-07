@@ -1,0 +1,24 @@
+
+{
+  "ice_magic": {
+    "ai": "IceMagic",
+    "textureData": "ice_magic.png",
+    "width": 12,
+    "height": 12,
+    "gfxWidth": 24,
+    "gfxHeight": 12,
+    "gfxOffsetX": -6,
+    "gfxOffsetY": 0,
+    "hots": [ [ 6, 6 ] ],
+    "frameStyle": 1,
+    "frames": 1,
+    "frameSpeed": 8,
+    "shape": "BOX",
+    "maxSpeed": 12.0,
+    "gravity": false,
+    "foreground": true,
+    "fixByBlocks": true,
+    "througthBlock": false,
+    "keepStrick": true
+  }
+}

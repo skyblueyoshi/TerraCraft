@@ -1,0 +1,37 @@
+{
+  "block": {
+    "wood_jungle": {
+      "textureData": "wood_jungle.png",
+      "color": [ 82, 71, 61 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 4,
+      "type": "TILE",
+      "group": "WOOD_B",
+      "subGroup": "WOOD",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 100,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": false,
+      "transformId": "wood_stripped_jungle",
+      "wallCheck": "NO_GENERABLE",
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 100, 70, 50 ]
+    }
+  },
+  "item": {
+    "wood_jungle": {
+      "type": "BLOCKS",
+      "iconTextureData": "wood_jungle_icon.png",
+      "group": "GROUP_WOOD",
+      "blockId": "wood_jungle",
+      "fuelTime": 60,
+      "oreDictionary": [ "OD_WOOD" ]
+    }
+  }
+}

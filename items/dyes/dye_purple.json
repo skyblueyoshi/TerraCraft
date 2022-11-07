@@ -1,0 +1,8 @@
+
+{
+  "dye_purple": {
+    "type": "MATERIALS",
+    "iconTextureData": "dye_purple_icon.png",
+    "group": "GROUP_DYE"
+  }
+}

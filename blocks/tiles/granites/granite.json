@@ -1,0 +1,33 @@
+{
+  "block": {
+    "granite": {
+      "textureData": "granite.png",
+      "color": [ 127, 92, 48 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 8,
+      "type": "TILE",
+      "group": "GRANITE",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "STONE",
+      "hardness": 180,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": true,
+      "isWallDark": true,
+      "wallCheck": "NATURE_GENERABLE_ONLY",
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 175, 137, 122 ]
+    }
+  },
+  "item": {
+    "granite": {
+      "type": "BLOCKS",
+      "iconTextureData": "granite_icon.png",
+      "group": "GROUP_GRANITE",
+      "blockId": "granite"
+    }
+  }
+}

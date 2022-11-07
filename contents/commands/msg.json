@@ -1,0 +1,20 @@
+
+{
+  "msg": {
+    "isClient": false,
+    "fromPlayer": true,
+    "gameMode": "survival",
+    "op": "any",
+    "parameters": [
+      {
+        "type": "CP_PLAYER"
+      },
+      {
+        "type": "CP_STRING"
+      }
+    ],
+    "script": {
+      "path": "msg.lua"
+    }
+  }
+}

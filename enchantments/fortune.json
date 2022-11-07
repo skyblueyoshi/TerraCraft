@@ -1,0 +1,15 @@
+
+{
+  "fortune": {
+    "noCreating": false,
+    "minCreatingLevel": 29,
+    "allowMaxLevel": 8,
+    "tool": [
+      "AXE",
+      "PICKAXE"
+    ],
+    "conflict": [
+      "silk_touch"
+    ]
+  }
+}

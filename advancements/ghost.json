@@ -1,0 +1,9 @@
+
+{
+  "ghost": {
+    "itemId": "ghost",
+    "parentId": "ghost_crystal",
+    "showTip": true,
+    "broadcase": true
+  }
+}

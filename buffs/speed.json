@@ -1,0 +1,9 @@
+
+{
+  "speed": {
+    "textureData": "speed.png",
+    "script": {
+      "path": "speed.lua"
+    }
+  }
+}

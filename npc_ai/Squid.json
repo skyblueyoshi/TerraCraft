@@ -1,0 +1,8 @@
+
+{
+  "Squid": {
+    "script": {
+      "path": "Squid.lua"
+    }
+  }
+}

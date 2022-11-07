@@ -1,0 +1,12 @@
+{
+  "textureInfo": {
+    "name": "tc:advancement_cell"
+  },
+  "style": "Slices9",
+  "slices9": {
+    "left": 8,
+    "right": 8,
+    "top": 8,
+    "bottom": 8
+  }
+}

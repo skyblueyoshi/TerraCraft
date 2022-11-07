@@ -1,0 +1,7 @@
+
+{
+  "Vine": {
+    "pOnDraw": "DrawGeneral",
+    "pOnRandomEvent": "RandomGrowVine"
+  }
+}

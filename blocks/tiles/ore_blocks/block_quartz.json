@@ -1,0 +1,33 @@
+{
+  "block": {
+    "block_quartz": {
+      "textureData": "block_quartz.png",
+      "color": [ 218, 214, 202 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 4,
+      "type": "TILE",
+      "group": "ARTIFICAL",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "WOOD",
+      "hardness": 120,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": false,
+      "wallCheck": "NO_GENERABLE",
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 218, 214, 202 ]
+    }
+  },
+  "item": {
+    "block_quartz": {
+      "type": "BLOCKS",
+      "iconTextureData": "block_quartz_icon.png",
+      "group": "GROUP_ORE_BLOCK",
+      "blockId": "block_quartz"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+
+{
+  "netherite": {
+    "itemId": "ore_ancient_debris",
+    "parentId": "nether",
+    "showTip": true,
+    "broadcase": true
+  }
+}

@@ -1,0 +1,23 @@
+
+{
+  "bronze_sword": {
+    "type": "TOOLS",
+    "iconTextureData": "bronze_sword_entity.png",
+    "textureData": "bronze_sword_entity.png",
+    "group": "GROUP_SWORD",
+    "oreDictionary": [ "OD_SWORD" ],
+    "toolType": "SWORD",
+    "ai": "Sword",
+    "coldTime": 24,
+    "entityWidth": 22,
+    "entityHeight": 56,
+    "handX": 10,
+    "handY": 48,
+    "firePoints": [[10,0]],
+    "holdType": "NORMAL",
+    "durable": 624,
+    "damage": 11,
+    "knockBack": 3,
+    "crit": 4
+  }
+}

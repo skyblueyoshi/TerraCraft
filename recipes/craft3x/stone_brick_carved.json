@@ -1,0 +1,16 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "stone_brick_carved",
+      "stackSize": 4
+    }
+  ],
+  "pattern": [
+    "AAO",
+    "AAO",
+    "OOO"
+  ],
+  "elements": [ [ "A", "stone_brick" ] ]
+}

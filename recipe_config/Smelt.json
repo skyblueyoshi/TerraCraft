@@ -1,0 +1,15 @@
+{
+  "Smelt": {
+    "iconItem": "furnace",
+    "sourceGroups": [
+      {
+        "slotCount": 1,
+        "searchAction": "SA_FIX"
+      }
+    ],
+    "resultSlotCount": 1,
+    "exData": [
+      ["int", "time"]
+    ]
+  }
+}

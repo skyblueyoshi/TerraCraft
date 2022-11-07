@@ -1,0 +1,35 @@
+{
+  "block": {
+    "bookcase_dark_oak": {
+      "textureData": "bookcase_dark_oak.png",
+      "color": [ 106, 86, 66 ],
+      "type": "FURNITURE",
+      "subGroup": "BOOKCASE",
+      "width": 3,
+      "height": 4,
+      "collision": "PLATFORM",
+      "attach": "BOTTOM",
+      "attachable": "TOP",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 140,
+      "slipperiness": 1.0,
+      "isKilledByLava": true,
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "functionSoundId": "chest",
+      "functionSoundId2": "chestclosed",
+      "particleColor": [ 255, 60, 30, 10 ],
+      "preset": "Storage"
+    }
+  },
+  "item": {
+    "bookcase_dark_oak": {
+      "type": "BLOCKS",
+      "iconTextureData": "bookcase_dark_oak.png",
+      "group": "GROUP_BOOKCASE",
+      "blockId": "bookcase_dark_oak",
+      "fuelTime": 60
+    }
+  }
+}

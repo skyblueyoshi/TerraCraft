@@ -1,0 +1,8 @@
+
+{
+  "dye_magenta": {
+    "type": "MATERIALS",
+    "iconTextureData": "dye_magenta_icon.png",
+    "group": "GROUP_DYE"
+  }
+}

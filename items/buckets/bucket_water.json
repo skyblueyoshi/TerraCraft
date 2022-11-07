@@ -1,0 +1,9 @@
+
+{
+  "bucket_water": {
+    "type": "MATERIALS",
+    "iconTextureData": "bucket_water_icon.png",
+    "group": "GROUP_BUCKET",
+    "liquidId": "water"
+  }
+}

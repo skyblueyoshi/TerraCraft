@@ -1,0 +1,33 @@
+{
+  "block": {
+    "snow_brick": {
+      "textureData": "snow_brick.png",
+      "color": [ 210, 233, 233 ],
+      "renderMode": "RENDER_BORDER_CUT",
+      "renderSortedInterval": 6,
+      "type": "TILE",
+      "group": "ARTIFICAL",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "WOOD",
+      "hardness": 150,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": false,
+      "wallCheck": "NO_GENERABLE",
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 111, 255, 255 ]
+    }
+  },
+  "item": {
+    "snow_brick": {
+      "type": "BLOCKS",
+      "iconTextureData": "snow_brick_icon.png",
+      "group": "GROUP_SNOW_BRICK",
+      "blockId": "snow_brick"
+    }
+  }
+}

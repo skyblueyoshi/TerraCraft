@@ -1,0 +1,15 @@
+
+{
+  "sword_arrow": {
+    "type": "PROJECTILES",
+    "iconTextureData": "sword_arrow_icon.png",
+    "group": "GROUP_ARROW",
+    "ammo": "arrow",
+    "ammoLevel": 5,
+    "projectileId": "sword_arrow",
+    "speed": 0.0,
+    "shootable": true,
+    "damage": 1,
+    "knockBack": 1
+  }
+}

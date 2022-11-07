@@ -1,0 +1,9 @@
+
+{
+  "super_diamond_sword": {
+    "itemId": "super_diamond_sword",
+    "parentId": "diamond",
+    "showTip": true,
+    "broadcase": true
+  }
+}

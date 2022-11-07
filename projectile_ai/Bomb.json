@@ -1,0 +1,8 @@
+
+{
+  "Bomb": {
+    "script": {
+      "path": "Bomb.lua"
+    }
+  }
+}

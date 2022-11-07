@@ -1,0 +1,9 @@
+
+{
+  "dungeon_eater": {
+    "ai": "DungeonEater",
+    "type": "MATERIALS",
+    "iconTextureData": "dungeon_eater.png",
+    "group": "GROUP_BOSS"
+  }
+}

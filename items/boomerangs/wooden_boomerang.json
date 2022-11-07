@@ -1,0 +1,18 @@
+
+{
+  "wooden_boomerang": {
+    "type": "TOOLS",
+    "iconTextureData": "wooden_boomerang_icon.png",
+    "group": "GROUP_BOOMERANG",
+    "toolType": "BOOMERANG",
+    "projectileId": "wooden_boomerang",
+    "speed": 8.0,
+    "damage": 5,
+    "knockBack": 6,
+    "coldTime": 40,
+    "canThrow": true,
+    "durable": 64,
+    "attachThrowable": true,
+    "fuelTime": 40
+  }
+}

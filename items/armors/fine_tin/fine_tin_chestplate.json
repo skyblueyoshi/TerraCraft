@@ -1,0 +1,13 @@
+
+{
+  "fine_tin_chestplate": {
+    "type": "TOOLS",
+    "iconTextureData": "chestplate4.png",
+    "textureData": "body4.png",
+    "group": "GROUP_CHESTPLATE",
+    "toolType": "CHESTPLATE",
+    "isArmor": true,
+    "defense": 5,
+    "durable": 788
+  }
+}

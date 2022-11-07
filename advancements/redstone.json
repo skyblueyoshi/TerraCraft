@@ -1,0 +1,9 @@
+
+{
+  "redstone": {
+    "itemId": "redstone",
+    "parentId": "stone",
+    "showTip": true,
+    "broadcase": true
+  }
+}

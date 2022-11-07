@@ -1,0 +1,19 @@
+
+{
+  "wea": {
+    "isClient": false,
+    "fromPlayer": false,
+    "gameMode": "creative",
+    "op": "any",
+    "parameters": [
+      {
+        "type": "CP_INTEGER",
+        "min": 1,
+        "max": 216000
+      }
+    ],
+    "script": {
+      "path": "wea.lua"
+    }
+  }
+}

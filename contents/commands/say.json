@@ -1,0 +1,17 @@
+
+{
+  "say": {
+    "isClient": false,
+    "fromPlayer": false,
+    "gameMode": "creative",
+    "op": "any",
+    "parameters": [
+      {
+        "type": "CP_STRING"
+      }
+    ],
+    "script": {
+      "path": "say.lua"
+    }
+  }
+}

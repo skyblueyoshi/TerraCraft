@@ -1,0 +1,23 @@
+
+{
+  "super_nether_sword": {
+    "type": "TOOLS",
+    "iconTextureData": "super_nether_sword_entity.png",
+    "textureData": "super_nether_sword_entity.png",
+    "group": "GROUP_SWORD",
+    "oreDictionary": [ "OD_SWORD" ],
+    "toolType": "SWORD",
+    "ai": "Sword",
+    "coldTime": 24,
+    "entityWidth": 22,
+    "entityHeight": 62,
+    "handX": 10,
+    "handY": 54,
+    "holdType": "NORMAL",
+    "durable": 2020,
+    "damage": 16,
+    "knockBack": 5,
+    "crit": 5,
+    "antiLava": true
+  }
+}

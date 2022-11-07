@@ -1,0 +1,16 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "dungeon_eater",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "elements": [ [ "A", "evil_part" ], [ "B", "blood" ] ]
+}

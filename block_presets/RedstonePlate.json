@@ -1,0 +1,9 @@
+
+{
+  "RedstonePlate": {
+    "script": {
+      "path": "RedstonePlate.lua"
+    },
+    "isTrigger": true
+  }
+}

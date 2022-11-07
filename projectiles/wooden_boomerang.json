@@ -1,0 +1,27 @@
+
+{
+  "wooden_boomerang": {
+    "ai": "Boomerang",
+    "textureData": "wooden_boomerang.png",
+    "width": 18,
+    "height": 32,
+    "gfxWidth": 18,
+    "gfxHeight": 32,
+    "gfxOffsetX": 0,
+    "gfxOffsetY": 0,
+    "hots": [[8, 16]],
+    "frameStyle": 1,
+    "frames": 1,
+    "frameSpeed": 16,
+    "shape": "BOX",
+    "maxSpeed": 8.0,
+    "gravity": false,
+    "foreground": false,
+    "fixByBlocks": false,
+    "througthBlock": false,
+    "special": 0,
+    "keepStrick": false,
+    "trajectoryPrediction": false,
+    "killWhenHitTile": false
+  }
+}

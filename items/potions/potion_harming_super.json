@@ -1,0 +1,14 @@
+
+{
+  "potion_harming_super": {
+    "ai": "Potion",
+    "type": "MATERIALS",
+    "iconTextureData": "glass_bottle_super_3_icon.png",
+    "group": "GROUP_POTION",
+    "iconColor2": [ 255, 120, 60, 60 ],
+    "eatable": true,
+    "useSound": "drink",
+    "eatReturnId": "glass_bottle",
+    "addHealth": -60
+  }
+}

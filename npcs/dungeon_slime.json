@@ -1,0 +1,54 @@
+{
+  "dungeon_slime": {
+    "ai": "BlockSlime",
+    "textureData": "dungeon_slime.png",
+    "type": "NORMAL",
+    "width": 32,
+    "height": 32,
+    "gfxWidth": 40,
+    "gfxHeight": 40,
+    "gfxOffsetX": -4,
+    "gfxOffsetY": -4,
+    "frameStyle": 1,
+    "frames": 2,
+    "frameSpeed": 16,
+    "shape": "BOX",
+    "maxSpeed": 2.0,
+    "jumpForce": 6.0,
+    "disappearTime": 750,
+    "spawnCount": 1.0,
+    "health": 100,
+    "defense": 0,
+    "attack": 10,
+    "knockBack": 2,
+    "knockBackDefense": 0.05,
+    "gravity": true,
+    "climbWall": false,
+    "foreground": false,
+    "noFixByBlock": false,
+    "friendly": false,
+    "exps": 7,
+    "sunBurning": false,
+    "angry": false,
+    "antiLava": false,
+    "saySounds": [],
+    "hurtSounds": [
+      "slime_attack1",
+      "slime_attack1",
+      "slime_attack2"
+    ],
+    "drops": [
+      {
+        "item": "slimeball",
+        "min": 2,
+        "max": 5
+      }
+    ],
+    "special": 0,
+    "paticularColor": [ 255, 77, 77, 77 ],
+    "spawn": "LAND",
+    "magicRate": 80,
+    "checkPlayerTarget": true,
+    "visionNoCrossTile": false
+  }
+}

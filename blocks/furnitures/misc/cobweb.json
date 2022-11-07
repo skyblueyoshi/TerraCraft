@@ -1,0 +1,35 @@
+{
+  "block": {
+    "cobweb": {
+      "textureData": "cobweb.png",
+      "color": [ 188, 188, 188 ],
+      "type": "FURNITURE",
+      "width": 1,
+      "height": 1,
+      "collision": "NONE",
+      "attach": "ALL",
+      "attachable": "ALL",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 30,
+      "isKilledByLava": true,
+      "isNoWater": true,
+      "isFragile": true,
+      "isDestroyByWeapon": true,
+      "slipperiness": 1.0,
+      "isActAsTile": true,
+      "soundId": "grass",
+      "stepSoundId": "grass",
+      "particleColor": [ 255, 222, 222, 222 ],
+      "preset": "Cobweb"
+    }
+  },
+  "item": {
+    "cobweb": {
+      "type": "BLOCKS",
+      "iconTextureData": "cobweb_icon.png",
+      "group": "GROUP_OTHERS_FURNITURE",
+      "blockId": "cobweb"
+    }
+  }
+}

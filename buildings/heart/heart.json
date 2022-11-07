@@ -1,0 +1,63 @@
+{
+  "heart": {
+    "maxGenPartCount": 1,
+    "limitSize": 15,
+    "rewards": [],
+    "commandColors": [
+      {
+        "color": [ 255, 64, 64, 64 ],
+        "note": "无操作",
+        "command": [
+          [ "BC_NO_OP" ]
+        ]
+      },
+      {
+        "color": [ 255, 192, 192, 192 ],
+        "note": "前景记号"
+      },
+      {
+        "color": [ 255, 0, 0, 0 ],
+        "note": "空气",
+        "command": [
+          [ "BC_CLEAR_LAKE" ],
+          [ "BC_CLEAR_FRONT" ]
+        ]
+      },
+      {
+        "color": [ 255, 0, 64, 255 ],
+        "pipe": true
+      },
+
+
+      {
+        "color": [ 255, 255, 255, 0 ],
+        "note": "",
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_FURNITURE", "health_crystal", 0 ]
+        ]
+      },
+
+      {
+        "color": [ 255, 120, 30, 30 ],
+        "note": "前景",
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_BACK", "stone_brick_cracked" ],
+          [ "BC_PLACE_TILE", "stone_brick_cracked" ]
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "name": "entrance",
+        "image": [ "entrance" ],
+        "type": "PT_START",
+        "hotX": 7,
+        "hotY": 12,
+        "unlinkParts": [ "entrance" ],
+        "weight": 10
+      }
+    ]
+  }
+}

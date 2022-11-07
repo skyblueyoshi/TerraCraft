@@ -1,0 +1,11 @@
+
+{
+  "bucket_lava": {
+    "type": "MATERIALS",
+    "iconTextureData": "bucket_lava_icon.png",
+    "group": "GROUP_BUCKET",
+    "liquidId": "lava",
+    "fuelTime": 4000,
+    "fuelReturnId": "bucket_empty"
+  }
+}

@@ -1,0 +1,16 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "tower_core",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "OBO",
+    "BAB",
+    "OBO"
+  ],
+  "elements": [ [ "A", "ice_element_ball"], [ "B", "ghost" ] ]
+}

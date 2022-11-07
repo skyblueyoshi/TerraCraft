@@ -1,0 +1,33 @@
+{
+  "block": {
+    "prismarine": {
+      "textureData": "prismarine.png",
+      "color": [ 140, 150, 170 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 8,
+      "type": "TILE",
+      "group": "PRISMARINE",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "STONE",
+      "hardness": 200,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": true,
+      "isWallDark": true,
+      "wallCheck": "NATURE_GENERABLE_ONLY",
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 140, 150, 170 ]
+    }
+  },
+  "item": {
+    "prismarine": {
+      "type": "BLOCKS",
+      "iconTextureData": "prismarine_icon.png",
+      "group": "GROUP_PRISMARINE",
+      "blockId": "prismarine"
+    }
+  }
+}

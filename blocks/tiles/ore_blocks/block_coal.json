@@ -1,0 +1,34 @@
+{
+  "block": {
+    "block_coal": {
+      "textureData": "block_coal.png",
+      "color": [ 55, 55, 55 ],
+      "renderMode": "RENDER_BLOCK",
+      "renderSortedInterval": 2,
+      "type": "TILE",
+      "group": "ARTIFICAL",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "WOOD",
+      "hardness": 100,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": false,
+      "wallCheck": "NO_GENERABLE",
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 33, 33, 33 ]
+    }
+  },
+  "item": {
+    "block_coal": {
+      "type": "BLOCKS",
+      "iconTextureData": "block_coal_icon.png",
+      "group": "GROUP_ORE_BLOCK",
+      "blockId": "block_coal",
+      "fuelTime": 1600
+    }
+  }
+}

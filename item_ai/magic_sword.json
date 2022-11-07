@@ -1,0 +1,16 @@
+
+{
+  "magic_sword": {
+    "script": {
+      "path": "Sword.lua"
+    },
+    "destroyFragileBlocks": true,
+    "crossTiles": false,
+    "consumeItems": false,
+    "consumeMana": true,
+    "directHitPlayer": true,
+    "directHitNpc": true,
+    "hitDecreaseDurable": 0.5,
+    "shootDecreaseDurable": 0.0
+  }
+}

@@ -1,0 +1,16 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "lava_leggings",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "AAA",
+    "AOA",
+    "AOA"
+  ],
+  "elements": [ [ "A", "magma_gold_ingot" ] ]
+}

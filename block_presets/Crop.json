@@ -1,0 +1,7 @@
+
+{
+  "Crop": {
+    "pOnDestroy": "CropDestroy",
+    "pOnRandomEvent": "RandomGrowCrop"
+  }
+}

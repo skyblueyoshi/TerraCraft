@@ -1,0 +1,9 @@
+
+{
+  "gold": {
+    "itemId": "gold_ingot",
+    "parentId": "iron",
+    "showTip": true,
+    "broadcase": true
+  }
+}

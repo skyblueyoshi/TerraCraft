@@ -1,0 +1,9 @@
+
+{
+  "ice_element_ball": {
+    "itemId": "ice_element_ball",
+    "parentId": "snow_guard",
+    "showTip": true,
+    "broadcase": true
+  }
+}

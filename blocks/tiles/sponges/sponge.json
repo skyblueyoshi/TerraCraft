@@ -1,0 +1,34 @@
+{
+  "block": {
+    "sponge": {
+      "textureData": "sponge.png",
+      "color": [ 207, 207, 148 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 4,
+      "type": "TILE",
+      "group": "SPONGE",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "GRASS",
+      "hardness": 50,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": true,
+      "wallCheck": "NO_GENERABLE",
+      "soundGroupId": "cloth",
+      "stepSoundId": "step_cloth",
+      "particleColor": [ 255, 200, 200, 100 ],
+      "preset": "Sponge"
+    }
+  },
+  "item": {
+    "sponge": {
+      "type": "BLOCKS",
+      "iconTextureData": "sponge_icon.png",
+      "group": "GROUP_OTHERS_BLOCK",
+      "blockId": "sponge"
+    }
+  }
+}

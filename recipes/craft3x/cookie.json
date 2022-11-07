@@ -1,0 +1,19 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "cookie",
+      "stackSize": 8
+    }
+  ],
+  "pattern": [
+    "ABA",
+    "OOO",
+    "OOO"
+  ],
+  "elements": [
+    [ "A", "wheat" ],
+    [ "B", "cocoa_bean" ]
+  ]
+}

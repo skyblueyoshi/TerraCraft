@@ -1,0 +1,29 @@
+{
+  "block": {
+    "cauldron": {
+      "textureData": "cauldron.png",
+      "color": [ 77, 77, 77 ],
+      "type": "FURNITURE",
+      "width": 2,
+      "height": 2,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "toolType": "PICKAXE",
+      "mineGrade": "STONE",
+      "hardness": 200,
+      "slipperiness": 1.0,
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 100, 100, 100 ]
+    }
+  },
+  "item": {
+    "cauldron": {
+      "type": "BLOCKS",
+      "iconTextureData": "cauldron.png",
+      "group": "GROUP_OTHERS_FURNITURE",
+      "blockId": "cauldron"
+    }
+  }
+}

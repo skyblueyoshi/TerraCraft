@@ -1,0 +1,26 @@
+
+{
+  "gore_villager_zombie": {
+    "ai": "Gore",
+    "textureData": "villager_zombie.png",
+    "width": 20,
+    "height": 20,
+    "gfxOffsetX": -3,
+    "gfxOffsetY": -3,
+    "gfxWidth": 26,
+    "gfxHeight": 26,
+    "frameStyle": 0,
+    "frameStyles": 1,
+    "frames": 1,
+    "frameSpeed": 8,
+    "disappearTime": 600,
+    "isForeground": false,
+    "gravity": true,
+    "collisionWithBlocks": true,
+    "fixByBlocks": true,
+    "fadeScale": false,
+    "fadeAlpha": false,
+    "slowSpeed": false,
+    "slowRotateSpeed": false
+  }
+}

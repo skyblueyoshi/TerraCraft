@@ -1,0 +1,13 @@
+
+{
+  "copper_leggings": {
+    "type": "TOOLS",
+    "iconTextureData": "copper_leggings_icon.png",
+    "textureData": "leg.png",
+    "group": "GROUP_LEGGINGS",
+    "toolType": "LEGGINGS",
+    "isArmor": true,
+    "defense": 2,
+    "durable": 412
+  }
+}

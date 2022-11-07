@@ -1,0 +1,9 @@
+
+{
+  "diamond_wear": {
+    "itemId": "diamond_chestplate",
+    "parentId": "diamond",
+    "showTip": true,
+    "broadcase": true
+  }
+}

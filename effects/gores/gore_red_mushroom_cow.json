@@ -1,0 +1,26 @@
+
+{
+  "gore_red_mushroom_cow": {
+    "ai": "Gore",
+    "textureData": "red_mushroom_cow.png",
+    "width": 32,
+    "height": 32,
+    "gfxOffsetX": -4,
+    "gfxOffsetY": -4,
+    "gfxWidth": 40,
+    "gfxHeight": 40,
+    "frameStyle": 0,
+    "frameStyles": 1,
+    "frames": 1,
+    "frameSpeed": 8,
+    "disappearTime": 600,
+    "isForeground": false,
+    "gravity": true,
+    "collisionWithBlocks": true,
+    "fixByBlocks": true,
+    "fadeScale": false,
+    "fadeAlpha": false,
+    "slowSpeed": false,
+    "slowRotateSpeed": false
+  }
+}

@@ -1,0 +1,214 @@
+
+{
+  "by_house": {
+    "maxGenPartCount": 50,
+    "limitSize": 300,
+    "rewards": [
+      {
+        "name": "normal_reward",
+        "rareGenCount": 1,
+        "rares": [
+          {
+            "itemId": "stone_sword",
+            "count": 1
+          },
+          {
+            "itemId": "stone_pickaxe",
+            "count": 1
+          },
+          {
+            "itemId": "wooden_bow",
+            "count": 1
+          },
+          {
+            "itemId": "cross_bow",
+            "count": 1
+          }
+        ],
+        "normals": [
+          {
+            "itemIds": [ "wood_dark_oak" ],
+            "rate": 0.9,
+            "min": 3,
+            "max": 5
+          },
+          {
+            "itemIds": [ "iron_ingot", "copper_ingot", "tin_ingot", "lead_ingot" ],
+            "rate": 0.3,
+            "min": 3,
+            "max": 10
+          },
+          {
+            "itemIds": [ "potato" ],
+            "rate": 0.5,
+            "min": 3,
+            "max": 6
+          },
+          {
+            "itemIds": [ "wheat" ],
+            "rate": 0.7,
+            "min": 3,
+            "max": 6
+          },
+          {
+            "itemIds": [ "carrot" ],
+            "rate": 0.5,
+            "min": 3,
+            "max": 6
+          },
+          {
+            "itemIds": [ "string" ],
+            "rate": 0.4,
+            "min": 2,
+            "max": 7
+          },
+          {
+            "itemIds": [ "wooden_arrow" ],
+            "rate": 0.4,
+            "min": 2,
+            "max": 7
+          }
+        ]
+      }
+    ],
+    "commandColors": [
+      {
+        "color": [ 255, 64, 64, 64 ],
+        "note": "无操作",
+        "command": [
+          [ "BC_NO_OP" ]
+        ]
+      },
+      {
+        "color": [ 255, 192, 192, 192 ],
+        "note": "前景记号"
+      },
+      {
+        "color": [ 255, 0, 0, 0 ],
+        "note": "空气",
+        "command": [
+          [ "BC_CLEAR_LAKE" ],
+          [ "BC_CLEAR" ]
+        ]
+      },
+      {
+        "color": [ 255, 0, 64, 255 ],
+        "pipe": true
+      },
+      {
+        "color": [ 255, 0, 255, 255 ],
+        "note": "箱子",
+        "command": [
+
+        ]
+      },
+      {
+        "color": [ 255, 102, 102, 204 ],
+        "note": "橡木门",
+        "command": [
+          [ "BC_PLACE_FURNITURE", "wooden_door_oak" ]
+        ]
+      },
+      {
+        "color": [ 255, 255, 0, 255 ],
+        "note": "橡木平台",
+        "command": [
+          [ "BC_PLACE_TILE", "platform_oak" ]
+        ]
+      },
+      {
+        "color": [ 255, 50, 50, 100 ],
+        "note": "有空气就放水",
+        "command": [
+          [ "BC_PLACE_LIQUID", "water" ]
+        ]
+      },
+      {
+        "color": [ 255, 54, 40, 27 ],
+        "note": "有空气就放泥土",
+        "command": [
+          [ "BC_CLEAR_FURNITURE" ],
+          [ "BC_PLACE_TILE", "dirt" ]
+        ]
+      },
+      {
+        "color": [ 255, 54, 100, 27 ],
+        "note": "有空气就放草泥土",
+        "command": [
+          [ "BC_CLEAR_FURNITURE" ],
+          [ "BC_PLACE_TILE", "dirt", 1 ]
+        ]
+      },
+      {
+        "color": [ 255, 40, 30, 20 ],
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_BACK", "wood_dark_oak" ],
+          [ "BC_PLACE_TILE", "wood_dark_oak" ]
+        ]
+      },
+      {
+        "color": [ 255, 20, 15, 11 ],
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_BACK", "wood_dark_oak" ]
+        ]
+      },
+      {
+        "color": [ 255, 70, 50, 20 ],
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_BACK", "plank_dark_oak" ],
+          [ "BC_PLACE_TILE", "plank_dark_oak" ]
+        ]
+      },
+      {
+        "color": [ 255, 44, 32, 13 ],
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_BACK", "plank_dark_oak" ]
+        ]
+      },
+      {
+        "color": [ 255, 120, 98, 60 ],
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_BACK", "wood_stripped_oak" ]
+        ]
+      },
+      {
+        "color": [ 255, 130, 70, 50 ],
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_BACK", "brick" ],
+          [ "BC_PLACE_TILE", "brick" ]
+        ]
+      },
+      {
+        "color": [ 255, 88, 49, 37 ],
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_BACK", "brick" ]
+        ]
+      },
+      {
+        "color": [ 255, 222, 222, 244 ],
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_BACK", "glass" ]
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "name": "entrance",
+        "image": [ "entrance" ],
+        "type": "PT_START",
+        "hotX": 100,
+        "hotY": 94,
+        "unlinkParts": [ "entrance" ],
+        "weight": 10
+      }
+    ]
+  }
+}

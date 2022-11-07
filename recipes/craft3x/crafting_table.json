@@ -1,0 +1,16 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "crafting_table",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "AAO",
+    "AAO",
+    "OOO"
+  ],
+  "elements": [ [ "A", "OD_WOODEN_PLANK" ] ]
+}

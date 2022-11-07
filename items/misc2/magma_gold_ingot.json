@@ -1,0 +1,8 @@
+
+{
+  "magma_gold_ingot": {
+    "type": "MATERIALS",
+    "iconTextureData": "magma_gold_ingot.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

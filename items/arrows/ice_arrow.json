@@ -1,0 +1,15 @@
+
+{
+  "ice_arrow": {
+    "type": "PROJECTILES",
+    "iconTextureData": "ice_arrow_icon.png",
+    "group": "GROUP_ARROW",
+    "ammo": "arrow",
+    "ammoLevel": 4,
+    "projectileId": "ice_arrow",
+    "speed": 2.0,
+    "shootable": true,
+    "damage": 1,
+    "knockBack": 1
+  }
+}

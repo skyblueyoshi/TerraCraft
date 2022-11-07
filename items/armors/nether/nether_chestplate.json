@@ -1,0 +1,15 @@
+
+{
+  "nether_chestplate": {
+    "type": "TOOLS",
+    "iconTextureData": "nether_chestplate_icon.png",
+    "textureData": "body.png",
+    "group": "GROUP_CHESTPLATE",
+    "subGroup": "SUB_GROUP_NETHERITE",
+    "toolType": "CHESTPLATE",
+    "isArmor": true,
+    "defense": 7,
+    "durable": 2020,
+    "antiLava": true
+  }
+}

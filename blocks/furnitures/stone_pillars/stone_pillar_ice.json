@@ -1,0 +1,23 @@
+{
+  "block": {
+    "stone_pillar_ice": {
+      "textureData": "stone_pillar_ice.png",
+      "color": [ 128, 128, 128 ],
+      "type": "FURNITURE",
+      "width": 2,
+      "height": 3,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "placeCheck": "PLACE_ICE_DECO_CHECK",
+      "toolType": "PICKAXE",
+      "mineGrade": "WOOD",
+      "hardness": 200,
+      "slipperiness": 1.0,
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 100, 200, 255 ],
+      "preset": "RandomDisplay"
+    }
+  }
+}

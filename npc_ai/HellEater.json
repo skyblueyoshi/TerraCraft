@@ -1,0 +1,8 @@
+
+{
+  "HellEater": {
+    "script": {
+      "path": "HellEater.lua"
+    }
+  }
+}

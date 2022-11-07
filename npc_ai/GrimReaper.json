@@ -1,0 +1,8 @@
+
+{
+  "GrimReaper": {
+    "script": {
+      "path": "GrimReaper.lua"
+    }
+  }
+}

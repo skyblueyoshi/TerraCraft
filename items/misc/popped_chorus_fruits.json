@@ -1,0 +1,8 @@
+
+{
+  "popped_chorus_fruits": {
+    "type": "MATERIALS",
+    "iconTextureData": "popped_chorus_fruits_icon.png",
+    "group": "GROUP_FOOD"
+  }
+}

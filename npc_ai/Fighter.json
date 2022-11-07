@@ -1,0 +1,7 @@
+{
+  "Fighter": {
+    "script": {
+      "path": "Fighter.lua"
+    }
+  }
+}

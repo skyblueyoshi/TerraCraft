@@ -1,0 +1,214 @@
+{
+  "ammos": [
+    "arrow",
+    "bullet",
+    "rocket"
+  ],
+  "toolGrade": [
+    ["NONE", 0],
+    ["GRASS", 100],
+    ["WOOD", 200],
+    ["STONE", 300],
+    ["IRON", 400],
+    ["GOLD", 500],
+    ["DIAMOND", 600]
+  ],
+  "oreDictionary": [
+    "OD_IRON_INGOT",
+    "OD_COPPER_INGOT",
+    "OD_TERRACOTTA",
+    "OD_WOODEN_PLATFORM",
+    "OD_WOODEN_PLANK",
+    "OD_WOOD",
+    "OD_WOOD_STRIPPED",
+    "OD_WOOL",
+    "OD_GLASS",
+    "OD_BOOKCASE",
+    "OD_STAFF",
+    "OD_SWORD",
+    "OD_HOE"
+  ],
+  "sub_groups": [
+    "SUB_GROUP_DIAMOND",
+    "SUB_GROUP_NETHERITE"
+  ],
+  "groups": [
+    {
+      "name": "ALL",
+      "list": []
+    },
+    {
+      "name": "NATURE",
+      "itemIconId": "dirt",
+      "list": [
+        "GROUP_DIRT",
+        "GROUP_STONE",
+        "GROUP_COBBLESTONE",
+        "GROUP_ANDESITE",
+        "GROUP_DIORITE",
+        "GROUP_GRANITE",
+        "GROUP_PRISMARINE",
+        "GROUP_SAND",
+        "GROUP_RED_SAND",
+        "GROUP_ENDSTONE",
+        "GROUP_NETHER",
+        "GROUP_SNOW",
+        "GROUP_ICE",
+        "GROUP_ICE_COBBLESTONE",
+        "GROUP_MUSHROOM_BLOCK",
+        "GROUP_FLESH",
+        "GROUP_TAINTED",
+        "GROUP_VOLCANO",
+        "GROUP_LOG",
+        "GROUP_ORE",
+        "GROUP_OTHERS_BLOCK"
+      ]
+    },
+    {
+      "name": "MANMADE",
+      "itemIconId": "stone_brick",
+      "list": [
+        "GROUP_STONE_BRICK",
+        "GROUP_ENDSTONE_BRICK",
+        "GROUP_NETHER_BRICK",
+        "GROUP_SNOW_BRICK",
+        "GROUP_ICE_BRICK",
+        "GROUP_GLASS",
+        "GROUP_WOODEN_PLANK",
+        "GROUP_WOODEN_PLATFORM",
+        "GROUP_PLATFORM",
+        "GROUP_WOOD",
+        "GROUP_WOOD_STRIPPED",
+        "GROUP_TERRACOTTA",
+        "GROUP_WOOL",
+        "GROUP_ORE_BLOCK"
+      ]
+    },
+    {
+      "name": "PLANT",
+      "itemIconId": "orange_tulip",
+      "list": [
+        "GROUP_GRASS",
+        "GROUP_FLOWER",
+        "GROUP_LARGE_FLOWER",
+        "GROUP_SAPLING",
+        "GROUP_PUMPKIN",
+        "GROUP_MELON"
+      ]
+    },
+    {
+      "name": "FURNITURE",
+      "itemIconId": "crafting_table",
+      "list": [
+        "GROUP_WOODEN_FENCE",
+        "GROUP_STONE_FENCE",
+        "GROUP_NETHER_FENCE",
+        "GROUP_PAINTING",
+        "GROUP_WOODEN_FURNITURE",
+        "GROUP_WOODEN_BED",
+        "GROUP_WOODEN_TABLE",
+        "GROUP_WOODEN_CABINET",
+        "GROUP_WOODEN_CHAIR",
+        "GROUP_BOOKCASE",
+        "GROUP_BENCH",
+        "GROUP_STONE_FURNITURE",
+        "GROUP_OTHERS_FURNITURE",
+        "GROUP_SHULKER_BOX",
+        "GROUP_PRESSURE_PLATE",
+        "GROUP_DOOR",
+        "GROUP_TORCH",
+        "GROUP_LIGHTING",
+        "GROUP_BUTTON",
+        "GROUP_TOWER"
+      ]
+    },
+    {
+      "name": "REDSTONE",
+      "itemIconId": "redstone",
+      "list": [
+        "GROUP_REDSTONE_WIRE",
+        "GROUP_WIRE_CUTTER"
+      ]
+    },
+    {
+      "name": "FOOD",
+      "itemIconId": "apple",
+      "list": [
+        "GROUP_FOOD"
+      ]
+    },
+    {
+      "name": "TOOL",
+      "itemIconId": "wooden_pickaxe",
+      "list": [
+        "GROUP_BUCKET",
+        "GROUP_AXE",
+        "GROUP_PICKAXE",
+        "GROUP_HOE",
+        "GROUP_FISHINGROD",
+        "GROUP_SHEARS",
+        "GROUP_LIGHTER",
+        "GROUP_DRILL",
+        "GROUP_SAW",
+        "GROUP_MAP",
+        "GROUP_DROPABLE",
+        "GROUP_BOOK",
+        "GROUP_TOWER_CORE"
+      ]
+    },
+    {
+      "name": "WEAPON",
+      "itemIconId": "stone_sword",
+      "list": [
+        "GROUP_HELMET",
+        "GROUP_CHESTPLATE",
+        "GROUP_LEGGINGS",
+        "GROUP_SWORD",
+        "GROUP_BOW",
+        "GROUP_CROSS_BOW",
+        "GROUP_GUN",
+        "GROUP_LAUNCHER",
+        "GROUP_ARROW",
+        "GROUP_BULLET",
+        "GROUP_ROCKET",
+        "GROUP_BOMB",
+        "GROUP_STAFF",
+        "GROUP_BOOMERANG",
+        "GROUP_LOOT"
+      ]
+    },
+    {
+      "name": "POTION",
+      "itemIconId": "potion_awkward",
+      "list": [
+        "GROUP_POTION"
+      ]
+    },
+    {
+      "name": "MATERIAL",
+      "itemIconId": "stick",
+      "list": [
+        "GROUP_STICK",
+        "GROUP_MATERIAL",
+        "GROUP_DYE",
+        "GROUP_SEED",
+        "GROUP_MANA",
+        "GROUP_BOSS"
+      ]
+    },
+    {
+      "name": "GOODS",
+      "itemIconId": "iron_ingot",
+      "list": [
+        "GROUP_DIAMOND",
+        "GROUP_EMERALD",
+        "GROUP_LAPIS",
+        "GROUP_QUARTZ",
+        "GROUP_REDSTONE",
+        "GROUP_NUGGET",
+        "GROUP_INGOT"
+      ]
+    }
+  ]
+
+}

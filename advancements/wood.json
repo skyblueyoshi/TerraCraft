@@ -1,0 +1,9 @@
+
+{
+  "wood": {
+    "itemId": "wood_oak",
+    "parentId": "inventory",
+    "showTip": true,
+    "broadcase": true
+  }
+}

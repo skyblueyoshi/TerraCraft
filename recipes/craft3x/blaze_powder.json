@@ -1,0 +1,16 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "blaze_powder",
+      "stackSize": 2
+    }
+  ],
+  "pattern": [
+    "AOO",
+    "OOO",
+    "OOO"
+  ],
+  "elements": [ [ "A", "blaze_rod" ] ]
+}

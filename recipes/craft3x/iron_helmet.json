@@ -1,0 +1,16 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "iron_helmet",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "AAA",
+    "AOA",
+    "OOO"
+  ],
+  "elements": [ [ "A", "OD_IRON_INGOT" ] ]
+}

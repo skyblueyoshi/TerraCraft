@@ -1,0 +1,34 @@
+{
+  "block": {
+    "ore_iron": {
+      "textureData": "ore_iron.png",
+      "color": [ 165, 155, 105 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 4,
+      "type": "TILE",
+      "group": "ORE_IRON",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "STONE",
+      "hardness": 120,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": true,
+      "wallCheck": "GENERABLE",
+      "soundGroupId": "tink",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 160, 140, 120 ],
+      "exParticle": "ore_particle"
+    }
+  },
+  "item": {
+    "ore_iron": {
+      "type": "BLOCKS",
+      "iconTextureData": "ore_iron_icon.png",
+      "group": "GROUP_ORE",
+      "blockId": "ore_iron"
+    }
+  }
+}

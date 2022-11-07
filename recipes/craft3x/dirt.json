@@ -1,0 +1,19 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "dirt",
+      "stackSize": 8
+    }
+  ],
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "elements": [
+    [ "A", "flesh_dirt" ],
+    [ "B", "bone_meal" ]
+  ]
+}

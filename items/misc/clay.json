@@ -1,0 +1,8 @@
+
+{
+  "clay": {
+    "type": "MATERIALS",
+    "iconTextureData": "clay_icon.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

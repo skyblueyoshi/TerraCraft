@@ -1,0 +1,21 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "ice_bow",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "BDC",
+    "AOC",
+    "BDC"
+  ],
+  "elements": [
+    [ "A", "diamond" ],
+    [ "B", "blue_ice" ],
+    [ "C", "string" ],
+    [ "D", "OD_IRON_INGOT" ]
+  ]
+}

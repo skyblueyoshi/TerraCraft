@@ -1,0 +1,11 @@
+
+{
+  "StarMagic": {
+    "script": {
+      "path": "StarMagic.lua"
+    },
+    "modData": [
+      [ "int", "crossCount" ]
+    ]
+  }
+}

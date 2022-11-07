@@ -1,0 +1,14 @@
+
+{
+  "skin_33": {
+    "isFemale": true,
+    "name": "33",
+    "headTexture": "base\\head.png",
+    "bodyTexture": "base\\body.png",
+    "legTexture": "base\\leg.png",
+    "hairTexture": "33\\hair.png",
+    "clothTexture": "33\\cloth.png",
+    "pantTexture": "33\\pant.png",
+    "authors": [ "BlueYoshi" ]
+  }
+}

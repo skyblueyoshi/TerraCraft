@@ -1,0 +1,47 @@
+{
+  "block": {
+    "lantern": {
+      "textureData": "lantern.png",
+      "color": [ 225, 225, 160 ],
+      "type": "FURNITURE",
+      "width": 1,
+      "height": 2,
+      "collision": "NONE",
+      "attach": "TOP",
+      "attachable": "NONE",
+      "toolType": "PICKAXE",
+      "mineGrade": "GRASS",
+      "hardness": 20,
+      "isKilledByLava": true,
+      "isNoWater": false,
+      "isFragile": true,
+      "isLighting": true,
+      "lightColor": [ 32, 0, 0, 0 ],
+      "lightX": 0,
+      "lightY": 1,
+      "lightWi": 1,
+      "lightHi": 1,
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 225, 225, 160 ],
+      "animation": [
+        {
+          "animationId": 0,
+          "shake": true,
+          "shakeCenterX": 8,
+          "shakeCenterY": 0,
+          "shakePeriod": 128,
+          "shakeAngle": 0.05
+        }
+      ]
+    }
+  },
+  "item": {
+    "lantern": {
+      "type": "BLOCKS",
+      "iconTextureData": "lantern.png",
+      "group": "GROUP_OTHERS_FURNITURE",
+      "blockId": "lantern"
+    }
+  }
+}

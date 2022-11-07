@@ -1,0 +1,11 @@
+
+{
+  "punch": {
+    "noCreating": false,
+    "minCreatingLevel": 5,
+    "allowMaxLevel": 8,
+    "tool": [
+      "BOW"
+    ]
+  }
+}

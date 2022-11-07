@@ -1,0 +1,8 @@
+
+{
+  "lapis_lazuli": {
+    "type": "MATERIALS",
+    "iconTextureData": "lapis_lazuli_icon.png",
+    "group": "GROUP_LAPIS"
+  }
+}

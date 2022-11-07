@@ -1,0 +1,9 @@
+
+{
+  "fly_book": {
+    "textureData": "fly_book.png",
+    "width": 32,
+    "height": 32,
+    "userDisabled": true
+  }
+}

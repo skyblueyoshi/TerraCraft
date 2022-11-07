@@ -1,0 +1,8 @@
+
+{
+  "Rocket": {
+    "script": {
+      "path": "Rocket.lua"
+    }
+  }
+}

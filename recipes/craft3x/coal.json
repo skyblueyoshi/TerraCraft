@@ -1,0 +1,16 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "coal",
+      "stackSize": 9
+    }
+  ],
+  "pattern": [
+    "AOO",
+    "OOO",
+    "OOO"
+  ],
+  "elements": [ [ "A", "block_coal" ] ]
+}

@@ -1,0 +1,19 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "bookcase_volcano",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "AAA",
+    "BBB",
+    "AAA"
+  ],
+  "elements": [
+    [ "A", "volcano_plank" ],
+    [ "B", "book_block" ]
+  ]
+}

@@ -1,0 +1,12 @@
+
+{
+  "torch_redstone": {
+    "textureData": "torch_redstone.png",
+    "width": 16,
+    "height": 16,
+    "frameXs": 4,
+    "frameSpeed": 8,
+    "loopPlay": true,
+    "tagUsage": "TAG_ADD_FRAME_INDEX_Y"
+  }
+}

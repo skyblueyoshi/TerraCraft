@@ -1,0 +1,13 @@
+
+{
+  "cooked_chicken": {
+    "ai": "Food",
+    "type": "MATERIALS",
+    "iconTextureData": "cooked_chicken_icon.png",
+    "group": "GROUP_FOOD",
+    "eatable": true,
+    "useSoundGroup": "eat",
+    "food": 30,
+    "foodSaturation": 72
+  }
+}

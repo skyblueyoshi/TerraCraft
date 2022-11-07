@@ -1,0 +1,14 @@
+
+{
+  "depth_strider": {
+    "noCreating": false,
+    "minCreatingLevel": 29,
+    "allowMaxLevel": 8,
+    "tool": [
+      "LEGGINGS"
+    ],
+    "conflict": [
+      "frost_walker"
+    ]
+  }
+}

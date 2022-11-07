@@ -1,0 +1,35 @@
+{
+  "block": {
+    "pumpkin": {
+      "textureData": "pumpkin.png",
+      "color": [ 205, 123, 12 ],
+      "type": "FURNITURE",
+      "width": 2,
+      "height": 2,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "placeCheck": "PLACE_PLANT_CHECK",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 10,
+      "slipperiness": 1.0,
+      "isKilledByLava": true,
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 200, 123, 13 ],
+      "isCarveable": true,
+      "transformId": "pumpkin_stem",
+      "transformId2": "pumpkin_carved",
+      "preset": "Pumpkin"
+    }
+  },
+  "item": {
+    "pumpkin": {
+      "type": "BLOCKS",
+      "iconTextureData": "pumpkin_icon.png",
+      "group": "GROUP_SAPLING",
+      "blockId": "pumpkin"
+    }
+  }
+}

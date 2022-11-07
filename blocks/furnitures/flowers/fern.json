@@ -1,0 +1,44 @@
+{
+  "block": {
+    "fern": {
+      "textureData": "fern.png",
+      "color": [ 60, 90, 50 ],
+      "type": "FURNITURE",
+      "width": 1,
+      "height": 1,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "placeCheck": "PLACE_PLANT_CHECK",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 10,
+      "slipperiness": 1.0,
+      "isKilledByLava": true,
+      "isFragile": true,
+      "isDestroyByWeapon": false,
+      "soundGroupId": "grass",
+      "stepSoundGroupId": "step_grass",
+      "particleColor": [ 255, 66, 99, 55 ],
+      "animation": [
+        {
+          "animationId": 0,
+          "shake": true,
+          "shakeCenterX": 8,
+          "shakeCenterY": 16,
+          "shakePeriod": 128,
+          "shakeAngle": 0.2
+        }
+      ]
+    }
+  },
+  "item": {
+    "fern": {
+      "type": "BLOCKS",
+      "iconTextureData": "fern.png",
+      "group": "GROUP_GRASS",
+      "blockId": "fern",
+      "fuelTime": 20
+    }
+  }
+}

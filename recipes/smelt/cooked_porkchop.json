@@ -1,0 +1,12 @@
+{
+  "config": "Smelt",
+  "pattern": [ "A" ],
+  "results": [
+    {
+      "id": "cooked_porkchop",
+      "stackSize": 1
+    }
+  ],
+  "elements": [ [ "A", "raw_porkchop" ] ],
+  "exData": { "time": 40 }
+}

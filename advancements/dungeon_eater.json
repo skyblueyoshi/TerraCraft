@@ -1,0 +1,9 @@
+
+{
+  "dungeon_eater": {
+    "itemId": "dungeon_eater",
+    "parentId": "go_dark_dungeon",
+    "showTip": true,
+    "broadcase": true
+  }
+}

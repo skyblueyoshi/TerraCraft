@@ -1,0 +1,23 @@
+
+{
+  "golden_apple": {
+    "ai": "Food",
+    "type": "MATERIALS",
+    "iconTextureData": "golden_apple_icon.png",
+    "group": "GROUP_FOOD",
+    "eatable": true,
+    "useSoundGroup": "eat",
+    "food": 20,
+    "foodSaturation": 96,
+    "buffs": [
+      {
+        "id": "absorption",
+        "time": 7200
+      },
+      {
+        "id": "regeneration",
+        "time": 300
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "fence_jungle",
+      "stackSize": 3
+    }
+  ],
+  "pattern": [
+    "ABA",
+    "ABA",
+    "OOO"
+  ],
+  "elements": [
+    [ "A", "jungle_plank" ],
+    [ "B", "stick" ]
+  ],
+  "importantElements": [ "A" ]
+}

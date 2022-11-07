@@ -1,0 +1,26 @@
+
+{
+  "gore_dolphin": {
+    "ai": "Gore",
+    "textureData": "dolphin.png",
+    "width": 32,
+    "height": 32,
+    "gfxOffsetX": -8,
+    "gfxOffsetY": -3,
+    "gfxWidth": 48,
+    "gfxHeight": 38,
+    "frameStyle": 0,
+    "frameStyles": 1,
+    "frames": 1,
+    "frameSpeed": 8,
+    "disappearTime": 600,
+    "isForeground": false,
+    "gravity": true,
+    "collisionWithBlocks": true,
+    "fixByBlocks": true,
+    "fadeScale": false,
+    "fadeAlpha": false,
+    "slowSpeed": false,
+    "slowRotateSpeed": false
+  }
+}

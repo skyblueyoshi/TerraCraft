@@ -1,0 +1,13 @@
+
+{
+  "raw_cod": {
+    "ai": "Food",
+    "type": "MATERIALS",
+    "iconTextureData": "raw_cod_icon.png",
+    "group": "GROUP_FOOD",
+    "eatable": true,
+    "useSoundGroup": "eat",
+    "food": 10,
+    "foodSaturation": 4
+  }
+}

@@ -1,0 +1,19 @@
+
+{
+  "wire_cutter": {
+    "type": "TOOLS",
+    "iconTextureData": "wire_cutter_icon.png",
+    "textureData": "wire_cutter_entity.png",
+    "group": "GROUP_WIRE_CUTTER",
+    "toolType": "WIRE_CUTTER",
+    "toolGrade": "STONE",
+    "efficiency": 2.0,
+    "coldTime": 16,
+    "entityWidth": 20,
+    "entityHeight": 32,
+    "handX": 10,
+    "handY": 28,
+    "holdType": "NORMAL",
+    "durable": 512
+  }
+}

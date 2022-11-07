@@ -1,0 +1,14 @@
+
+{
+  "skin_redust": {
+    "isFemale": true,
+    "name": "Redust",
+    "headTexture": "base\\head.png",
+    "bodyTexture": "base\\body.png",
+    "legTexture": "base\\leg.png",
+    "hairTexture": "redust\\hair.png",
+    "clothTexture": "redust\\cloth.png",
+    "pantTexture": "redust\\pant.png",
+    "authors": [ "Redust" ]
+  }
+}

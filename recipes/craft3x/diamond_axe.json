@@ -1,0 +1,20 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "diamond_axe",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "AAO",
+    "ABO",
+    "OBO"
+  ],
+  "elements": [
+    [ "A", "diamond" ],
+    [ "B", "stick" ]
+  ],
+  "importantElements": [ "A" ]
+}

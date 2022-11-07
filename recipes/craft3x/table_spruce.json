@@ -1,0 +1,16 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "table_spruce",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "AAA",
+    "AOA",
+    "OOO"
+  ],
+  "elements": [ [ "A", "spruce_plank" ] ]
+}

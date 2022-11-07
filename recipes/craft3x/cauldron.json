@@ -1,0 +1,16 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "cauldron",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "AOA",
+    "AOA",
+    "AAA"
+  ],
+  "elements": [ [ "A", "OD_IRON_INGOT" ] ]
+}

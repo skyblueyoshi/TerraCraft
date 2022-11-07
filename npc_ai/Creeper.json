@@ -1,0 +1,8 @@
+
+{
+  "Creeper": {
+    "script": {
+      "path": "Creeper.lua"
+    }
+  }
+}

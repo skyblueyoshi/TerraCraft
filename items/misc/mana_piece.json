@@ -1,0 +1,13 @@
+
+{
+  "mana_piece": {
+    "ai": "Food",
+    "type": "MATERIALS",
+    "iconTextureData": "mana_piece_icon.png",
+    "group": "GROUP_MANA",
+    "eatable": true,
+    "useSoundGroup": "eat",
+    "addMagic": 10,
+    "addMaxMagic": 10
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "block": {
+    "chest": {
+      "textureData": "chest.png",
+      "color": [ 171, 121, 45 ],
+      "type": "FURNITURE",
+      "width": 2,
+      "height": 2,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 100,
+      "slipperiness": 1.0,
+      "soundGroupId": "wood",
+      "functionSoundId": "chest",
+      "functionSoundId2": "chestclosed",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 160, 110, 40 ],
+      "preset": "Storage",
+      "animation": [
+        {
+          "animationId": 0,
+          "frameStart": 0
+        },
+        {
+          "animationId": 1,
+          "frameStart": 3
+        }
+      ]
+    }
+  },
+  "item": {
+    "chest": {
+      "type": "BLOCKS",
+      "iconTextureData": "chest_icon.png",
+      "group": "GROUP_WOODEN_FURNITURE",
+      "blockId": "chest",
+      "fuelTime": 60
+    }
+  }
+}

@@ -1,0 +1,11 @@
+
+{
+  "copper_ingot": {
+    "ai": "Ingot",
+    "type": "MATERIALS",
+    "iconTextureData": "ingot_icon.png",
+    "iconColor": [ 255, 226, 89, 0 ],
+    "group": "GROUP_INGOT",
+    "iconColor2": [ 255, 255, 210, 180 ]
+  }
+}

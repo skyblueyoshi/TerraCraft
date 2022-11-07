@@ -1,0 +1,31 @@
+{
+  "block": {
+    "flower_pot_large": {
+      "textureData": "flower_pot_large.png",
+      "color": [ 121, 67, 50 ],
+      "type": "FURNITURE",
+      "width": 2,
+      "height": 2,
+      "collision": "PLATFORM",
+      "attach": "BOTTOM",
+      "attachable": "TOP",
+      "toolType": "PICKAXE",
+      "mineGrade": "GRASS",
+      "hardness": 60,
+      "slipperiness": 1.0,
+      "isKilledByLava": true,
+      "isFragile": true,
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 121, 67, 50 ]
+    }
+  },
+  "item": {
+    "flower_pot_large": {
+      "type": "BLOCKS",
+      "iconTextureData": "flower_pot_large.png",
+      "group": "GROUP_OTHERS_FURNITURE",
+      "blockId": "flower_pot_large"
+    }
+  }
+}

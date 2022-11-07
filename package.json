@@ -1,0 +1,54 @@
+{
+  "id": "tc",
+  "displayName": "TerraCraft",
+  "version": "1.1.0",
+  "description": "Vanilla Mod of TerraCraft.",
+  "tips": "Vanilla Mod of TerraCraft.",
+  "gameVersion": "Obsidian Edition",
+  "useSaver": true,
+  "authors": [
+    "BlueYoshi"
+  ],
+  "credits": "",
+  "websites": [
+    {
+      "title": "Github",
+      "url": "https://github.com/skyblueyoshi/ModEdit"
+    },
+    {
+      "title": "Homepage",
+      "url": "http://blueyoshi.cn/terracraft"
+    }
+  ],
+  "objectFolders": {
+    "advancements": "advancements",
+    "biome_types": "biome_types",
+    "biomes": "biomes",
+    "block_entity_ai": "block_entity_ai",
+    "block_presets": "block_presets",
+    "blocks": "blocks",
+    "buffs": "buffs",
+    "buildings": "buildings",
+    "commands": "contents/commands",
+    "effect_ai": "effect_ai",
+    "effects": "effects",
+    "enchantments": "enchantments",
+    "item_ai": "item_ai",
+    "items": "items",
+    "liquids": "liquids",
+    "mod_textures": "mod_textures",
+    "npc_ai": "npc_ai",
+    "npc_ai_global": "npc_ai_global",
+    "npcs": "npcs",
+    "player": "player",
+    "projectile_ai": "projectile_ai",
+    "projectile_ai_global": "projectile_ai_global",
+    "projectiles": "projectiles",
+    "recipe_config": "recipe_config",
+    "recipes": "recipes",
+    "skeletons": "contents/skeletons",
+    "skins": "skins",
+    "spawns": "spawns",
+    "trees": "trees"
+  }
+}

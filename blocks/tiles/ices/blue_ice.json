@@ -1,0 +1,40 @@
+{
+  "block": {
+    "blue_ice": {
+      "textureData": "blue_ice.png",
+      "color": [ 114, 161, 247 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 8,
+      "type": "TILE",
+      "group": "ARTIFICAL",
+      "collision": "SOLID",
+      "lightOpacity": 2,
+      "isLighting": true,
+      "lightColor": [ 10, 0, 0, 0 ],
+      "lightX": 0,
+      "lightY": 0,
+      "lightWi": 1,
+      "lightHi": 1,
+      "toolType": "PICKAXE",
+      "mineGrade": "GRASS",
+      "hardness": 60,
+      "slipperiness": 0.2,
+      "isLossyCollection": true,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": true,
+      "wallCheck": "NATURE_GENERABLE_ONLY",
+      "soundGroupId": "glass",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 114, 161, 247 ]
+    }
+  },
+  "item": {
+    "blue_ice": {
+      "type": "BLOCKS",
+      "iconTextureData": "blue_ice_icon.png",
+      "group": "GROUP_SNOW_BRICK",
+      "blockId": "blue_ice"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+
+{
+  "bullet": {
+    "ai": "Bullet",
+    "textureData": "bullet.png",
+    "width": 24,
+    "height": 2,
+    "gfxWidth": 24,
+    "gfxHeight": 2,
+    "gfxOffsetX": 0,
+    "gfxOffsetY": 0,
+    "hots": [[0, 0]],
+    "frameStyle": 1,
+    "frames": 1,
+    "frameSpeed": 8,
+    "shape": "ROTATED_BOX",
+    "maxSpeed": 32.0,
+    "gravity": false,
+    "foreground": false,
+    "fixByBlocks": false,
+    "througthBlock": false,
+    "keepStrick": true
+  }
+}

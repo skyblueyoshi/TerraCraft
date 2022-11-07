@@ -1,0 +1,34 @@
+{
+  "block": {
+    "iron_door": {
+      "note": "铁门 ",
+      "textureData": "iron_door.png",
+      "color": [ 166, 166, 166 ],
+      "type": "FURNITURE",
+      "subGroup": "CLOSED_DOOR",
+      "width": 1,
+      "height": 4,
+      "collision": "SOLID",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "toolType": "PICKAXE",
+      "mineGrade": "STONE",
+      "hardness": 200,
+      "slipperiness": 1.0,
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 180, 180, 180 ],
+      "transformId": "iron_door_open",
+      "preset": "DoorClosed",
+      "isDoorClosed": true
+    }
+  },
+  "item": {
+    "iron_door": {
+      "type": "BLOCKS",
+      "iconTextureData": "iron_door_icon.png",
+      "group": "GROUP_DOOR",
+      "blockId": "iron_door"
+    }
+  }
+}

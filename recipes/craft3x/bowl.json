@@ -1,0 +1,16 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "bowl",
+      "stackSize": 4
+    }
+  ],
+  "pattern": [
+    "AOA",
+    "OAO",
+    "OOO"
+  ],
+  "elements": [ [ "A", "OD_WOODEN_PLANK" ] ]
+}

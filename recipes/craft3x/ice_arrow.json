@@ -1,0 +1,19 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "ice_arrow",
+      "stackSize": 4
+    }
+  ],
+  "pattern": [
+    "OAO",
+    "ABA",
+    "OAO"
+  ],
+  "elements": [
+    [ "A", "wooden_arrow" ],
+    [ "B", "ice_packed" ]
+  ]
+}

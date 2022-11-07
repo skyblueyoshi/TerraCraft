@@ -1,0 +1,17 @@
+
+{
+  "config": "Repair",
+  "results": [
+    {
+      "id": "diamond_pickaxe",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [ "AB" ],
+  "elements": [
+    [ "A", "diamond_pickaxe" ],
+    [ "B", "diamond" ]
+  ],
+  "exData": { "repairRate": 0.25 },
+  "importantElements": [ "A" ]
+}

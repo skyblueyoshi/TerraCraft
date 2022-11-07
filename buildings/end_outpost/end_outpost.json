@@ -1,0 +1,232 @@
+
+{
+  "end_outpost": {
+    "maxGenPartCount": 1,
+    "limitSize": 100,
+    "blockEntityFormat": {
+      "normal_reward": {
+        "formatId": "tc:common_rewards",
+        "data": {
+          "rareGenCount": 1,
+          "rares": [
+            {
+              "itemId": "iron_sword",
+              "count": 1
+            },
+            {
+              "itemId": "iron_axe",
+              "count": 1
+            },
+            {
+              "itemId": "iron_pickaxe",
+              "count": 1
+            }
+          ],
+          "normals": [
+            {
+              "itemIds": [ "iron_ingot", "copper_ingot", "tin_ingot", "lead_ingot" ],
+              "rate": 0.4,
+              "min": 4,
+              "max": 8
+            },
+            {
+              "itemIds": [ "gold_ingot", "silver_ingot", "bronze_ingot", "steel_ingot" ],
+              "rate": 0.5,
+              "min": 2,
+              "max": 6
+            },
+            {
+              "itemIds": [ "ender_pearl" ],
+              "rate": 0.7,
+              "min": 1,
+              "max": 2
+            },
+            {
+              "itemIds": [ "diamond" ],
+              "rate": 0.2,
+              "min": 1,
+              "max": 2
+            },
+            {
+              "itemIds": [ "emerald" ],
+              "rate": 0.1,
+              "min": 2,
+              "max": 6
+            },
+            {
+              "itemIds": [ "iron_helmet", "iron_chestplate", "iron_leggings" ],
+              "rate": 0.1,
+              "min": 1,
+              "max": 1
+            }
+          ]
+        }
+      }
+    },
+    "commandColors": [
+      {
+        "color": [ 255, 64, 64, 64 ],
+        "note": "无操作",
+        "command": [
+          [ "BC_NO_OP" ]
+        ]
+      },
+      {
+        "color": [ 255, 192, 192, 192 ],
+        "note": "前景记号"
+      },
+      {
+        "color": [ 255, 0, 0, 0 ],
+        "note": "空气",
+        "command": [
+          [ "BC_CLEAR_LAKE" ],
+          [ "BC_CLEAR" ]
+        ]
+      },
+      {
+        "color": [ 255, 0, 64, 255 ],
+        "pipe": true
+      },
+
+
+
+
+      {
+        "color": [ 255, 255, 255, 0 ],
+        "note": "火把",
+        "command": [
+          [ "BC_PLACE_FURNITURE", "end_rod", 0 ]
+        ]
+      },
+      {
+        "color": [ 255, 0, 160, 255 ],
+        "note": "潜影盒",
+        "command": [
+          [ "BC_PLACE_FURNITURE", "shulker_box", 0, "normal_reward" ]
+        ]
+      },
+      {
+        "color": [ 255, 255, 0, 255 ],
+        "note": "平台",
+        "command": [
+          [ "BC_PLACE_TILE", "platform_purpur" ]
+        ]
+      },
+      {
+        "color": [ 255, 200, 200, 120 ],
+        "note": "蜡烛",
+        "command": [
+          [ "BC_PLACE_FURNITURE", "candle" ]
+        ]
+      },
+
+
+
+
+      {
+        "color": [ 255, 50, 50, 100 ],
+        "note": "有空气就放水",
+        "command": [
+          [ "BC_PLACE_LIQUID", "water" ]
+        ]
+      },
+      {
+        "color": [ 255, 54, 40, 27 ],
+        "note": "有空气就放腐化石",
+        "command": [
+          [ "BC_CLEAR_FURNITURE" ],
+          [ "BC_PLACE_TILE", "tainted_stone" ]
+        ]
+      },
+      {
+        "color": [ 255, 120, 30, 30 ],
+        "note": "主前景1",
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_BACK", "purpur_block" ],
+          [ "BC_PLACE_TILE", "purpur_block" ]
+        ]
+      },
+      {
+        "color": [ 255, 40, 0, 0 ],
+        "note": "主后景1",
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_BACK", "purpur_block" ]
+        ]
+      },
+      {
+        "color": [ 255, 100, 100, 100 ],
+        "note": "末地砖前景",
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_BACK", "end_stone_brick" ],
+          [ "BC_PLACE_TILE", "end_stone_brick" ]
+        ]
+      },
+      {
+        "color": [ 255, 10, 10, 10 ],
+        "note": "末地砖后景",
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_BACK", "end_stone_brick" ]
+        ]
+      },
+      {
+        "color": [ 255, 222, 222, 244 ],
+        "note": "玻璃后景",
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_BACK", "stained_glass_magenta" ]
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "name": "entrance",
+        "image": [ "entrance", "entrance_o1" ],
+        "type": "PT_START",
+        "hotX": 50,
+        "hotY": 55,
+        "unlinkParts": [ "entrance" ],
+        "weight": 10
+      },
+      {
+        "name": "entrance2",
+        "image": [ "entrance2", "entrance2_o1" ],
+        "type": "PT_START",
+        "hotX": 50,
+        "hotY": 55,
+        "unlinkParts": [ "entrance2" ],
+        "weight": 10
+      },
+      {
+        "name": "entrance3",
+        "image": [ "entrance3", "entrance3_o1" ],
+        "type": "PT_START",
+        "hotX": 50,
+        "hotY": 55,
+        "unlinkParts": [ "entrance3" ],
+        "weight": 10
+      },
+      {
+        "name": "entrance4",
+        "image": [ "entrance4", "entrance4_o1" ],
+        "type": "PT_START",
+        "hotX": 50,
+        "hotY": 55,
+        "unlinkParts": [ "entrance4" ],
+        "weight": 10
+      },
+      {
+        "name": "entrance5",
+        "image": [ "entrance5", "entrance5_o1" ],
+        "type": "PT_START",
+        "hotX": 50,
+        "hotY": 55,
+        "unlinkParts": [ "entrance5" ],
+        "weight": 10
+      }
+    ]
+  }
+}

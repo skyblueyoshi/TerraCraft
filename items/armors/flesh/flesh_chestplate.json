@@ -1,0 +1,13 @@
+
+{
+  "flesh_chestplate": {
+    "type": "TOOLS",
+    "iconTextureData": "chestplate7.png",
+    "textureData": "body7.png",
+    "group": "GROUP_CHESTPLATE",
+    "toolType": "CHESTPLATE",
+    "isArmor": true,
+    "defense": 6,
+    "durable": 1560
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "block": {
+    "sign": {
+      "textureData": "sign.png",
+      "color": [ 170, 133, 78 ],
+      "type": "FURNITURE",
+      "width": 2,
+      "height": 2,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 60,
+      "slipperiness": 1.0,
+      "isKilledByLava": true,
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 100, 100, 40 ]
+    }
+  },
+  "item": {
+    "sign": {
+      "type": "MATERIALS",
+      "iconTextureData": "sign_icon.png",
+      "group": "GROUP_WOODEN_FURNITURE",
+      "fuelTime": 60,
+      "onTest": true
+    }
+  }
+}

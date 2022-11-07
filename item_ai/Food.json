@@ -1,0 +1,8 @@
+
+{
+  "Food": {
+    "script": {
+      "path": "Food.lua"
+    }
+  }
+}

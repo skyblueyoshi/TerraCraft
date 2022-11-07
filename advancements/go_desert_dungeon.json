@@ -1,0 +1,9 @@
+
+{
+  "go_desert_dungeon": {
+    "itemId": "more_dungeons:castle_pile_block",
+    "parentId": "go_dark_dungeon",
+    "showTip": true,
+    "broadcase": true
+  }
+}

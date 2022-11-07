@@ -1,0 +1,25 @@
+{
+  "block": {
+    "skull": {
+      "textureData": "skull.png",
+      "color": [ 125, 188, 66 ],
+      "type": "FURNITURE",
+      "width": 2,
+      "height": 2,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 10,
+      "slipperiness": 1.0,
+      "isFragile": true,
+      "isLossyCollection": true,
+      "isDestroyByWeapon": true,
+      "soundGroupId": "glass",
+      "stepSoundGroupId": "step_grass",
+      "particleColor": [ 255, 244, 177, 144 ],
+      "preset": "RandomDisplay"
+    }
+  }
+}

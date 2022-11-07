@@ -1,0 +1,8 @@
+
+{
+  "leather": {
+    "type": "MATERIALS",
+    "iconTextureData": "leather_icon.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

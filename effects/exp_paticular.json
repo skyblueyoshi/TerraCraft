@@ -1,0 +1,26 @@
+
+{
+  "exp_paticular": {
+    "ai": "Smoke",
+    "textureData": "liquid_paticular.png",
+    "width": 6,
+    "height": 6,
+    "gfxOffsetX": 0,
+    "gfxOffsetY": 0,
+    "gfxWidth": 6,
+    "gfxHeight": 6,
+    "frameStyle": 0,
+    "frameStyles": 1,
+    "frames": 1,
+    "frameSpeed": 8,
+    "disappearTime": 160,
+    "isForeground": true,
+    "gravity": false,
+    "collisionWithBlocks": false,
+    "fixByBlocks": false,
+    "fadeScale": true,
+    "fadeAlpha": true,
+    "slowSpeed": true,
+    "slowRotateSpeed": true
+  }
+}

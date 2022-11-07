@@ -1,0 +1,16 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "platform_oak",
+      "stackSize": 6
+    }
+  ],
+  "pattern": [
+    "AAA",
+    "OOO",
+    "OOO"
+  ],
+  "elements": [ [ "A", "oak_plank" ] ]
+}

@@ -1,0 +1,8 @@
+
+{
+  "HellDestroyer_Head": {
+    "script": {
+      "path": "HellDestroyer.lua"
+    }
+  }
+}

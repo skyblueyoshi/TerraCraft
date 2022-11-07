@@ -1,0 +1,16 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "flesh_leggings",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "AAA",
+    "AOA",
+    "AOA"
+  ],
+  "elements": [ [ "A", "flesh_ingot" ] ]
+}

@@ -1,0 +1,22 @@
+
+{
+  "golden_sword": {
+    "type": "TOOLS",
+    "iconTextureData": "golden_sword_entity.png",
+    "textureData": "golden_sword_entity.png",
+    "group": "GROUP_SWORD",
+    "oreDictionary": [ "OD_SWORD" ],
+    "toolType": "SWORD",
+    "ai": "Sword",
+    "coldTime": 22,
+    "entityWidth": 22,
+    "entityHeight": 56,
+    "handX": 10,
+    "handY": 48,
+    "holdType": "NORMAL",
+    "durable": 788,
+    "damage": 12,
+    "knockBack": 4,
+    "crit": 5
+  }
+}

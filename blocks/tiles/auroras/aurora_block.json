@@ -1,0 +1,26 @@
+{
+  "block": {
+    "aurora_block": {
+      "textureData": "aurora_block.png",
+      "color": [ 100, 200, 200 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 4,
+      "type": "TILE",
+      "group": "COBBLESTONE",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "DIAMOND",
+      "hardness": 150,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": true,
+      "wallCheck": "NATURE_GENERABLE_ONLY",
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 100, 200, 200 ],
+      "hasColorWave": true
+    }
+  }
+}

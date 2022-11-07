@@ -1,0 +1,19 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "ender_chest",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "elements": [
+    [ "A", "obsidian" ],
+    [ "B", "ender_eye" ]
+  ]
+}

@@ -1,0 +1,27 @@
+
+{
+  "gore_worm_tail": {
+    "ai": "Gore",
+    "textureData": "worm_tail.png",
+    "width": 30,
+    "height": 30,
+    "gfxOffsetX": -15,
+    "gfxOffsetY": -17,
+    "gfxWidth": 60,
+    "gfxHeight": 64,
+    "frameStyle": 0,
+    "frameStyles": 1,
+    "frames": 1,
+    "frameSpeed": 8,
+    "disappearTime": 300,
+    "isForeground": false,
+    "gravity": true,
+    "collisionWithBlocks": true,
+    "fixByBlocks": true,
+    "fadeScale": false,
+    "fadeAlpha": false,
+    "slowSpeed": false,
+    "slowRotateSpeed": false
+  }
+}
+

@@ -1,0 +1,19 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "bench_spruce",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "AAA",
+    "BOB",
+    "OOO"
+  ],
+  "elements": [
+    [ "A", "spruce_plank" ],
+    [ "B", "platform_spruce" ]
+  ]
+}

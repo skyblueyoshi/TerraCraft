@@ -1,0 +1,23 @@
+{
+  "spike": {
+    "ai": "Spike",
+    "textureData": "spike.png",
+    "width": 28,
+    "height": 16,
+    "gfxWidth": 28,
+    "gfxHeight": 16,
+    "gfxOffsetX": 0,
+    "gfxOffsetY": 0,
+    "hots": [[0, 7]],
+    "frameStyle": 1,
+    "frames": 1,
+    "frameSpeed": 8,
+    "shape": "BOX",
+    "maxSpeed": 6.0,
+    "gravity": true,
+    "foreground": false,
+    "fixByBlocks": false,
+    "througthBlock": false,
+    "keepStrick": true
+  }
+}

@@ -1,0 +1,8 @@
+
+{
+  "Guardian": {
+    "script": {
+      "path": "Guardian.lua"
+    }
+  }
+}

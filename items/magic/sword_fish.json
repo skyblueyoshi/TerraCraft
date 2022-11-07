@@ -1,0 +1,33 @@
+
+{
+  "sword_fish": {
+    "type": "TOOLS",
+    "iconTextureData": "sword_fish.png",
+    "textureData": "sword_fish.png",
+    "group": "GROUP_GUN",
+    "toolType": "GUN",
+    "ai": "InfBow",
+    "entityWidth": 64,
+    "entityHeight": 26,
+    "handX": 5,
+    "handY": 15,
+    "firePoints": [[32,8]],
+    "noConsumeChance": 0.0,
+    "speed": 24.0,
+    "deviation": 0.085,
+    "shootTimes": 1,
+    "special": 2,
+    "shootProjectileId": "light_bullet_laser",
+    "usePosture": 0,
+    "coldTime": 12,
+    "holdType": "FOLLOW_MOUSE",
+    "twoHands": true,
+    "backForce": true,
+    "damage": 7,
+    "knockBack": 0,
+    "crit": 3,
+    "noEnchanted": true,
+    "useSound": "sys3",
+    "consumeMana": 4
+  }
+}

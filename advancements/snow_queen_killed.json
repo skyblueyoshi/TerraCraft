@@ -1,0 +1,13 @@
+
+{
+  "snow_queen_killed": {
+    "itemId": "snow_queen_loot",
+    "parentId": "snow_queen",
+    "showTip": true,
+    "broadcase": true,
+    "trigger": {
+      "name": "snow_queen_killed",
+      "conditions": {}
+    }
+  }
+}

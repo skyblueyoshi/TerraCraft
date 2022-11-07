@@ -1,0 +1,14 @@
+
+{
+  "skin_steve": {
+    "isFemale": false,
+    "name": "Steve",
+    "headTexture": "base2\\head.png",
+    "bodyTexture": "base2\\body.png",
+    "legTexture": "base2\\leg.png",
+    "hairTexture": "steve\\hair.png",
+    "clothTexture": "steve\\cloth.png",
+    "pantTexture": "steve\\pant.png",
+    "authors": [ "BlueYoshi" ]
+  }
+}

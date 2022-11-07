@@ -1,0 +1,20 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "wire_cutter",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "AOA",
+    "AAA",
+    "BOB"
+  ],
+  "elements": [
+    [ "A", "OD_IRON_INGOT" ],
+    [ "B", "stick" ]
+  ],
+  "importantElements": [ "A" ]
+}

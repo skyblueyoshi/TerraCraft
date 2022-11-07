@@ -1,0 +1,20 @@
+
+{
+  "config": "Craft3x",
+  "searchActions": [ [ 0, "SA_UNORDER" ] ],
+  "results": [
+    {
+      "id": "netherite_ingot",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "AAA",
+    "ABB",
+    "BBO"
+  ],
+  "elements": [
+    [ "A", "netherite_scrap" ],
+    [ "B", "gold_ingot" ]
+  ]
+}

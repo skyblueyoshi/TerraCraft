@@ -1,0 +1,48 @@
+{
+  "block": {
+    "dispenser": {
+      "textureData": "dispenser.png",
+      "color": [ 111, 111, 111 ],
+      "type": "FURNITURE",
+      "width": 2,
+      "height": 2,
+      "collision": "SOLID",
+      "attach": "ALL",
+      "attachable": "ALL",
+      "toolType": "PICKAXE",
+      "mineGrade": "WOOD",
+      "hardness": 170,
+      "slipperiness": 1.0,
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 100, 100, 100 ],
+      "preset": "Shooter",
+      "animation": [
+        {
+          "animationId": 0,
+          "frameStart": 0
+        },
+        {
+          "animationId": 1,
+          "frameStart": 1
+        },
+        {
+          "animationId": 2,
+          "frameStart": 2
+        },
+        {
+          "animationId": 3,
+          "frameStart": 3
+        }
+      ]
+    }
+  },
+  "item": {
+    "dispenser": {
+      "type": "BLOCKS",
+      "iconTextureData": "dispenser_icon.png",
+      "group": "GROUP_OTHERS_FURNITURE",
+      "blockId": "dispenser"
+    }
+  }
+}

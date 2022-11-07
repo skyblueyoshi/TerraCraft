@@ -1,0 +1,9 @@
+
+{
+  "mine_up": {
+    "itemId": "stone_pickaxe",
+    "parentId": "stone",
+    "showTip": true,
+    "broadcase": true
+  }
+}

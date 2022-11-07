@@ -1,0 +1,33 @@
+{
+  "block": {
+    "netherrack": {
+      "textureData": "netherrack.png",
+      "color": [ 38, 33, 30 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 8,
+      "type": "TILE",
+      "group": "NETHERRACK",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "GRASS",
+      "hardness": 90,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": true,
+      "isWallDark": true,
+      "wallCheck": "GENERABLE",
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 57, 52, 46 ]
+    }
+  },
+  "item": {
+    "netherrack": {
+      "type": "BLOCKS",
+      "iconTextureData": "netherrack_icon.png",
+      "group": "GROUP_NETHER",
+      "blockId": "netherrack"
+    }
+  }
+}

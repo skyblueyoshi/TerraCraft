@@ -1,0 +1,9 @@
+
+{
+  "bowl": {
+    "type": "MATERIALS",
+    "iconTextureData": "bowl_icon.png",
+    "group": "GROUP_MATERIAL",
+    "fuelTime": 20
+  }
+}

@@ -1,0 +1,25 @@
+{
+	"gore_red_phantom": {
+		"ai": "Gore", 
+			"textureData" : "red_phantom.png", 
+			"width" : 20, 
+			"height" : 20, 
+			"gfxOffsetX" : 1, 
+			"gfxOffsetY" : 2, 
+			"gfxWidth" : 18, 
+			"gfxHeight" : 16, 
+			"frameStyle" : 0, 
+			"frameStyles" : 1, 
+			"frames" : 1, 
+			"frameSpeed" : 8, 
+			"disappearTime" : 600, 
+			"isForeground" : false, 
+			"gravity" : true, 
+			"collisionWithBlocks" : true, 
+			"fixByBlocks" : true, 
+			"fadeScale" : false, 
+			"fadeAlpha" : false, 
+			"slowSpeed" : false, 
+			"slowRotateSpeed" : false
+	}
+}

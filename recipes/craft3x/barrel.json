@@ -1,0 +1,19 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "barrel",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "BAB",
+    "BOB",
+    "BAB"
+  ],
+  "elements": [
+    [ "A", "OD_WOODEN_PLATFORM" ],
+    [ "B", "OD_WOODEN_PLANK" ]
+  ]
+}

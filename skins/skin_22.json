@@ -1,0 +1,13 @@
+{
+  "skin_22": {
+    "isFemale": true,
+    "name": "22",
+    "headTexture": "base/head.png",
+    "bodyTexture": "base/body.png",
+    "legTexture": "base/leg.png",
+    "hairTexture": "22/hair.png",
+    "clothTexture": "22/cloth.png",
+    "pantTexture": "22/pant.png",
+    "authors": [ "BlueYoshi" ]
+  }
+}

@@ -1,0 +1,8 @@
+
+{
+  "SmeltEntity": {
+    "script": {
+      "path": "SmeltEntity.lua"
+    }
+  }
+}

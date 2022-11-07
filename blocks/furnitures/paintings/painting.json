@@ -1,0 +1,22 @@
+{
+  "block": {
+    "painting": {
+      "textureData": "painting.png",
+      "color": [ 159, 132, 77 ],
+      "type": "FURNITURE",
+      "width": 3,
+      "height": 2,
+      "collision": "NONE",
+      "attach": "WALL",
+      "attachable": "NONE",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 60,
+      "slipperiness": 1.0,
+      "isKilledByLava": true,
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 180, 150, 100 ]
+    }
+  }
+}

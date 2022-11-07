@@ -1,0 +1,36 @@
+{
+  "block": {
+    "clay": {
+      "textureData": "clay.png",
+      "color": [ 133, 133, 146 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 8,
+      "type": "TILE",
+      "group": "CLAY",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "GRASS",
+      "hardness": 80,
+      "isChipCollection": true,
+      "lossyItemId": "clay",
+      "chipCount": 4,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": true,
+      "wallCheck": "GENERABLE",
+      "soundGroupId": "dirt",
+      "stepSoundGroupId": "step_grass",
+      "particleColor": [ 255, 160, 160, 180 ]
+    }
+  },
+  "item": {
+    "clay_block": {
+      "type": "BLOCKS",
+      "iconTextureData": "clay_icon.png",
+      "group": "GROUP_OTHERS_BLOCK",
+      "blockId": "clay"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+
+{
+  "lava": {
+    "itemId": "bucket_lava",
+    "parentId": "iron",
+    "showTip": true,
+    "broadcase": true
+  }
+}

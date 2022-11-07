@@ -1,0 +1,8 @@
+
+{
+  "ink_sac": {
+    "type": "MATERIALS",
+    "iconTextureData": "ink_sac_icon.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

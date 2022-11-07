@@ -1,0 +1,16 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "glass_bottle",
+      "stackSize": 6
+    }
+  ],
+  "pattern": [
+    "AOA",
+    "OAO",
+    "OOO"
+  ],
+  "elements": [ [ "A", "glass" ] ]
+}

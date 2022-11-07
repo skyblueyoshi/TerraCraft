@@ -1,0 +1,23 @@
+{
+  "block": {
+    "small_tree_tainted": {
+      "textureData": "small_tree_tainted.png",
+      "color": [ 83, 48, 122 ],
+      "type": "FURNITURE",
+      "width": 3,
+      "height": 3,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "placeCheck": "PLACE_TAINTED_DECO_CHECK",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 200,
+      "slipperiness": 1.0,
+      "isKilledByLava": true,
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 100, 60, 140 ]
+    }
+  }
+}

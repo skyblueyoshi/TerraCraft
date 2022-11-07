@@ -1,0 +1,17 @@
+
+{
+  "config": "Repair",
+  "results": [
+    {
+      "id": "nether_pickaxe",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [ "AB" ],
+  "elements": [
+    [ "A", "nether_pickaxe" ],
+    [ "B", "netherite_ingot" ]
+  ],
+  "exData": { "repairRate": 0.25 },
+  "importantElements": [ "A" ]
+}

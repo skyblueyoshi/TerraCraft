@@ -1,0 +1,9 @@
+
+{
+  "redstone_wire": {
+    "itemId": "red_wire",
+    "parentId": "redstone",
+    "showTip": true,
+    "broadcase": true
+  }
+}

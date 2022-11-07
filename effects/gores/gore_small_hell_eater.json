@@ -1,0 +1,26 @@
+
+{
+  "gore_small_hell_eater": {
+    "ai": "Gore",
+    "textureData": "small_hell_eater.png",
+    "width": 16,
+    "height": 16,
+    "gfxOffsetX": -8,
+    "gfxOffsetY": -8,
+    "gfxWidth": 32,
+    "gfxHeight": 32,
+    "frameStyle": 0,
+    "frameStyles": 1,
+    "frames": 1,
+    "frameSpeed": 8,
+    "disappearTime": 600,
+    "isForeground": false,
+    "gravity": true,
+    "collisionWithBlocks": true,
+    "fixByBlocks": true,
+    "fadeScale": false,
+    "fadeAlpha": false,
+    "slowSpeed": false,
+    "slowRotateSpeed": false
+  }
+}

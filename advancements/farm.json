@@ -1,0 +1,9 @@
+
+{
+  "farm": {
+    "itemId": "stone_hoe",
+    "parentId": "crafting_table",
+    "showTip": true,
+    "broadcase": true
+  }
+}

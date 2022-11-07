@@ -1,0 +1,8 @@
+
+{
+  "totem_of_undying": {
+    "type": "MATERIALS",
+    "iconTextureData": "totem_of_undying_icon.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

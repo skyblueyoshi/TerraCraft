@@ -1,0 +1,19 @@
+
+{
+  "potion_poison_long": {
+    "ai": "Potion",
+    "type": "MATERIALS",
+    "iconTextureData": "glass_bottle_super_3_icon.png",
+    "group": "GROUP_POTION",
+    "iconColor2": [ 255, 70, 150, 40 ],
+    "eatable": true,
+    "useSound": "drink",
+    "eatReturnId": "glass_bottle",
+    "buffs": [
+      {
+        "id": "poison",
+        "time": 1800
+      }
+    ]
+  }
+}

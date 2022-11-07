@@ -1,0 +1,37 @@
+{
+  "block": {
+    "wood_birch": {
+      "textureData": "wood_birch.png",
+      "color": [ 211, 211, 211 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 4,
+      "type": "TILE",
+      "group": "WOOD_A",
+      "subGroup": "WOOD",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 100,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": false,
+      "transformId": "wood_stripped_birch",
+      "wallCheck": "NO_GENERABLE",
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 200, 200, 130 ]
+    }
+  },
+  "item": {
+    "wood_birch": {
+      "type": "BLOCKS",
+      "iconTextureData": "wood_birch_icon.png",
+      "group": "GROUP_WOOD",
+      "blockId": "wood_birch",
+      "fuelTime": 60,
+      "oreDictionary": [ "OD_WOOD" ]
+    }
+  }
+}

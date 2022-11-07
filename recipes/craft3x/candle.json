@@ -1,0 +1,19 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "candle",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "AOO",
+    "BOO",
+    "OOO"
+  ],
+  "elements": [
+    [ "A", "torch" ],
+    [ "B", "OD_IRON_INGOT" ]
+  ]
+}

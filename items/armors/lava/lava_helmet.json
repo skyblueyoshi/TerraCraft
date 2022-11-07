@@ -1,0 +1,13 @@
+
+{
+  "lava_helmet": {
+    "type": "TOOLS",
+    "iconTextureData": "ihat8.png",
+    "textureData": "hat8.png",
+    "group": "GROUP_HELMET",
+    "toolType": "HELMET",
+    "isArmor": true,
+    "defense": 4,
+    "durable": 1552
+  }
+}

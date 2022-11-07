@@ -1,0 +1,35 @@
+
+{
+  "sniper": {
+    "type": "TOOLS",
+    "iconTextureData": "sniper.png",
+    "textureData": "sniper.png",
+    "group": "GROUP_GUN",
+    "toolType": "GUN",
+    "ai": "Gun",
+    "entityWidth": 56,
+    "entityHeight": 22,
+    "handX": 28,
+    "handY": 15,
+    "firePoints": [[56,8]],
+    "noConsumeChance": 0.7,
+    "speed": 22.0,
+    "deviation": 0.085,
+    "shootTimes": 1,
+    "special": 2,
+    "shootProjectileId": "bullet_super",
+    "usePosture": 0,
+    "coldTime": 64,
+    "holdType": "FOLLOW_MOUSE",
+    "twoHands": true,
+    "backForce": true,
+    "durable": 2020,
+    "damage": 20,
+    "knockBack": 0,
+    "crit": 3,
+    "noEnchanted": true,
+    "ammo": "bullet",
+    "ammoLevel": 0,
+    "useSound": "shotgun_fire"
+  }
+}

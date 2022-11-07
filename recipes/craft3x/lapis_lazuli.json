@@ -1,0 +1,16 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "lapis_lazuli",
+      "stackSize": 9
+    }
+  ],
+  "pattern": [
+    "AOO",
+    "OOO",
+    "OOO"
+  ],
+  "elements": [ [ "A", "block_lapis" ] ]
+}

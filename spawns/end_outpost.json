@@ -1,0 +1,20 @@
+{
+  "walls": [
+    {
+      "id": "end_stone_brick"
+    },
+    {
+      "id": "purpur_block"
+    }
+  ],
+  "spawn": {
+    "mobSpeed": 150,
+    "maxMobSpawn": 4,
+    "mobs": [
+      {
+        "id": "shulker",
+        "weight": 5
+      }
+    ]
+  }
+}

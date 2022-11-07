@@ -1,0 +1,35 @@
+{
+  "block": {
+    "bookcase_tainted": {
+      "textureData": "bookcase_tainted.png",
+      "color": [ 89, 85, 107 ],
+      "type": "FURNITURE",
+      "subGroup": "BOOKCASE",
+      "width": 3,
+      "height": 4,
+      "collision": "PLATFORM",
+      "attach": "BOTTOM",
+      "attachable": "TOP",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 140,
+      "slipperiness": 1.0,
+      "isKilledByLava": true,
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "functionSoundId": "chest",
+      "functionSoundId2": "chestclosed",
+      "particleColor": [ 255, 89, 85, 107 ],
+      "preset": "Storage"
+    }
+  },
+  "item": {
+    "bookcase_tainted": {
+      "type": "BLOCKS",
+      "iconTextureData": "bookcase_tainted.png",
+      "group": "GROUP_BOOKCASE",
+      "blockId": "bookcase_tainted",
+      "fuelTime": 60
+    }
+  }
+}

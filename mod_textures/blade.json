@@ -1,0 +1,10 @@
+
+{
+  "blade": {
+    "textureData": "blade.png",
+    "width": 64,
+    "height": 64,
+    "frameXs": 1,
+    "bringToFront": true
+  }
+}

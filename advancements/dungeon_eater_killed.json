@@ -1,0 +1,9 @@
+
+{
+  "dungeon_eater_killed": {
+    "itemId": "dungeon_eater",
+    "parentId": "dungeon_eater",
+    "showTip": true,
+    "broadcase": true
+  }
+}

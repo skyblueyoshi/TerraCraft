@@ -1,0 +1,13 @@
+
+{
+  "autosave-off": {
+    "isClient": false,
+    "fromPlayer": false,
+    "gameMode": "creative",
+    "op": "admin",
+    "parameters": [],
+    "script": {
+      "path": "autosaveoff.lua"
+    }
+  }
+}

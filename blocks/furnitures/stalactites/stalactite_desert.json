@@ -1,0 +1,23 @@
+{
+  "block": {
+    "stalactite_desert": {
+      "textureData": "desert_stalactite.png",
+      "color": [ 176, 162, 123 ],
+      "type": "FURNITURE",
+      "width": 1,
+      "height": 2,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "placeCheck": "PLACE_SAND_DECO_CHECK",
+      "toolType": "PICKAXE",
+      "mineGrade": "WOOD",
+      "hardness": 200,
+      "slipperiness": 1.0,
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 140, 130, 100 ],
+      "preset": "RandomDisplay"
+    }
+  }
+}

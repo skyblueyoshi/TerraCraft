@@ -1,0 +1,34 @@
+{
+  "block": {
+    "ore_copper": {
+      "textureData": "ore_copper.png",
+      "color": [ 128, 70, 30 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 4,
+      "type": "TILE",
+      "group": "ORE_GOLD",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "STONE",
+      "hardness": 180,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": true,
+      "wallCheck": "GENERABLE",
+      "soundGroupId": "tink",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 180, 100, 50 ],
+      "exParticle": "ore_particle"
+    }
+  },
+  "item": {
+    "ore_copper": {
+      "type": "BLOCKS",
+      "iconTextureData": "ore_copper_icon.png",
+      "group": "GROUP_ORE",
+      "blockId": "ore_copper"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+
+{
+  "grass_pickaxe": {
+    "type": "TOOLS",
+    "iconTextureData": "grass_pickaxe_entity.png",
+    "textureData": "grass_pickaxe_entity.png",
+    "group": "GROUP_PICKAXE",
+    "toolType": "PICKAXE",
+    "toolGrade": "GRASS",
+    "efficiency": 1.0,
+    "ai": "Pickaxe",
+    "coldTime": 16,
+    "entityWidth": 30,
+    "entityHeight": 36,
+    "handX": 16,
+    "handY": 26,
+    "holdType": "NORMAL",
+    "durable": 128,
+    "damage": 1,
+    "knockBack": 1,
+    "crit": 0,
+    "isNoBreaking": true,
+    "enchantments": [
+      {
+        "id": "phyton",
+        "level": 1
+      }
+    ]
+  }
+}

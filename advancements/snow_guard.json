@@ -1,0 +1,9 @@
+
+{
+  "snow_guard": {
+    "itemId": "steel_helmet",
+    "parentId": "hunter",
+    "showTip": true,
+    "broadcase": true
+  }
+}

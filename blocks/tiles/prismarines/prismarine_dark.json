@@ -1,0 +1,33 @@
+{
+  "block": {
+    "prismarine_dark": {
+      "textureData": "prismarine_dark.png",
+      "color": [ 70, 112, 97 ],
+      "renderMode": "RENDER_BORDER_CUT",
+      "renderSortedInterval": 4,
+      "type": "TILE",
+      "group": "ARTIFICAL",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "STONE",
+      "hardness": 220,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": true,
+      "isWallDark": false,
+      "wallCheck": "NATURE_GENERABLE_ONLY",
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 100, 144, 144 ]
+    }
+  },
+  "item": {
+    "prismarine_dark": {
+      "type": "BLOCKS",
+      "iconTextureData": "prismarine_dark_icon.png",
+      "group": "GROUP_PRISMARINE",
+      "blockId": "prismarine_dark"
+    }
+  }
+}

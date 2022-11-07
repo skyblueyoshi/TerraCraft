@@ -1,0 +1,62 @@
+{
+  "zombie_pigman": {
+    "ai": "Zpig",
+    "textureData": "zombie_pigman.png",
+    "type": "SMITE",
+    "width": 24,
+    "height": 46,
+    "gfxWidth": 48,
+    "gfxHeight": 48,
+    "gfxOffsetX": 4,
+    "gfxOffsetY": 8,
+    "frameStyle": 1,
+    "frames": 4,
+    "frameSpeed": 8,
+    "shape": "BOX",
+    "maxSpeed": 1.0,
+    "jumpForce": 9.0,
+    "disappearTime": 750,
+    "spawnCount": 1.0,
+    "health": 45,
+    "defense": 7,
+    "attack": 14,
+    "knockBack": 5,
+    "knockBackDefense": 0.10,
+    "gravity": true,
+    "climbWall": false,
+    "foreground": false,
+    "noFixByBlock": false,
+    "friendly": true,
+    "exps": 5,
+    "sunBurning": false,
+    "angry": true,
+    "antiLava": true,
+    "saySounds": [
+      "zpig1",
+      "zpig2",
+      "zpig3"
+    ],
+    "hurtSounds": [
+      "zpigdeath",
+      "zpighurt1"
+    ],
+    "loots": [
+      {
+        "item": "rotten_flesh",
+        "count": [ 1, 4 ]
+      },
+      {
+        "item": "gold_nugget",
+        "count": [ 1, 4 ],
+        "possibility": 0.5
+      }
+    ],
+    "special": 0,
+    "paticularColor": [ 255, 200, 50, 20 ],
+    "spawn": "LAND",
+    "gore": "gore_zombie_pigman",
+    "magicRate": 60,
+    "checkPlayerTarget": true,
+    "visionNoCrossTile": false
+  }
+}

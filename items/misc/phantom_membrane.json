@@ -1,0 +1,8 @@
+
+{
+  "phantom_membrane": {
+    "type": "MATERIALS",
+    "iconTextureData": "phantom_membrane_icon.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "block": {
+    "cabinet_volcano": {
+      "textureData": "wooden_cabinet_volcano.png",
+      "color": [ 200, 60, 60 ],
+      "type": "FURNITURE",
+      "width": 3,
+      "height": 2,
+      "collision": "PLATFORM",
+      "attach": "BOTTOM",
+      "attachable": "TOP",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 140,
+      "slipperiness": 1.0,
+      "isKilledByLava": true,
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "functionSoundId": "chest",
+      "functionSoundId2": "chestclosed",
+      "particleColor": [ 255, 200, 60, 60 ],
+      "preset": "Storage"
+    }
+  },
+  "item": {
+    "cabinet_volcano": {
+      "type": "BLOCKS",
+      "iconTextureData": "wooden_cabinet_volcano.png",
+      "group": "GROUP_WOODEN_CABINET",
+      "blockId": "cabinet_volcano",
+      "fuelTime": 60
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "block": {
+    "trapped_chest": {
+      "textureData": "trapped_chest.png",
+      "color": [ 171, 121, 45 ],
+      "type": "FURNITURE",
+      "width": 2,
+      "height": 2,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 100,
+      "slipperiness": 1.0,
+      "soundGroupId": "wood",
+      "functionSoundId": "chest",
+      "functionSoundId2": "chestclosed",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 160, 110, 40 ],
+      "preset": "TrapStorage"
+    }
+  },
+  "item": {
+    "trapped_chest": {
+      "type": "BLOCKS",
+      "iconTextureData": "trapped_chest_icon.png",
+      "group": "GROUP_WOODEN_FURNITURE",
+      "blockId": "trapped_chest",
+      "fuelTime": 60
+    }
+  }
+}

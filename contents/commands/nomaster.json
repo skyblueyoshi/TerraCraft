@@ -1,0 +1,17 @@
+
+{
+  "nomaster": {
+    "isClient": false,
+    "fromPlayer": false,
+    "gameMode": "creative",
+    "op": "developer",
+    "parameters": [
+      {
+        "type": "CP_PLAYER"
+      }
+    ],
+    "script": {
+      "path": "nomaster.lua"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+
+{
+  "RockMan": {
+    "script": {
+      "path": "RockMan.lua"
+    }
+  }
+}

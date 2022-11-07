@@ -1,0 +1,9 @@
+
+{
+  "repair": {
+    "itemId": "anvil",
+    "parentId": "iron",
+    "showTip": true,
+    "broadcase": true
+  }
+}

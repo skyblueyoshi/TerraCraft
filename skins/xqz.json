@@ -1,0 +1,14 @@
+
+{
+  "xqz": {
+    "isFemale": true,
+    "name": "Mr. Skirt",
+    "headTexture": "xqz\\head.png",
+    "bodyTexture": "xqz\\body.png",
+    "legTexture": "xqz\\leg.png",
+    "hairTexture": "xqz\\hair.png",
+    "clothTexture": "xqz\\cloth.png",
+    "pantTexture": "xqz\\pant.png",
+    "authors": [ "BlueYoshi" ]
+  }
+}

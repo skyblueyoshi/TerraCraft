@@ -1,0 +1,12 @@
+
+{
+  "IceArrow": {
+    "defaultAI": "Arrow",
+    "script": {
+      "path": "IceArrow.lua"
+    },
+    "modData": [
+      [ "bool", "bounceOnce" ]
+    ]
+  }
+}

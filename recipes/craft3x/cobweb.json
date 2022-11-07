@@ -1,0 +1,16 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "cobweb",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "AAA",
+    "AAA",
+    "AAA"
+  ],
+  "elements": [ [ "A", "string" ] ]
+}

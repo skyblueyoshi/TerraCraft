@@ -1,0 +1,35 @@
+{
+  "block": {
+    "wooden_door_dark_oak": {
+      "textureData": "wooden_door_dark_oak.png",
+      "color": [ 44, 26, 16 ],
+      "type": "FURNITURE",
+      "subGroup": "CLOSED_DOOR",
+      "width": 1,
+      "height": 4,
+      "collision": "SOLID",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 120,
+      "slipperiness": 1.0,
+      "isKilledByLava": true,
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 46, 28, 18 ],
+      "transformId": "wooden_door_dark_oak_open",
+      "preset": "DoorClosed",
+      "isDoorClosed": true
+    }
+  },
+  "item": {
+    "wooden_door_dark_oak": {
+      "type": "BLOCKS",
+      "iconTextureData": "wooden_door_dark_oak_icon.png",
+      "group": "GROUP_DOOR",
+      "blockId": "wooden_door_dark_oak",
+      "fuelTime": 60
+    }
+  }
+}

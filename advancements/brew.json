@@ -1,0 +1,9 @@
+
+{
+  "brew": {
+    "itemId": "brewing_stand",
+    "parentId": "blaze_rod",
+    "showTip": true,
+    "broadcase": true
+  }
+}

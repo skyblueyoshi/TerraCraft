@@ -1,0 +1,8 @@
+
+{
+  "LargeSpider": {
+    "script": {
+      "path": "LargeSpider.lua"
+    }
+  }
+}

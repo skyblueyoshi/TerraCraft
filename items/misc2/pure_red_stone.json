@@ -1,0 +1,8 @@
+
+{
+  "pure_red_stone": {
+    "type": "MATERIALS",
+    "iconTextureData": "pure_red_stone.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

@@ -1,0 +1,8 @@
+
+{
+  "redstone": {
+    "type": "MATERIALS",
+    "iconTextureData": "redstone_icon.png",
+    "group": "GROUP_REDSTONE"
+  }
+}

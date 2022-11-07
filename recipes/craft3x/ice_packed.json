@@ -1,0 +1,16 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "ice_packed",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "AAA",
+    "AAA",
+    "AAA"
+  ],
+  "elements": [ [ "A", "ice" ] ]
+}

@@ -1,0 +1,31 @@
+{
+  "block": {
+    "table_acacia": {
+      "textureData": "wooden_table_acacia.png",
+      "color": [ 190, 125, 90 ],
+      "type": "FURNITURE",
+      "width": 3,
+      "height": 2,
+      "collision": "PLATFORM",
+      "attach": "BOTTOM",
+      "attachable": "TOP",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 140,
+      "slipperiness": 1.0,
+      "isKilledByLava": true,
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 180, 100, 60 ]
+    }
+  },
+  "item": {
+    "table_acacia": {
+      "type": "BLOCKS",
+      "iconTextureData": "wooden_table_acacia.png",
+      "group": "GROUP_WOODEN_TABLE",
+      "blockId": "table_acacia",
+      "fuelTime": 60
+    }
+  }
+}

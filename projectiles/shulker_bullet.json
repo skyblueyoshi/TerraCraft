@@ -1,0 +1,24 @@
+
+{
+  "shulker_bullet": {
+    "ai": "ShulkerBullet",
+    "textureData": "shulker_bullet.png",
+    "width": 16,
+    "height": 16,
+    "gfxWidth": 16,
+    "gfxHeight": 16,
+    "gfxOffsetX": 0,
+    "gfxOffsetY": 0,
+    "hots": [[8, 8]],
+    "frameStyle": 1,
+    "frames": 1,
+    "frameSpeed": 8,
+    "shape": "BOX",
+    "maxSpeed": 3.0,
+    "gravity": false,
+    "foreground": false,
+    "fixByBlocks": false,
+    "througthBlock": false,
+    "keepStrick": true
+  }
+}

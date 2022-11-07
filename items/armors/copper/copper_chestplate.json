@@ -1,0 +1,13 @@
+
+{
+  "copper_chestplate": {
+    "type": "TOOLS",
+    "iconTextureData": "copper_chestplate_icon.png",
+    "textureData": "body.png",
+    "group": "GROUP_CHESTPLATE",
+    "toolType": "CHESTPLATE",
+    "isArmor": true,
+    "defense": 3,
+    "durable": 412
+  }
+}

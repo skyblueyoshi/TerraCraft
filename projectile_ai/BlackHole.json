@@ -1,0 +1,8 @@
+
+{
+  "BlackHole": {
+    "script": {
+      "path": "BlackHole.lua"
+    }
+  }
+}

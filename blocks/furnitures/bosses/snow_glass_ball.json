@@ -1,0 +1,29 @@
+{
+  "block": {
+    "snow_glass_ball": {
+      "textureData": "snow_glass_ball.png",
+      "color": [ 200, 200, 255 ],
+      "type": "FURNITURE",
+      "width": 3,
+      "height": 3,
+      "collision": "NONE",
+      "attach": "NONE",
+      "attachable": "NONE",
+      "toolType": "PICKAXE",
+      "mineGrade": "DIAMOND",
+      "hardness": 1000000000,
+      "slipperiness": 1.0,
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 200, 200, 255 ],
+      "preset": "SnowQueenBall"
+    }
+  },
+  "item": {
+    "snow_glass_ball": {
+      "type": "MATERIALS",
+      "iconTextureData": "snow_glass_ball_icon.png",
+      "group": "GROUP_OTHERS_FURNITURE"
+    }
+  }
+}

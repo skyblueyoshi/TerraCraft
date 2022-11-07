@@ -1,0 +1,8 @@
+
+{
+  "Zombie": {
+    "script": {
+      "path": "Zombie.lua"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+
+{
+  "evil_part": {
+    "type": "MATERIALS",
+    "iconTextureData": "evil_part.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

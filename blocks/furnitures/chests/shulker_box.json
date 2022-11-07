@@ -1,0 +1,41 @@
+{
+  "block": {
+    "shulker_box": {
+      "textureData": "shulker_box.png",
+      "color": [ 111, 111, 111 ],
+      "type": "FURNITURE",
+      "width": 2,
+      "height": 2,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "toolType": "PICKAXE",
+      "mineGrade": "GRASS",
+      "hardness": 130,
+      "slipperiness": 1.0,
+      "soundGroupId": "stone",
+      "functionSoundId": "shulker_box_open",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 100, 100, 100 ],
+      "preset": "InsideStorage",
+      "animation": [
+        {
+          "animationId": 0,
+          "frameStart": 0
+        },
+        {
+          "animationId": 1,
+          "frameStart": 3
+        }
+      ]
+    }
+  },
+  "item": {
+    "shulker_box": {
+      "type": "CHESTS",
+      "iconTextureData": "shulker_box_icon.png",
+      "group": "GROUP_SHULKER_BOX",
+      "blockId": "shulker_box"
+    }
+  }
+}

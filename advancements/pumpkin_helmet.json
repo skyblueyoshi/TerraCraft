@@ -1,0 +1,9 @@
+
+{
+  "pumpkin_helmet": {
+    "itemId": "pumpkin_helmet",
+    "parentId": "farm",
+    "showTip": true,
+    "broadcase": true
+  }
+}

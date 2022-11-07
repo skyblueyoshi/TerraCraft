@@ -1,0 +1,8 @@
+
+{
+  "Wolf": {
+    "script": {
+      "path": "Wolf.lua"
+    }
+  }
+}

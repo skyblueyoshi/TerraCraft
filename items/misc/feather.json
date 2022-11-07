@@ -1,0 +1,8 @@
+
+{
+  "feather": {
+    "type": "MATERIALS",
+    "iconTextureData": "feather_icon.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

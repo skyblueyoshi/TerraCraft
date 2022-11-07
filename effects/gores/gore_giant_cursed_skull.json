@@ -1,0 +1,25 @@
+{
+	"gore_giant_cursed_skull": {
+		"ai": "Gore", 
+			"textureData" : "giant_cursed_skull.png", 
+			"width" : 20, 
+			"height" : 20, 
+			"gfxOffsetX" : -12, 
+			"gfxOffsetY" : -14, 
+			"gfxWidth" : 44, 
+			"gfxHeight" : 48, 
+			"frameStyle" : 0, 
+			"frameStyles" : 1, 
+			"frames" : 1, 
+			"frameSpeed" : 8, 
+			"disappearTime" : 600, 
+			"isForeground" : false, 
+			"gravity" : true, 
+			"collisionWithBlocks" : true, 
+			"fixByBlocks" : true, 
+			"fadeScale" : false, 
+			"fadeAlpha" : false, 
+			"slowSpeed" : false, 
+			"slowRotateSpeed" : false
+	}
+}

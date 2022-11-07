@@ -1,0 +1,13 @@
+
+{
+  "steak": {
+    "ai": "Food",
+    "type": "MATERIALS",
+    "iconTextureData": "steak_icon.png",
+    "group": "GROUP_FOOD",
+    "eatable": true,
+    "useSoundGroup": "eat",
+    "food": 40,
+    "foodSaturation": 100
+  }
+}

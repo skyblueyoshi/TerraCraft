@@ -1,0 +1,8 @@
+
+{
+  "DungeonKnight": {
+    "script": {
+      "path": "DungeonKnight.lua"
+    }
+  }
+}

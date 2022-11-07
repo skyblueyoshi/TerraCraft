@@ -1,0 +1,13 @@
+
+{
+  "flesh_helmet": {
+    "type": "TOOLS",
+    "iconTextureData": "ihat7.png",
+    "textureData": "hat7.png",
+    "group": "GROUP_HELMET",
+    "toolType": "HELMET",
+    "isArmor": true,
+    "defense": 4,
+    "durable": 1560
+  }
+}

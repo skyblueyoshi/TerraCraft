@@ -1,0 +1,35 @@
+
+{
+  "rocket_launcher": {
+    "type": "TOOLS",
+    "iconTextureData": "rocket_launcher_entity.png",
+    "textureData": "rocket_launcher_entity.png",
+    "group": "GROUP_GUN",
+    "toolType": "GUN",
+    "ai": "rocket_launcher",
+    "ammo": "rocket",
+    "entityWidth": 50,
+    "entityHeight": 28,
+    "handX": 24,
+    "handY": 22,
+    "firePoints": [[50,12]],
+    "noConsumeChance": 0.0,
+    "speed": 8.0,
+    "deviation": 0.05,
+    "shootTimes": 1,
+    "ammoLevel": 0,
+    "special": 1,
+    "shootProjectileId": "rocket",
+    "usePosture": 0,
+    "useSound": "launch",
+    "coldTime": 40,
+    "holdType": "FOLLOW_MOUSE",
+    "twoHands": true,
+    "backForce": true,
+    "durable": 256,
+    "damage": 5,
+    "knockBack": 3,
+    "crit": 4,
+    "noEnchanted": true
+  }
+}

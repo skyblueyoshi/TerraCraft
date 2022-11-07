@@ -1,0 +1,35 @@
+{
+  "block": {
+    "fence_nether": {
+      "textureData": "fence_nether.png",
+      "color": [ 90, 60, 70 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 2,
+      "type": "TILE",
+      "group": "FENCE",
+      "collision": "SOLID",
+      "lightOpacity": 1,
+      "lightTransparent": true,
+      "toolType": "PICKAXE",
+      "mineGrade": "GRASS",
+      "hardness": 100,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": false,
+      "wallCheck": "NO_GENERABLE",
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 90, 60, 70 ]
+    }
+  },
+  "item": {
+    "fence_nether": {
+      "type": "BLOCKS",
+      "iconTextureData": "fence_nether_icon.png",
+      "group": "GROUP_NETHER_FENCE",
+      
+      "blockId": "fence_nether"
+    }
+  }
+}

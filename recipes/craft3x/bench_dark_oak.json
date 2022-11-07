@@ -1,0 +1,19 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "bench_dark_oak",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "AAA",
+    "BOB",
+    "OOO"
+  ],
+  "elements": [
+    [ "A", "dark_oak_plank" ],
+    [ "B", "platform_dark_oak" ]
+  ]
+}

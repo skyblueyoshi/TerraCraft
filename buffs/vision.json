@@ -1,0 +1,9 @@
+
+{
+  "vision": {
+    "textureData": "vision.png",
+    "script": {
+      "path": "vision.lua"
+    }
+  }
+}

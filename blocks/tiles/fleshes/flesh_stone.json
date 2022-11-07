@@ -1,0 +1,33 @@
+{
+  "block": {
+    "flesh_stone": {
+      "textureData": "flesh_stone.png",
+      "color": [ 103, 29, 25 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 8,
+      "type": "TILE",
+      "group": "FLESH_STONE",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "STONE",
+      "hardness": 180,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": true,
+      "isWallDark": true,
+      "wallCheck": "GENERABLE",
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 103, 29, 25 ]
+    }
+  },
+  "item": {
+    "flesh_stone": {
+      "type": "BLOCKS",
+      "iconTextureData": "flesh_stone_icon.png",
+      "group": "GROUP_FLESH",
+      "blockId": "flesh_stone"
+    }
+  }
+}

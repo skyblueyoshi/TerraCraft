@@ -1,0 +1,221 @@
+
+{
+  "ice_cave": {
+    "biomeType": "Underground",
+    "scale": 1.0,
+    "wallParallaxe": "ice_wall",
+    "musics": {
+      "underground": [
+        "mcunder1",
+        "mcunder2",
+        "mcunder3",
+        "mcunder4"
+      ]
+    },
+    "composition": {
+      "main": {
+        "id": "ice_cobblestone"
+      },
+      "subs": [
+        {
+          "id": "snow"
+        },
+        {
+          "id": "ice"
+        },
+        {
+          "id": "ice_packed"
+        }
+      ]
+    },
+    "wall": {
+      "id": "ice_cobblestone",
+      "full": false
+    },
+    "oreGroupName": "default",
+    "liquidInfo": {
+      "liquid": "water",
+      "maxAllowCount": 500
+    },
+    "distributions": {
+      "airWeight": 100,
+      "surfacePlaceables": [
+        {
+          "id": "pot",
+          "tag": 1,
+          "weight": 5
+        },
+        {
+          "id": "small_tree_snowy",
+          "weight": 30
+        },
+        {
+          "id": "stone_decos_ice",
+          "weight": 15
+        },
+        {
+          "id": "stone_pillar_ice",
+          "weight": 15
+        },
+        {
+          "id": "stalactite_ice",
+          "weight": 5
+        },
+        {
+          "id": "stalactite_small_ice",
+          "weight": 5
+        }
+      ],
+      "hangingWeight": 100,
+      "hangingPlaceables": [
+        {
+          "id": "stalactite_hanging_ice",
+          "weight": 30
+        },
+        {
+          "id": "stalactite_hanging_small_ice",
+          "weight": 30
+        }
+      ]
+    },
+    "pot": [
+      {
+        "itemId": "torch",
+        "min": 1,
+        "max": 5,
+        "weight": 15
+      },
+      {
+        "itemId": "potion_healing",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "potion_night_vision",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "potion_strength",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "potion_leaping",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "potion_water_breathing",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "wooden_arrow",
+        "min": 3,
+        "max": 10,
+        "weight": 12
+      },
+      {
+        "itemId": "lighting_arrow",
+        "min": 3,
+        "max": 10,
+        "weight": 5
+      },
+      {
+        "itemId": "coal",
+        "min": 1,
+        "max": 2,
+        "weight": 10
+      },
+      {
+        "itemId": "flint",
+        "min": 1,
+        "max": 4,
+        "weight": 10
+      },
+      {
+        "itemId": "grenade",
+        "min": 1,
+        "max": 1,
+        "weight": 4
+      },
+      {
+        "itemId": "bomb",
+        "min": 1,
+        "max": 1,
+        "weight": 2
+      }
+    ],
+    "spawn": {
+      "mobSpeed": 300,
+      "maxMobSpawn": 6,
+      "mobs": [
+        {
+          "id": "ice_elf",
+          "weight": 10
+        },
+        {
+          "id": "zombie",
+          "weight": 8
+        },
+        {
+          "id": "large_ice_slime",
+          "weight": 6
+        },
+        {
+          "id": "skeleton",
+          "weight": 2
+        },
+        {
+          "id": "creeper",
+          "weight": 2
+        },
+        {
+          "id": "flower_creeper",
+          "weight": 1
+        },
+        {
+          "id": "boney_skeleton",
+          "weight": 1
+        },
+        {
+          "id": "enderman",
+          "weight": 1
+        }
+      ],
+      "animalSpeed": 600,
+      "maxAnimalSpawn": 5,
+      "animals": [
+        {
+          "id": "squid",
+          "weight": 10
+        }
+      ]
+    },
+    "buildingInfo": [
+      {
+        "buildingId": "fossils",
+        "density": 2.0
+      }
+    ],
+    "environmentBlocks": {
+      "total": 100,
+      "blocks": [
+        {
+          "id": "ice_cobblestone",
+          "weight": 1
+        },
+        {
+          "id": "snow",
+          "weight": 1
+        }
+      ]
+    }
+  }
+}

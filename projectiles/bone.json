@@ -1,0 +1,23 @@
+{
+  "bone": {
+    "ai": "Spike",
+    "textureData": "bone.png",
+    "width": 24,
+    "height": 20,
+    "gfxWidth": 24,
+    "gfxHeight": 20,
+    "gfxOffsetX": 0,
+    "gfxOffsetY": 0,
+    "hots": [[0, 10]],
+    "frameStyle": 1,
+    "frames": 1,
+    "frameSpeed": 8,
+    "shape": "ROTATED_BOX",
+    "maxSpeed": 6.0,
+    "gravity": true,
+    "foreground": false,
+    "fixByBlocks": false,
+    "througthBlock": false,
+    "keepStrick": false
+  }
+}

@@ -1,0 +1,9 @@
+
+{
+  "enchanted_book": {
+    "type": "TOOLS",
+    "iconTextureData": "enchanted_book_icon.png",
+    "group": "GROUP_BOOK",
+    "toolType": "BOOK"
+  }
+}

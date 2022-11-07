@@ -1,0 +1,6 @@
+
+{
+  "Melon": {
+    "pOnDestroy": "MelonDestroy"
+  }
+}

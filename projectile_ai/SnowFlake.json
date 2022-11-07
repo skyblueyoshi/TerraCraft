@@ -1,0 +1,8 @@
+
+{
+  "SnowFlake": {
+    "script": {
+      "path": "SnowFlake.lua"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "block": {
+    "wood_oak": {
+      "textureData": "wood_oak.png",
+      "color": [ 81, 69, 47 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 4,
+      "type": "TILE",
+      "group": "WOOD_B",
+      "subGroup": "WOOD",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 100,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": false,
+      "transformId": "wood_stripped_oak",
+      "wallCheck": "NO_GENERABLE",
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 173, 137, 80 ]
+    }
+  },
+  "item": {
+    "wood_oak": {
+      "type": "BLOCKS",
+      "iconTextureData": "wood_oak_icon.png",
+      "group": "GROUP_WOOD",
+      "blockId": "wood_oak",
+      "fuelTime": 60,
+      "oreDictionary": [ "OD_WOOD" ]
+    }
+  }
+}

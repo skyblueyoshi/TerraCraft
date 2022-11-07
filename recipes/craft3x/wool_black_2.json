@@ -1,0 +1,19 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "wool_black",
+      "stackSize": 8
+    }
+  ],
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "elements": [
+    [ "A", "wool_white" ],
+    [ "B", "ink_sac" ]
+  ]
+}

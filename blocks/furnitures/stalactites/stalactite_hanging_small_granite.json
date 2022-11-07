@@ -1,0 +1,23 @@
+{
+  "block": {
+    "stalactite_hanging_small_granite": {
+      "textureData": "granite_small_stalactite_hanging.png",
+      "color": [ 111, 81, 69 ],
+      "type": "FURNITURE",
+      "width": 1,
+      "height": 1,
+      "collision": "NONE",
+      "attach": "TOP",
+      "attachable": "NONE",
+      "placeCheck": "PLACE_GRANITE_DECO_CHECK",
+      "toolType": "PICKAXE",
+      "mineGrade": "WOOD",
+      "hardness": 200,
+      "slipperiness": 1.0,
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 111, 81, 69 ],
+      "preset": "RandomDisplay"
+    }
+  }
+}

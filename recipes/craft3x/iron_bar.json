@@ -1,0 +1,16 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "iron_bar",
+      "stackSize": 32
+    }
+  ],
+  "pattern": [
+    "AAA",
+    "AAA",
+    "OOO"
+  ],
+  "elements": [ [ "A", "OD_IRON_INGOT" ] ]
+}

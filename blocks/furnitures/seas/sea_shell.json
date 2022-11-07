@@ -1,0 +1,22 @@
+{
+  "block": {
+    "sea_shell": {
+      "textureData": "sea_shell.png",
+      "color": [ 244, 133, 119 ],
+      "type": "FURNITURE",
+      "width": 1,
+      "height": 1,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 50,
+      "slipperiness": 1.0,
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 222, 222, 222 ],
+      "preset": "RandomDisplay"
+    }
+  }
+}

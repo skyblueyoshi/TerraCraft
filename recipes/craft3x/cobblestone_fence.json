@@ -1,0 +1,16 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "cobblestone_fence",
+      "stackSize": 6
+    }
+  ],
+  "pattern": [
+    "AAA",
+    "AAA",
+    "OOO"
+  ],
+  "elements": [ [ "A", "cobblestone" ] ]
+}

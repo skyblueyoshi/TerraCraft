@@ -1,0 +1,38 @@
+{
+  "block": {
+    "pressure_plate_golden": {
+      "textureData": "golden_pressure_plate.png",
+      "color": [ 222, 190, 55 ],
+      "type": "FURNITURE",
+      "subGroup": "PRESSURE_PLATE",
+      "width": 1,
+      "height": 1,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "toolType": "PICKAXE",
+      "mineGrade": "GRASS",
+      "hardness": 30,
+      "slipperiness": 1.0,
+      "isKilledByLava": true,
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 120, 120, 0 ],
+      "preset": "RedstonePlate",
+      "animation": [
+        {
+          "animationId": 0,
+          "tagUsage": "TAG_ADD_FRAME_INDEX_X"
+        }
+      ]
+    }
+  },
+  "item": {
+    "golden_pressure_plate": {
+      "type": "BLOCKS",
+      "iconTextureData": "golden_pressure_plate_icon.png",
+      "group": "GROUP_PRESSURE_PLATE",
+      "blockId": "pressure_plate_golden"
+    }
+  }
+}

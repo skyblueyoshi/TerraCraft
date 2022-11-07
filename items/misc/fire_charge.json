@@ -1,0 +1,8 @@
+
+{
+  "fire_charge": {
+    "type": "MATERIALS",
+    "iconTextureData": "fire_charge_icon.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

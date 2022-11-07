@@ -1,0 +1,56 @@
+{
+  "rock_man": {
+    "ai": "RockMan",
+    "textureData": "rock_man.png",
+    "type": "SMITE",
+    "width": 24,
+    "height": 46,
+    "gfxWidth": 48,
+    "gfxHeight": 48,
+    "gfxOffsetX": 4,
+    "gfxOffsetY": 8,
+    "frameStyle": 1,
+    "frames": 4,
+    "frameSpeed": 8,
+    "shape": "BOX",
+    "maxSpeed": 3.5,
+    "jumpForce": 12.0,
+    "disappearTime": 750,
+    "spawnCount": 1.0,
+    "health": 100,
+    "defense": 19,
+    "attack": 13,
+    "knockBack": 10,
+    "knockBackDefense": 0.50,
+    "gravity": true,
+    "climbWall": false,
+    "foreground": false,
+    "noFixByBlock": false,
+    "friendly": false,
+    "exps": 22,
+    "sunBurning": false,
+    "angry": false,
+    "antiLava": false,
+    "saySounds": [],
+    "hurtSounds": [
+      "skeleton_death",
+      "skeleton1",
+      "skeleton2",
+      "skeleton3"
+    ],
+    "drops": [
+      {
+        "item": "gold_ingot",
+        "min": 0,
+        "max": 1
+      }
+    ],
+    "special": 0,
+    "paticularColor": [ 255, 150, 150, 150 ],
+    "spawn": "LAND",
+    "gore": "gore_angry_skeleton",
+    "magicRate": 25,
+    "checkPlayerTarget": true,
+    "visionNoCrossTile": false
+  }
+}

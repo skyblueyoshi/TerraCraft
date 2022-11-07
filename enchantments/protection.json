@@ -1,0 +1,18 @@
+
+{
+  "protection": {
+    "noCreating": false,
+    "minCreatingLevel": 1,
+    "allowMaxLevel": 8,
+    "tool": [
+      "HELMET",
+      "CHESTPLATE",
+      "LEGGINGS"
+    ],
+    "conflict": [
+      "blast_protection",
+      "fire_protection",
+      "projectile_protection"
+    ]
+  }
+}

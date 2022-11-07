@@ -1,0 +1,24 @@
+
+{
+  "fire_flow_large": {
+    "ai": "FireFlowLarge",
+    "textureData": "super_fire.png",
+    "width": 24,
+    "height": 24,
+    "gfxWidth": 16,
+    "gfxHeight": 16,
+    "gfxOffsetX": 4,
+    "gfxOffsetY": 4,
+    "hots": [ [ 8, 8 ] ],
+    "frameStyle": 1,
+    "frames": 1,
+    "frameSpeed": 8,
+    "shape": "BOX",
+    "maxSpeed": 14.0,
+    "gravity": true,
+    "foreground": true,
+    "fixByBlocks": false,
+    "througthBlock": false,
+    "keepStrick": true
+  }
+}

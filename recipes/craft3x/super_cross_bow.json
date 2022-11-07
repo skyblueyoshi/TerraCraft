@@ -1,0 +1,23 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "super_cross_bow",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "EAE",
+    "CDC",
+    "OBO"
+  ],
+  "elements": [
+    [ "A", "diamond" ],
+    [ "B", "stick" ],
+    [ "C", "string" ],
+    [ "D", "cross_bow" ],
+    [ "E", "OD_IRON_INGOT" ]
+  ],
+  "importantElements": [ "A", "D", "E" ]
+}

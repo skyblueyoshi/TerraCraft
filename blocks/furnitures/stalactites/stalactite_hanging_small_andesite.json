@@ -1,0 +1,23 @@
+{
+  "block": {
+    "stalactite_hanging_small_andesite": {
+      "textureData": "andesite_small_stalactite_hanging.png",
+      "color": [ 111, 111, 135 ],
+      "type": "FURNITURE",
+      "width": 1,
+      "height": 1,
+      "collision": "NONE",
+      "attach": "TOP",
+      "attachable": "NONE",
+      "placeCheck": "PLACE_ANDESITE_DECO_CHECK",
+      "toolType": "PICKAXE",
+      "mineGrade": "WOOD",
+      "hardness": 200,
+      "slipperiness": 1.0,
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 111, 111, 135 ],
+      "preset": "RandomDisplay"
+    }
+  }
+}

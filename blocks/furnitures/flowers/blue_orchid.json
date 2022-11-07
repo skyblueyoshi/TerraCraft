@@ -1,0 +1,43 @@
+{
+  "block": {
+    "blue_orchid": {
+      "textureData": "blue_orchid.png",
+      "color": [ 47, 177, 233 ],
+      "type": "FURNITURE",
+      "width": 1,
+      "height": 1,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "placeCheck": "PLACE_PLANT_CHECK",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 10,
+      "slipperiness": 1.0,
+      "isKilledByLava": true,
+      "isFragile": true,
+      "isDestroyByWeapon": false,
+      "soundGroupId": "grass",
+      "stepSoundGroupId": "step_grass",
+      "particleColor": [ 255, 50, 180, 230 ],
+      "animation": [
+        {
+          "animationId": 0,
+          "shake": true,
+          "shakeCenterX": 8,
+          "shakeCenterY": 16,
+          "shakePeriod": 128,
+          "shakeAngle": 0.2
+        }
+      ]
+    }
+  },
+  "item": {
+    "blue_orchid": {
+      "type": "BLOCKS",
+      "iconTextureData": "blue_orchid.png",
+      "group": "GROUP_FLOWER",
+      "blockId": "blue_orchid"
+    }
+  }
+}

@@ -1,0 +1,185 @@
+
+{
+  "monument_ocean": {
+    "noGenSubBiome": true,
+    "maxGenPartCount": 16,
+    "limitSize": 500,
+    "mainRestraint": {
+      "checks": [
+        [ "IS_CENTER_Y_GREATER_OR_EQUAL_TO", 2000 ]
+      ]
+    },
+    "restraints": [
+    ],
+    "commandColors": [
+      {
+        "color": [ 255, 64, 64, 64 ],
+        "note": "无操作",
+        "command": [
+          [ "BC_NO_OP" ]
+        ]
+      },
+      {
+        "color": [ 255, 192, 192, 192 ],
+        "note": "前景记号"
+      },
+      {
+        "color": [ 255, 0, 0, 0 ],
+        "note": "水",
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_LIQUID", "water" ]
+        ]
+      },
+      {
+        "color": [ 255, 0, 64, 255 ],
+        "pipe": true
+      },
+      {
+        "color": [ 255, 0, 255, 255 ],
+        "pipe": true
+      },
+      {
+        "color": [ 255, 0, 255, 255 ],
+        "note": "箱子",
+        "command": [
+        ]
+      },
+      {
+        "color": [ 255, 204, 153, 0 ],
+        "note": "水草",
+        "command": [
+          [ "BC_PLACE_FURNITURE", "kelp" ]
+        ]
+      },
+      {
+        "color": [ 255, 0, 200, 0 ],
+        "note": "罐子",
+        "command": [
+          [ "BC_PLACE_FURNITURE", "pot", 0 ]
+        ]
+      },
+
+
+
+      {
+        "color": [ 255, 168, 168, 168 ],
+        "note": "海晶石前景",
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_BACK", "prismarine" ],
+          [ "BC_PLACE_TILE", "prismarine" ]
+        ]
+      },
+      {
+        "color": [ 255, 114, 114, 114 ],
+        "note": "海晶石后景",
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_BACK", "prismarine" ],
+          [ "BC_PLACE_LIQUID", "water" ]
+        ]
+      },
+      {
+        "color": [ 255, 128, 0, 0 ],
+        "note": "海晶石砖前景",
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_BACK", "prismarine_brick" ],
+          [ "BC_PLACE_TILE", "prismarine_brick" ]
+        ]
+      },
+      {
+        "color": [ 255, 66, 0, 0 ],
+        "note": "海晶石砖后景",
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_BACK", "prismarine_brick" ],
+          [ "BC_PLACE_LIQUID", "water" ]
+        ]
+      },
+      {
+        "color": [ 255, 255, 0, 255 ],
+        "note": "暗海晶石前景",
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_BACK", "prismarine_dark" ],
+          [ "BC_PLACE_TILE", "prismarine_dark" ]
+        ]
+      },
+      {
+        "color": [ 255, 100, 0, 100 ],
+        "note": "暗海晶石后景",
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_BACK", "prismarine_dark" ],
+          [ "BC_PLACE_LIQUID", "water" ]
+        ]
+      },
+      {
+        "color": [ 255, 255, 255, 0 ],
+        "note": "海晶灯",
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_TILE", "sea_lantern" ]
+        ]
+      },
+      {
+        "color": [ 255, 0, 255, 0 ],
+        "note": "湿海绵",
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_BACK", "prismarine_dark" ],
+          [ "BC_PLACE_TILE", "wet_sponge" ]
+        ]
+      },
+      {
+        "color": [ 255, 255, 204, 0 ],
+        "note": "金块",
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_BACK", "prismarine_dark" ],
+          [ "BC_PLACE_TILE", "block_gold" ]
+        ]
+      },
+      {
+        "color": [ 255, 100, 66, 66 ],
+        "note": "木板前景石砖后景",
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_BACK", "stone_brick" ],
+          [ "BC_PLACE_TILE", "plank_oak" ]
+        ]
+      },
+      {
+        "color": [ 255, 10, 10, 10 ],
+        "note": "石砖后景",
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_BACK", "stone_brick" ],
+          [ "BC_PLACE_LIQUID", "water" ]
+        ]
+      },
+      {
+        "color": [ 255, 222, 222, 244 ],
+        "note": "玻璃后景",
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_BACK", "glass" ],
+          [ "BC_PLACE_LIQUID", "water" ]
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "name": "entrance",
+        "image": [ "entrance", "entrance_o1" ],
+        "type": "PT_START",
+        "hotX": 50,
+        "hotY": 43,
+        "unlinkParts": [ "entrance" ],
+        "weight": 10
+      }
+    ]
+  }
+}

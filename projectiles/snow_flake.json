@@ -1,0 +1,25 @@
+
+{
+  "snow_flake": {
+    "ai": "SnowFlake",
+    "textureData": "snow_flake.png",
+    "width": 32,
+    "height": 32,
+    "gfxWidth": 40,
+    "gfxHeight": 40,
+    "gfxOffsetX": -4,
+    "gfxOffsetY": -4,
+    "hots": [[16, 16]],
+    "frameStyle": 1,
+    "frames": 1,
+    "frameSpeed": 8,
+    "shape": "BOX",
+    "maxSpeed": 3.0,
+    "gravity": false,
+    "foreground": false,
+    "fixByBlocks": false,
+    "througthBlock": false,
+    "keepStrick": true
+  }
+}
+

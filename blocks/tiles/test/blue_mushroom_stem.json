@@ -1,0 +1,39 @@
+{
+  "block": {
+    "blue_mushroom_stem": {
+      "textureData": "blue_mushroom_stem.png",
+      "color": [ 2, 7, 91 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 8,
+      "type": "TILE",
+      "group": "COBBLESTONE",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "isLighting": true,
+      "lightColor": [ 10, 0, 0, 5 ],
+      "lightX": 0,
+      "lightY": 0,
+      "lightWi": 1,
+      "lightHi": 1,
+      "toolType": "PICKAXE",
+      "mineGrade": "WOOD",
+      "hardness": 120,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": true,
+      "wallCheck": "NATURE_GENERABLE_ONLY",
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 100, 100, 100 ]
+    }
+  },
+  "item": {
+    "blue_mushroom_stem": {
+      "type": "BLOCKS",
+      "iconTextureData": "blue_mushroom_stem_icon.png",
+      "group": "GROUP_COBBLESTONE",
+      "blockId": "blue_mushroom_stem"
+    }
+  }
+}

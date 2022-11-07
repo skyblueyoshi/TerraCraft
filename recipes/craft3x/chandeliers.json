@@ -1,0 +1,20 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "chandeliers",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "OCO",
+    "BAB",
+    "CCC"
+  ],
+  "elements": [
+    [ "A", "diamond" ],
+    [ "B", "glowstone_dust" ],
+    [ "C", "glass" ]
+  ]
+}

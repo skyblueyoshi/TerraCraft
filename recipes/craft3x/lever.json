@@ -1,0 +1,20 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "lever",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "AOO",
+    "BOO",
+    "OOO"
+  ],
+  "elements": [
+    [ "A", "stick" ],
+    [ "B", "cobblestone" ]
+  ],
+  "importantElements": [ "B" ]
+}

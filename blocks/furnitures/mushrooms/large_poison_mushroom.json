@@ -1,0 +1,47 @@
+{
+  "block": {
+    "large_poison_mushroom": {
+      "textureData": "large_poison_mushroom.png",
+      "color": [ 144, 96, 160 ],
+      "type": "FURNITURE",
+      "width": 2,
+      "height": 2,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "placeCheck": "PLACE_MUSHROOM_CHECK",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 20,
+      "slipperiness": 1.0,
+      "isKilledByLava": true,
+      "isLighting": true,
+      "lightColor": [ 10, 6, 0, 6 ],
+      "lightX": 0,
+      "lightY": 0,
+      "lightWi": 2,
+      "lightHi": 2,
+      "soundGroupId": "grass",
+      "stepSoundGroupId": "step_grass",
+      "particleColor": [ 255, 140, 100, 160 ],
+      "animation": [
+        {
+          "animationId": 0,
+          "shake": true,
+          "shakeCenterX": 16,
+          "shakeCenterY": 32,
+          "shakePeriod": 128,
+          "shakeAngle": 0.05
+        }
+      ]
+    }
+  },
+  "item": {
+    "large_poison_mushroom": {
+      "type": "BLOCKS",
+      "iconTextureData": "large_poison_mushroom.png",
+      "group": "GROUP_OTHERS_FURNITURE",
+      "blockId": "large_poison_mushroom"
+    }
+  }
+}

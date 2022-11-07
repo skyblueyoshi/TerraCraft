@@ -1,0 +1,8 @@
+
+{
+  "bone": {
+    "type": "MATERIALS",
+    "iconTextureData": "bone_icon.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

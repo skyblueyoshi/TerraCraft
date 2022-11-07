@@ -1,0 +1,19 @@
+
+{
+  "shears": {
+    "type": "TOOLS",
+    "iconTextureData": "shears_icon.png",
+    "textureData": "shears_entity.png",
+    "group": "GROUP_SHEARS",
+    "toolType": "SHEARS",
+    "toolGrade": "STONE",
+    "efficiency": 2.0,
+    "coldTime": 20,
+    "entityWidth": 20,
+    "entityHeight": 32,
+    "handX": 10,
+    "handY": 22,
+    "holdType": "NORMAL",
+    "durable": 128
+  }
+}

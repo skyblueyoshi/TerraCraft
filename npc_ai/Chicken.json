@@ -1,0 +1,8 @@
+
+{
+  "Chicken": {
+    "script": {
+      "path": "Chicken.lua"
+    }
+  }
+}

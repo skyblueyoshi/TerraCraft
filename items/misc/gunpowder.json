@@ -1,0 +1,8 @@
+
+{
+  "gunpowder": {
+    "type": "MATERIALS",
+    "iconTextureData": "gunpowder_icon.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

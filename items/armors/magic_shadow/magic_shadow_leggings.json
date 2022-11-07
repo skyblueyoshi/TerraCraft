@@ -1,0 +1,13 @@
+
+{
+  "magic_shadow_leggings": {
+    "type": "TOOLS",
+    "iconTextureData": "leggings11.png",
+    "textureData": "leg11.png",
+    "group": "GROUP_LEGGINGS",
+    "toolType": "LEGGINGS",
+    "isArmor": true,
+    "defense": 5,
+    "durable": 2022
+  }
+}

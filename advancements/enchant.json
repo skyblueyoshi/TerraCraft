@@ -1,0 +1,9 @@
+
+{
+  "enchant": {
+    "itemId": "enchantment_table",
+    "parentId": "diamond",
+    "showTip": true,
+    "broadcase": true
+  }
+}

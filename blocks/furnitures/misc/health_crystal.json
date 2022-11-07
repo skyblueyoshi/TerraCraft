@@ -1,0 +1,29 @@
+{
+  "block": {
+    "health_crystal": {
+      "textureData": "health_crystal.png",
+      "color": [ 166, 0, 0 ],
+      "type": "FURNITURE",
+      "width": 2,
+      "height": 2,
+      "collision": "NONE",
+      "attach": "NONE",
+      "attachable": "NONE",
+      "toolType": "PICKAXE",
+      "mineGrade": "GRASS",
+      "hardness": 200,
+      "slipperiness": 1.0,
+      "soundGroupId": "glass",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 166, 0, 0 ],
+      "preset": "HeartCrystal"
+    }
+  },
+  "item": {
+    "health_crystal": {
+      "type": "MATERIALS",
+      "iconTextureData": "health_crystal.png",
+      "group": "GROUP_OTHERS_FURNITURE"
+    }
+  }
+}

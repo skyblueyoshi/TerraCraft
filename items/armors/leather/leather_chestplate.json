@@ -1,0 +1,13 @@
+
+{
+  "leather_chestplate": {
+    "type": "TOOLS",
+    "iconTextureData": "leather_chestplate_icon.png",
+    "textureData": "body.png",
+    "group": "GROUP_CHESTPLATE",
+    "toolType": "CHESTPLATE",
+    "isArmor": true,
+    "defense": 2,
+    "durable": 64
+  }
+}

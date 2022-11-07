@@ -1,0 +1,15 @@
+
+{
+  "netherite_full_wear": {
+    "itemId": "nether_helmet",
+    "parentId": "netherite",
+    "showTip": true,
+    "broadcase": true,
+    "trigger": {
+      "name": "full_wear_sub_group",
+      "conditions": {
+        "subGroup": "SUB_GROUP_NETHERITE"
+      }
+    }
+  }
+}

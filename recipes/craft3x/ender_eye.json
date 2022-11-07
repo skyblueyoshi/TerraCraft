@@ -1,0 +1,20 @@
+
+{
+  "config": "Craft3x",
+  "searchActions": [ [ 0, "SA_UNORDER" ] ],
+  "results": [
+    {
+      "id": "ender_eye",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "ABO",
+    "OOO",
+    "OOO"
+  ],
+  "elements": [
+    [ "A", "blaze_powder" ],
+    [ "B", "ender_pearl" ]
+  ]
+}

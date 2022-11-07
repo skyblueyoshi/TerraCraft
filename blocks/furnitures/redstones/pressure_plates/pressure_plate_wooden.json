@@ -1,0 +1,39 @@
+{
+  "block": {
+    "pressure_plate_wooden": {
+      "textureData": "wooden_pressure_plate.png",
+      "color": [ 180, 144, 90 ],
+      "type": "FURNITURE",
+      "subGroup": "PRESSURE_PLATE",
+      "width": 1,
+      "height": 1,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 30,
+      "slipperiness": 1.0,
+      "isKilledByLava": true,
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 152, 120, 80 ],
+      "preset": "RedstonePlate",
+      "animation": [
+        {
+          "animationId": 0,
+          "tagUsage": "TAG_ADD_FRAME_INDEX_X"
+        }
+      ]
+    }
+  },
+  "item": {
+    "wooden_pressure_plate": {
+      "type": "BLOCKS",
+      "iconTextureData": "wooden_pressure_plate_icon.png",
+      "group": "GROUP_PRESSURE_PLATE",
+      "blockId": "pressure_plate_wooden",
+      "fuelTime": 60
+    }
+  }
+}

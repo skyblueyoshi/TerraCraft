@@ -1,0 +1,12 @@
+{
+  "FireArrow": {
+    "script": {
+      "path": "FireArrow.lua"
+    },
+    "modData": [
+      [ "int", "attachItemID" ],
+      [ "int", "flameLevel" ],
+      [ "int", "piercingCount" ]
+    ]
+  }
+}

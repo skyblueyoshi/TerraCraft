@@ -1,0 +1,234 @@
+
+{
+  "andesite_cave": {
+    "biomeType": "Underground",
+    "scale": 0.6,
+    "wallParallaxe": "stone_wall",
+    "musics": {
+      "underground": [
+        "mcunder1",
+        "mcunder2",
+        "mcunder3",
+        "mcunder4"
+      ]
+    },
+    "composition": {
+      "main": {
+        "id": "andesite"
+      },
+      "subs": [
+        {
+          "id": "cobblestone"
+        }
+      ]
+    },
+    "wall": {
+      "id": "andesite",
+      "full": true
+    },
+    "oreGroupName": "default",
+    "liquidInfo": {
+      "liquid": "water",
+      "maxAllowCount": 500
+    },
+    "distributions": {
+      "airWeight": 100,
+      "surfacePlaceables": [
+        {
+          "id": "pot",
+          "tag": 0,
+          "weight": 40
+        },
+        {
+          "id": "stalactite_stone",
+          "weight": 15
+        },
+        {
+          "id": "stalactite_small_stone",
+          "weight": 10
+        },
+        {
+          "id": "stalactite_andesite",
+          "weight": 15
+        },
+        {
+          "id": "stalactite_small_andesite",
+          "weight": 10
+        },
+        {
+          "id": "stone_pillar_normal",
+          "weight": 4
+        },
+        {
+          "id": "rock",
+          "weight": 4
+        },
+        {
+          "id": "stone_decos_normal",
+          "weight": 12
+        }
+      ],
+      "hangingWeight": 100,
+      "hangingPlaceables": [
+        {
+          "id": "stalactite_hanging_stone",
+          "weight": 30
+        },
+        {
+          "id": "stalactite_hanging_small_stone",
+          "weight": 30
+        },
+        {
+          "id": "stalactite_hanging_andesite",
+          "weight": 30
+        },
+        {
+          "id": "stalactite_hanging_small_andesite",
+          "weight": 30
+        }
+      ]
+    },
+    "pot": [
+      {
+        "itemId": "torch",
+        "min": 1,
+        "max": 5,
+        "weight": 15
+      },
+      {
+        "itemId": "potion_healing",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "potion_night_vision",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "potion_strength",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "potion_leaping",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "potion_water_breathing",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "wooden_arrow",
+        "min": 3,
+        "max": 10,
+        "weight": 12
+      },
+      {
+        "itemId": "lighting_arrow",
+        "min": 3,
+        "max": 10,
+        "weight": 5
+      },
+      {
+        "itemId": "coal",
+        "min": 1,
+        "max": 2,
+        "weight": 10
+      },
+      {
+        "itemId": "flint",
+        "min": 1,
+        "max": 4,
+        "weight": 10
+      },
+      {
+        "itemId": "grenade",
+        "min": 1,
+        "max": 1,
+        "weight": 4
+      },
+      {
+        "itemId": "bomb",
+        "min": 1,
+        "max": 1,
+        "weight": 2
+      }
+    ],
+    "spawn": {
+      "mobSpeed": 300,
+      "maxMobSpawn": 6,
+      "mobs": [
+        {
+          "id": "zombie",
+          "weight": 20
+        },
+        {
+          "id": "angry_skeleton",
+          "weight": 12
+        },
+        {
+          "id": "black_skeleton",
+          "weight": 12
+        },
+        {
+          "id": "spider",
+          "weight": 8
+        },
+        {
+          "id": "bald_zombie",
+          "weight": 8
+        },
+        {
+          "id": "villager_zombie",
+          "weight": 6
+        },
+        {
+          "id": "bat",
+          "weight": 5
+        },
+        {
+          "id": "skeleton",
+          "weight": 2
+        },
+        {
+          "id": "creeper",
+          "weight": 2
+        },
+        {
+          "id": "flower_creeper",
+          "weight": 1
+        },
+        {
+          "id": "enderman",
+          "weight": 2
+        }
+      ],
+      "animalSpeed": 600,
+      "maxAnimalSpawn": 5,
+      "animals": []
+    },
+    "buildingInfo": [
+      {
+        "buildingId": "fossils",
+        "density": 6.0
+      }
+    ],
+    "environmentBlocks": {
+      "total": 100,
+      "blocks": [
+        {
+          "id": "andesite",
+          "weight": 1
+        }
+      ]
+    }
+  }
+}

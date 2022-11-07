@@ -1,0 +1,9 @@
+
+{
+  "nether": {
+    "itemId": "soul_sand",
+    "parentId": "diamond",
+    "showTip": true,
+    "broadcase": true
+  }
+}

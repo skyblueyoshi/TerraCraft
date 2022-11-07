@@ -1,0 +1,9 @@
+
+{
+  "heart_talisman": {
+    "type": "MATERIALS",
+    "ai": "RedTalisman",
+    "iconTextureData": "heart_talisman.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

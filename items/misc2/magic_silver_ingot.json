@@ -1,0 +1,8 @@
+
+{
+  "magic_silver_ingot": {
+    "type": "MATERIALS",
+    "iconTextureData": "magic_silver_ingot.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

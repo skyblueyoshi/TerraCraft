@@ -1,0 +1,39 @@
+{
+  "block": {
+    "cake": {
+      "textureData": "cake.png",
+      "color": [ 244, 244, 244 ],
+      "type": "FURNITURE",
+      "width": 2,
+      "height": 1,
+      "collision": "PLATFORM",
+      "attach": "BOTTOM",
+      "attachable": "TOP",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 30,
+      "slipperiness": 1.0,
+      "isKilledByLava": true,
+      "isFragile": true,
+      "isLossyCollection": true,
+      "soundGroupId": "cloth",
+      "stepSoundId": "step_cloth",
+      "particleColor": [ 255, 90, 50, 10 ],
+      "preset": "Cake",
+      "animation": [
+        {
+          "animationId": 0,
+          "tagUsage": "TAG_ADD_FRAME_INDEX_Y"
+        }
+      ]
+    }
+  },
+  "item": {
+    "cake": {
+      "type": "BLOCKS",
+      "iconTextureData": "cake_icon.png",
+      "group": "GROUP_OTHERS_FURNITURE",
+      "blockId": "cake"
+    }
+  }
+}

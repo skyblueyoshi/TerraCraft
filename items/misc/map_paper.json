@@ -1,0 +1,17 @@
+
+{
+  "map_paper": {
+    "type": "TOOLS",
+    "iconTextureData": "map_icon.png",
+    "textureData": "map_entity.png",
+    "group": "GROUP_MAP",
+    "toolType": "SWORD",
+    "ai": "sword",
+    "coldTime": 22,
+    "handX": 10,
+    "handY": 48,
+    "holdType": "NORMAL",
+    "durable": 128,
+    "onTest": true
+  }
+}

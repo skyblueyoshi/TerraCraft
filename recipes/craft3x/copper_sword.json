@@ -1,0 +1,20 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "copper_sword",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "AOO",
+    "AOO",
+    "BOO"
+  ],
+  "elements": [
+    [ "A", "copper_ingot" ],
+    [ "B", "stick" ]
+  ],
+  "importantElements": [ "A" ]
+}

@@ -1,0 +1,26 @@
+{
+  "block": {
+    "door_nether_open": {
+      "note": "地狱门 ",
+      "textureData": "door_nether.png",
+      "color": [ 73, 29, 34 ],
+      "type": "FURNITURE",
+      "subGroup": "OPENED_DOOR",
+      "width": 3,
+      "height": 4,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "toolType": "PICKAXE",
+      "mineGrade": "STONE",
+      "hardness": 200,
+      "slipperiness": 1.0,
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 73, 29, 34 ],
+      "transformId": "door_nether",
+      "preset": "DoorOpened",
+      "isDoorOpened": true
+    }
+  }
+}

@@ -1,0 +1,8 @@
+
+{
+  "CraftingTable": {
+    "script": {
+      "path": "CraftingTable.lua"
+    }
+  }
+}

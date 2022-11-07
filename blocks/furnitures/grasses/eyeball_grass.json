@@ -1,0 +1,34 @@
+{
+  "block": {
+    "eyeball_grass": {
+      "textureData": "eyeball_grass.png",
+      "color": [ 238, 178, 198 ],
+      "type": "FURNITURE",
+      "width": 2,
+      "height": 4,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "placeCheck": "PLACE_PLANT_CHECK",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 80,
+      "slipperiness": 1.0,
+      "isKilledByLava": true,
+      "isFragile": true,
+      "soundGroupId": "grass",
+      "stepSoundGroupId": "step_grass",
+      "particleColor": [ 255, 238, 178, 198 ],
+      "animation": [
+        {
+          "animationId": 0,
+          "shake": true,
+          "shakeCenterX": 16,
+          "shakeCenterY": 64,
+          "shakePeriod": 128,
+          "shakeAngle": 0.05
+        }
+      ]
+    }
+  }
+}

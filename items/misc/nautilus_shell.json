@@ -1,0 +1,8 @@
+
+{
+  "nautilus_shell": {
+    "type": "MATERIALS",
+    "iconTextureData": "nautilus_shell_icon.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

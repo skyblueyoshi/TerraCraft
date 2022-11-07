@@ -1,0 +1,59 @@
+{
+  "ice_slime": {
+    "ai": "BlockSlime",
+    "textureData": "ice_slime.png",
+    "type": "NORMAL",
+    "width": 24,
+    "height": 24,
+    "gfxWidth": 32,
+    "gfxHeight": 32,
+    "gfxOffsetX": -4,
+    "gfxOffsetY": -8,
+    "frameStyle": 1,
+    "frames": 1,
+    "frameSpeed": 8,
+    "shape": "BOX",
+    "maxSpeed": 2.0,
+    "jumpForce": 8.0,
+    "disappearTime": 750,
+    "spawnCount": 1.0,
+    "health": 20,
+    "defense": 0,
+    "attack": 5,
+    "knockBack": 2,
+    "knockBackDefense": 0.03,
+    "gravity": true,
+    "climbWall": false,
+    "foreground": false,
+    "noFixByBlock": false,
+    "friendly": false,
+    "exps": 4,
+    "sunBurning": false,
+    "angry": false,
+    "antiLava": false,
+    "saySounds": [],
+    "hurtSounds": [
+      "slime_attack1",
+      "slime_attack1",
+      "slime_attack2"
+    ],
+    "loots": [
+      {
+        "item": "slimeball",
+        "min": 1,
+        "max": 2
+      },
+      {
+        "item": "ice",
+        "min": 1,
+        "max": 2
+      }
+    ],
+    "special": 0,
+    "paticularColor": [ 255, 0, 200, 255 ],
+    "spawn": "LAND",
+    "magicRate": 80,
+    "checkPlayerTarget": true,
+    "visionNoCrossTile": false
+  }
+}

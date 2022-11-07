@@ -1,0 +1,25 @@
+{
+  "block": {
+    "bedrock": {
+      "textureData": "bedrock.png",
+      "color": [ 77, 77, 77 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 4,
+      "type": "TILE",
+      "group": "ARTIFICAL",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "DIAMOND",
+      "hardness": 1000000000,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": false,
+      "wallCheck": "NO_GENERABLE",
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 77, 77, 77 ]
+    }
+  }
+}

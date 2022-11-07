@@ -1,0 +1,43 @@
+{
+  "block": {
+    "red_tulip": {
+      "textureData": "red_tulip.png",
+      "color": [ 210, 15, 13 ],
+      "type": "FURNITURE",
+      "width": 1,
+      "height": 1,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "placeCheck": "PLACE_PLANT_CHECK",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 10,
+      "slipperiness": 1.0,
+      "isKilledByLava": true,
+      "isFragile": true,
+      "isDestroyByWeapon": false,
+      "soundGroupId": "grass",
+      "stepSoundGroupId": "step_grass",
+      "particleColor": [ 255, 120, 1, 1 ],
+      "animation": [
+        {
+          "animationId": 0,
+          "shake": true,
+          "shakeCenterX": 8,
+          "shakeCenterY": 16,
+          "shakePeriod": 128,
+          "shakeAngle": 0.2
+        }
+      ]
+    }
+  },
+  "item": {
+    "red_tulip": {
+      "type": "BLOCKS",
+      "iconTextureData": "red_tulip.png",
+      "group": "GROUP_FLOWER",
+      "blockId": "red_tulip"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "wooden_bed_orange",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "BBB",
+    "AAA",
+    "OOO"
+  ],
+  "elements": [
+    [ "A", "OD_WOODEN_PLANK" ],
+    [ "B", "wool_orange" ]
+  ],
+  "importantElements": [ "B" ]
+}

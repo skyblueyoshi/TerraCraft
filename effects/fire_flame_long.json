@@ -1,0 +1,28 @@
+
+{
+  "fire_flame_long": {
+    "ai": "Smoke",
+    "textureData": "fire_flame.png",
+    "width": 16,
+    "height": 16,
+    "gfxOffsetX": 0,
+    "gfxOffsetY": 0,
+    "gfxWidth": 16,
+    "gfxHeight": 16,
+    "frameStyle": 0,
+    "frameStyles": 3,
+    "frames": 1,
+    "frameSpeed": 8,
+    "disappearTime": 300,
+    "isForeground": true,
+    "gravity": false,
+    "collisionWithBlocks": false,
+    "fixByBlocks": false,
+    "fadeScale": true,
+    "fadeAlpha": false,
+    "slowSpeed": true,
+    "slowRotateSpeed": true,
+    "isLighting": true,
+    "lightColor": [ 28, 12, 8, 0 ]
+  }
+}

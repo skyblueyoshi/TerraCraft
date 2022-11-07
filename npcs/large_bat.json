@@ -1,0 +1,57 @@
+
+{
+  "large_bat": {
+    "ai": "LargeBat",
+    "textureData": "large_bat.png",
+    "type": "NORMAL",
+    "width": 32,
+    "height": 32,
+    "gfxWidth": 96,
+    "gfxHeight": 96,
+    "gfxOffsetX": -32,
+    "gfxOffsetY": -32,
+    "frameStyle": 1,
+    "frames": 4,
+    "frameSpeed": 8,
+    "shape": "BOX",
+    "maxSpeed": 3.0,
+    "jumpForce": 5.0,
+    "disappearTime": 750,
+    "spawnCount": 1.0,
+    "health": 80,
+    "defense": 6,
+    "attack": 17,
+    "knockBack": 4,
+    "knockBackDefense": 0.10,
+    "gravity": false,
+    "climbWall": false,
+    "foreground": false,
+    "noFixByBlock": false,
+    "friendly": false,
+    "exps": 12,
+    "sunBurning": false,
+    "angry": false,
+    "antiLava": false,
+    "saySounds": [],
+    "hurtSounds": [
+      "bat_death",
+      "bat_hurt1",
+      "bat_hurt2",
+      "bat_hurt3"
+    ],
+    "drops": [
+      {
+        "item": "blue_crystal",
+        "min": 1,
+        "max": 2
+      }
+    ],
+    "special": 0,
+    "paticularColor": [ 255, 50, 50, 20 ],
+    "spawn": "AIR",
+    "gore": "gore_bat",
+    "magicRate": 30,
+    "checkPlayerTarget": true,
+    "visionNoCrossTile": false
+  }
+}

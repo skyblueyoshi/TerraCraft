@@ -1,0 +1,34 @@
+{
+  "block": {
+    "terracotta_magenta": {
+      "textureData": "terracotta_magenta.png",
+      "color": [ 168, 134, 168 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 4,
+      "type": "TILE",
+      "group": "ARTIFICAL",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "WOOD",
+      "hardness": 160,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": false,
+      "wallCheck": "NO_GENERABLE",
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 120, 60, 120 ]
+    }
+  },
+  "item": {
+    "terracotta_magenta": {
+      "type": "BLOCKS",
+      "iconTextureData": "terracotta_magenta_icon.png",
+      "group": "GROUP_TERRACOTTA",
+      "blockId": "terracotta_magenta",
+      "oreDictionary": [ "OD_TERRACOTTA" ]
+    }
+  }
+}

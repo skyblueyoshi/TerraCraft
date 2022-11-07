@@ -1,0 +1,36 @@
+{
+  "block": {
+    "ore_coal": {
+      "textureData": "ore_coal.png",
+      "color": [ 40, 40, 40 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 8,
+      "type": "TILE",
+      "group": "ORE_COAL",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "WOOD",
+      "hardness": 100,
+      "isChipCollection": true,
+      "lossyItemId": "coal",
+      "chipCount": 1,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": true,
+      "wallCheck": "GENERABLE",
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 40, 40, 40 ]
+    }
+  },
+  "item": {
+    "ore_coal": {
+      "type": "BLOCKS",
+      "iconTextureData": "ore_coal_icon.png",
+      "group": "GROUP_ORE",
+      "blockId": "ore_coal"
+    }
+  }
+}

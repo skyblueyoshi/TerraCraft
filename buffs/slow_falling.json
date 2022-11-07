@@ -1,0 +1,9 @@
+
+{
+  "slow_falling": {
+    "textureData": "slow_falling.png",
+    "script": {
+      "path": "slow_falling.lua"
+    }
+  }
+}

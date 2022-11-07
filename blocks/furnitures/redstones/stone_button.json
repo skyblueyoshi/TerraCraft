@@ -1,0 +1,37 @@
+{
+  "block": {
+    "stone_button": {
+      "textureData": "stone_button.png",
+      "color": [ 111, 111, 111 ],
+      "type": "FURNITURE",
+      "width": 1,
+      "height": 1,
+      "collision": "NONE",
+      "attach": "WALL",
+      "attachable": "NONE",
+      "toolType": "PICKAXE",
+      "mineGrade": "WOOD",
+      "hardness": 72,
+      "slipperiness": 1.0,
+      "soundGroupId": "stone",
+      "functionSoundId": "button1",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 100, 100, 100 ],
+      "preset": "Button",
+      "animation": [
+        {
+          "animationId": 0,
+          "tagUsage": "TAG_ADD_FRAME_INDEX_X"
+        }
+      ]
+    }
+  },
+  "item": {
+    "stone_button": {
+      "type": "BLOCKS",
+      "iconTextureData": "stone_button_icon.png",
+      "group": "GROUP_BUTTON",
+      "blockId": "stone_button"
+    }
+  }
+}

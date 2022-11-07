@@ -1,0 +1,19 @@
+
+{
+  "potion_slow_falling_long": {
+    "ai": "Potion",
+    "type": "MATERIALS",
+    "iconTextureData": "glass_bottle_super_5_icon.png",
+    "group": "GROUP_POTION",
+    "iconColor2": [ 255, 255, 250, 210 ],
+    "eatable": true,
+    "useSound": "drink",
+    "eatReturnId": "glass_bottle",
+    "buffs": [
+      {
+        "id": "slow_falling",
+        "time": 10800
+      }
+    ]
+  }
+}

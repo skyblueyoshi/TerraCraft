@@ -1,0 +1,9 @@
+
+{
+  "rocket_boost": {
+    "type": "MATERIALS",
+    "ai": "RocketBoost",
+    "iconTextureData": "rocket_boost.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

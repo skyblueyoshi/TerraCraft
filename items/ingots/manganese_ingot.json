@@ -1,0 +1,11 @@
+
+{
+  "manganese_ingot": {
+    "ai": "Ingot",
+    "type": "MATERIALS",
+    "iconTextureData": "ingot_icon.png",
+    "iconColor": [ 255, 200, 200, 200 ],
+    "iconColor2": [ 0, 255, 255, 255 ],
+    "group": "GROUP_INGOT"
+  }
+}

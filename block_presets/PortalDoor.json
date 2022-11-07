@@ -1,0 +1,7 @@
+
+{
+  "PortalDoor": {
+    "pOnClicked": "ClickPortalDoor",
+    "pOnScreenUpdate": "UpdatePortalDoor"
+  }
+}

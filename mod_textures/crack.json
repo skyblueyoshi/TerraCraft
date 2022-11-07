@@ -1,0 +1,10 @@
+
+{
+  "crack": {
+    "textureData": "crack.png",
+    "width": 16,
+    "height": 16,
+    "frameXs": 5,
+    "userDisabled": true
+  }
+}

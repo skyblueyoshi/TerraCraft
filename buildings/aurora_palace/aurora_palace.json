@@ -1,0 +1,387 @@
+
+{
+  "aurora_palace": {
+    "maxGenPartCount": 40,
+    "limitSize": 1000,
+    "mainRestraint": {
+      "checks": [
+        [ "IS_CENTER_Y_GREATER_OR_EQUAL_TO", 0 ]
+      ]
+    },
+    "blockEntityFormat": {
+      "normal_reward": {
+        "formatId": "tc:common_rewards",
+        "data": {
+          "rareGenCount": 1,
+          "rares": [
+            {
+              "itemId": "rocket_boost",
+              "count": 1
+            },
+            {
+              "itemId": "strange_eye",
+              "count": 1
+            },
+            {
+              "itemId": "ender_mirror",
+              "count": 1
+            },
+            {
+              "itemId": "wooden_sword",
+              "count": 1
+            },
+            {
+              "itemId": "stone_sword",
+              "count": 1
+            },
+            {
+              "itemId": "wooden_axe",
+              "count": 1
+            },
+            {
+              "itemId": "stone_axe",
+              "count": 1
+            },
+            {
+              "itemId": "wooden_pickaxe",
+              "count": 1
+            },
+            {
+              "itemId": "stone_pickaxe",
+              "count": 1
+            },
+            {
+              "itemId": "wooden_bow",
+              "count": 1
+            },
+            {
+              "itemId": "wooden_boomerang",
+              "count": 1
+            },
+            {
+              "itemId": "torch",
+              "count": 24
+            },
+            {
+              "itemId": "glow_bomb",
+              "count": 2
+            },
+            {
+              "itemId": "glow_ball",
+              "count": 6
+            },
+            {
+              "itemId": "book",
+              "count": 3
+            },
+            {
+              "itemId": "grenade",
+              "count": 3
+            },
+            {
+              "itemId": "amethyst_staff",
+              "count": 1
+            },
+            {
+              "itemId": "water_staff",
+              "count": 1
+            }
+          ],
+          "normals": [
+            {
+              "itemIds": [ "ender_pearl" ],
+              "rate": 0.3,
+              "min": 1,
+              "max": 2
+            },
+            {
+              "itemIds": [ "sand" ],
+              "rate": 0.5,
+              "min": 1,
+              "max": 4
+            },
+            {
+              "itemIds": [ "sugar_cane" ],
+              "rate": 0.5,
+              "min": 1,
+              "max": 3
+            },
+            {
+              "itemIds": [ "ice" ],
+              "rate": 0.4,
+              "min": 1,
+              "max": 2
+            },
+            {
+              "itemIds": [ "blue_ice" ],
+              "rate": 0.3,
+              "min": 1,
+              "max": 3
+            },
+            {
+              "itemIds": [ "stick" ],
+              "rate": 0.3,
+              "min": 1,
+              "max": 12
+            },
+            {
+              "itemIds": [ "glowstone_dust" ],
+              "rate": 0.3,
+              "min": 3,
+              "max": 12
+            },
+            {
+              "itemIds": [ "coal", "charcoal" ],
+              "rate": 0.26,
+              "min": 1,
+              "max": 12
+            },
+            {
+              "itemIds": [ "redstone" ],
+              "rate": 0.26,
+              "min": 1,
+              "max": 4
+            },
+            {
+              "itemIds": [ "iron_ingot", "copper_ingot", "tin_ingot", "lead_ingot" ],
+              "rate": 0.3,
+              "min": 1,
+              "max": 4
+            },
+            {
+              "itemIds": [ "gold_ingot", "silver_ingot", "bronze_ingot", "steel_ingot" ],
+              "rate": 0.1,
+              "min": 1,
+              "max": 4
+            },
+            {
+              "itemIds": [ "wooden_arrow" ],
+              "rate": 0.4,
+              "min": 2,
+              "max": 7
+            },
+            {
+              "itemIds": [ "ice_arrow" ],
+              "rate": 0.4,
+              "min": 2,
+              "max": 7
+            },
+            {
+              "itemIds": [ "ice_bow" ],
+              "rate": 0.3,
+              "min": 1,
+              "max": 1
+            }
+          ]
+        }
+      }
+    },
+    "rewards": [
+
+    ],
+    "restraints": [
+    ],
+    "commandColors": [
+      {
+        "color": [ 255, 64, 64, 64 ],
+        "note": "无操作",
+        "command": [
+          [ "BC_NO_OP" ]
+        ]
+      },
+      {
+        "color": [ 255, 192, 192, 192 ],
+        "note": "前景记号"
+      },
+      {
+        "color": [ 255, 0, 0, 0 ],
+        "note": "空气",
+        "command": [
+          [ "BC_CLEAR_LAKE" ],
+          [ "BC_CLEAR" ]
+        ]
+      },
+      {
+        "color": [ 255, 0, 64, 255 ],
+        "pipe": true
+      },
+      {
+        "color": [ 255, 0, 255, 255 ],
+        "pipe": true
+      },
+
+
+      {
+        "color": [ 255, 0, 160, 255 ],
+        "note": "箱子",
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_BACK", "aurora_block" ],
+          [ "BC_PLACE_FURNITURE", "chest", 0, "normal_reward" ]
+        ]
+      },
+      {
+        "color": [ 255, 244, 0, 0 ],
+        "note": "女王球",
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_BACK", "aurora_block" ],
+          [ "BC_PLACE_FURNITURE", "snow_glass_ball" ]
+        ]
+      },
+
+
+      {
+        "color": [ 255, 168, 168, 168 ],
+        "note": "主方块前景",
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_BACK", "aurora_block" ],
+          [ "BC_PLACE_TILE", "aurora_block" ]
+        ]
+      },
+      {
+        "color": [ 255, 114, 114, 114 ],
+        "note": "主方块后景",
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_BACK", "aurora_block" ]
+        ]
+      },
+      {
+        "color": [ 255, 188, 188, 188 ],
+        "note": "柱前景",
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_BACK", "aurora_pillar" ],
+          [ "BC_PLACE_TILE", "aurora_pillar" ]
+        ]
+      },
+      {
+        "color": [ 255, 144, 144, 144 ],
+        "note": "柱后景",
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_BACK", "aurora_pillar" ]
+        ]
+      },
+      {
+        "color": [ 255, 188, 144, 144 ],
+        "note": "木板前景",
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_BACK", "aurora_block" ],
+          [ "BC_PLACE_TILE", "plank_birch" ]
+        ]
+      },
+      {
+        "color": [ 255, 0, 0, 222 ],
+        "note": "浮冰",
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_BACK", "aurora_block" ],
+          [ "BC_PLACE_TILE", "ice_packed" ]
+        ]
+      },
+      {
+        "color": [ 255, 0, 0, 122 ],
+        "note": "冰",
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_BACK", "aurora_block" ],
+          [ "BC_PLACE_TILE", "ice" ]
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "name": "entrance",
+        "image": [ "entrance", "entrance_o1" ],
+        "type": "PT_START",
+        "hotX": 60,
+        "hotY": 50,
+        "unlinkParts": [ "entrance" ],
+        "weight": 10
+      },
+
+      {
+        "name": "r1",
+        "image": [ "r1", "r1_o1", "r1_o2", "r1_o3", "r1_o4", "r1_o5", "r1_o6" ],
+        "type": "PT_NORMAL",
+        "unlinkParts": [],
+        "weight": 10
+      },
+      {
+        "name": "r2",
+        "image": [ "r2", "r2_o1", "r2_o2", "r2_o3", "r2_o4", "r2_o5" ],
+        "type": "PT_NORMAL",
+        "unlinkParts": [],
+        "weight": 10
+      },
+      {
+        "name": "r3",
+        "image": [ "r3", "r3_o1", "r3_o2", "r3_o3", "r3_o4", "r3_o5" ],
+        "type": "PT_NORMAL",
+        "unlinkParts": [],
+        "weight": 10
+      },
+      {
+        "name": "r4",
+        "image": [ "r4", "r4_o1", "r4_o2", "r4_o3" ],
+        "type": "PT_NORMAL",
+        "unlinkParts": [],
+        "weight": 10
+      },
+      {
+        "name": "r5",
+        "image": [ "r5", "r5_o1", "r5_o2", "r5_o3" ],
+        "type": "PT_NORMAL",
+        "unlinkParts": [],
+        "weight": 10
+      },
+      {
+        "name": "r6",
+        "image": [ "r6", "r4_o1", "r4_o2", "r4_o3" ],
+        "type": "PT_NORMAL",
+        "unlinkParts": [],
+        "weight": 10
+      },
+      {
+        "name": "r7",
+        "image": [ "r7", "r5_o1", "r5_o2", "r5_o3" ],
+        "type": "PT_NORMAL",
+        "unlinkParts": [],
+        "weight": 10
+      },
+      {
+        "name": "r8",
+        "image": [ "r8" ],
+        "type": "PT_NORMAL",
+        "unlinkParts": [],
+        "weight": 10
+      },
+      {
+        "name": "r9",
+        "image": [ "r9" ],
+        "type": "PT_NORMAL",
+        "unlinkParts": [],
+        "weight": 10
+      },
+
+      {
+        "name": "e1",
+        "image": [ "e1", "e1_o1", "e1_o2" ],
+        "type": "PT_END",
+        "unlinkParts": [],
+        "weight": 10
+      },
+      {
+        "name": "e2",
+        "image": [ "e2", "e1_o1", "e1_o2" ],
+        "type": "PT_END",
+        "unlinkParts": [],
+        "weight": 10
+      }
+    ]
+  }
+}

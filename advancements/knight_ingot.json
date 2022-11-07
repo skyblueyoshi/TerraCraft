@@ -1,0 +1,9 @@
+
+{
+  "knight_ingot": {
+    "itemId": "knight_ingot",
+    "parentId": "go_dark_dungeon",
+    "showTip": true,
+    "broadcase": true
+  }
+}

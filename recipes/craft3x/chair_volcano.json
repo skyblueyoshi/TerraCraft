@@ -1,0 +1,16 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "chair_volcano",
+      "stackSize": 2
+    }
+  ],
+  "pattern": [
+    "AOO",
+    "AAA",
+    "AOA"
+  ],
+  "elements": [ [ "A", "volcano_plank" ] ]
+}

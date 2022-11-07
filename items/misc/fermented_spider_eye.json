@@ -1,0 +1,8 @@
+
+{
+  "fermented_spider_eye": {
+    "type": "MATERIALS",
+    "iconTextureData": "fermented_spider_eye_icon.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

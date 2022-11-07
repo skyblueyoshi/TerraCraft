@@ -1,0 +1,8 @@
+
+{
+  "machine_part": {
+    "type": "MATERIALS",
+    "iconTextureData": "machine_part.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

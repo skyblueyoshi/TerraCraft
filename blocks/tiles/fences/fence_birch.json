@@ -1,0 +1,35 @@
+{
+  "block": {
+    "fence_birch": {
+      "textureData": "fence_birch.png",
+      "color": [ 218, 209, 155 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 2,
+      "type": "TILE",
+      "group": "FENCE",
+      "collision": "SOLID",
+      "lightOpacity": 1,
+      "lightTransparent": true,
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 100,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": false,
+      "wallCheck": "NO_GENERABLE",
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 200, 200, 130 ]
+    }
+  },
+  "item": {
+    "fence_birch": {
+      "type": "BLOCKS",
+      "iconTextureData": "fence_birch_icon.png",
+      "group": "GROUP_WOODEN_FENCE",
+      "blockId": "fence_birch",
+      "fuelTime": 60
+    }
+  }
+}

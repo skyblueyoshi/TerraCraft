@@ -1,0 +1,35 @@
+{
+  "block": {
+    "wool_orange": {
+      "textureData": "wool_orange.png",
+      "color": [ 248, 116, 93 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 4,
+      "type": "TILE",
+      "group": "ARTIFICAL",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "GRASS",
+      "hardness": 60,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": false,
+      "wallCheck": "NO_GENERABLE",
+      "soundGroupId": "cloth",
+      "stepSoundId": "step_cloth",
+      "particleColor": [ 255, 140, 120, 100 ]
+    }
+  },
+  "item": {
+    "wool_orange": {
+      "type": "BLOCKS",
+      "iconTextureData": "wool_orange_icon.png",
+      "group": "GROUP_WOOL",
+      "blockId": "wool_orange",
+      "fuelTime": 20,
+      "oreDictionary": ["OD_WOOL"]
+    }
+  }
+}

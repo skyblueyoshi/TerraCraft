@@ -1,0 +1,38 @@
+{
+  "block": {
+    "pressure_plate_stone": {
+      "textureData": "stone_pressure_plate.png",
+      "color": [ 111, 111, 111 ],
+      "type": "FURNITURE",
+      "subGroup": "PRESSURE_PLATE",
+      "width": 1,
+      "height": 1,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "toolType": "PICKAXE",
+      "mineGrade": "GRASS",
+      "hardness": 30,
+      "slipperiness": 1.0,
+      "isKilledByLava": true,
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 100, 100, 100 ],
+      "preset": "RedstonePlate",
+      "animation": [
+        {
+          "animationId": 0,
+          "tagUsage": "TAG_ADD_FRAME_INDEX_X"
+        }
+      ]
+    }
+  },
+  "item": {
+    "stone_pressure_plate": {
+      "type": "BLOCKS",
+      "iconTextureData": "stone_pressure_plate_icon.png",
+      "group": "GROUP_PRESSURE_PLATE",
+      "blockId": "pressure_plate_stone"
+    }
+  }
+}

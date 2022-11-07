@@ -1,0 +1,29 @@
+
+{
+  "super_air_sword": {
+    "type": "TOOLS",
+    "iconTextureData": "super_air_sword_entity.png",
+    "textureData": "super_air_sword_entity.png",
+    "group": "GROUP_SWORD",
+    "oreDictionary": [ "OD_SWORD" ],
+    "toolType": "SWORD",
+    "ai": "magic_sword",
+    "coldTime": 20,
+    "speed": 10.0,
+    "deviation": 0.04,
+    "shootTimes": 1,
+    "shootProjectileId": "air_bullet",
+    "entityWidth": 26,
+    "entityHeight": 66,
+    "firePoints": [[13,8]],
+    "handX": 13,
+    "handY": 54,
+    "holdType": "NORMAL",
+    "durable": 723,
+    "damage": 10,
+    "knockBack": 5,
+    "crit": 4,
+    "consumeMana": 5,
+    "antiLava": true
+  }
+}

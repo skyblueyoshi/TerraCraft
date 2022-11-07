@@ -1,0 +1,23 @@
+
+{
+  "pufferfish": {
+    "ai": "Food",
+    "type": "MATERIALS",
+    "iconTextureData": "pufferfish_icon.png",
+    "group": "GROUP_FOOD",
+    "eatable": true,
+    "useSoundGroup": "eat",
+    "food": 10,
+    "foodSaturation": 12,
+    "buffs": [
+      {
+        "id": "hunger",
+        "time": 900
+      },
+      {
+        "id": "poison",
+        "time": 3600
+      }
+    ]
+  }
+}

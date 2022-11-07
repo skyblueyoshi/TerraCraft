@@ -1,0 +1,9 @@
+
+{
+  "flesh_ingot": {
+    "itemId": "flesh_ingot",
+    "parentId": "gold",
+    "showTip": true,
+    "broadcase": true
+  }
+}

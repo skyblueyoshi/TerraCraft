@@ -1,0 +1,20 @@
+
+{
+  "potion_healing_super": {
+    "ai": "Potion",
+    "type": "MATERIALS",
+    "iconTextureData": "glass_bottle_super_3_icon.png",
+    "group": "GROUP_POTION",
+    "iconColor2": [ 255, 255, 22, 22 ],
+    "eatable": true,
+    "useSound": "drink",
+    "eatReturnId": "glass_bottle",
+    "addHealth": 100,
+    "buffs": [
+      {
+        "id": "health_cold",
+        "time": 2400
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+
+{
+  "diamond_ingot": {
+    "itemId": "diamond_ingot",
+    "parentId": "diamond",
+    "showTip": true,
+    "broadcase": true
+  }
+}

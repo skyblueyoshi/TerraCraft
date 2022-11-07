@@ -1,0 +1,10 @@
+
+{
+  "nether_wart": {
+    "type": "MATERIALS",
+    "iconTextureData": "nether_wart_icon.png",
+    "group": "GROUP_MATERIAL",
+    "isSeed": true,
+    "blockId": "nether_wart"
+  }
+}

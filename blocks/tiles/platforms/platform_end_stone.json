@@ -1,0 +1,35 @@
+{
+  "block": {
+    "platform_end_stone": {
+      "textureData": "platform_end_stone.png",
+      "color": [ 223, 223, 209 ],
+      "renderMode": "RENDER_PLATEFORM",
+      "type": "TILE",
+      "group": "PLATFORM",
+      "collision": "PLATFORM",
+      "lightOpacity": 1,
+      "lightTransparent": true,
+      "toolType": "PICKAXE",
+      "mineGrade": "WOOD",
+      "hardness": 100,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": false,
+      "wallCheck": "NO_GENERABLE",
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 223, 223, 209 ],
+      "isBackground": true,
+      "isNoLinkVertical": true
+    }
+  },
+  "item": {
+    "platform_end_stone": {
+      "type": "BLOCKS",
+      "iconTextureData": "platform_end_stone_icon.png",
+      "group": "GROUP_PLATFORM",
+      "blockId": "platform_end_stone"
+    }
+  }
+}

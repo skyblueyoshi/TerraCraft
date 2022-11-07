@@ -1,0 +1,11 @@
+
+{
+  "InsideStorage": {
+    "insideDrop": true,
+    "entityId": "Storage",
+    "pOnPlaced": "ChestPlaced",
+    "pOnDestroy": "InsideChestDestroy",
+    "pOnDraw": "DrawChest",
+    "pOnClicked": "ClickStorage"
+  }
+}

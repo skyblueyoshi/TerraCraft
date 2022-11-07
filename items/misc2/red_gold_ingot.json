@@ -1,0 +1,8 @@
+
+{
+  "red_gold_ingot": {
+    "type": "MATERIALS",
+    "iconTextureData": "red_gold_ingot.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

@@ -1,0 +1,14 @@
+
+{
+  "skin_yy": {
+    "isFemale": true,
+    "name": "White Hair",
+    "headTexture": "base\\head.png",
+    "bodyTexture": "base\\body.png",
+    "legTexture": "base\\leg.png",
+    "hairTexture": "yy\\hair.png",
+    "clothTexture": "yy\\cloth.png",
+    "pantTexture": "yy\\pant.png",
+    "authors": [ "BlueYoshi" ]
+  }
+}

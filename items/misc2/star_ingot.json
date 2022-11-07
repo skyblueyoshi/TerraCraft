@@ -1,0 +1,8 @@
+
+{
+  "star_ingot": {
+    "type": "MATERIALS",
+    "iconTextureData": "star_ingot.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

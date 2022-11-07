@@ -1,0 +1,19 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "glowing_mushroom",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "OAO",
+    "ABA",
+    "OAO"
+  ],
+  "elements": [
+    [ "A", "glowstone_dust" ],
+    [ "B", "brown_mushroom" ]
+  ]
+}

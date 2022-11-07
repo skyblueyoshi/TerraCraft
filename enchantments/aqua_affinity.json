@@ -1,0 +1,11 @@
+
+{
+  "aqua_affinity": {
+    "noCreating": false,
+    "minCreatingLevel": 3,
+    "allowMaxLevel": 8,
+    "tool": [
+      "HELMET"
+    ]
+  }
+}

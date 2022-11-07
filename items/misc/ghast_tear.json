@@ -1,0 +1,8 @@
+
+{
+  "ghast_tear": {
+    "type": "MATERIALS",
+    "iconTextureData": "ghast_tear_icon.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

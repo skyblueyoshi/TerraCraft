@@ -1,0 +1,31 @@
+{
+  "block": {
+    "crafting_table": {
+      "textureData": "crafting_table.png",
+      "color": [ 159, 132, 77 ],
+      "type": "FURNITURE",
+      "width": 3,
+      "height": 2,
+      "collision": "PLATFORM",
+      "attach": "BOTTOM",
+      "attachable": "TOP",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 140,
+      "slipperiness": 1.0,
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 160, 130, 80 ],
+      "preset": "CraftingTable"
+    }
+  },
+  "item": {
+    "crafting_table": {
+      "type": "BLOCKS",
+      "iconTextureData": "crafting_table.png",
+      "group": "GROUP_WOODEN_FURNITURE",
+      "blockId": "crafting_table",
+      "fuelTime": 60
+    }
+  }
+}

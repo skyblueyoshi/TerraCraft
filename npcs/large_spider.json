@@ -1,0 +1,54 @@
+{
+  "large_spider": {
+    "ai": "LargeSpider",
+    "textureData": "large_spider.png",
+    "type": "NORMAL",
+    "width": 32,
+    "height": 48,
+    "gfxWidth": 48,
+    "gfxHeight": 48,
+    "gfxOffsetX": -8,
+    "gfxOffsetY": 0,
+    "frameStyle": 1,
+    "frames": 2,
+    "frameSpeed": 16,
+    "shape": "BOX",
+    "maxSpeed": 8.0,
+    "jumpForce": 3.0,
+    "disappearTime": 750,
+    "spawnCount": 1.0,
+    "health": 70,
+    "defense": 0,
+    "attack": 6,
+    "knockBack": 2,
+    "knockBackDefense": 0.05,
+    "gravity": true,
+    "climbWall": false,
+    "foreground": false,
+    "noFixByBlock": false,
+    "friendly": false,
+    "exps": 6,
+    "sunBurning": false,
+    "angry": false,
+    "antiLava": false,
+    "saySounds": [],
+    "hurtSounds": [
+      "slime_attack1",
+      "slime_attack1",
+      "slime_attack2"
+    ],
+    "drops": [
+      {
+        "item": "red_crystal",
+        "min": 0,
+        "max": 1
+      }
+    ],
+    "special": 0,
+    "paticularColor": [ 255, 77, 77, 77 ],
+    "spawn": "LAND",
+    "magicRate": 80,
+    "checkPlayerTarget": true,
+    "visionNoCrossTile": false
+  }
+}

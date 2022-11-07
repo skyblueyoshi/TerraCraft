@@ -1,0 +1,9 @@
+
+{
+  "stick": {
+    "type": "MATERIALS",
+    "iconTextureData": "stick_icon.png",
+    "group": "GROUP_STICK",
+    "fuelTime": 20
+  }
+}

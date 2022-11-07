@@ -1,0 +1,56 @@
+{
+  "block": {
+    "white_torch": {
+      "textureData": "torch.png",
+      "color": [ 143, 115, 73 ],
+      "type": "FURNITURE",
+      "width": 1,
+      "height": 1,
+      "collision": "NONE",
+      "attach": "TORCH",
+      "attachable": "NONE",
+      "toolType": "PICKAXE",
+      "mineGrade": "GRASS",
+      "hardness": 20,
+      "isFragile": true,
+      "isKilledByLava": true,
+      "isNoWater": true,
+      "modTextureId": "TORCH_FIRE_WHITE",
+      "isLighting": true,
+      "lightColor": [ 32, 24, 24, 24 ],
+      "lightX": 0,
+      "lightY": 0,
+      "lightWi": 1,
+      "lightHi": 1,
+      "isFlash": true,
+      "flashTime": 128,
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 100, 100, 40 ],
+      "exParticle": "torch_particle",
+      "preset": "Torch",
+      "covers": [
+        {
+          "modTextureId": "torch_fire_white",
+          "offsetX": 0,
+          "offsetY": -14
+        }
+      ]
+    }
+  },
+  "item": {
+    "white_torch": {
+      "type": "BLOCKS",
+      "iconTextureData": "white_torch_icon.png",
+      "textureData": "torch_entity.png",
+      "group": "GROUP_TORCH",
+      "blockId": "white_torch",
+      "isHandLight": true,
+      "entityWidth": 8,
+      "entityHeight": 16,
+      "handX": 4,
+      "handY": 14,
+      "firePoints": [[4,0]]
+    }
+  }
+}

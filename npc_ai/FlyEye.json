@@ -1,0 +1,8 @@
+
+{
+  "FlyEye": {
+    "script": {
+      "path": "FlyEye.lua"
+    }
+  }
+}

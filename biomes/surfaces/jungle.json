@@ -1,0 +1,637 @@
+
+{
+  "jungle": {
+    "biomeType": "Surface",
+    "dayLight": 1.0,
+    "skyColor": {
+      "midDayTopColor": [ 98, 170, 192 ],
+      "midDayBottomColor": [ 210, 226, 236 ],
+      "midNightTopColor": [ 5, 8, 32 ],
+      "midNightBottomColor": [ 20, 30, 68 ],
+      "transATopColor": [ 98, 170, 192 ],
+      "transABottomColor": [ 217, 198, 10 ],
+      "transBTopColor": [ 44, 33, 10 ],
+      "transBBottomColor": [ 155, 32, 10 ],
+      "transCTopColor": [ 5, 8, 32 ],
+      "transCBottomColor": [ 115, 32, 10 ]
+    },
+    "subBiomes": {
+      "subs": [
+        {
+          "biome": "snow_land",
+          "minSize": 300,
+          "maxSize": 500,
+          "minX": 200,
+          "maxX": 800
+        },
+        {
+          "biome": "tainted_land",
+          "minSize": 300,
+          "maxSize": 500,
+          "minX": 200,
+          "maxX": 800
+        },
+        {
+          "biome": "flesh",
+          "minSize": 300,
+          "maxSize": 500,
+          "minX": 200,
+          "maxX": 800
+        },
+        {
+          "biome": "volcano",
+          "minSize": 200,
+          "maxSize": 300,
+          "minX": 200,
+          "maxX": 800
+        },
+        {
+          "biome": "ocean",
+          "minSize": 200,
+          "maxSize": 300,
+          "minX": 200,
+          "maxX": 800
+        },
+        {
+          "biome": "mushroom_fields",
+          "minSize": 300,
+          "maxSize": 500,
+          "minX": 200,
+          "maxX": 800
+        }
+      ]
+    },
+    "terrains": {
+      "terrains": [
+        {
+          "id": "MountainTerrain",
+          "times": 6.0,
+          "size": 200,
+          "height": 5
+        },
+        {
+          "id": "BasinTerrain",
+          "times": 4.0,
+          "size": 150,
+          "height": 8
+        },
+        {
+          "id": "HillTerrain",
+          "times": 2.0,
+          "size": 200,
+          "height": 15
+        }
+      ],
+      "transition": "LinerTransition",
+      "transitionTag": 2
+    },
+    "parallaxes": {
+      "deepRate": 1.0,
+      "base": [
+        {
+          "id": "snowy_hill",
+          "parallel": 8.0,
+          "level": 358
+        },
+        {
+          "id": "snowy_hill2",
+          "parallel": 7.0,
+          "level": 362
+        },
+        {
+          "id": "dirty_hill",
+          "parallel": 6.0,
+          "level": 362
+        },
+        {
+          "id": "jungle_bush",
+          "parallel": 5.0,
+          "level": 376
+        },
+        {
+          "id": "stone_hill",
+          "parallel": 4.0,
+          "level": 377
+        },
+        {
+          "id": "jungle_bush",
+          "parallel": 3.0,
+          "level": 380
+        },
+        {
+          "id": "jungle_bush",
+          "parallel": 2.0,
+          "level": 386
+        },
+        {
+          "id": "jungle_bush",
+          "parallel": 1.5,
+          "level": 396
+        }
+      ],
+      "underground": "mud_wall",
+      "linked": "mud_wall_link"
+    },
+    "musics": {
+      "daySurface": [
+        "day1",
+        "day2",
+        "day3",
+        "day4",
+        "day5",
+        "mcday1",
+        "mcday2",
+        "mcday3",
+        "mcday4"
+      ],
+      "nightSurface": [
+        "night1",
+        "night2",
+        "night3",
+        "night4"
+      ]
+    },
+    "weather": "rain",
+    "composition": {
+      "main": {
+        "id": "coarse_dirt"
+      },
+      "subs": [
+        {
+          "id": "cobblestone"
+        },
+        {
+          "id": "dirt"
+        }
+      ]
+    },
+    "oreGroupName": "default",
+    "liquidInfo": {
+      "liquid": "water",
+      "maxAllowCount": 500
+    },
+    "treeInfo": {
+      "styles": [
+        "log_jungle",
+        "log_acacia"
+      ],
+      "density": 0.88
+    },
+    "plantInfo": {
+      "makeSugarcane": true
+    },
+    "grass": 1,
+    "distributions": {
+      "airWeight": 50,
+      "surfacePlaceables": [
+        {
+          "id": "grass",
+          "weight": 50
+        },
+        {
+          "id": "azure_bluet",
+          "weight": 10
+        },
+        {
+          "id": "blue_orchid",
+          "weight": 10
+        },
+        {
+          "id": "fern",
+          "weight": 10
+        },
+        {
+          "id": "glowing_mushroom",
+          "weight": 10
+        },
+        {
+          "id": "allium",
+          "weight": 10
+        },
+        {
+          "id": "peony",
+          "weight": 10
+        },
+        {
+          "id": "large_brown_mushroom",
+          "weight": 5
+        },
+        {
+          "id": "large_red_mushroom",
+          "weight": 10
+        },
+        {
+          "id": "rose_bush",
+          "weight": 5
+        },
+        {
+          "id": "red_tulip",
+          "weight": 5
+        },
+        {
+          "id": "white_tulip",
+          "weight": 5
+        },
+        {
+          "id": "orange_tulip",
+          "weight": 5
+        },
+        {
+          "id": "pink_tulip",
+          "weight": 5
+        },
+        {
+          "id": "small_tree_normal",
+          "weight": 30
+        },
+        {
+          "id": "stone_decos_normal",
+          "weight": 15
+        },
+        {
+          "id": "stone_decos_mossy",
+          "weight": 15
+        },
+        {
+          "id": "rock",
+          "weight": 10
+        },
+        {
+          "id": "bush",
+          "weight": 20
+        },
+        {
+          "id": "watermelon",
+          "weight": 10
+        },
+        {
+          "id": "pumpkin",
+          "weight": 10
+        }
+      ],
+      "underWeight": 50,
+      "undergroundPlaceables": [
+        {
+          "id": "grass",
+          "weight": 30
+        },
+        {
+          "id": "pot",
+          "tag": 0,
+          "weight": 40
+        },
+        {
+          "id": "small_tree_normal",
+          "weight": 3
+        },
+        {
+          "id": "rock",
+          "weight": 5
+        },
+        {
+          "id": "large_brown_mushroom",
+          "weight": 4
+        },
+        {
+          "id": "large_red_mushroom",
+          "weight": 3
+        },
+        {
+          "id": "pumpkin",
+          "weight": 2
+        },
+        {
+          "id": "watermelon",
+          "weight": 2
+        },
+        {
+          "id": "glowing_mushroom",
+          "weight": 1
+        }
+      ],
+      "hangingWeight": 40,
+      "hangingPlaceables": [
+        {
+          "id": "vine",
+          "weight": 50
+        },
+        {
+          "id": "stalactite_hanging_stone",
+          "weight": 5
+        },
+        {
+          "id": "stalactite_hanging_small_stone",
+          "weight": 5
+        }
+      ]
+    },
+    "pot": [
+      {
+        "itemId": "torch",
+        "min": 1,
+        "max": 5,
+        "weight": 15
+      },
+      {
+        "itemId": "potion_healing",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "potion_night_vision",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "potion_strength",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "potion_glowing",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "potion_water_breathing",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "wooden_arrow",
+        "min": 3,
+        "max": 10,
+        "weight": 10
+      },
+      {
+        "itemId": "coal",
+        "min": 1,
+        "max": 2,
+        "weight": 10
+      },
+      {
+        "itemId": "fire_bullet",
+        "min": 3,
+        "max": 6,
+        "weight": 10
+      }
+    ],
+    "daySpawn": {
+      "mobSpeed": 500,
+      "maxMobSpawn": 5,
+      "mobs": [
+        {
+          "id": "green_slime",
+          "weight": 5
+        },
+        {
+          "id": "yellow_slime",
+          "weight": 4
+        },
+        {
+          "id": "blue_slime",
+          "weight": 4
+        },
+        {
+          "id": "purple_slime",
+          "weight": 4
+        },
+        {
+          "id": "block_slime",
+          "weight": 2
+        },
+        {
+          "id": "large_block_slime",
+          "weight": 1
+        },
+        {
+          "id": "spider",
+          "weight": 1
+        },
+        {
+          "id": "jungle_bat",
+          "weight": 2
+        },
+        {
+          "id": "large_jungle_bat",
+          "weight": 1
+        },
+        {
+          "id": "enderman",
+          "weight": 4
+        }
+      ],
+      "animalSpeed": 300,
+      "maxAnimalSpawn": 5,
+      "animals": [
+        {
+          "id": "chicken",
+          "weight": 3
+        },
+        {
+          "id": "cow",
+          "weight": 2
+        },
+        {
+          "id": "pig",
+          "weight": 3
+        },
+        {
+          "id": "wolf",
+          "weight": 1
+        },
+        {
+          "id": "cat",
+          "weight": 1
+        },
+        {
+          "id": "white_rabbit",
+          "weight": 1
+        },
+        {
+          "id": "black_rabbit",
+          "weight": 1
+        },
+        {
+          "id": "brown_rabbit",
+          "weight": 1
+        },
+        {
+          "id": "yellow_rabbit",
+          "weight": 1
+        },
+        {
+          "id": "squid",
+          "weight": 8
+        },
+        {
+          "id": "pufferfish",
+          "weight": 4
+        },
+        {
+          "id": "light_blue_butterfly",
+          "weight": 1
+        },
+        {
+          "id": "red_butterfly",
+          "weight": 1
+        },
+        {
+          "id": "yellow_butterfly",
+          "weight": 1
+        }
+      ]
+    },
+    "nightSpawn": {
+      "mobSpeed": 400,
+      "maxMobSpawn": 7,
+      "mobs": [
+        {
+          "id": "large_jungle_bat",
+          "weight": 5
+        },
+        {
+          "id": "man_eater",
+          "weight": 4
+        },
+        {
+          "id": "zombie",
+          "weight": 20
+        },
+        {
+          "id": "arrow_zombie",
+          "weight": 8
+        },
+        {
+          "id": "bald_zombie",
+          "weight": 8
+        },
+        {
+          "id": "villager_zombie",
+          "weight": 6
+        },
+        {
+          "id": "skeleton",
+          "weight": 4
+        },
+        {
+          "id": "creeper",
+          "weight": 1
+        },
+        {
+          "id": "flower_creeper",
+          "weight": 2
+        },
+        {
+          "id": "phantom",
+          "weight": 2
+        },
+        {
+          "id": "bat",
+          "weight": 3
+        },
+        {
+          "id": "spider",
+          "weight": 3
+        },
+        {
+          "id": "doge_zombie",
+          "weight": 2
+        },
+        {
+          "id": "enderman",
+          "weight": 3
+        }
+      ],
+      "animalSpeed": 400,
+      "maxAnimalSpawn": 5,
+      "animals": [
+        {
+          "id": "squid",
+          "weight": 8
+        },
+        {
+          "id": "pufferfish",
+          "weight": 4
+        }
+      ]
+    },
+    "underSpawn": {
+      "mobSpeed": 400,
+      "maxMobSpawn": 6,
+      "mobs": [
+        {
+          "id": "jungle_bat",
+          "weight": 10
+        },
+        {
+          "id": "large_jungle_bat",
+          "weight": 6
+        },
+        {
+          "id": "man_eater",
+          "weight": 6
+        },
+        {
+          "id": "zombie",
+          "weight": 10
+        },
+        {
+          "id": "spider",
+          "weight": 8
+        },
+        {
+          "id": "bald_zombie",
+          "weight": 8
+        },
+        {
+          "id": "villager_zombie",
+          "weight": 6
+        },
+        {
+          "id": "skeleton",
+          "weight": 2
+        },
+        {
+          "id": "creeper",
+          "weight": 2
+        },
+        {
+          "id": "enderman",
+          "weight": 1
+        }
+      ],
+      "animalSpeed": 600,
+      "maxAnimalSpawn": 5,
+      "animals": [
+        {
+          "id": "squid",
+          "weight": 10
+        }
+      ]
+    },
+    "buildingInfo": [
+      {
+        "buildingId": "jungle_temple",
+        "density": 0.70,
+        "fixSurfaceLine": true,
+        "genBeginXi": 100,
+        "genEndXi": 900
+      }
+    ],
+    "environmentBlocks": {
+      "total": 300,
+      "blocks": [
+        {
+          "id": "coarse_dirt",
+          "weight": 1
+        }
+      ]
+    }
+  }
+}

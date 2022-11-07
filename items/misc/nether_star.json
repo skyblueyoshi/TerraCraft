@@ -1,0 +1,9 @@
+
+{
+  "nether_star": {
+    "type": "MATERIALS",
+    "iconTextureData": "nether_star_icon.png",
+    "group": "GROUP_MATERIAL",
+    "onTest": true
+  }
+}

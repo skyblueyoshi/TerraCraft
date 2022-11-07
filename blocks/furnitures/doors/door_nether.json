@@ -1,0 +1,35 @@
+{
+  "block": {
+    "door_nether": {
+      "note": "地狱门 ",
+      "textureData": "door_nether.png",
+      "color": [ 73, 29, 34 ],
+      "type": "FURNITURE",
+      "subGroup": "CLOSED_DOOR",
+      "width": 1,
+      "height": 4,
+      "collision": "SOLID",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "toolType": "PICKAXE",
+      "mineGrade": "STONE",
+      "hardness": 200,
+      "slipperiness": 1.0,
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 73, 29, 34 ],
+      "transformId": "door_nether_open",
+      "preset": "DoorClosed",
+      "isDoorClosed": true
+    }
+  },
+  "item": {
+    "door_nether": {
+      "type": "BLOCKS",
+      "iconTextureData": "door_nether_icon.png",
+      "group": "GROUP_DOOR",
+      "blockId": "door_nether",
+      "antiLava": true
+    }
+  }
+}

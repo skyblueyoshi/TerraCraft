@@ -1,0 +1,33 @@
+{
+  "block": {
+    "andesite": {
+      "textureData": "andesite.png",
+      "color": [ 102, 102, 117 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 8,
+      "type": "TILE",
+      "group": "ANDESITE",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "WOOD",
+      "hardness": 140,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": true,
+      "isWallDark": true,
+      "wallCheck": "NATURE_GENERABLE_ONLY",
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 120, 120, 120 ]
+    }
+  },
+  "item": {
+    "andesite": {
+      "type": "BLOCKS",
+      "iconTextureData": "andesite_icon.png",
+      "group": "GROUP_ANDESITE",
+      "blockId": "andesite"
+    }
+  }
+}

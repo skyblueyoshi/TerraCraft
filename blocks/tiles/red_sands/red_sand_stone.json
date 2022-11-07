@@ -1,0 +1,33 @@
+{
+  "block": {
+    "red_sand_stone": {
+      "textureData": "red_sand_stone.png",
+      "color": [ 153, 73, 42 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 8,
+      "type": "TILE",
+      "group": "RED_SAND_STONE",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "WOOD",
+      "hardness": 120,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": true,
+      "isWallDark": true,
+      "wallCheck": "NATURE_GENERABLE_ONLY",
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 160, 20, 20 ]
+    }
+  },
+  "item": {
+    "red_sand_stone": {
+      "type": "BLOCKS",
+      "iconTextureData": "red_sand_stone_icon.png",
+      "group": "GROUP_RED_SAND",
+      "blockId": "red_sand_stone"
+    }
+  }
+}

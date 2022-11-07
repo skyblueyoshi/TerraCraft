@@ -1,0 +1,7 @@
+
+{
+  "TNT": {
+    "pOnActivated": "TNTActivated",
+    "pOnDestroy": "TNTDestroy"
+  }
+}

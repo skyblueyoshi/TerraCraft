@@ -1,0 +1,15 @@
+{
+  "config": "Brew",
+  "results": [
+    {
+      "id": "potion_awkward",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [ "AB" ],
+  "elements": [
+    [ "A", "potion_water" ],
+    [ "B", "nether_wart" ]
+  ],
+  "exData": { "time": 400 }
+}

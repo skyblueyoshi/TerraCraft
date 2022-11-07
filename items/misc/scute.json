@@ -1,0 +1,8 @@
+
+{
+  "scute": {
+    "type": "MATERIALS",
+    "iconTextureData": "scute_icon.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

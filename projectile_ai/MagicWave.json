@@ -1,0 +1,8 @@
+
+{
+  "MagicWave": {
+    "script": {
+      "path": "MagicWave.lua"
+    }
+  }
+}

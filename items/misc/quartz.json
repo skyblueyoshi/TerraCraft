@@ -1,0 +1,8 @@
+
+{
+  "quartz": {
+    "type": "MATERIALS",
+    "iconTextureData": "quartz_icon.png",
+    "group": "GROUP_QUARTZ"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "block": {
+    "nether_chest": {
+      "textureData": "nether_chest.png",
+      "color": [ 73, 29, 34 ],
+      "type": "FURNITURE",
+      "width": 2,
+      "height": 2,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "toolType": "PICKAXE",
+      "mineGrade": "GRASS",
+      "hardness": 130,
+      "slipperiness": 1.0,
+      "soundGroupId": "stone",
+      "functionSoundId": "chest",
+      "functionSoundId2": "chestclosed",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 73, 29, 34 ],
+      "preset": "Storage",
+      "animation": [
+        {
+          "animationId": 0,
+          "frameStart": 0
+        },
+        {
+          "animationId": 1,
+          "frameStart": 3
+        }
+      ]
+    }
+  },
+  "item": {
+    "nether_chest": {
+      "type": "BLOCKS",
+      "iconTextureData": "nether_chest_icon.png",
+      "group": "GROUP_OTHERS_FURNITURE",
+      "blockId": "nether_chest"
+    }
+  }
+}

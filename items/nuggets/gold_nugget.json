@@ -1,0 +1,9 @@
+
+{
+  "gold_nugget": {
+    "type": "MATERIALS",
+    "iconTextureData": "nugget_icon.png",
+    "iconColor": [ 255, 255, 255, 0 ],
+    "group": "GROUP_NUGGET"
+  }
+}

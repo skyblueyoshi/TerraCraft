@@ -1,0 +1,24 @@
+
+{
+  "wooden_axe": {
+    "type": "TOOLS",
+    "iconTextureData": "wooden_axe_entity.png",
+    "textureData": "wooden_axe_entity.png",
+    "group": "GROUP_AXE",
+    "toolType": "AXE",
+    "toolGrade": "WOOD",
+    "efficiency": 1.5,
+    "ai": "Axe",
+    "coldTime": 20,
+    "entityWidth": 18,
+    "entityHeight": 30,
+    "handX": 5,
+    "handY": 26,
+    "holdType": "NORMAL",
+    "durable": 280,
+    "damage": 2,
+    "knockBack": 1,
+    "crit": 0,
+    "fuelTime": 40
+  }
+}

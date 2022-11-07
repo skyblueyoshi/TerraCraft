@@ -1,0 +1,8 @@
+
+{
+  "ShulkerBullet": {
+    "script": {
+      "path": "ShulkerBullet.lua"
+    }
+  }
+}

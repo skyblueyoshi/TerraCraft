@@ -1,0 +1,20 @@
+
+{
+  "config": "Craft3x",
+  "searchActions": [ [ 0, "SA_UNORDER" ] ],
+  "results": [
+    {
+      "id": "lighting_arrow",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "ABO",
+    "OOO",
+    "OOO"
+  ],
+  "elements": [
+    [ "A", "wooden_arrow" ],
+    [ "B", "glowstone_dust" ]
+  ]
+}

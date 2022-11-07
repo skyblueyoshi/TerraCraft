@@ -1,0 +1,13 @@
+
+{
+  "star_chestplate": {
+    "type": "TOOLS",
+    "iconTextureData": "chestplate6.png",
+    "textureData": "body6.png",
+    "group": "GROUP_CHESTPLATE",
+    "toolType": "CHESTPLATE",
+    "isArmor": true,
+    "defense": 6,
+    "durable": 3160
+  }
+}

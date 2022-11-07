@@ -1,0 +1,21 @@
+
+{
+  "config": "Craft3x",
+  "searchActions": [ [ 0, "SA_UNORDER" ] ],
+  "results": [
+    {
+      "id": "fire_charge",
+      "stackSize": 3
+    }
+  ],
+  "pattern": [
+    "ABC",
+    "OOO",
+    "OOO"
+  ],
+  "elements": [
+    [ "A", "blaze_powder" ],
+    [ "B", "charcoal" ],
+    [ "C", "gunpowder" ]
+  ]
+}

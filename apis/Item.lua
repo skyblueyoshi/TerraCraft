@@ -1,0 +1,75 @@
+---@class Item
+---@field id int
+---@field idName string
+---@field mod Mod
+---@field type ItemType_Value
+---@field maxStackSize int
+---@field groupID int
+---@field isBlock boolean
+---@field isTool boolean
+---@field isMaterial boolean
+---@field isProjectile boolean
+---@field isWire boolean
+---@field toolType string
+---@field iconTextureLocation TextureLocation
+---@field entityTextureLocation TextureLocation
+---@field iconColor Color
+---@field iconColor2 Color
+---@field iconColor3 Color
+---@field iconColor4 Color
+---@field iconColor5 Color
+---@field iconColor6 Color
+---@field maxDurable int
+---@field coldTime int
+---@field entityWidth int
+---@field entityHeight int
+---@field entityOffsetX int
+---@field entityOffsetY int
+---@field handX int
+---@field handY int
+---@field hasEntity boolean
+---@field oreDictionaryIDs int[]
+---@field toolGrade int
+---@field toolGradeName string
+---@field firePointCount int
+---@field usePosture int
+---@field twoHands boolean
+---@field ammoID int
+---@field ammoLevel int
+---@field shootProjectileID int
+---@field projectileID int
+---@field fuelTime int
+---@field fuelReturnItemID int
+---@field isSeed boolean
+---@field shootable boolean
+---@field shootTimes int
+---@field blockID int
+---@field wireID int
+---@field efficiency double
+---@field noConsumeChance double
+---@field deviation double
+---@field speed double
+---@field showHair boolean
+---@field canThrow boolean
+---@field baseAttack Attack
+---@field defense int
+---@field useSoundID int
+---@field useSoundGroupID int
+---@field eatable boolean
+---@field buffs Buff[]
+---@field enchantments Enchantment[]
+---@field addHealth int
+---@field addMagic int
+---@field addMaxMagic int
+---@field food int
+---@field foodSaturation int
+---@field consumeMana int
+local Item = {}
+
+---GetFirePoint
+---@param index int
+---@return Vector2
+function Item:GetFirePoint(index)
+end
+
+return Item

@@ -1,0 +1,1222 @@
+[
+  {
+    "sys3": {
+      "path": "sounds/sys3.ogg"
+    }
+  },
+  {
+    "cannon": {
+      "path": "sounds/cannon.ogg"
+    }
+  },
+  {
+    "pop": {
+      "path": "sounds/pop.ogg"
+    }
+  },
+  {
+    "stone1": {
+      "path": "sounds/stone1.ogg"
+    }
+  },
+  {
+    "stone2": {
+      "path": "sounds/stone2.ogg"
+    }
+  },
+  {
+    "stone3": {
+      "path": "sounds/stone3.ogg"
+    }
+  },
+  {
+    "dirt1": {
+      "path": "sounds/dirt1.ogg"
+    }
+  },
+  {
+    "dirt2": {
+      "path": "sounds/dirt2.ogg"
+    }
+  },
+  {
+    "dirt3": {
+      "path": "sounds/dirt3.ogg"
+    }
+  },
+  {
+    "wood1": {
+      "path": "sounds/wood1.ogg"
+    }
+  },
+  {
+    "wood2": {
+      "path": "sounds/wood2.ogg"
+    }
+  },
+  {
+    "wood3": {
+      "path": "sounds/wood3.ogg"
+    }
+  },
+  {
+    "grass1": {
+      "path": "sounds/grass1.ogg"
+    }
+  },
+  {
+    "grass2": {
+      "path": "sounds/grass2.ogg"
+    }
+  },
+  {
+    "grass3": {
+      "path": "sounds/grass3.ogg"
+    }
+  },
+  {
+    "cloth1": {
+      "path": "sounds/cloth1.ogg"
+    }
+  },
+  {
+    "cloth2": {
+      "path": "sounds/cloth2.ogg"
+    }
+  },
+  {
+    "cloth3": {
+      "path": "sounds/cloth3.ogg"
+    }
+  },
+  {
+    "sand1": {
+      "path": "sounds/sand1.ogg"
+    }
+  },
+  {
+    "sand2": {
+      "path": "sounds/sand2.ogg"
+    }
+  },
+  {
+    "sand3": {
+      "path": "sounds/sand3.ogg"
+    }
+  },
+  {
+    "step_cloth": {
+      "path": "sounds/step_cloth.ogg"
+    }
+  },
+  {
+    "step_grass1": {
+      "path": "sounds/step_grass1.ogg"
+    }
+  },
+  {
+    "step_grass2": {
+      "path": "sounds/step_grass2.ogg"
+    }
+  },
+  {
+    "step_grass3": {
+      "path": "sounds/step_grass3.ogg"
+    }
+  },
+  {
+    "step_grass4": {
+      "path": "sounds/step_grass4.ogg"
+    }
+  },
+  {
+    "step_grass5": {
+      "path": "sounds/step_grass5.ogg"
+    }
+  },
+  {
+    "step_grass6": {
+      "path": "sounds/step_grass6.ogg"
+    }
+  },
+  {
+    "step_ladder": {
+      "path": "sounds/step_ladder.ogg"
+    }
+  },
+  {
+    "step_sand": {
+      "path": "sounds/step_sand.ogg"
+    }
+  },
+  {
+    "step_snow1": {
+      "path": "sounds/step_snow1.ogg"
+    }
+  },
+  {
+    "step_snow2": {
+      "path": "sounds/step_snow2.ogg"
+    }
+  },
+  {
+    "step_snow3": {
+      "path": "sounds/step_snow3.ogg"
+    }
+  },
+  {
+    "step_snow4": {
+      "path": "sounds/step_snow4.ogg"
+    }
+  },
+  {
+    "step_stone1": {
+      "path": "sounds/step_stone1.ogg"
+    }
+  },
+  {
+    "step_stone2": {
+      "path": "sounds/step_stone2.ogg"
+    }
+  },
+  {
+    "step_stone3": {
+      "path": "sounds/step_stone3.ogg"
+    }
+  },
+  {
+    "step_stone4": {
+      "path": "sounds/step_stone4.ogg"
+    }
+  },
+  {
+    "step_stone5": {
+      "path": "sounds/step_stone5.ogg"
+    }
+  },
+  {
+    "step_stone6": {
+      "path": "sounds/step_stone6.ogg"
+    }
+  },
+  {
+    "step_wood1": {
+      "path": "sounds/step_wood1.ogg"
+    }
+  },
+  {
+    "step_wood2": {
+      "path": "sounds/step_wood2.ogg"
+    }
+  },
+  {
+    "step_wood3": {
+      "path": "sounds/step_wood3.ogg"
+    }
+  },
+  {
+    "step_wood4": {
+      "path": "sounds/step_wood4.ogg"
+    }
+  },
+  {
+    "step_wood5": {
+      "path": "sounds/step_wood5.ogg"
+    }
+  },
+  {
+    "step_wood6": {
+      "path": "sounds/step_wood6.ogg"
+    }
+  },
+  {
+    "bowhit": {
+      "path": "sounds/bowhit.ogg"
+    }
+  },
+  {
+    "bow": {
+      "path": "sounds/bow.ogg"
+    }
+  },
+  {
+    "explode1": {
+      "path": "sounds/explode1.ogg"
+    }
+  },
+  {
+    "explode2": {
+      "path": "sounds/explode2.ogg"
+    }
+  },
+  {
+    "explode3": {
+      "path": "sounds/explode3.ogg"
+    }
+  },
+  {
+    "explode4": {
+      "path": "sounds/explode4.ogg"
+    }
+  },
+  {
+    "launch": {
+      "path": "sounds/launch.ogg"
+    }
+  },
+  {
+    "broken": {
+      "path": "sounds/broken.ogg"
+    }
+  },
+  {
+    "chest": {
+      "path": "sounds/chest.ogg"
+    }
+  },
+  {
+    "chestclosed": {
+      "path": "sounds/chestclosed.ogg"
+    }
+  },
+  {
+    "glass1": {
+      "path": "sounds/glass1.ogg"
+    }
+  },
+  {
+    "glass2": {
+      "path": "sounds/glass2.ogg"
+    }
+  },
+  {
+    "glass3": {
+      "path": "sounds/glass3.ogg"
+    }
+  },
+  {
+    "button1": {
+      "path": "sounds/button1.ogg"
+    }
+  },
+  {
+    "door1": {
+      "path": "sounds/door1.ogg"
+    }
+  },
+  {
+    "door2": {
+      "path": "sounds/door2.ogg"
+    }
+  },
+  {
+    "hit1": {
+      "path": "sounds/hit1.ogg"
+    }
+  },
+  {
+    "hit2": {
+      "path": "sounds/hit2.ogg"
+    }
+  },
+  {
+    "hit3": {
+      "path": "sounds/hit3.ogg"
+    }
+  },
+  {
+    "creeper1": {
+      "path": "sounds/creeper1.ogg"
+    }
+  },
+  {
+    "creeper2": {
+      "path": "sounds/creeper2.ogg"
+    }
+  },
+  {
+    "creeper3": {
+      "path": "sounds/creeper3.ogg"
+    }
+  },
+  {
+    "creeper_death": {
+      "path": "sounds/creeper_death.ogg"
+    }
+  },
+  {
+    "slime_attack1": {
+      "path": "sounds/slime_attack1.ogg"
+    }
+  },
+  {
+    "slime_attack2": {
+      "path": "sounds/slime_attack2.ogg"
+    }
+  },
+  {
+    "splash": {
+      "path": "sounds/splash.ogg"
+    }
+  },
+  {
+    "lavapop": {
+      "path": "sounds/lavapop.ogg"
+    }
+  },
+  {
+    "pig_death": {
+      "path": "sounds/pig_death.ogg"
+    }
+  },
+  {
+    "pig_say1": {
+      "path": "sounds/pig_say1.ogg"
+    }
+  },
+  {
+    "pig_say2": {
+      "path": "sounds/pig_say2.ogg"
+    }
+  },
+  {
+    "pig_say3": {
+      "path": "sounds/pig_say3.ogg"
+    }
+  },
+  {
+    "zombie_death": {
+      "path": "sounds/zombie_death.ogg"
+    }
+  },
+  {
+    "zombie_say1": {
+      "path": "sounds/zombie_say1.ogg"
+    }
+  },
+  {
+    "zombie_say2": {
+      "path": "sounds/zombie_say2.ogg"
+    }
+  },
+  {
+    "zombie_say3": {
+      "path": "sounds/zombie_say3.ogg"
+    }
+  },
+  {
+    "zombie_hurt1": {
+      "path": "sounds/zombie_hurt1.ogg"
+    }
+  },
+  {
+    "zombie_hurt2": {
+      "path": "sounds/zombie_hurt2.ogg"
+    }
+  },
+  {
+    "skeleton_death": {
+      "path": "sounds/skeleton_death.ogg"
+    }
+  },
+  {
+    "skeleton1": {
+      "path": "sounds/skeleton1.ogg"
+    }
+  },
+  {
+    "skeleton2": {
+      "path": "sounds/skeleton2.ogg"
+    }
+  },
+  {
+    "skeleton3": {
+      "path": "sounds/skeleton3.ogg"
+    }
+  },
+  {
+    "spider_death": {
+      "path": "sounds/spider_death.ogg"
+    }
+  },
+  {
+    "spider_say1": {
+      "path": "sounds/spider_say1.ogg"
+    }
+  },
+  {
+    "spider_say2": {
+      "path": "sounds/spider_say2.ogg"
+    }
+  },
+  {
+    "spider_say3": {
+      "path": "sounds/spider_say3.ogg"
+    }
+  },
+  {
+    "bat_death": {
+      "path": "sounds/bat_death.ogg"
+    }
+  },
+  {
+    "bat_hurt1": {
+      "path": "sounds/bat_hurt1.ogg"
+    }
+  },
+  {
+    "bat_hurt2": {
+      "path": "sounds/bat_hurt2.ogg"
+    }
+  },
+  {
+    "bat_hurt3": {
+      "path": "sounds/bat_hurt3.ogg"
+    }
+  },
+  {
+    "chicken_say1": {
+      "path": "sounds/chicken_say1.ogg"
+    }
+  },
+  {
+    "chicken_say2": {
+      "path": "sounds/chicken_say2.ogg"
+    }
+  },
+  {
+    "chicken_say3": {
+      "path": "sounds/chicken_say3.ogg"
+    }
+  },
+  {
+    "chicken_hurt1": {
+      "path": "sounds/chicken_hurt1.ogg"
+    }
+  },
+  {
+    "chicken_hurt2": {
+      "path": "sounds/chicken_hurt2.ogg"
+    }
+  },
+  {
+    "sheep_say1": {
+      "path": "sounds/sheep_say1.ogg"
+    }
+  },
+  {
+    "sheep_say2": {
+      "path": "sounds/sheep_say2.ogg"
+    }
+  },
+  {
+    "sheep_say3": {
+      "path": "sounds/sheep_say3.ogg"
+    }
+  },
+  {
+    "cow_say1": {
+      "path": "sounds/cow_say1.ogg"
+    }
+  },
+  {
+    "cow_say2": {
+      "path": "sounds/cow_say2.ogg"
+    }
+  },
+  {
+    "cow_say3": {
+      "path": "sounds/cow_say3.ogg"
+    }
+  },
+  {
+    "cow_hurt1": {
+      "path": "sounds/cow_hurt1.ogg"
+    }
+  },
+  {
+    "cow_hurt2": {
+      "path": "sounds/cow_hurt2.ogg"
+    }
+  },
+  {
+    "cow_hurt3": {
+      "path": "sounds/cow_hurt3.ogg"
+    }
+  },
+  {
+    "cat_meow1": {
+      "path": "sounds/cat_meow1.ogg"
+    }
+  },
+  {
+    "cat_meow2": {
+      "path": "sounds/cat_meow2.ogg"
+    }
+  },
+  {
+    "cat_meow3": {
+      "path": "sounds/cat_meow3.ogg"
+    }
+  },
+  {
+    "cat_hit1": {
+      "path": "sounds/cat_hit1.ogg"
+    }
+  },
+  {
+    "cat_hit2": {
+      "path": "sounds/cat_hit2.ogg"
+    }
+  },
+  {
+    "cat_hit3": {
+      "path": "sounds/cat_hit3.ogg"
+    }
+  },
+  {
+    "rabbit_hurt1": {
+      "path": "sounds/rabbit_hurt1.ogg"
+    }
+  },
+  {
+    "rabbit_hurt2": {
+      "path": "sounds/rabbit_hurt2.ogg"
+    }
+  },
+  {
+    "rabbit_hurt3": {
+      "path": "sounds/rabbit_hurt3.ogg"
+    }
+  },
+  {
+    "turtle_hurt1": {
+      "path": "sounds/turtle_hurt1.ogg"
+    }
+  },
+  {
+    "turtle_hurt2": {
+      "path": "sounds/turtle_hurt2.ogg"
+    }
+  },
+  {
+    "turtle_hurt3": {
+      "path": "sounds/turtle_hurt3.ogg"
+    }
+  },
+  {
+    "turtle_death": {
+      "path": "sounds/turtle_death.ogg"
+    }
+  },
+  {
+    "villager_say1": {
+      "path": "sounds/villager_say1.ogg"
+    }
+  },
+  {
+    "villager_say2": {
+      "path": "sounds/villager_say2.ogg"
+    }
+  },
+  {
+    "villager_say3": {
+      "path": "sounds/villager_say3.ogg"
+    }
+  },
+  {
+    "villager_hit1": {
+      "path": "sounds/villager_hit1.ogg"
+    }
+  },
+  {
+    "villager_hit2": {
+      "path": "sounds/villager_hit2.ogg"
+    }
+  },
+  {
+    "villager_hit3": {
+      "path": "sounds/villager_hit3.ogg"
+    }
+  },
+  {
+    "villager_death": {
+      "path": "sounds/villager_death.ogg"
+    }
+  },
+  {
+    "fuse": {
+      "path": "sounds/fuse.ogg"
+    }
+  },
+  {
+    "pufferfish_hurt1": {
+      "path": "sounds/pufferfish_hurt1.ogg"
+    }
+  },
+  {
+    "pufferfish_hurt2": {
+      "path": "sounds/pufferfish_hurt2.ogg"
+    }
+  },
+  {
+    "dolphin_hurt1": {
+      "path": "sounds/dolphin_hurt1.ogg"
+    }
+  },
+  {
+    "dolphin_hurt2": {
+      "path": "sounds/dolphin_hurt2.ogg"
+    }
+  },
+  {
+    "dolphin_hurt3": {
+      "path": "sounds/dolphin_hurt3.ogg"
+    }
+  },
+  {
+    "wolf_hurt1": {
+      "path": "sounds/wolf_hurt1.ogg"
+    }
+  },
+  {
+    "wolf_hurt2": {
+      "path": "sounds/wolf_hurt2.ogg"
+    }
+  },
+  {
+    "wolf_hurt3": {
+      "path": "sounds/wolf_hurt3.ogg"
+    }
+  },
+  {
+    "wolf_bark1": {
+      "path": "sounds/wolf_bark1.ogg"
+    }
+  },
+  {
+    "wolf_bark2": {
+      "path": "sounds/wolf_bark2.ogg"
+    }
+  },
+  {
+    "wolf_bark3": {
+      "path": "sounds/wolf_bark3.ogg"
+    }
+  },
+  {
+    "wolf_death": {
+      "path": "sounds/wolf_death.ogg"
+    }
+  },
+  {
+    "enderman_death": {
+      "path": "sounds/enderman_death.ogg"
+    }
+  },
+  {
+    "enderman_hit1": {
+      "path": "sounds/enderman_hit1.ogg"
+    }
+  },
+  {
+    "enderman_hit2": {
+      "path": "sounds/enderman_hit2.ogg"
+    }
+  },
+  {
+    "enderman_hit3": {
+      "path": "sounds/enderman_hit3.ogg"
+    }
+  },
+  {
+    "enderman_idle1": {
+      "path": "sounds/enderman_idle1.ogg"
+    }
+  },
+  {
+    "enderman_idle2": {
+      "path": "sounds/enderman_idle2.ogg"
+    }
+  },
+  {
+    "enderman_idle3": {
+      "path": "sounds/enderman_idle3.ogg"
+    }
+  },
+  {
+    "portal": {
+      "path": "sounds/portal.ogg"
+    }
+  },
+  {
+    "portal2": {
+      "path": "sounds/portal2.ogg"
+    }
+  },
+  {
+    "zpig1": {
+      "path": "sounds/zpig1.ogg"
+    }
+  },
+  {
+    "zpig2": {
+      "path": "sounds/zpig2.ogg"
+    }
+  },
+  {
+    "zpig3": {
+      "path": "sounds/zpig3.ogg"
+    }
+  },
+  {
+    "zpighurt1": {
+      "path": "sounds/zpighurt1.ogg"
+    }
+  },
+  {
+    "zpighurt2": {
+      "path": "sounds/zpighurt2.ogg"
+    }
+  },
+  {
+    "zpigdeath": {
+      "path": "sounds/zpigdeath.ogg"
+    }
+  },
+  {
+    "blaze_death": {
+      "path": "sounds/blaze_death.ogg"
+    }
+  },
+  {
+    "blaze_hit1": {
+      "path": "sounds/blaze_hit1.ogg"
+    }
+  },
+  {
+    "blaze_hit2": {
+      "path": "sounds/blaze_hit2.ogg"
+    }
+  },
+  {
+    "blaze_hit3": {
+      "path": "sounds/blaze_hit3.ogg"
+    }
+  },
+  {
+    "fireball": {
+      "path": "sounds/fireball.ogg"
+    }
+  },
+  {
+    "affectionate_scream": {
+      "path": "sounds/affectionate_scream.ogg"
+    }
+  },
+  {
+    "ghast_charge": {
+      "path": "sounds/ghast_charge.ogg"
+    }
+  },
+  {
+    "ghast_death": {
+      "path": "sounds/ghast_death.ogg"
+    }
+  },
+  {
+    "ghast_moan1": {
+      "path": "sounds/ghast_moan1.ogg"
+    }
+  },
+  {
+    "ghast_moan2": {
+      "path": "sounds/ghast_moan2.ogg"
+    }
+  },
+  {
+    "ghast_moan3": {
+      "path": "sounds/ghast_moan3.ogg"
+    }
+  },
+  {
+    "phantom_death": {
+      "path": "sounds/phantom_death.ogg"
+    }
+  },
+  {
+    "phantom_hurt1": {
+      "path": "sounds/phantom_hurt1.ogg"
+    }
+  },
+  {
+    "phantom_hurt2": {
+      "path": "sounds/phantom_hurt2.ogg"
+    }
+  },
+  {
+    "phantom_hurt3": {
+      "path": "sounds/phantom_hurt3.ogg"
+    }
+  },
+  {
+    "shulker_open": {
+      "path": "sounds/shulker_open.ogg"
+    }
+  },
+  {
+    "shulker_close": {
+      "path": "sounds/shulker_close.ogg"
+    }
+  },
+  {
+    "shulker_hit1": {
+      "path": "sounds/shulker_hit1.ogg"
+    }
+  },
+  {
+    "orb": {
+      "path": "sounds/orb.ogg"
+    }
+  },
+  {
+    "levelup": {
+      "path": "sounds/levelup.ogg"
+    }
+  },
+  {
+    "drink": {
+      "path": "sounds/drink.ogg"
+    }
+  },
+  {
+    "eat1": {
+      "path": "sounds/eat1.ogg"
+    }
+  },
+  {
+    "eat2": {
+      "path": "sounds/eat2.ogg"
+    }
+  },
+  {
+    "eat3": {
+      "path": "sounds/eat3.ogg"
+    }
+  },
+  {
+    "system1": {
+      "path": "sounds/system1.ogg"
+    }
+  },
+  {
+    "anvil_use": {
+      "path": "sounds/anvil_use.ogg"
+    }
+  },
+  {
+    "shear": {
+      "path": "sounds/shear.ogg"
+    }
+  },
+  {
+    "swim1": {
+      "path": "sounds/swim1.ogg"
+    }
+  },
+  {
+    "swim2": {
+      "path": "sounds/swim2.ogg"
+    }
+  },
+  {
+    "swim3": {
+      "path": "sounds/swim3.ogg"
+    }
+  },
+  {
+    "swim4": {
+      "path": "sounds/swim4.ogg"
+    }
+  },
+  {
+    "system2": {
+      "path": "sounds/system2.ogg"
+    }
+  },
+  {
+    "shotgun_fire": {
+      "path": "sounds/shotgun_fire.ogg"
+    }
+  },
+  {
+    "click": {
+      "path": "sounds/click.ogg"
+    }
+  },
+  {
+    "female_hit1": {
+      "path": "sounds/female_hit1.ogg"
+    }
+  },
+  {
+    "female_hit2": {
+      "path": "sounds/female_hit2.ogg"
+    }
+  },
+  {
+    "female_hit3": {
+      "path": "sounds/female_hit3.ogg"
+    }
+  },
+  {
+    "shatter1": {
+      "path": "sounds/shatter1.ogg"
+    }
+  },
+  {
+    "tink1": {
+      "path": "sounds/tink1.ogg"
+    }
+  },
+  {
+    "tink2": {
+      "path": "sounds/tink2.ogg"
+    }
+  },
+  {
+    "tink3": {
+      "path": "sounds/tink3.ogg"
+    }
+  },
+  {
+    "rain1": {
+      "path": "sounds/rain1.ogg"
+    }
+  },
+  {
+    "rain2": {
+      "path": "sounds/rain2.ogg"
+    }
+  },
+  {
+    "rain3": {
+      "path": "sounds/rain3.ogg"
+    }
+  },
+  {
+    "rain4": {
+      "path": "sounds/rain4.ogg"
+    }
+  },
+  {
+    "thunder1": {
+      "path": "sounds/thunder1.ogg"
+    }
+  },
+  {
+    "thunder2": {
+      "path": "sounds/thunder2.ogg"
+    }
+  },
+  {
+    "thunder3": {
+      "path": "sounds/thunder3.ogg"
+    }
+  },
+  {
+    "grass": {
+      "path": "sounds/grass.ogg"
+    }
+  },
+  {
+    "weapon": {
+      "path": "sounds/weapon.ogg"
+    }
+  },
+  {
+    "anvil_land": {
+      "path": "sounds/anvil_land.ogg"
+    }
+  },
+  {
+    "bazooka_fire": {
+      "path": "sounds/bazooka_fire.ogg"
+    }
+  },
+  {
+    "chain_gun_fire": {
+      "path": "sounds/chain_gun_fire.ogg"
+    }
+  },
+  {
+    "grenade_fire": {
+      "path": "sounds/grenade_fire.ogg"
+    }
+  },
+  {
+    "pistol_fire": {
+      "path": "sounds/pistol_fire.ogg"
+    }
+  },
+  {
+    "rifle_fire": {
+      "path": "sounds/rifle_fire.ogg"
+    }
+  },
+  {
+    "snow1": {
+      "path": "sounds/snow1.ogg"
+    }
+  },
+  {
+    "snow2": {
+      "path": "sounds/snow2.ogg"
+    }
+  },
+  {
+    "snow3": {
+      "path": "sounds/snow3.ogg"
+    }
+  },
+  {
+    "shatter2": {
+      "path": "sounds/shatter2.ogg"
+    }
+  },
+  {
+    "shatter3": {
+      "path": "sounds/shatter3.ogg"
+    }
+  },
+  {
+    "strip1": {
+      "path": "sounds/strip1.ogg"
+    }
+  },
+  {
+    "strip2": {
+      "path": "sounds/strip2.ogg"
+    }
+  },
+  {
+    "strip3": {
+      "path": "sounds/strip3.ogg"
+    }
+  },
+  {
+    "strip4": {
+      "path": "sounds/strip4.ogg"
+    }
+  },
+  {
+    "barrel_open": {
+      "path": "sounds/barrel_open.ogg"
+    }
+  },
+  {
+    "shulker_box_open": {
+      "path": "sounds/shulker_box_open.ogg"
+    }
+  },
+  {
+    "monster": {
+      "path": "sounds/monster.ogg"
+    }
+  },
+  {
+    "attack1": {
+      "path": "sounds/attack1.ogg"
+    }
+  },
+  {
+    "attack2": {
+      "path": "sounds/attack2.ogg"
+    }
+  },
+  {
+    "fireball2": {
+      "path": "sounds/fireball2.ogg"
+    }
+  },
+  {
+    "laser": {
+      "path": "sounds/laser.ogg"
+    }
+  },
+  {
+    "wand1": {
+      "path": "sounds/wand1.ogg"
+    }
+  },
+  {
+    "wand2": {
+      "path": "sounds/wand2.ogg"
+    }
+  },
+  {
+    "wand3": {
+      "path": "sounds/wand3.ogg"
+    }
+  },
+  {
+    "gore1": {
+      "path": "sounds/gore1.ogg"
+    }
+  },
+  {
+    "gore2": {
+      "path": "sounds/gore2.ogg"
+    }
+  },
+  {
+    "gore3": {
+      "path": "sounds/gore3.ogg"
+    }
+  },
+  {
+    "thorns_hit1": {
+      "path": "sounds/thorns_hit1.ogg"
+    }
+  },
+  {
+    "thorns_hit2": {
+      "path": "sounds/thorns_hit2.ogg"
+    }
+  },
+  {
+    "thorns_hit3": {
+      "path": "sounds/thorns_hit3.ogg"
+    }
+  },
+  {
+    "thorns_hit4": {
+      "path": "sounds/thorns_hit4.ogg"
+    }
+  },
+  {
+    "enchant1": {
+      "path": "sounds/enchant1.ogg"
+    }
+  },
+  {
+    "enchant2": {
+      "path": "sounds/enchant2.ogg"
+    }
+  },
+  {
+    "enchant3": {
+      "path": "sounds/enchant3.ogg"
+    }
+  },
+  {
+    "travel": {
+      "path": "sounds/travel.ogg"
+    }
+  },
+  {
+    "trigger": {
+      "path": "sounds/trigger.ogg"
+    }
+  }
+]

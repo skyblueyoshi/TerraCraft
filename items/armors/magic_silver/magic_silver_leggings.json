@@ -1,0 +1,13 @@
+
+{
+  "magic_silver_leggings": {
+    "type": "TOOLS",
+    "iconTextureData": "leggings1.png",
+    "textureData": "leg1.png",
+    "group": "GROUP_LEGGINGS",
+    "toolType": "LEGGINGS",
+    "isArmor": true,
+    "defense": 5,
+    "durable": 1440
+  }
+}

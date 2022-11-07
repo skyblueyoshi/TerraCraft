@@ -1,0 +1,32 @@
+{
+  "block": {
+    "barrel": {
+      "textureData": "barrel.png",
+      "color": [ 171, 121, 45 ],
+      "type": "FURNITURE",
+      "width": 2,
+      "height": 2,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 100,
+      "slipperiness": 1.0,
+      "soundGroupId": "wood",
+      "functionSoundId": "barrel_open",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 160, 110, 40 ],
+      "preset": "Storage"
+    }
+  },
+  "item": {
+    "barrel": {
+      "type": "BLOCKS",
+      "iconTextureData": "barrel_icon.png",
+      "group": "GROUP_WOODEN_FURNITURE",
+      "blockId": "barrel",
+      "fuelTime": 60
+    }
+  }
+}

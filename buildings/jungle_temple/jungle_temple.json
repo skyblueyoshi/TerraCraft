@@ -1,0 +1,267 @@
+
+{
+  "jungle_temple": {
+    "maxGenPartCount": 1,
+    "limitSize": 200,
+    "rewards": [
+      {
+        "name": "normal_reward",
+        "rareGenCount": 1,
+        "rares": [
+          {
+            "itemId": "stone_sword",
+            "count": 1
+          },
+          {
+            "itemId": "stone_axe",
+            "count": 1
+          },
+          {
+            "itemId": "stone_pickaxe",
+            "count": 1
+          },
+          {
+            "itemId": "wooden_bow",
+            "count": 1
+          },
+          {
+            "itemId": "book",
+            "count": 8
+          },
+          {
+            "itemId": "amethyst_staff",
+            "count": 1
+          },
+          {
+            "itemId": "water_staff",
+            "count": 1
+          }
+        ],
+        "normals": [
+          {
+            "itemIds": [ "ender_pearl" ],
+            "rate": 0.3,
+            "min": 1,
+            "max": 2
+          },
+          {
+            "itemIds": [ "bone" ],
+            "rate": 0.6,
+            "min": 4,
+            "max": 6
+          },
+          {
+            "itemIds": [ "rotten_flesh" ],
+            "rate": 0.5,
+            "min": 3,
+            "max": 8
+          },
+          {
+            "itemIds": [ "iron_ingot", "copper_ingot", "tin_ingot", "lead_ingot" ],
+            "rate": 0.4,
+            "min": 1,
+            "max": 5
+          },
+          {
+            "itemIds": [ "gold_ingot", "silver_ingot", "bronze_ingot", "steel_ingot" ],
+            "rate": 0.5,
+            "min": 2,
+            "max": 7
+          },
+          {
+            "itemIds": [ "stick" ],
+            "rate": 0.5,
+            "min": 1,
+            "max": 3
+          },
+          {
+            "itemIds": [ "diamond" ],
+            "rate": 0.12,
+            "min": 1,
+            "max": 3
+          },
+          {
+            "itemIds": [ "emerald" ],
+            "rate": 0.1,
+            "min": 1,
+            "max": 3
+          }
+        ]
+      },
+      {
+        "name": "trap",
+        "rareGenCount": 0,
+        "rares": [],
+        "normals": [
+          {
+            "itemIds": [ "wooden_arrow", "blood_arrow" ],
+            "rate": 1.0,
+            "min": 8,
+            "max": 16
+          }
+        ]
+      }
+    ],
+    "commandColors": [
+      {
+        "color": [ 255, 64, 64, 64 ],
+        "note": "无操作",
+        "command": [
+          [ "BC_NO_OP" ]
+        ]
+      },
+      {
+        "color": [ 255, 192, 192, 192 ],
+        "note": "前景记号"
+      },
+      {
+        "color": [ 255, 0, 0, 0 ],
+        "note": "空气",
+        "command": [
+          [ "BC_CLEAR_LAKE" ],
+          [ "BC_CLEAR" ]
+        ]
+      },
+      {
+        "color": [ 255, 0, 64, 255 ],
+        "pipe": true
+      },
+
+
+
+      {
+        "color": [ 255, 0, 160, 255 ],
+        "note": "陷阱箱（砍了）",
+        "command": [
+          [ "BC_PLACE_CHEST", "trapped_chest", "normal_reward" ],
+          [ "BC_PLACE_WIRE", 1, 0 ]
+        ]
+      },
+      {
+        "color": [ 255, 255, 0, 0 ],
+        "note": "发射器左",
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_BACK", "cobblestone" ],
+        ]
+      },
+      {
+        "color": [ 255, 255, 255, 0 ],
+        "note": "发射器右",
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_BACK", "cobblestone" ],
+        ]
+      },
+      {
+        "color": [ 255, 0, 200, 0 ],
+        "note": "罐子",
+        "command": [
+          [ "BC_PLACE_FURNITURE", "pot", 0 ]
+        ]
+      },
+      {
+        "color": [ 255, 255, 0, 255 ],
+        "note": "平台",
+        "command": [
+          [ "BC_PLACE_TILE", "platform_stone_brick" ]
+        ]
+      },
+      {
+        "color": [ 255, 200, 200, 120 ],
+        "note": "蜡烛",
+        "command": [
+          [ "BC_PLACE_FURNITURE", "candle" ]
+        ]
+      },
+      {
+        "color": [ 255, 0, 0, 168 ],
+        "note": "踏板",
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_BACK", "cobblestone" ],
+          [ "BC_PLACE_FURNITURE", "pressure_plate_stone" ]
+        ]
+      },
+      {
+        "color": [ 255, 255, 50, 50 ],
+        "note": "红石线",
+        "command": [
+          [ "BC_PLACE_WIRE", 1, 0 ]
+        ]
+      },
+
+
+
+
+      {
+        "color": [ 255, 50, 50, 100 ],
+        "note": "有空气就放水",
+        "command": [
+          [ "BC_PLACE_LIQUID", "water" ]
+        ]
+      },
+      {
+        "color": [ 255, 54, 40, 27 ],
+        "note": "有空气就放泥",
+        "command": [
+          [ "BC_CLEAR_FURNITURE" ],
+          [ "BC_PLACE_TILE", "coarse_dirt" ]
+        ]
+      },
+      {
+        "color": [ 255, 120, 30, 30 ],
+        "note": "主前景1",
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_BACK", "cobblestone" ],
+          [ "BC_PLACE_TILE", "cobblestone" ]
+        ]
+      },
+      {
+        "color": [ 255, 40, 0, 0 ],
+        "note": "主后景1",
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_BACK", "cobblestone" ]
+        ]
+      },
+      {
+        "color": [ 255, 100, 100, 100 ],
+        "note": "前景2",
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_BACK", "cobblestone_mossy" ],
+          [ "BC_PLACE_TILE", "cobblestone_mossy" ]
+        ]
+      },
+      {
+        "color": [ 255, 10, 10, 10 ],
+        "note": "后景2",
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_BACK", "cobblestone_mossy" ]
+        ]
+      },
+      {
+        "color": [ 255, 222, 222, 244 ],
+        "note": "玻璃后景",
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_BACK", "stained_glass_magenta" ]
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "name": "entrance",
+        "image": [ "entrance", "entrance_o1" ],
+        "type": "PT_START",
+        "hotX": 95,
+        "hotY": 45,
+        "unlinkParts": [ "entrance" ],
+        "weight": 10
+      }
+    ]
+  }
+}

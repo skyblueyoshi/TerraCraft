@@ -1,0 +1,28 @@
+
+{
+  "fire": {
+    "ai": "Smoke",
+    "textureData": "fire.png",
+    "width": 16,
+    "height": 16,
+    "gfxOffsetX": 0,
+    "gfxOffsetY": 0,
+    "gfxWidth": 16,
+    "gfxHeight": 16,
+    "frameStyle": 0,
+    "frameStyles": 1,
+    "frames": 4,
+    "frameSpeed": 8,
+    "disappearTime": 120,
+    "isForeground": true,
+    "gravity": false,
+    "collisionWithBlocks": false,
+    "fixByBlocks": false,
+    "fadeScale": true,
+    "fadeAlpha": true,
+    "isLighting": true,
+    "slowSpeed": true,
+    "slowRotateSpeed": true,
+    "lightColor": [ 20, 6, 6, 0 ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "block": {
+    "bench_volcano": {
+      "textureData": "bench_volcano.png",
+      "color": [ 200, 60, 60 ],
+      "type": "FURNITURE",
+      "width": 3,
+      "height": 2,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 80,
+      "slipperiness": 1.0,
+      "isKilledByLava": true,
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 200, 60, 60 ]
+    }
+  },
+  "item": {
+    "bench_volcano": {
+      "type": "BLOCKS",
+      "iconTextureData": "bench_volcano.png",
+      "group": "GROUP_BENCH",
+      "blockId": "bench_volcano",
+      "fuelTime": 60
+    }
+  }
+}

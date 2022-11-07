@@ -1,0 +1,56 @@
+{
+  "boney_skeleton": {
+    "ai": "BoneySkeleton",
+    "textureData": "boney_skeleton.png",
+    "type": "SMITE",
+    "width": 24,
+    "height": 46,
+    "gfxWidth": 48,
+    "gfxHeight": 48,
+    "gfxOffsetX": 4,
+    "gfxOffsetY": 8,
+    "frameStyle": 1,
+    "frames": 4,
+    "frameSpeed": 8,
+    "shape": "BOX",
+    "maxSpeed": 1.75,
+    "jumpForce": 8.0,
+    "disappearTime": 750,
+    "spawnCount": 1.0,
+    "health": 60,
+    "defense": 6,
+    "attack": 12,
+    "knockBack": 5,
+    "knockBackDefense": 0.50,
+    "gravity": true,
+    "climbWall": false,
+    "foreground": false,
+    "noFixByBlock": false,
+    "friendly": false,
+    "exps": 7,
+    "sunBurning": false,
+    "angry": false,
+    "antiLava": false,
+    "saySounds": [],
+    "hurtSounds": [
+      "skeleton_death",
+      "skeleton1",
+      "skeleton2",
+      "skeleton3"
+    ],
+    "loots": [
+      {
+        "item": "bone",
+        "min": 3,
+        "max": 9
+      }
+    ],
+    "special": 0,
+    "paticularColor": [ 255, 150, 150, 150 ],
+    "spawn": "LAND",
+    "gore": "gore_boney_skeleton",
+    "magicRate": 25,
+    "checkPlayerTarget": true,
+    "visionNoCrossTile": false
+  }
+}

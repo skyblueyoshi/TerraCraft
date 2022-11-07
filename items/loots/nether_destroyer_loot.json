@@ -1,0 +1,9 @@
+
+{
+  "nether_destroyer_loot": {
+    "type": "MATERIALS",
+    "iconTextureData": "nether_destroyer_loot_icon.png",
+    "group": "GROUP_LOOT",
+    "antiLava": true
+  }
+}

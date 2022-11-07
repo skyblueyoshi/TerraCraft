@@ -1,0 +1,34 @@
+{
+  "block": {
+    "iron_bar": {
+      "textureData": "iron_bar.png",
+      "color": [ 100, 100, 100 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 2,
+      "type": "TILE",
+      "group": "BAR",
+      "collision": "SOLID",
+      "lightOpacity": 1,
+      "lightTransparent": true,
+      "toolType": "PICKAXE",
+      "mineGrade": "STONE",
+      "hardness": 200,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": false,
+      "wallCheck": "NO_GENERABLE",
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 100, 100, 100 ]
+    }
+  },
+  "item": {
+    "iron_bar": {
+      "type": "BLOCKS",
+      "iconTextureData": "iron_bar_icon.png",
+      "group": "GROUP_OTHERS_BLOCK",
+      "blockId": "iron_bar"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+
+{
+  "charcoal": {
+    "type": "MATERIALS",
+    "iconTextureData": "charcoal_icon.png",
+    "group": "GROUP_MATERIAL",
+    "fuelTime": 160
+  }
+}

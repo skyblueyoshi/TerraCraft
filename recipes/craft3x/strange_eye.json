@@ -1,0 +1,16 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "strange_eye",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "OAO",
+    "AAA",
+    "OAO"
+  ],
+  "elements": [ [ "A", "strange_len" ] ]
+}

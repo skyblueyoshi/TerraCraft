@@ -1,0 +1,15 @@
+
+{
+  "nether_helmet": {
+    "type": "TOOLS",
+    "iconTextureData": "nether_helmet_icon.png",
+    "textureData": "hat.png",
+    "group": "GROUP_HELMET",
+    "subGroup": "SUB_GROUP_NETHERITE",
+    "toolType": "HELMET",
+    "isArmor": true,
+    "defense": 5,
+    "durable": 2020,
+    "antiLava": true
+  }
+}

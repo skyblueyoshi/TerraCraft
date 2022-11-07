@@ -1,0 +1,7 @@
+
+{
+  "MoonlightTrigger": {
+    "isTrigger": true,
+    "pOnRandomEvent": "RandomMoonLightTrigger"
+  }
+}

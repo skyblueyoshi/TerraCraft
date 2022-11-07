@@ -1,0 +1,60 @@
+{
+  "turtle": {
+    "ai": "Animal",
+    "textureData": "turtle.png",
+    "type": "ANIMAL",
+    "width": 32,
+    "height": 24,
+    "gfxWidth": 48,
+    "gfxHeight": 32,
+    "gfxOffsetX": -8,
+    "gfxOffsetY": -8,
+    "frameStyle": 1,
+    "frames": 4,
+    "frameSpeed": 6,
+    "shape": "BOX",
+    "maxSpeed": 0.5,
+    "jumpForce": 5.0,
+    "disappearTime": 750,
+    "spawnCount": 1.0,
+    "health": 35,
+    "defense": 10,
+    "attack": 1,
+    "knockBack": 0,
+    "knockBackDefense": 0.50,
+    "gravity": true,
+    "climbWall": false,
+    "foreground": false,
+    "noFixByBlock": false,
+    "friendly": true,
+    "exps": 3,
+    "sunBurning": false,
+    "angry": false,
+    "antiLava": false,
+    "saySounds": [],
+    "hurtSounds": [
+      "turtle_death",
+      "turtle_hurt1",
+      "turtle_hurt2",
+      "turtle_hurt3"
+    ],
+    "loots": [
+      {
+        "item": "scute",
+        "count": [ 1, 4 ]
+      },
+      {
+        "item": "kelp",
+        "count": [ 1, 3 ],
+        "possibility": 0.5
+      }
+    ],
+    "special": 0,
+    "paticularColor": [ 255, 200, 100, 50 ],
+    "spawn": "LAND",
+    "gore": "gore_turtle",
+    "magicRate": 0,
+    "checkPlayerTarget": false,
+    "visionNoCrossTile": false
+  }
+}

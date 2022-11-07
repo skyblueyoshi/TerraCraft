@@ -1,0 +1,24 @@
+
+{
+  "potion_regeneration": {
+    "ai": "Potion",
+    "type": "MATERIALS",
+    "iconTextureData": "glass_bottle_4_icon.png",
+    "group": "GROUP_POTION",
+    "iconColor2": [ 255, 212, 74, 170 ],
+    "eatable": true,
+    "useSound": "drink",
+    "eatReturnId": "glass_bottle",
+    "buffs": [
+      {
+        "id": "regeneration",
+        "time": 3600
+      },
+      {
+        "id": "health_cold",
+        "time": 6000
+      }
+    ],
+    "addHealth": 20
+  }
+}

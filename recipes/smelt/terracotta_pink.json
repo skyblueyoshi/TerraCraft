@@ -1,0 +1,13 @@
+
+{
+  "config": "Smelt",
+  "pattern": [ "A" ],
+  "results": [
+    {
+      "id": "terracotta_pink",
+      "stackSize": 1
+    }
+  ],
+  "elements": [ [ "A", "clay_block" ] ],
+  "exData": { "time": 20 }
+}

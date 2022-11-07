@@ -1,0 +1,8 @@
+
+{
+  "flint": {
+    "type": "MATERIALS",
+    "iconTextureData": "flint_icon.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

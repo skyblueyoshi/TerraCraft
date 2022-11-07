@@ -1,0 +1,37 @@
+{
+  "block": {
+    "platform_dark_oak": {
+      "textureData": "platform_dark_oak.png",
+      "color": [ 100, 80, 60 ],
+      "renderMode": "RENDER_PLATEFORM",
+      "type": "TILE",
+      "group": "PLATFORM",
+      "collision": "PLATFORM",
+      "lightOpacity": 1,
+      "lightTransparent": true,
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 100,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": false,
+      "wallCheck": "NO_GENERABLE",
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 60, 30, 10 ],
+      "isBackground": true,
+      "isNoLinkVertical": true
+    }
+  },
+  "item": {
+    "platform_dark_oak": {
+      "type": "BLOCKS",
+      "iconTextureData": "platform_dark_oak_icon.png",
+      "group": "GROUP_WOODEN_PLATFORM",
+      "blockId": "platform_dark_oak",
+      "fuelTime": 60,
+      "oreDictionary": [ "OD_WOODEN_PLATFORM" ]
+    }
+  }
+}

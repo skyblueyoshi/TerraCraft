@@ -1,0 +1,35 @@
+{
+  "block": {
+    "platform_stone_brick": {
+      "textureData": "platform_stone_brick.png",
+      "color": [ 122, 122, 122 ],
+      "renderMode": "RENDER_PLATEFORM",
+      "type": "TILE",
+      "group": "PLATFORM",
+      "collision": "PLATFORM",
+      "lightOpacity": 1,
+      "lightTransparent": true,
+      "toolType": "PICKAXE",
+      "mineGrade": "WOOD",
+      "hardness": 100,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": false,
+      "wallCheck": "NO_GENERABLE",
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 122, 122, 122 ],
+      "isBackground": true,
+      "isNoLinkVertical": true
+    }
+  },
+  "item": {
+    "platform_stone_brick": {
+      "type": "BLOCKS",
+      "iconTextureData": "platform_stone_brick_icon.png",
+      "group": "GROUP_PLATFORM",
+      "blockId": "platform_stone_brick"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "snow_slime": {
+    "ai": "Slime",
+    "textureData": "snow_slime.png",
+    "type": "NORMAL",
+    "width": 24,
+    "height": 24,
+    "gfxWidth": 32,
+    "gfxHeight": 32,
+    "gfxOffsetX": -4,
+    "gfxOffsetY": -8,
+    "frameStyle": 1,
+    "frames": 2,
+    "frameSpeed": 16,
+    "shape": "BOX",
+    "maxSpeed": 3.0,
+    "jumpForce": 8.0,
+    "disappearTime": 750,
+    "spawnCount": 1.0,
+    "health": 16,
+    "defense": 0,
+    "attack": 4,
+    "knockBack": 2,
+    "knockBackDefense": 0.05,
+    "gravity": true,
+    "climbWall": false,
+    "foreground": false,
+    "noFixByBlock": false,
+    "friendly": false,
+    "exps": 5,
+    "sunBurning": false,
+    "angry": false,
+    "antiLava": false,
+    "saySounds": [],
+    "hurtSounds": [
+      "slime_attack1",
+      "slime_attack1",
+      "slime_attack2"
+    ],
+    "loots": [
+      {
+        "item": "slimeball",
+        "count": [ 1, 2 ]
+      }
+    ],
+    "special": 0,
+    "paticularColor": [ 255, 160, 220, 255 ],
+    "spawn": "LAND",
+    "magicRate": 80,
+    "checkPlayerTarget": true,
+    "visionNoCrossTile": false
+  }
+}

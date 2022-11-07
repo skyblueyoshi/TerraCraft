@@ -1,0 +1,22 @@
+{
+  "block": {
+    "sea_grass": {
+      "textureData": "sea_grass.png",
+      "color": [ 60, 160, 10 ],
+      "type": "FURNITURE",
+      "width": 2,
+      "height": 2,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 50,
+      "slipperiness": 1.0,
+      "soundGroupId": "grass",
+      "stepSoundGroupId": "step_grass",
+      "particleColor": [ 255, 60, 160, 0 ],
+      "preset": "RandomDisplay"
+    }
+  }
+}

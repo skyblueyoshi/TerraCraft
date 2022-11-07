@@ -1,0 +1,16 @@
+
+{
+  "config": "Brew",
+  "results": [
+    {
+      "id": "potion_water_breathing_long",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [ "AB" ],
+  "elements": [
+    [ "A", "potion_water_breathing" ],
+    [ "B", "redstone" ]
+  ],
+  "exData": { "time": 400 }
+}

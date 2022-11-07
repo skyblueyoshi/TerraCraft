@@ -1,0 +1,19 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "rocket",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "OBO",
+    "BAB",
+    "OOO"
+  ],
+  "elements": [
+    [ "A", "tnt" ],
+    [ "B", "OD_IRON_INGOT" ]
+  ]
+}

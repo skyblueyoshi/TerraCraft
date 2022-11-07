@@ -1,0 +1,19 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "grenade",
+      "stackSize": 3
+    }
+  ],
+  "pattern": [
+    "OBO",
+    "BAB",
+    "OBO"
+  ],
+  "elements": [
+    [ "A", "bomb" ],
+    [ "B", "sand" ]
+  ]
+}

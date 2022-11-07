@@ -1,0 +1,22 @@
+
+{
+  "silver_sword": {
+    "type": "TOOLS",
+    "iconTextureData": "silver_sword_entity.png",
+    "textureData": "silver_sword_entity.png",
+    "group": "GROUP_SWORD",
+    "oreDictionary": [ "OD_SWORD" ],
+    "toolType": "SWORD",
+    "ai": "Sword",
+    "coldTime": 24,
+    "entityWidth": 22,
+    "entityHeight": 56,
+    "handX": 10,
+    "handY": 48,
+    "holdType": "NORMAL",
+    "durable": 788,
+    "damage": 12,
+    "knockBack": 3,
+    "crit": 4
+  }
+}

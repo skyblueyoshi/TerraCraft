@@ -1,0 +1,20 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "super_tin_sword",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "AAO",
+    "AAO",
+    "BBO"
+  ],
+  "elements": [
+    [ "A", "tin_ingot" ],
+    [ "B", "stick" ]
+  ],
+  "importantElements": [ "A" ]
+}

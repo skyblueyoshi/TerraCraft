@@ -1,0 +1,35 @@
+{
+  "block": {
+    "soul_sand": {
+      "textureData": "soul_sand.png",
+      "color": [ 66, 53, 45 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 4,
+      "type": "TILE",
+      "group": "SOUL_SAND",
+      "farmGroup": "SOULSAND_GROUP",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "GRASS",
+      "hardness": 80,
+      "slipperiness": 1.5,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": true,
+      "wallCheck": "GENERABLE",
+      "soundGroupId": "sand",
+      "stepSoundId": "step_sand",
+      "particleColor": [ 255, 44, 33, 22 ],
+      "preset": "SoulSand"
+    }
+  },
+  "item": {
+    "soul_sand": {
+      "type": "BLOCKS",
+      "iconTextureData": "soul_sand_icon.png",
+      "group": "GROUP_OTHERS_BLOCK",
+      "blockId": "soul_sand"
+    }
+  }
+}

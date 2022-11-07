@@ -1,0 +1,10 @@
+
+{
+  "TrapStorage": {
+    "entityId": "Storage",
+    "pOnPlaced": "ChestPlaced",
+    "pOnDestroy": "ChestDestroy",
+    "pOnDraw": "DrawChest",
+    "pOnClicked": "ClickTrappedStorage"
+  }
+}

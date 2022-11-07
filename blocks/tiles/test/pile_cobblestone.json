@@ -1,0 +1,33 @@
+{
+  "block": {
+    "pile_cobblestone": {
+      "textureData": "pile_cobblestone.png",
+      "color": [ 40, 64, 122 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 8,
+      "type": "TILE",
+      "group": "COBBLESTONE",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "WOOD",
+      "hardness": 120,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": true,
+      "isWallDark": true,
+      "wallCheck": "NATURE_GENERABLE_ONLY",
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 100, 100, 100 ]
+    }
+  },
+  "item": {
+    "pile_cobblestone": {
+      "type": "BLOCKS",
+      "iconTextureData": "pile_cobblestone_icon.png",
+      "group": "GROUP_COBBLESTONE",
+      "blockId": "pile_cobblestone"
+    }
+  }
+}

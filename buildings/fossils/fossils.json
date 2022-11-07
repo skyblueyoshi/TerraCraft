@@ -1,0 +1,161 @@
+
+{
+  "fossils": {
+    "maxGenPartCount": 1,
+    "limitSize": 15,
+    "rewards": [],
+    "commandColors": [
+      {
+        "color": [ 255, 64, 64, 64 ],
+        "note": "无操作",
+        "command": [
+          [ "BC_NO_OP" ]
+        ]
+      },
+      {
+        "color": [ 255, 192, 192, 192 ],
+        "note": "前景记号"
+      },
+      {
+        "color": [ 255, 0, 0, 0 ],
+        "note": "空气",
+        "command": [
+          [ "BC_CLEAR_LAKE" ],
+          [ "BC_CLEAR" ]
+        ]
+      },
+      {
+        "color": [ 255, 0, 64, 255 ],
+        "pipe": true
+      },
+
+      {
+        "color": [ 255, 150, 150, 150 ],
+        "note": "后景",
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_BACK", "bone_block" ]
+        ]
+      },
+
+      {
+        "color": [ 255, 200, 200, 200 ],
+        "note": "前景",
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_TILE", "bone_block" ]
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "name": "entrance",
+        "image": [ "entrance" ],
+        "type": "PT_START",
+        "hotX": 7,
+        "hotY": 7,
+        "unlinkParts": [ "entrance" ],
+        "weight": 10
+      },
+      {
+        "name": "entrance2",
+        "image": [ "entrance2" ],
+        "type": "PT_START",
+        "hotX": 7,
+        "hotY": 7,
+        "unlinkParts": [ "entrance" ],
+        "weight": 10
+      },
+      {
+        "name": "entrance3",
+        "image": [ "entrance3" ],
+        "type": "PT_START",
+        "hotX": 7,
+        "hotY": 7,
+        "unlinkParts": [ "entrance" ],
+        "weight": 10
+      },
+      {
+        "name": "entrance4",
+        "image": [ "entrance4" ],
+        "type": "PT_START",
+        "hotX": 7,
+        "hotY": 7,
+        "unlinkParts": [ "entrance" ],
+        "weight": 10
+      },
+      {
+        "name": "entrance5",
+        "image": [ "entrance5" ],
+        "type": "PT_START",
+        "hotX": 7,
+        "hotY": 7,
+        "unlinkParts": [ "entrance" ],
+        "weight": 10
+      },
+      {
+        "name": "entrance6",
+        "image": [ "entrance6" ],
+        "type": "PT_START",
+        "hotX": 7,
+        "hotY": 7,
+        "unlinkParts": [ "entrance" ],
+        "weight": 10
+      },
+      {
+        "name": "entrance7",
+        "image": [ "entrance7" ],
+        "type": "PT_START",
+        "hotX": 7,
+        "hotY": 7,
+        "unlinkParts": [ "entrance" ],
+        "weight": 10
+      },
+      {
+        "name": "entrance8",
+        "image": [ "entrance8" ],
+        "type": "PT_START",
+        "hotX": 7,
+        "hotY": 7,
+        "unlinkParts": [ "entrance" ],
+        "weight": 10
+      },
+      {
+        "name": "entrance9",
+        "image": [ "entrance9" ],
+        "type": "PT_START",
+        "hotX": 7,
+        "hotY": 7,
+        "unlinkParts": [ "entrance" ],
+        "weight": 10
+      },
+      {
+        "name": "entrance10",
+        "image": [ "entrance10" ],
+        "type": "PT_START",
+        "hotX": 7,
+        "hotY": 7,
+        "unlinkParts": [ "entrance" ],
+        "weight": 10
+      },
+      {
+        "name": "entrance11",
+        "image": [ "entrance11" ],
+        "type": "PT_START",
+        "hotX": 7,
+        "hotY": 7,
+        "unlinkParts": [ "entrance" ],
+        "weight": 10
+      },
+      {
+        "name": "entrance12",
+        "image": [ "entrance12" ],
+        "type": "PT_START",
+        "hotX": 7,
+        "hotY": 7,
+        "unlinkParts": [ "entrance" ],
+        "weight": 10
+      }
+    ]
+  }
+}

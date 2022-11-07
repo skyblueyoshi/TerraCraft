@@ -1,0 +1,56 @@
+
+{
+  "dungeon_eater_head": {
+    "ai": "DungeonEater_Head",
+    "textureData": "dungeon_eater_head.png",
+    "type": "ARTHROPODS",
+    "width": 50,
+    "height": 40,
+    "gfxWidth": 50,
+    "gfxHeight": 40,
+    "gfxOffsetX": 0,
+    "gfxOffsetY": 0,
+    "frameStyle": 1,
+    "frames": 1,
+    "frameSpeed": 8,
+    "shape": "ROTATED_BOX",
+    "maxSpeed": 5.0,
+    "jumpForce": 1.0,
+    "disappearTime": 750,
+    "spawnCount": 1.0,
+    "health": 2600,
+    "defense": 4,
+    "attack": 20,
+    "knockBack": 10,
+    "knockBackDefense": 0.9,
+    "gravity": false,
+    "climbWall": false,
+    "foreground": false,
+    "noFixByBlock": true,
+    "friendly": false,
+    "exps": 600,
+    "sunBurning": false,
+    "angry": false,
+    "antiLava": true,
+    "saySounds": [],
+    "hurtSounds": [
+      "attack1",
+      "attack2"
+    ],
+    "loots": [
+      {
+        "item": "ancient_sample",
+        "count": [ 10, 13 ]
+      }
+    ],
+    "special": 0,
+    "paticularColor": [ 255, 100, 100, 100 ],
+    "spawn": "AIR",
+    "isBoss": true,
+    "noShowHp": true,
+    "gore": "gore_lava_snake_head",
+    "magicRate": 1,
+    "checkPlayerTarget": true,
+    "visionNoCrossTile": false
+  }
+}

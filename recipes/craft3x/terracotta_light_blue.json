@@ -1,0 +1,19 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "terracotta_light_blue",
+      "stackSize": 8
+    }
+  ],
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "elements": [
+    [ "A", "OD_TERRACOTTA" ],
+    [ "B", "dye_light_blue" ]
+  ]
+}

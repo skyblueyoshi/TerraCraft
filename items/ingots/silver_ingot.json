@@ -1,0 +1,11 @@
+
+{
+  "silver_ingot": {
+    "ai": "Ingot",
+    "type": "MATERIALS",
+    "iconTextureData": "ingot_icon.png",
+    "iconColor": [ 255, 240, 240, 255 ],
+    "iconColor2": [ 0, 255, 255, 255 ],
+    "group": "GROUP_INGOT"
+  }
+}

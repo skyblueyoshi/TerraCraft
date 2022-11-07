@@ -1,0 +1,35 @@
+{
+  "block": {
+    "platform_nether_brick": {
+      "textureData": "platform_nether_brick.png",
+      "color": [ 49, 17, 21 ],
+      "renderMode": "RENDER_PLATEFORM",
+      "type": "TILE",
+      "group": "PLATFORM",
+      "collision": "PLATFORM",
+      "lightOpacity": 1,
+      "lightTransparent": true,
+      "toolType": "PICKAXE",
+      "mineGrade": "WOOD",
+      "hardness": 100,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": false,
+      "wallCheck": "NO_GENERABLE",
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 49, 17, 21 ],
+      "isBackground": true,
+      "isNoLinkVertical": true
+    }
+  },
+  "item": {
+    "platform_nether_brick": {
+      "type": "BLOCKS",
+      "iconTextureData": "platform_nether_brick_icon.png",
+      "group": "GROUP_PLATFORM",
+      "blockId": "platform_nether_brick"
+    }
+  }
+}

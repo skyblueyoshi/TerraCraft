@@ -1,0 +1,65 @@
+
+{
+  "spider": {
+    "ai": "Fighter",
+    "textureData": "spider.png",
+    "type": "ARTHROPODS",
+    "width": 32,
+    "height": 28,
+    "gfxWidth": 48,
+    "gfxHeight": 32,
+    "gfxOffsetX": -8,
+    "gfxOffsetY": -4,
+    "frameStyle": 1,
+    "frames": 4,
+    "frameSpeed": 8,
+    "shape": "BOX",
+    "maxSpeed": 2.0,
+    "jumpForce": 6.0,
+    "disappearTime": 750,
+    "spawnCount": 1.0,
+    "health": 40,
+    "defense": 6,
+    "attack": 8,
+    "knockBack": 3,
+    "knockBackDefense": 0.30,
+    "gravity": true,
+    "climbWall": true,
+    "foreground": false,
+    "noFixByBlock": false,
+    "friendly": false,
+    "exps": 5,
+    "sunBurning": false,
+    "angry": false,
+    "antiLava": false,
+    "saySounds": [
+      "spider_say1",
+      "spider_say2",
+      "spider_say3"
+    ],
+    "hurtSounds": [
+      "spider_death",
+      "spider_say1",
+      "spider_say2",
+      "spider_say3"
+    ],
+    "loots": [
+      {
+        "item": "string",
+        "count": [ 1, 4 ]
+      },
+      {
+        "item": "spider_eye",
+        "count": [ 1, 2 ],
+        "possibility": 0.5
+      }
+    ],
+    "special": 0,
+    "paticularColor": [ 255, 50, 50, 20 ],
+    "spawn": "LAND",
+    "gore": "gore_spider",
+    "magicRate": 30,
+    "checkPlayerTarget": true,
+    "visionNoCrossTile": false
+  }
+}

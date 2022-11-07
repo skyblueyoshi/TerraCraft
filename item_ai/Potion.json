@@ -1,0 +1,8 @@
+
+{
+  "Potion": {
+    "script": {
+      "path": "Potion.lua"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "block": {
+    "wooden_door_birch": {
+      "textureData": "wooden_door_birch.png",
+      "color": [ 170, 160, 120 ],
+      "type": "FURNITURE",
+      "subGroup": "CLOSED_DOOR",
+      "width": 1,
+      "height": 4,
+      "collision": "SOLID",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 120,
+      "slipperiness": 1.0,
+      "isKilledByLava": true,
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 165, 155, 110 ],
+      "transformId": "wooden_door_birch_open",
+      "preset": "DoorClosed",
+      "isDoorClosed": true
+    }
+  },
+  "item": {
+    "wooden_door_birch": {
+      "type": "BLOCKS",
+      "iconTextureData": "wooden_door_birch_icon.png",
+      "group": "GROUP_DOOR",
+      "blockId": "wooden_door_birch",
+      "fuelTime": 60
+    }
+  }
+}

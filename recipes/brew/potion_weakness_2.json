@@ -1,0 +1,16 @@
+
+{
+  "config": "Brew",
+  "results": [
+    {
+      "id": "potion_weakness",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [ "AB" ],
+  "elements": [
+    [ "A", "potion_regeneration" ],
+    [ "B", "fermented_spider_eye" ]
+  ],
+  "exData": { "time": 400 }
+}

@@ -1,0 +1,22 @@
+
+{
+  "fishing_rod": {
+    "type": "TOOLS",
+    "iconTextureData": "fishing_rod_icon.png",
+    "textureData": "fishing_rod_entity.png",
+    "group": "GROUP_FISHINGROD",
+    "toolType": "FISHING_ROD",
+    "ai": "fishing_rod",
+    "coldTime": 60,
+    "entityWidth": 38,
+    "entityHeight": 42,
+    "handX": 6,
+    "handY": 30,
+    "firePoints": [[36,1]],
+    "holdType": "FOLLOW_MOUSE",
+    "twoHands": true,
+    "durable": 256,
+    "fuelTime": 60,
+    "onTest": true
+  }
+}

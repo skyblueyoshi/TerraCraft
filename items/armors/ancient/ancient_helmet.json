@@ -1,0 +1,13 @@
+
+{
+  "ancient_helmet": {
+    "type": "TOOLS",
+    "iconTextureData": "ihat14.png",
+    "textureData": "hat14.png",
+    "group": "GROUP_HELMET",
+    "toolType": "HELMET",
+    "isArmor": true,
+    "defense": 6,
+    "durable": 3160
+  }
+}

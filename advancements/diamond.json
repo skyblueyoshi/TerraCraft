@@ -1,0 +1,9 @@
+
+{
+  "diamond": {
+    "itemId": "diamond",
+    "parentId": "iron",
+    "showTip": true,
+    "broadcase": true
+  }
+}

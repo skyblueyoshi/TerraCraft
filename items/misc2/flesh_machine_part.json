@@ -1,0 +1,8 @@
+
+{
+  "flesh_machine_part": {
+    "type": "MATERIALS",
+    "iconTextureData": "flesh_machine_part.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

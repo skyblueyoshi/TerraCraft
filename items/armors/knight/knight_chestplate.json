@@ -1,0 +1,13 @@
+
+{
+  "knight_chestplate": {
+    "type": "TOOLS",
+    "iconTextureData": "chestplate5.png",
+    "textureData": "body5.png",
+    "group": "GROUP_CHESTPLATE",
+    "toolType": "CHESTPLATE",
+    "isArmor": true,
+    "defense": 6,
+    "durable": 1552
+  }
+}

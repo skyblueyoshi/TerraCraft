@@ -1,0 +1,8 @@
+
+{
+  "Enderman": {
+    "script": {
+      "path": "Enderman.lua"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+
+{
+  "GlowBomb": {
+    "defaultAI": "Bomb",
+    "script": {
+      "path": "GlowBomb.lua",
+      "requires": [ [ "mycode", "modules\\mycode.lua" ] ]
+    }
+  }
+}

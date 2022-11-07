@@ -1,0 +1,43 @@
+{
+  "block": {
+    "blue_mushroom_dirt": {
+      "textureData": "blue_mushroom_dirt.png",
+      "color": [ 15, 33, 112 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 8,
+      "type": "TILE",
+      "group": "DIRT",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "GRASS",
+      "hardness": 60,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": true,
+      "isWallDark": true,
+      "hasGrassCover": true,
+      "isRipen": true,
+      "wallCheck": "NATURE_GENERABLE_ONLY",
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_grass",
+      "particleColor": [ 255, 123, 100, 100 ],
+      "preset": "GrowGrass",
+      "covers": [
+        {
+          "modTextureId": "tainted_grass",
+          "offsetX": -8,
+          "offsetY": -8
+        }
+      ]
+    }
+  },
+  "item": {
+    "blue_mushroom_dirt": {
+      "type": "BLOCKS",
+      "iconTextureData": "blue_mushroom_dirt_icon.png",
+      "group": "GROUP_MUSHROOM_BLOCK",
+      "blockId": "blue_mushroom_dirt"
+    }
+  }
+}

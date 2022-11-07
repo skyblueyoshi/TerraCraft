@@ -1,0 +1,8 @@
+
+{
+  "egg": {
+    "type": "MATERIALS",
+    "iconTextureData": "egg_icon.png",
+    "group": "GROUP_FOOD"
+  }
+}

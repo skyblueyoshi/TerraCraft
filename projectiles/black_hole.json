@@ -1,0 +1,24 @@
+
+{
+  "black_hole": {
+    "ai": "BlackHole",
+    "textureData": "black_hole.png",
+    "width": 64,
+    "height": 64,
+    "gfxWidth": 64,
+    "gfxHeight": 64,
+    "gfxOffsetX": 0,
+    "gfxOffsetY": 0,
+    "hots": [[16, 16]],
+    "frameStyle": 1,
+    "frames": 1,
+    "frameSpeed": 8,
+    "shape": "BOX",
+    "maxSpeed": 6.0,
+    "gravity": false,
+    "foreground": true,
+    "fixByBlocks": false,
+    "througthBlock": false,
+    "keepStrick": true
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "block": {
+    "stone_brick_carved": {
+      "textureData": "stone_brick_carved.png",
+      "color": [ 118, 118, 118 ],
+      "renderMode": "RENDER_BLOCK",
+      "renderSortedInterval": 4,
+      "type": "TILE",
+      "group": "STONE_BRICK",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "WOOD",
+      "hardness": 200,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": false,
+      "wallCheck": "NATURE_GENERABLE_ONLY",
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 100, 100, 100 ]
+    }
+  },
+  "item": {
+    "stone_brick_carved": {
+      "type": "BLOCKS",
+      "iconTextureData": "stone_brick_carved_icon.png",
+      "group": "GROUP_STONE_BRICK",
+      "blockId": "stone_brick_carved"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "block": {
+    "hay_bale": {
+      "textureData": "hay_bale.png",
+      "color": [ 205, 171, 0 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 2,
+      "type": "TILE",
+      "group": "ARTIFICAL",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 70,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": false,
+      "wallCheck": "NO_GENERABLE",
+      "soundGroupId": "grass",
+      "stepSoundGroupId": "step_grass",
+      "particleColor": [ 255, 200, 160, 0 ]
+    }
+  },
+  "item": {
+    "hay_bale": {
+      "type": "BLOCKS",
+      "iconTextureData": "hay_bale_icon.png",
+      "group": "GROUP_OTHERS_BLOCK",
+      "blockId": "hay_bale"
+    }
+  }
+}

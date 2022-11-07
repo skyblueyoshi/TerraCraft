@@ -1,0 +1,17 @@
+{
+  "walls": [
+    {
+      "id": "prismarine"
+    }
+  ],
+  "spawn": {
+    "mobSpeed": 20,
+    "maxMobSpawn": 10,
+    "mobs": [
+      {
+        "id": "guardian",
+        "weight": 5
+      }
+    ]
+  }
+}

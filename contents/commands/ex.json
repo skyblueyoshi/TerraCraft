@@ -1,0 +1,19 @@
+
+{
+  "ex": {
+    "isClient": false,
+    "fromPlayer": true,
+    "gameMode": "creative",
+    "op": "any",
+    "parameters": [
+      {
+        "type": "CP_INTEGER",
+        "min": 1,
+        "max": 10000000
+      }
+    ],
+    "script": {
+      "path": "ex.lua"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+
+{
+  "beetroot": {
+    "ai": "Food",
+    "type": "MATERIALS",
+    "iconTextureData": "beetroot_icon.png",
+    "group": "GROUP_FOOD",
+    "eatable": true,
+    "useSoundGroup": "eat",
+    "food": 10,
+    "foodSaturation": 12
+  }
+}

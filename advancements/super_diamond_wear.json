@@ -1,0 +1,9 @@
+
+{
+  "super_diamond_wear": {
+    "itemId": "super_diamond_helmet",
+    "parentId": "diamond_ingot",
+    "showTip": true,
+    "broadcase": true
+  }
+}

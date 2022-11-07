@@ -1,0 +1,21 @@
+
+{
+  "config": "Craft3x",
+  "searchActions": [ [ 0, "SA_UNORDER" ] ],
+  "results": [
+    {
+      "id": "flesh_ingot",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "ABC",
+    "COO",
+    "OOO"
+  ],
+  "elements": [
+    [ "A", "gold_ingot" ],
+    [ "B", "silver_ingot" ],
+    [ "B", "flesh_part" ]
+  ]
+}

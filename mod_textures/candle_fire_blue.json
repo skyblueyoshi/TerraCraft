@@ -1,0 +1,11 @@
+
+{
+  "candle_fire_blue": {
+    "textureData": "candle_fire_blue.png",
+    "width": 16,
+    "height": 16,
+    "frameXs": 4,
+    "frameSpeed": 8,
+    "loopPlay": true
+  }
+}

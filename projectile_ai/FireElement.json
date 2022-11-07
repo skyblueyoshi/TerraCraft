@@ -1,0 +1,11 @@
+
+{
+  "FireElement": {
+    "script": {
+      "path": "FireElement.lua"
+    },
+    "modData": [
+      [ "int", "bounceTimes" ]
+    ]
+  }
+}

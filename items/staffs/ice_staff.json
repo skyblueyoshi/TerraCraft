@@ -1,0 +1,30 @@
+
+{
+  "ice_staff": {
+    "type": "TOOLS",
+    "iconTextureData": "ice_staff_entity.png",
+    "textureData": "ice_staff_entity.png",
+    "group": "GROUP_STAFF",
+    "oreDictionary": [ "OD_STAFF" ],
+    "toolType": "STAFF",
+    "ai": "Staff",
+    "speed": 10.0,
+    "deviation": 0.03,
+    "shootTimes": 1,
+    "shootProjectileId": "ice_magic",
+    "usePosture": 1,
+    "useSound": "wand1",
+    "coldTime": 40,
+    "entityWidth": 16,
+    "entityHeight": 48,
+    "handX": 8,
+    "handY": 32,
+    "firePoints": [[8,8]],
+    "holdType": "HOLD_STAFF",
+    "twoHands": false,
+    "damage": 12,
+    "knockBack": 5,
+    "crit": 3,
+    "consumeMana": 5
+  }
+}

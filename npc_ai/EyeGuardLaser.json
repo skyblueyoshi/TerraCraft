@@ -1,0 +1,8 @@
+
+{
+  "EyeGuardLaser": {
+    "script": {
+      "path": "EyeGuardLaser.lua"
+    }
+  }
+}

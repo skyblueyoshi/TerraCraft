@@ -1,0 +1,32 @@
+
+{
+  "ice_bow": {
+    "type": "TOOLS",
+    "iconTextureData": "ice_bow_icon.png",
+    "textureData": "ice_bow_entity.png",
+    "group": "GROUP_BOW",
+    "toolType": "BOW",
+    "ai": "Bow",
+    "ammo": "arrow",
+    "entityWidth": 18,
+    "entityHeight": 36,
+    "handX": 8,
+    "handY": 18,
+    "firePoints": [[18,18]],
+    "noConsumeChance": 0.0,
+    "speed": 14.0,
+    "deviation": 0.05,
+    "shootTimes": 1,
+    "ammoLevel": 4,
+    "shootProjectileId": "ice_arrow",
+    "usePosture": 1,
+    "useSound": "bow",
+    "coldTime": 50,
+    "holdType": "NORMAL",
+    "twoHands": true,
+    "durable": 866,
+    "damage": 11,
+    "knockBack": 5,
+    "crit": 3
+  }
+}

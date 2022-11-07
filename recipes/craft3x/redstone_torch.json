@@ -1,0 +1,20 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "redstone_torch",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "AOO",
+    "BOO",
+    "OOO"
+  ],
+  "elements": [
+    [ "A", "redstone" ],
+    [ "B", "stick" ]
+  ],
+  "importantElements": [ "A" ]
+}

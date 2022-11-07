@@ -1,0 +1,19 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "red_nether_brick",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "BAO",
+    "ABO",
+    "OOO"
+  ],
+  "elements": [
+    [ "A", "nether_brick" ],
+    [ "B", "nether_wart" ]
+  ]
+}

@@ -1,0 +1,20 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "diamond_pickaxe",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "AAA",
+    "OBO",
+    "OBO"
+  ],
+  "elements": [
+    [ "A", "diamond" ],
+    [ "B", "stick" ]
+  ],
+  "importantElements": [ "A" ]
+}

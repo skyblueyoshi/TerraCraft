@@ -1,0 +1,19 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "terracotta_yellow",
+      "stackSize": 8
+    }
+  ],
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "elements": [
+    [ "A", "OD_TERRACOTTA" ],
+    [ "B", "dye_yellow" ]
+  ]
+}

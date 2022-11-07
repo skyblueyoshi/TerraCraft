@@ -1,0 +1,46 @@
+{
+  "block": {
+    "chandeliers": {
+      "textureData": "chandeliers.png",
+      "color": [ 141, 225, 203 ],
+      "type": "FURNITURE",
+      "width": 3,
+      "height": 3,
+      "collision": "NONE",
+      "attach": "TOP",
+      "attachable": "NONE",
+      "toolType": "PICKAXE",
+      "mineGrade": "GRASS",
+      "hardness": 20,
+      "isKilledByLava": true,
+      "isFragile": true,
+      "isLighting": true,
+      "lightColor": [ 28, 8, 8, 8 ],
+      "lightX": 0,
+      "lightY": 2,
+      "lightWi": 2,
+      "lightHi": 1,
+      "soundGroupId": "glass",
+      "stepSoundId": "step_cloth",
+      "particleColor": [ 255, 222, 22, 222 ],
+      "animation": [
+        {
+          "animationId": 0,
+          "shake": true,
+          "shakeCenterX": 24,
+          "shakeCenterY": 0,
+          "shakePeriod": 128,
+          "shakeAngle": 0.05
+        }
+      ]
+    }
+  },
+  "item": {
+    "chandeliers": {
+      "type": "BLOCKS",
+      "iconTextureData": "chandeliers.png",
+      "group": "GROUP_OTHERS_FURNITURE",
+      "blockId": "chandeliers"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "block": {
+    "cabinet_nether": {
+      "textureData": "cabinet_nether.png",
+      "color": [ 73, 29, 34 ],
+      "type": "FURNITURE",
+      "width": 3,
+      "height": 2,
+      "collision": "PLATFORM",
+      "attach": "BOTTOM",
+      "attachable": "TOP",
+      "toolType": "PICKAXE",
+      "mineGrade": "GRASS",
+      "hardness": 140,
+      "slipperiness": 1.0,
+      "isKilledByLava": false,
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "functionSoundId": "chest",
+      "functionSoundId2": "chestclosed",
+      "particleColor": [ 255, 73, 29, 34 ],
+      "preset": "Storage"
+    }
+  },
+  "item": {
+    "cabinet_nether": {
+      "type": "BLOCKS",
+      "iconTextureData": "cabinet_nether.png",
+      "group": "GROUP_WOODEN_CABINET",
+      "blockId": "cabinet_nether",
+      "antiLava": true
+    }
+  }
+}

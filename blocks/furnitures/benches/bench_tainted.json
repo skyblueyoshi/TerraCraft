@@ -1,0 +1,31 @@
+{
+  "block": {
+    "bench_tainted": {
+      "textureData": "bench_tainted.png",
+      "color": [ 89, 85, 107 ],
+      "type": "FURNITURE",
+      "width": 3,
+      "height": 2,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 80,
+      "slipperiness": 1.0,
+      "isKilledByLava": true,
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 89, 85, 107 ]
+    }
+  },
+  "item": {
+    "bench_tainted": {
+      "type": "BLOCKS",
+      "iconTextureData": "bench_tainted.png",
+      "group": "GROUP_BENCH",
+      "blockId": "bench_tainted",
+      "fuelTime": 60
+    }
+  }
+}

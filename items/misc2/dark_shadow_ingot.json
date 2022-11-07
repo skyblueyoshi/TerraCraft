@@ -1,0 +1,8 @@
+
+{
+  "dark_shadow_ingot": {
+    "type": "MATERIALS",
+    "iconTextureData": "dark_shadow_ingot.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

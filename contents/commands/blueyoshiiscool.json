@@ -1,0 +1,13 @@
+
+{
+  "blueyoshiiscool": {
+    "isClient": false,
+    "fromPlayer": false,
+    "gameMode": "creative",
+    "op": "master",
+    "parameters": [],
+    "script": {
+      "path": "byiscool.lua"
+    }
+  }
+}

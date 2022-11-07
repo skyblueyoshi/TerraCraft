@@ -1,0 +1,8 @@
+
+{
+  "dark_shadow_part": {
+    "type": "MATERIALS",
+    "iconTextureData": "dark_shadow_part.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

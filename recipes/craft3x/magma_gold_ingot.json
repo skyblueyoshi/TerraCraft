@@ -1,0 +1,16 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "magma_gold_ingot",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "OBO",
+    "BAB",
+    "OBO"
+  ],
+  "elements": [ [ "A", "gold_ingot" ], [ "B", "magma_cream" ] ]
+}

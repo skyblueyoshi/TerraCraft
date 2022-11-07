@@ -1,0 +1,19 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "shulker_box",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "AOO",
+    "BOO",
+    "AOO"
+  ],
+  "elements": [
+    [ "A", "shulker_shell" ],
+    [ "B", "chest" ]
+  ]
+}

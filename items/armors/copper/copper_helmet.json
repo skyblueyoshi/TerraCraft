@@ -1,0 +1,13 @@
+
+{
+  "copper_helmet": {
+    "type": "TOOLS",
+    "iconTextureData": "copper_helmet_icon.png",
+    "textureData": "hat.png",
+    "group": "GROUP_HELMET",
+    "toolType": "HELMET",
+    "isArmor": true,
+    "defense": 2,
+    "durable": 412
+  }
+}

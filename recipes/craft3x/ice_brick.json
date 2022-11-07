@@ -1,0 +1,16 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "ice_brick",
+      "stackSize": 4
+    }
+  ],
+  "pattern": [
+    "AAO",
+    "AAO",
+    "OOO"
+  ],
+  "elements": [ [ "A", "ice_cobblestone" ] ]
+}

@@ -1,0 +1,7 @@
+
+{
+  "Sugarcane": {
+    "pOnDraw": "DrawGeneral",
+    "pOnRandomEvent": "RandomGrowSugarCane"
+  }
+}

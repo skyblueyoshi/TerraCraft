@@ -1,0 +1,16 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "iron_door",
+      "stackSize": 3
+    }
+  ],
+  "pattern": [
+    "AAO",
+    "AAO",
+    "AAO"
+  ],
+  "elements": [ [ "A", "OD_IRON_INGOT" ] ]
+}

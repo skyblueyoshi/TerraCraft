@@ -1,0 +1,26 @@
+{
+  "block": {
+    "wooden_door_volcano_open": {
+      "textureData": "wooden_door_volcano.png",
+      "color": [ 200, 60, 60 ],
+      "type": "FURNITURE",
+      "subGroup": "OPENED_DOOR",
+      "width": 3,
+      "height": 4,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 120,
+      "slipperiness": 1.0,
+      "isKilledByLava": true,
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 200, 60, 60 ],
+      "transformId": "wooden_door_volcano",
+      "preset": "DoorOpened",
+      "isDoorOpened": true
+    }
+  }
+}

@@ -1,0 +1,20 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "stone_hoe",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "AAO",
+    "OBO",
+    "OBO"
+  ],
+  "elements": [
+    [ "A", "cobblestone" ],
+    [ "B", "stick" ]
+  ],
+  "importantElements": [ "A" ]
+}

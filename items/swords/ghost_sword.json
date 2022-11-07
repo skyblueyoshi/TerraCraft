@@ -1,0 +1,28 @@
+
+{
+  "ghost_sword": {
+    "type": "TOOLS",
+    "iconTextureData": "ghost_sword_entity.png",
+    "textureData": "ghost_sword_entity.png",
+    "group": "GROUP_SWORD",
+    "oreDictionary": [ "OD_SWORD" ],
+    "toolType": "SWORD",
+    "ai": "Sword",
+    "coldTime": 16,
+    "entityWidth": 14,
+    "entityHeight": 76,
+    "handX": 8,
+    "handY": 66,
+    "holdType": "NORMAL",
+    "durable": 624,
+    "damage": 8,
+    "knockBack": 1,
+    "crit": 4,
+    "enchantments": [
+      {
+        "id": "smite",
+        "level": 4
+      }
+    ]
+  }
+}

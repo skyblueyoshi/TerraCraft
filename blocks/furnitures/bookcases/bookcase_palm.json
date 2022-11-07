@@ -1,0 +1,35 @@
+{
+  "block": {
+    "bookcase_palm": {
+      "textureData": "bookcase_palm.png",
+      "color": [ 182, 141, 86 ],
+      "type": "FURNITURE",
+      "subGroup": "BOOKCASE",
+      "width": 3,
+      "height": 4,
+      "collision": "PLATFORM",
+      "attach": "BOTTOM",
+      "attachable": "TOP",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 140,
+      "slipperiness": 1.0,
+      "isKilledByLava": true,
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "functionSoundId": "chest",
+      "functionSoundId2": "chestclosed",
+      "particleColor": [ 255, 182, 141, 86 ],
+      "preset": "Storage"
+    }
+  },
+  "item": {
+    "bookcase_palm": {
+      "type": "BLOCKS",
+      "iconTextureData": "bookcase_palm.png",
+      "group": "GROUP_BOOKCASE",
+      "blockId": "bookcase_palm",
+      "fuelTime": 60
+    }
+  }
+}

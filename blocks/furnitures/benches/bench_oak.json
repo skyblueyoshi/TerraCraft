@@ -1,0 +1,31 @@
+{
+  "block": {
+    "bench_oak": {
+      "textureData": "bench_oak.png",
+      "color": [ 167, 136, 79 ],
+      "type": "FURNITURE",
+      "width": 3,
+      "height": 2,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 80,
+      "slipperiness": 1.0,
+      "isKilledByLava": true,
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 173, 137, 80 ]
+    }
+  },
+  "item": {
+    "bench_oak": {
+      "type": "BLOCKS",
+      "iconTextureData": "bench_oak.png",
+      "group": "GROUP_BENCH",
+      "blockId": "bench_oak",
+      "fuelTime": 60
+    }
+  }
+}

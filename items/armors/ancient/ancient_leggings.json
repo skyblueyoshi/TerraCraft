@@ -1,0 +1,13 @@
+
+{
+  "ancient_leggings": {
+    "type": "TOOLS",
+    "iconTextureData": "leggings14.png",
+    "textureData": "leg14.png",
+    "group": "GROUP_LEGGINGS",
+    "toolType": "LEGGINGS",
+    "isArmor": true,
+    "defense": 7,
+    "durable": 3160
+  }
+}

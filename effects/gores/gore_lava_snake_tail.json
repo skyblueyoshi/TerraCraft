@@ -1,0 +1,25 @@
+{
+	"gore_lava_snake_tail": {
+		"ai": "Gore", 
+			"textureData" : "lava_snake_tail.png", 
+			"width" : 20, 
+			"height" : 20, 
+			"gfxOffsetX" : -17, 
+			"gfxOffsetY" : -10, 
+			"gfxWidth" : 54, 
+			"gfxHeight" : 40, 
+			"frameStyle" : 0, 
+			"frameStyles" : 1, 
+			"frames" : 1, 
+			"frameSpeed" : 8, 
+			"disappearTime" : 600, 
+			"isForeground" : false, 
+			"gravity" : true, 
+			"collisionWithBlocks" : true, 
+			"fixByBlocks" : true, 
+			"fadeScale" : false, 
+			"fadeAlpha" : false, 
+			"slowSpeed" : false, 
+			"slowRotateSpeed" : false
+	}
+}

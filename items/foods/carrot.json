@@ -1,0 +1,15 @@
+
+{
+  "carrot": {
+    "ai": "Food",
+    "type": "MATERIALS",
+    "iconTextureData": "carrot_icon.png",
+    "group": "GROUP_FOOD",
+    "isSeed": true,
+    "eatable": true,
+    "useSoundGroup": "eat",
+    "food": 15,
+    "foodSaturation": 36,
+    "blockId": "carrot"
+  }
+}

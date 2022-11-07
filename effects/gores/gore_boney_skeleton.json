@@ -1,0 +1,26 @@
+
+{
+  "gore_boney_skeleton": {
+    "ai": "Gore",
+    "textureData": "boney_skeleton.png",
+    "width": 20,
+    "height": 20,
+    "gfxOffsetX": -8,
+    "gfxOffsetY": -4,
+    "gfxWidth": 36,
+    "gfxHeight": 28,
+    "frameStyle": 0,
+    "frameStyles": 1,
+    "frames": 1,
+    "frameSpeed": 8,
+    "disappearTime": 600,
+    "isForeground": false,
+    "gravity": true,
+    "collisionWithBlocks": true,
+    "fixByBlocks": true,
+    "fadeScale": false,
+    "fadeAlpha": false,
+    "slowSpeed": false,
+    "slowRotateSpeed": false
+  }
+}

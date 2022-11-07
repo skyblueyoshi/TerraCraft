@@ -1,0 +1,31 @@
+{
+  "block": {
+    "table_palm": {
+      "textureData": "wooden_table_palm.png",
+      "color": [ 182, 141, 86 ],
+      "type": "FURNITURE",
+      "width": 3,
+      "height": 2,
+      "collision": "PLATFORM",
+      "attach": "BOTTOM",
+      "attachable": "TOP",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 140,
+      "slipperiness": 1.0,
+      "isKilledByLava": true,
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 182, 141, 86 ]
+    }
+  },
+  "item": {
+    "table_palm": {
+      "type": "BLOCKS",
+      "iconTextureData": "wooden_table_palm.png",
+      "group": "GROUP_WOODEN_TABLE",
+      "blockId": "table_palm",
+      "fuelTime": 60
+    }
+  }
+}

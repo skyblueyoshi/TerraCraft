@@ -1,0 +1,23 @@
+{
+  "fire_element": {
+    "ai": "FireElement",
+    "textureData": "fire_element.png",
+    "width": 24,
+    "height": 16,
+    "gfxWidth": 24,
+    "gfxHeight": 16,
+    "gfxOffsetX": 0,
+    "gfxOffsetY": 0,
+    "hots": [[0, 8]],
+    "frameStyle": 1,
+    "frames": 2,
+    "frameSpeed": 8,
+    "shape": "BOX",
+    "maxSpeed": 12.0,
+    "gravity": false,
+    "foreground": false,
+    "fixByBlocks": false,
+    "througthBlock": false,
+    "keepStrick": true
+  }
+}

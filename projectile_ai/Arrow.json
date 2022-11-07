@@ -1,0 +1,12 @@
+{
+  "Arrow": {
+    "script": {
+      "path": "Arrow.lua"
+    },
+    "modData": [
+      [ "int", "attachItemID" ],
+      [ "int", "flameLevel" ],
+      [ "int", "piercingCount" ]
+    ]
+  }
+}

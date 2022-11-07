@@ -1,0 +1,35 @@
+
+{
+  "shotgun": {
+    "type": "TOOLS",
+    "iconTextureData": "shotgun_entity.png",
+    "textureData": "shotgun_entity.png",
+    "group": "GROUP_GUN",
+    "toolType": "GUN",
+    "ai": "Gun",
+    "ammo": "bullet",
+    "entityWidth": 50,
+    "entityHeight": 22,
+    "handX": 16,
+    "handY": 14,
+    "firePoints": [[48,3]],
+    "noConsumeChance": 0.0,
+    "speed": 24.0,
+    "deviation": 0.09,
+    "shootTimes": 3,
+    "ammoLevel": 0,
+    "special": 1,
+    "shootProjectileId": "bullet",
+    "usePosture": 0,
+    "useSound": "shotgun_fire",
+    "coldTime": 32,
+    "holdType": "FOLLOW_MOUSE",
+    "twoHands": true,
+    "backForce": true,
+    "durable": 1024,
+    "damage": 8,
+    "knockBack": 1,
+    "crit": 3,
+    "noEnchanted": true
+  }
+}

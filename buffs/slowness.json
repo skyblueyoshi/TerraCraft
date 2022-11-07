@@ -1,0 +1,9 @@
+
+{
+  "slowness": {
+    "textureData": "slowness.png",
+    "script": {
+      "path": "slowness.lua"
+    }
+  }
+}

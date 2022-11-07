@@ -1,0 +1,16 @@
+
+{
+  "Staff": {
+    "script": {
+      "path": "Staff.lua"
+    },
+    "destroyFragileBlocks": false,
+    "crossTiles": false,
+    "consumeItems": false,
+    "consumeMana": true,
+    "directHitPlayer": false,
+    "directHitNpc": false,
+    "hitDecreaseDurable": 0.0,
+    "shootDecreaseDurable": 0.0
+  }
+}

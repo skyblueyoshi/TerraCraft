@@ -1,0 +1,33 @@
+{
+  "block": {
+    "diorite": {
+      "textureData": "diorite.png",
+      "color": [ 144, 144, 144 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 8,
+      "type": "TILE",
+      "group": "DIORITE",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "WOOD",
+      "hardness": 140,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": true,
+      "isWallDark": true,
+      "wallCheck": "NATURE_GENERABLE_ONLY",
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 170, 170, 170 ]
+    }
+  },
+  "item": {
+    "diorite": {
+      "type": "BLOCKS",
+      "iconTextureData": "diorite_icon.png",
+      "group": "GROUP_DIORITE",
+      "blockId": "diorite"
+    }
+  }
+}

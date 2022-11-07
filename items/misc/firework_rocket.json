@@ -1,0 +1,9 @@
+
+{
+  "firework_rocket": {
+    "type": "MATERIALS",
+    "iconTextureData": "firework_rocket_icon.png",
+    "group": "GROUP_MATERIAL",
+    "onTest": true
+  }
+}

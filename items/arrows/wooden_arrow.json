@@ -1,0 +1,15 @@
+
+{
+  "wooden_arrow": {
+    "type": "PROJECTILES",
+    "iconTextureData": "wooden_arrow_icon.png",
+    "group": "GROUP_ARROW",
+    "ammo": "arrow",
+    "ammoLevel": 0,
+    "projectileId": "wooden_arrow",
+    "speed": 0.0,
+    "shootable": true,
+    "damage": 2,
+    "knockBack": 1
+  }
+}

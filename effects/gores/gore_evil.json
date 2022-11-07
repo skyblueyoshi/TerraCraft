@@ -1,0 +1,25 @@
+{
+	"gore_evil": {
+		"ai": "Gore", 
+			"textureData" : "evil.png", 
+			"width" : 20, 
+			"height" : 20, 
+			"gfxOffsetX" : 0, 
+			"gfxOffsetY" : -1, 
+			"gfxWidth" : 20, 
+			"gfxHeight" : 22, 
+			"frameStyle" : 0, 
+			"frameStyles" : 1, 
+			"frames" : 1, 
+			"frameSpeed" : 8, 
+			"disappearTime" : 600, 
+			"isForeground" : false, 
+			"gravity" : true, 
+			"collisionWithBlocks" : true, 
+			"fixByBlocks" : true, 
+			"fadeScale" : false, 
+			"fadeAlpha" : false, 
+			"slowSpeed" : false, 
+			"slowRotateSpeed" : false
+	}
+}

@@ -1,0 +1,8 @@
+
+{
+  "ManEater": {
+    "script": {
+      "path": "ManEater.lua"
+    }
+  }
+}

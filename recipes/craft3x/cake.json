@@ -1,0 +1,25 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "cake",
+      "stackSize": 1
+    },
+    {
+      "id": "bucket_empty",
+      "stackSize": 3
+    }
+  ],
+  "pattern": [
+    "BBB",
+    "CAC",
+    "DDD"
+  ],
+  "elements": [
+    [ "A", "egg" ],
+    [ "B", "bucket_milk" ],
+    [ "C", "suger" ],
+    [ "D", "wheat" ]
+  ]
+}

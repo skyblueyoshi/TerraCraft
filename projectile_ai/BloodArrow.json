@@ -1,0 +1,9 @@
+
+{
+  "BloodArrow": {
+    "defaultAI": "Arrow",
+    "script": {
+      "path": "BloodArrow.lua"
+    }
+  }
+}

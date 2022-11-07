@@ -1,0 +1,8 @@
+
+{
+  "UndeadMiner": {
+    "script": {
+      "path": "UndeadMiner.lua"
+    }
+  }
+}

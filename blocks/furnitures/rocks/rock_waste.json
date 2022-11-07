@@ -1,0 +1,22 @@
+{
+  "block": {
+    "rock_waste": {
+      "textureData": "rock_waste.png",
+      "color": [ 100, 50, 30 ],
+      "type": "FURNITURE",
+      "width": 2,
+      "height": 2,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "toolType": "PICKAXE",
+      "mineGrade": "GRASS",
+      "hardness": 100,
+      "slipperiness": 1.0,
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 100, 50, 30 ],
+      "preset": "RandomDisplay"
+    }
+  }
+}

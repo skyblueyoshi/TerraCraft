@@ -1,0 +1,29 @@
+
+{
+  "water_staff": {
+    "type": "TOOLS",
+    "iconTextureData": "water_staff_entity.png",
+    "textureData": "water_staff_entity.png",
+    "group": "GROUP_STAFF",
+    "oreDictionary": [ "OD_STAFF" ],
+    "toolType": "STAFF",
+    "ai": "Staff",
+    "speed": 12.0,
+    "deviation": 0.05,
+    "shootTimes": 1,
+    "shootProjectileId": "water_magic",
+    "usePosture": 1,
+    "coldTime": 4,
+    "entityWidth": 8,
+    "entityHeight": 48,
+    "handX": 4,
+    "handY": 32,
+    "firePoints": [[4,4]],
+    "holdType": "HOLD_STAFF",
+    "twoHands": false,
+    "damage": 1,
+    "knockBack": 1,
+    "crit": 3,
+    "consumeMana": 1
+  }
+}

@@ -1,0 +1,23 @@
+
+{
+  "config": "Craft3x",
+  "searchActions": [ [ 0, "SA_UNORDER" ] ],
+  "results": [
+    {
+      "id": "diamond_ingot",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "ABC",
+    "DEO",
+    "OOO"
+  ],
+  "elements": [
+    [ "A", "diamond" ],
+    [ "B", "blue_crystal" ],
+    [ "C", "red_crystal" ],
+    [ "D", "yellow_crystal" ],
+    [ "E", "white_crystal" ]
+  ]
+}

@@ -1,0 +1,8 @@
+
+{
+  "strange_len": {
+    "type": "MATERIALS",
+    "iconTextureData": "strange_len.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

@@ -1,0 +1,23 @@
+
+{
+  "silver_axe": {
+    "type": "TOOLS",
+    "iconTextureData": "silver_axe_entity.png",
+    "textureData": "silver_axe_entity.png",
+    "group": "GROUP_AXE",
+    "toolType": "AXE",
+    "toolGrade": "GOLD",
+    "efficiency": 4.0,
+    "ai": "Axe",
+    "coldTime": 18,
+    "entityWidth": 22,
+    "entityHeight": 40,
+    "handX": 8,
+    "handY": 32,
+    "holdType": "NORMAL",
+    "durable": 1856,
+    "damage": 4,
+    "knockBack": 1,
+    "crit": 0
+  }
+}

@@ -1,0 +1,9 @@
+
+{
+  "slow_mining": {
+    "textureData": "slow_mining.png",
+    "script": {
+      "path": "slow_mining.lua"
+    }
+  }
+}

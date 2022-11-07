@@ -1,0 +1,33 @@
+{
+  "block": {
+    "tainted_stone": {
+      "textureData": "tainted_stone.png",
+      "color": [ 75, 52, 108 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 8,
+      "type": "TILE",
+      "group": "TAINTED_STONE",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "STONE",
+      "hardness": 200,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": true,
+      "isWallDark": true,
+      "wallCheck": "GENERABLE",
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 100, 100, 100 ]
+    }
+  },
+  "item": {
+    "tainted_stone": {
+      "type": "BLOCKS",
+      "iconTextureData": "tainted_stone_icon.png",
+      "group": "GROUP_TAINTED",
+      "blockId": "tainted_stone"
+    }
+  }
+}

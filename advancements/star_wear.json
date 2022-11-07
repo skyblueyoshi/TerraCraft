@@ -1,0 +1,9 @@
+
+{
+  "star_wear": {
+    "itemId": "star_helmet",
+    "parentId": "crison_eye_killed",
+    "showTip": true,
+    "broadcase": true
+  }
+}

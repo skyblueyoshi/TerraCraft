@@ -1,0 +1,19 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "bookcase_jungle",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "AAA",
+    "BBB",
+    "AAA"
+  ],
+  "elements": [
+    [ "A", "jungle_plank" ],
+    [ "B", "book_block" ]
+  ]
+}

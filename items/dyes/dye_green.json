@@ -1,0 +1,8 @@
+
+{
+  "dye_green": {
+    "type": "MATERIALS",
+    "iconTextureData": "dye_green_icon.png",
+    "group": "GROUP_DYE"
+  }
+}

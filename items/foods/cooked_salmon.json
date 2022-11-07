@@ -1,0 +1,13 @@
+
+{
+  "cooked_salmon": {
+    "ai": "Food",
+    "type": "MATERIALS",
+    "iconTextureData": "cooked_salmon_icon.png",
+    "group": "GROUP_FOOD",
+    "eatable": true,
+    "useSoundGroup": "eat",
+    "food": 25,
+    "foodSaturation": 60
+  }
+}

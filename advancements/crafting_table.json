@@ -1,0 +1,9 @@
+
+{
+  "crafting_table": {
+    "itemId": "crafting_table",
+    "parentId": "wood",
+    "showTip": true,
+    "broadcase": true
+  }
+}

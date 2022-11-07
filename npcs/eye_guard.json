@@ -1,0 +1,57 @@
+
+{
+  "eye_guard": {
+    "ai": "EyeGuard",
+    "textureData": "eye_guard.png",
+    "type": "SMITE",
+    "width": 48,
+    "height": 48,
+    "gfxWidth": 48,
+    "gfxHeight": 48,
+    "gfxOffsetX": 0,
+    "gfxOffsetY": 0,
+    "frameStyle": 1,
+    "frames": 2,
+    "frameSpeed": 8,
+    "shape": "BOX",
+    "maxSpeed": 2.25,
+    "jumpForce": 9.0,
+    "disappearTime": 750,
+    "spawnCount": 1.0,
+    "health": 180,
+    "defense": 6,
+    "attack": 18,
+    "knockBack": 5,
+    "knockBackDefense": 0.20,
+    "gravity": false,
+    "climbWall": false,
+    "foreground": false,
+    "noFixByBlock": false,
+    "friendly": false,
+    "exps": 15,
+    "sunBurning": false,
+    "angry": false,
+    "antiLava": true,
+    "saySounds": [],
+    "hurtSounds": [
+      "blaze_death",
+      "blaze_hit1",
+      "blaze_hit2",
+      "blaze_hit3"
+    ],
+    "drops": [
+      {
+        "item": "blaze_rod",
+        "min": 3,
+        "max": 6
+      }
+    ],
+    "special": 0,
+    "paticularColor": [ 255, 200, 100, 50 ],
+    "spawn": "AIR",
+    "magicRate": 30,
+    "checkPlayerTarget": true,
+    "visionNoCrossTile": false,
+    "checkTargetDistance": 640
+  }
+}

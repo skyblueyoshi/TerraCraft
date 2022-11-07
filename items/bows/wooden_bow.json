@@ -1,0 +1,33 @@
+
+{
+  "wooden_bow": {
+    "type": "TOOLS",
+    "iconTextureData": "wooden_bow_icon.png",
+    "textureData": "wooden_bow_entity.png",
+    "group": "GROUP_BOW",
+    "toolType": "BOW",
+    "ai": "Bow",
+    "ammo": "arrow",
+    "entityWidth": 16,
+    "entityHeight": 32,
+    "handX": 8,
+    "handY": 15,
+    "firePoints": [[16,16]],
+    "noConsumeChance": 0.0,
+    "speed": 11.0,
+    "deviation": 0.05,
+    "shootTimes": 1,
+    "ammoLevel": 0,
+    "shootProjectileId": "wooden_arrow",
+    "usePosture": 1,
+    "useSound": "bow",
+    "coldTime": 60,
+    "holdType": "NORMAL",
+    "twoHands": true,
+    "durable": 256,
+    "damage": 14,
+    "knockBack": 5,
+    "crit": 3,
+    "fuelTime": 60
+  }
+}

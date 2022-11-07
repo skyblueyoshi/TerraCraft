@@ -1,0 +1,16 @@
+
+{
+  "config": "Brew",
+  "results": [
+    {
+      "id": "potion_healing_super",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [ "AB" ],
+  "elements": [
+    [ "A", "potion_healing" ],
+    [ "B", "glowstone_dust" ]
+  ],
+  "exData": { "time": 400 }
+}

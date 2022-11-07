@@ -1,0 +1,13 @@
+
+{
+  "nether_destroyer_killed": {
+    "itemId": "nether_destroyer_loot",
+    "parentId": "nether_destroyer",
+    "showTip": true,
+    "broadcase": true,
+    "trigger": {
+      "name": "nether_destroyer_killed",
+      "conditions": {}
+    }
+  }
+}

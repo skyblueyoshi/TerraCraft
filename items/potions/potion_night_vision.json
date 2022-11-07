@@ -1,0 +1,19 @@
+
+{
+  "potion_night_vision": {
+    "ai": "Potion",
+    "type": "MATERIALS",
+    "iconTextureData": "glass_bottle_icon.png",
+    "group": "GROUP_POTION",
+    "iconColor2": [ 255, 80, 80, 240 ],
+    "eatable": true,
+    "useSound": "drink",
+    "eatReturnId": "glass_bottle",
+    "buffs": [
+      {
+        "id": "vision",
+        "time": 10800
+      }
+    ]
+  }
+}

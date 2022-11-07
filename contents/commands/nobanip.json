@@ -1,0 +1,17 @@
+
+{
+  "nobanip": {
+    "isClient": false,
+    "fromPlayer": false,
+    "gameMode": "creative",
+    "op": "admin",
+    "parameters": [
+      {
+        "type": "CP_STRING"
+      }
+    ],
+    "script": {
+      "path": "nobanip.lua"
+    }
+  }
+}

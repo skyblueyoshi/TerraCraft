@@ -1,0 +1,23 @@
+{
+  "block": {
+    "small_tree_desert": {
+      "textureData": "small_tree_desert.png",
+      "color": [ 197, 133, 19 ],
+      "type": "FURNITURE",
+      "width": 3,
+      "height": 3,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "placeCheck": "PLACE_SAND_DECO_CHECK",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 200,
+      "slipperiness": 1.0,
+      "isKilledByLava": true,
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 200, 140, 120 ]
+    }
+  }
+}

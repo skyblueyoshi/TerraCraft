@@ -1,0 +1,22 @@
+{
+  "block": {
+    "coral": {
+      "textureData": "coral.png",
+      "color": [ 255, 190, 220 ],
+      "type": "FURNITURE",
+      "width": 2,
+      "height": 2,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 50,
+      "slipperiness": 1.0,
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 222, 222, 222 ],
+      "preset": "RandomDisplay"
+    }
+  }
+}

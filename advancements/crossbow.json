@@ -1,0 +1,9 @@
+
+{
+  "crossbow": {
+    "itemId": "cross_bow",
+    "parentId": "bow",
+    "showTip": true,
+    "broadcase": true
+  }
+}

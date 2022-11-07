@@ -1,0 +1,33 @@
+{
+  "block": {
+    "slime_block": {
+      "textureData": "slime_block.png",
+      "color": [ 180, 240, 160 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 4,
+      "type": "TILE",
+      "group": "SLIME_BLOCK",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "GRASS",
+      "hardness": 70,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": false,
+      "wallCheck": "NO_GENERABLE",
+      "soundGroupId": "cloth",
+      "stepSoundId": "step_cloth",
+      "particleColor": [ 255, 100, 220, 160 ]
+    }
+  },
+  "item": {
+    "slime_block": {
+      "type": "BLOCKS",
+      "iconTextureData": "slime_block_icon.png",
+      "group": "GROUP_OTHERS_BLOCK",
+      "blockId": "slime_block"
+    }
+  }
+}

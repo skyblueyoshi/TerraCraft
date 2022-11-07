@@ -1,0 +1,9 @@
+
+{
+  "ghast": {
+    "itemId": "ghast_tear",
+    "parentId": "nether",
+    "showTip": true,
+    "broadcase": true
+  }
+}

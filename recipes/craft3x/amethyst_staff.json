@@ -1,0 +1,20 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "amethyst_staff",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "OAB",
+    "OCA",
+    "COO"
+  ],
+  "elements": [
+    [ "A", "lapis_lazuli" ],
+    [ "B", "gold_ingot" ],
+    [ "C", "OD_IRON_INGOT" ]
+  ]
+}

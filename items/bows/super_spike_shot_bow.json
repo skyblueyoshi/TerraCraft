@@ -1,0 +1,33 @@
+
+{
+  "super_spike_shot_bow": {
+    "type": "TOOLS",
+    "iconTextureData": "super_spike_shot_bow.png",
+    "textureData": "super_spike_shot_bow.png",
+    "group": "GROUP_CROSS_BOW",
+    "toolType": "CROSS_BOW",
+    "ai": "Gun",
+    "ammo": "arrow",
+    "entityWidth": 60,
+    "entityHeight": 28,
+    "handX": 10,
+    "handY": 20,
+    "firePoints": [[60,12]],
+    "noConsumeChance": 0.0,
+    "speed": 16.0,
+    "deviation": 0.05,
+    "shootTimes": 3,
+    "ammoLevel": 0,
+    "shootProjectileId": "spike",
+    "usePosture": 0,
+    "useSound": "bow",
+    "coldTime": 40,
+    "holdType": "FOLLOW_MOUSE",
+    "twoHands": true,
+    "backForce": false,
+    "durable": 1000,
+    "damage": 13,
+    "knockBack": 5,
+    "crit": 3
+  }
+}

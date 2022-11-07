@@ -1,0 +1,37 @@
+{
+  "block": {
+    "ore_diamond": {
+      "textureData": "ore_diamond.png",
+      "color": [ 160, 180, 220 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 4,
+      "type": "TILE",
+      "group": "ORE_DIAMOND",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "IRON",
+      "hardness": 240,
+      "isChipCollection": true,
+      "lossyItemId": "diamond",
+      "chipCount": 1,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": true,
+      "wallCheck": "GENERABLE",
+      "soundGroupId": "tink",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 130, 150, 250 ],
+      "exParticle": "ore_particle"
+    }
+  },
+  "item": {
+    "ore_diamond": {
+      "type": "BLOCKS",
+      "iconTextureData": "ore_diamond_icon.png",
+      "group": "GROUP_ORE",
+      "blockId": "ore_diamond"
+    }
+  }
+}

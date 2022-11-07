@@ -1,0 +1,11 @@
+
+{
+  "zinc_ingot": {
+    "ai": "Ingot",
+    "type": "MATERIALS",
+    "iconTextureData": "ingot_icon.png",
+    "iconColor": [ 255, 250, 250, 240 ],
+    "iconColor2": [ 0, 255, 255, 255 ],
+    "group": "GROUP_INGOT"
+  }
+}

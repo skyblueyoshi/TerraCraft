@@ -1,0 +1,8 @@
+
+{
+  "suger": {
+    "type": "MATERIALS",
+    "iconTextureData": "suger_icon.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

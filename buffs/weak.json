@@ -1,0 +1,9 @@
+
+{
+  "weak": {
+    "textureData": "weak.png",
+    "script": {
+      "path": "weak.lua"
+    }
+  }
+}

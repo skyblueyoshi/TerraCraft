@@ -1,0 +1,14 @@
+
+{
+  "frost_walker": {
+    "noCreating": false,
+    "minCreatingLevel": 29,
+    "allowMaxLevel": 8,
+    "tool": [
+      "LEGGINGS"
+    ],
+    "conflict": [
+      "depth_strider"
+    ]
+  }
+}

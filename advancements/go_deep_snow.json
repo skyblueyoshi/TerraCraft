@@ -1,0 +1,9 @@
+
+{
+  "go_deep_snow": {
+    "itemId": "tc:snow",
+    "parentId": "go_ghost_house",
+    "showTip": true,
+    "broadcase": true
+  }
+}

@@ -1,0 +1,49 @@
+
+{
+  "tree": {
+  "bare_oak": {
+      "length": 2,
+      "baseTiles": [ "red_sand", "red_sand_stone" ],
+      "leafs": [],
+      "branches": [
+        [
+          "branch.png"
+        ],
+        [
+          "branch_2.png"
+        ],
+        [
+          "branch_3.png"
+        ]
+      ],
+      "crowns": [
+        [
+          "crown.png"
+        ],
+        [
+          "crown_2.png"
+        ],
+        [
+          "crown_3.png"
+        ]
+      ],
+      "woodId": "wood_oak",
+      "saplingId": "sapling_bare_oak",
+      "fruits": []
+    }
+  },
+  "block": {
+    "log_bare_oak": {
+      "textureData": "stem.png",
+      "color": [ 98, 78, 35 ],
+      "subGroup": "LOG",
+      "placeCheck": "PLACE_TREE_CHECK",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 600,
+      "treeId": "bare_oak",
+      "soundGroupId": "wood",
+      "particleColor": [ 255, 98, 78, 35 ]
+    }
+  }
+}

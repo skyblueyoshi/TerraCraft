@@ -1,0 +1,31 @@
+
+{
+  "curse_bow": {
+    "type": "TOOLS",
+    "iconTextureData": "curse_bow.png",
+    "textureData": "curse_bow.png",
+    "group": "GROUP_BOW",
+    "toolType": "BOW",
+    "ai": "InfBow",
+    "entityWidth": 24,
+    "entityHeight": 36,
+    "handX": 10,
+    "handY": 18,
+    "firePoints": [[24,18]],
+    "noConsumeChance": 0.0,
+    "speed": 8.0,
+    "deviation": 0.05,
+    "shootTimes": 3,
+    "shootProjectileId": "cursed_arrow",
+    "usePosture": 0,
+    "useSound": "bow",
+    "coldTime": 30,
+    "holdType": "FOLLOW_MOUSE",
+    "twoHands": true,
+    "backForce": false,
+    "damage": 8,
+    "knockBack": 3,
+    "crit": 3,
+    "consumeMana": 8
+  }
+}

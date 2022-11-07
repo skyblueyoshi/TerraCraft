@@ -1,0 +1,25 @@
+
+{
+  "effect": {
+    "isClient": false,
+    "fromPlayer": false,
+    "gameMode": "creative",
+    "op": "any",
+    "parameters": [
+      {
+        "type": "CP_EFFECT"
+      },
+      {
+        "type": "CP_POSITION_CELL_X",
+        "default": "~8"
+      },
+      {
+        "type": "CP_POSITION_CELL_Y",
+        "default": "~-8"
+      }
+    ],
+    "script": {
+      "path": "effect.lua"
+    }
+  }
+}

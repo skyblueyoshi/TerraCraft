@@ -1,0 +1,8 @@
+
+{
+  "Fire": {
+    "script": {
+      "path": "Fire.lua"
+    }
+  }
+}

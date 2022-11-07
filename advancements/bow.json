@@ -1,0 +1,9 @@
+
+{
+  "bow": {
+    "itemId": "wooden_bow",
+    "parentId": "crafting_table",
+    "showTip": true,
+    "broadcase": true
+  }
+}

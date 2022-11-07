@@ -1,0 +1,10 @@
+
+{
+  "glass_bottle": {
+    "ai": "Potion",
+    "type": "MATERIALS",
+    "iconTextureData": "glass_bottle_icon.png",
+    "iconColor2": [ 0, 255, 255, 255 ],
+    "group": "GROUP_MATERIAL"
+  }
+}

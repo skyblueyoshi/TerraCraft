@@ -1,0 +1,13 @@
+
+{
+  "pumpkin_helmet": {
+    "type": "TOOLS",
+    "iconTextureData": "pumpkin_helmet_icon.png",
+    "textureData": "hat.png",
+    "group": "GROUP_HELMET",
+    "toolType": "HELMET",
+    "isArmor": true,
+    "defense": 1,
+    "durable": 64
+  }
+}

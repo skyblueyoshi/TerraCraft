@@ -1,0 +1,13 @@
+
+{
+  "config": "Smelt",
+  "pattern": [ "A" ],
+  "results": [
+    {
+      "id": "stone",
+      "stackSize": 1
+    }
+  ],
+  "elements": [ [ "A", "cobblestone" ] ],
+  "exData": { "time": 10 }
+}

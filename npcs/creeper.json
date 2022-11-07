@@ -1,0 +1,56 @@
+{
+  "creeper": {
+    "ai": "Creeper",
+    "textureData": "creeper.png",
+    "type": "NORMAL",
+    "width": 24,
+    "height": 50,
+    "gfxWidth": 32,
+    "gfxHeight": 64,
+    "gfxOffsetX": -4,
+    "gfxOffsetY": -14,
+    "frameStyle": 1,
+    "frames": 4,
+    "frameSpeed": 8,
+    "shape": "BOX",
+    "maxSpeed": 1.0,
+    "jumpForce": 8.0,
+    "disappearTime": 750,
+    "spawnCount": 1.0,
+    "health": 60,
+    "defense": 8,
+    "attack": 10,
+    "knockBack": 2,
+    "knockBackDefense": 0.15,
+    "gravity": true,
+    "climbWall": false,
+    "foreground": false,
+    "noFixByBlock": false,
+    "friendly": false,
+    "exps": 5,
+    "sunBurning": false,
+    "angry": false,
+    "antiLava": false,
+    "saySounds": [],
+    "hurtSounds": [
+      "creeper_death",
+      "creeper1",
+      "creeper2",
+      "creeper3"
+    ],
+    "loots": [
+      {
+        "item": "gunpowder",
+        "min": 2,
+        "max": 4
+      }
+    ],
+    "special": 0,
+    "paticularColor": [ 255, 200, 50, 20 ],
+    "spawn": "LAND",
+    "gore": "gore_creeper",
+    "magicRate": 22,
+    "checkPlayerTarget": true,
+    "visionNoCrossTile": true
+  }
+}

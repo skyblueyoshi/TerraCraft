@@ -1,0 +1,20 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "golden_axe",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "AAO",
+    "ABO",
+    "OBO"
+  ],
+  "elements": [
+    [ "A", "gold_ingot" ],
+    [ "B", "stick" ]
+  ],
+  "importantElements": [ "A" ]
+}

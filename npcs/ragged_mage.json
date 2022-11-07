@@ -1,0 +1,61 @@
+
+{
+  "ragged_mage": {
+    "ai": "RaggedMage",
+    "textureData": "ragged_mage.png",
+    "type": "NORMAL",
+    "width": 28,
+    "height": 48,
+    "gfxWidth": 40,
+    "gfxHeight": 48,
+    "gfxOffsetX": -6,
+    "gfxOffsetY": 0,
+    "frameStyle": 1,
+    "frames": 1,
+    "frameSpeed": 8,
+    "shape": "BOX",
+    "maxSpeed": 0.0,
+    "jumpForce": 9.0,
+    "disappearTime": 750,
+    "spawnCount": 1.0,
+    "health": 130,
+    "defense": 10,
+    "attack": 20,
+    "knockBack": 2,
+    "knockBackDefense": 0.10,
+    "gravity": true,
+    "climbWall": false,
+    "foreground": false,
+    "noFixByBlock": false,
+    "friendly": false,
+    "exps": 10,
+    "sunBurning": false,
+    "angry": false,
+    "antiLava": false,
+    "saySounds": [],
+    "hurtSounds": [
+      "shulker_hit1",
+      "shulker_hit1"
+    ],
+    "drops": [
+      {
+        "item": "red_crystal",
+        "min": 0,
+        "max": 1
+      },
+      {
+        "item": "yellow_crystal",
+        "min": 0,
+        "max": 1
+      }
+    ],
+    "special": 0,
+    "paticularColor": [ 255, 33, 33, 33 ],
+    "spawn": "LAND",
+    "gore": "gore_evoker",
+    "magicRate": 25,
+    "checkPlayerTarget": true,
+    "visionNoCrossTile": false,
+    "checkTargetDistance": 720
+  }
+}

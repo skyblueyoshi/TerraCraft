@@ -1,0 +1,45 @@
+{
+  "block": {
+    "sapling_volcano": {
+      "textureData": "sapling_volcano.png",
+      "color": [ 200, 60, 60 ],
+      "type": "FURNITURE",
+      "width": 2,
+      "height": 2,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "placeCheck": "PLACE_PLANT_CHECK",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 80,
+      "slipperiness": 1.0,
+      "isKilledByLava": true,
+      "isFragile": true,
+      "soundGroupId": "grass",
+      "stepSoundGroupId": "step_grass",
+      "particleColor": [ 255, 200, 60, 60 ],
+      "transformId": "log_volcano_oak",
+      "preset": "Sapling",
+      "animation": [
+        {
+          "animationId": 0,
+          "shake": true,
+          "shakeCenterX": 16,
+          "shakeCenterY": 32,
+          "shakePeriod": 128,
+          "shakeAngle": 0.05
+        }
+      ]
+    }
+  },
+  "item": {
+    "sapling_volcano": {
+      "type": "BLOCKS",
+      "iconTextureData": "sapling_volcano.png",
+      "group": "GROUP_SAPLING",
+      "blockId": "sapling_volcano",
+      "fuelTime": 20
+    }
+  }
+}

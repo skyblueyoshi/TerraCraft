@@ -1,0 +1,9 @@
+
+{
+  "go_ghost_house": {
+    "itemId": "more_dungeons:statue_mini_ghast",
+    "parentId": "crafting_table",
+    "showTip": true,
+    "broadcase": true
+  }
+}

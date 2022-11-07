@@ -1,0 +1,35 @@
+
+{
+  "rifle": {
+    "type": "TOOLS",
+    "iconTextureData": "rifle_entity.png",
+    "textureData": "rifle_entity.png",
+    "group": "GROUP_GUN",
+    "toolType": "GUN",
+    "ai": "Gun",
+    "ammo": "bullet",
+    "entityWidth": 56,
+    "entityHeight": 22,
+    "handX": 22,
+    "handY": 14,
+    "firePoints": [[55,8]],
+    "noConsumeChance": 0.43,
+    "speed": 22.0,
+    "deviation": 0.03,
+    "shootTimes": 1,
+    "ammoLevel": 0,
+    "special": 1,
+    "shootProjectileId": "bullet",
+    "usePosture": 0,
+    "useSound": "chain_gun_fire",
+    "coldTime": 8,
+    "holdType": "FOLLOW_MOUSE",
+    "twoHands": true,
+    "backForce": true,
+    "durable": 2048,
+    "damage": 5,
+    "knockBack": 1,
+    "crit": 3,
+    "noEnchanted": true
+  }
+}

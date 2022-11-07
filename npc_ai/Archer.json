@@ -1,0 +1,8 @@
+
+{
+  "Archer": {
+    "script": {
+      "path": "Archer.lua"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+
+{
+  "golden_carrot": {
+    "ai": "Food",
+    "type": "MATERIALS",
+    "iconTextureData": "golden_carrot_icon.png",
+    "group": "GROUP_FOOD",
+    "eatable": true,
+    "useSoundGroup": "eat",
+    "food": 30,
+    "foodSaturation": 100
+  }
+}

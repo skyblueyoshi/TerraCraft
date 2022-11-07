@@ -1,0 +1,17 @@
+
+{
+  "noadmin": {
+    "isClient": false,
+    "fromPlayer": false,
+    "gameMode": "creative",
+    "op": "master",
+    "parameters": [
+      {
+        "type": "CP_PLAYER"
+      }
+    ],
+    "script": {
+      "path": "noadmin.lua"
+    }
+  }
+}

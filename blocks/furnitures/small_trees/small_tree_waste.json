@@ -1,0 +1,23 @@
+{
+  "block": {
+    "small_tree_waste": {
+      "textureData": "small_tree_waste.png",
+      "color": [ 100, 50, 30 ],
+      "type": "FURNITURE",
+      "width": 3,
+      "height": 4,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "placeCheck": "PLACE_SAND_DECO_CHECK",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 200,
+      "slipperiness": 1.0,
+      "isKilledByLava": true,
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 100, 50, 30 ]
+    }
+  }
+}

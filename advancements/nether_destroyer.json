@@ -1,0 +1,13 @@
+
+{
+  "nether_destroyer": {
+    "itemId": "nether_altar",
+    "parentId": "nether",
+    "showTip": true,
+    "broadcase": true,
+    "trigger": {
+      "name": "nether_destroyer_wake",
+      "conditions": {}
+    }
+  }
+}

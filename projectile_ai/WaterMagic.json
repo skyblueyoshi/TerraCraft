@@ -1,0 +1,8 @@
+
+{
+  "WaterMagic": {
+    "script": {
+      "path": "WaterMagic.lua"
+    }
+  }
+}

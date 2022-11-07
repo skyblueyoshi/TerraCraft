@@ -1,0 +1,20 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "daylight_sensor",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "AAA",
+    "BBB",
+    "CCC"
+  ],
+  "elements": [
+    [ "A", "glass" ],
+    [ "B", "quartz" ]
+  ],
+  "group3": "OD_WOODEN_PLANK"
+}

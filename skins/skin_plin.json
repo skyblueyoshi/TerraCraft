@@ -1,0 +1,14 @@
+
+{
+  "skin_plin": {
+    "isFemale": true,
+    "name": "Piglin",
+    "headTexture": "base\\head.png",
+    "bodyTexture": "base\\body.png",
+    "legTexture": "base\\leg.png",
+    "hairTexture": "plin\\hair.png",
+    "clothTexture": "plin\\cloth.png",
+    "pantTexture": "plin\\pant.png",
+    "authors": [ "BlueYoshi" ]
+  }
+}

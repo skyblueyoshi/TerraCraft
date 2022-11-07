@@ -1,0 +1,216 @@
+
+{
+  "blue_mushroom_cave": {
+    "biomeType": "Underground",
+    "scale": 1.0,
+    "wallParallaxe": "mushroom_wall",
+    "musics": {
+      "underground": [
+        "mcunder1",
+        "mcunder2",
+        "mcunder3",
+        "mcunder4"
+      ]
+    },
+    "composition": {
+      "main": {
+        "id": "blue_mushroom_dirt"
+      },
+      "subs": [
+        {
+          "id": "blue_mushroom_stem"
+        }
+      ]
+    },
+    "wall": {
+      "id": "blue_mushroom_dirt",
+      "full": false
+    },
+    "oreGroupName": "default",
+    "liquidInfo": {
+      "liquid": "water",
+      "maxAllowCount": 500
+    },
+    "treeInfo": {
+      "styles": [
+        "log_blue_mushroom"
+      ],
+      "density": 0.99
+    },
+    "distributions": {
+      "airWeight": 100,
+      "surfacePlaceables": [
+        {
+          "id": "pot",
+          "tag": 0,
+          "weight": 40
+        },
+        {
+          "id": "large_blue_mushroom",
+          "weight": 50
+        },
+        {
+          "id": "blue_mushroom",
+          "weight": 100
+        }
+      ],
+      "hangingWeight": 100,
+      "hangingPlaceables": []
+    },
+    "pot": [
+      {
+        "itemId": "torch",
+        "min": 1,
+        "max": 5,
+        "weight": 15
+      },
+      {
+        "itemId": "potion_healing",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "potion_night_vision",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "potion_strength",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "potion_leaping",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "potion_water_breathing",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "wooden_arrow",
+        "min": 3,
+        "max": 10,
+        "weight": 12
+      },
+      {
+        "itemId": "lighting_arrow",
+        "min": 3,
+        "max": 10,
+        "weight": 5
+      },
+      {
+        "itemId": "coal",
+        "min": 1,
+        "max": 2,
+        "weight": 10
+      },
+      {
+        "itemId": "flint",
+        "min": 1,
+        "max": 4,
+        "weight": 10
+      },
+      {
+        "itemId": "grenade",
+        "min": 1,
+        "max": 1,
+        "weight": 4
+      },
+      {
+        "itemId": "bomb",
+        "min": 1,
+        "max": 1,
+        "weight": 2
+      }
+    ],
+    "spawn": {
+      "mobSpeed": 200,
+      "maxMobSpawn": 6,
+      "mobs": [
+        {
+          "id": "large_bat",
+          "weight": 10
+        },
+        {
+          "id": "large_spider",
+          "weight": 10
+        },
+        {
+          "id": "grim_reaper",
+          "weight": 4
+        },
+        {
+          "id": "mad_skeleton",
+          "weight": 6
+        },
+        {
+          "id": "skeleton_blue_armed",
+          "weight": 5
+        },
+        {
+          "id": "skeleton",
+          "weight": 2
+        },
+        {
+          "id": "undead_miner",
+          "weight": 2
+        },
+        {
+          "id": "boney_skeleton",
+          "weight": 1
+        },
+        {
+          "id": "bat",
+          "weight": 1
+        },
+        {
+          "id": "enderman",
+          "weight": 1
+        }
+      ],
+      "animalSpeed": 300,
+      "maxAnimalSpawn": 5,
+      "animals": [
+        {
+          "id": "squid",
+          "weight": 10
+        },
+        {
+          "id": "brown_mushroom_cow",
+          "weight": 10
+        },
+        {
+          "id": "red_mushroom_cow",
+          "weight": 10
+        }
+      ]
+    },
+    "buildingInfo": [
+      {
+        "buildingId": "fossils",
+        "density": 6.0
+      }
+    ],
+    "environmentBlocks": {
+      "total": 100,
+      "blocks": [
+        {
+          "id": "blue_mushroom_dirt",
+          "weight": 1
+        },
+        {
+          "id": "blue_mushroom_stem",
+          "weight": 1
+        }
+      ]
+    }
+  }
+}

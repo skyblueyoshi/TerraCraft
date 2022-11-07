@@ -1,0 +1,8 @@
+
+{
+  "Evil": {
+    "script": {
+      "path": "Evil.lua"
+    }
+  }
+}

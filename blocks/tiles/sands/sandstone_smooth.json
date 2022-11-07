@@ -1,0 +1,33 @@
+{
+  "block": {
+    "sandstone_smooth": {
+      "textureData": "sandstone_smooth.png",
+      "color": [ 229, 222, 176 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 6,
+      "type": "TILE",
+      "group": "SANDSTONE_SMOOTH",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "WOOD",
+      "hardness": 140,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": false,
+      "wallCheck": "NATURE_GENERABLE_ONLY",
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 220, 210, 160 ]
+    }
+  },
+  "item": {
+    "sandstone_smooth": {
+      "type": "BLOCKS",
+      "iconTextureData": "sandstone_smooth_icon.png",
+      "group": "GROUP_SAND",
+      "blockId": "sandstone_smooth"
+    }
+  }
+}

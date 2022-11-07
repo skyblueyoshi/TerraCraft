@@ -1,0 +1,33 @@
+{
+  "block": {
+    "red_mushroom_block": {
+      "textureData": "red_mushroom_block.png",
+      "color": [ 178, 28, 28 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 4,
+      "type": "TILE",
+      "group": "ARTIFICAL",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "GRASS",
+      "hardness": 70,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": true,
+      "wallCheck": "NO_GENERABLE",
+      "soundGroupId": "cloth",
+      "stepSoundId": "step_cloth",
+      "particleColor": [ 255, 160, 20, 20 ]
+    }
+  },
+  "item": {
+    "red_mushroom_block": {
+      "type": "BLOCKS",
+      "iconTextureData": "red_mushroom_block_icon.png",
+      "group": "GROUP_MUSHROOM_BLOCK",
+      "blockId": "red_mushroom_block"
+    }
+  }
+}

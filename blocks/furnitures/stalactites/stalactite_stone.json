@@ -1,0 +1,23 @@
+{
+  "block": {
+    "stalactite_stone": {
+      "textureData": "stone_stalactite.png",
+      "color": [ 128, 128, 128 ],
+      "type": "FURNITURE",
+      "width": 1,
+      "height": 2,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "placeCheck": "PLACE_STONE_DECO_CHECK",
+      "toolType": "PICKAXE",
+      "mineGrade": "WOOD",
+      "hardness": 200,
+      "slipperiness": 1.0,
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 128, 128, 128 ],
+      "preset": "RandomDisplay"
+    }
+  }
+}

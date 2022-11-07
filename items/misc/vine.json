@@ -1,0 +1,8 @@
+
+{
+  "vine": {
+    "type": "MATERIALS",
+    "iconTextureData": "vine_icon.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

@@ -1,0 +1,8 @@
+
+{
+  "snowball": {
+    "type": "MATERIALS",
+    "iconTextureData": "snowball_icon.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

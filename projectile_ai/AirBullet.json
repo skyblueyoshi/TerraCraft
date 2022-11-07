@@ -1,0 +1,11 @@
+
+{
+  "AirBullet": {
+    "script": {
+      "path": "AirBullet.lua"
+    },
+    "modData": [
+      [ "int", "bounceTimes" ]
+    ]
+  }
+}

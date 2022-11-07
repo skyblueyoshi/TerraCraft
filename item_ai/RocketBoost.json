@@ -1,0 +1,7 @@
+{
+  "RocketBoost": {
+    "script": {
+      "path": "RocketBoost.lua"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+
+{
+  "small_air_bullet": {
+    "ai": "AirBullet",
+    "textureData": "small_air_bullet.png",
+    "width": 28,
+    "height": 12,
+    "gfxWidth": 28,
+    "gfxHeight": 12,
+    "gfxOffsetX": 0,
+    "gfxOffsetY": 0,
+    "hots": [[0, 6]],
+    "frameStyle": 1,
+    "frames": 1,
+    "frameSpeed": 8,
+    "shape": "BOX",
+    "maxSpeed": 12.0,
+    "gravity": false,
+    "foreground": false,
+    "fixByBlocks": false,
+    "througthBlock": false,
+    "keepStrick": true
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "block": {
+    "bench_nether": {
+      "textureData": "bench_nether.png",
+      "color": [ 76, 29, 34 ],
+      "type": "FURNITURE",
+      "width": 3,
+      "height": 2,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "toolType": "PICKAXE",
+      "mineGrade": "GRASS",
+      "hardness": 80,
+      "slipperiness": 1.0,
+      "isKilledByLava": false,
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 76, 29, 34 ]
+    }
+  },
+  "item": {
+    "bench_nether": {
+      "type": "BLOCKS",
+      "iconTextureData": "bench_nether.png",
+      "group": "GROUP_BENCH",
+      "blockId": "bench_nether",
+      "antiLava": true
+    }
+  }
+}

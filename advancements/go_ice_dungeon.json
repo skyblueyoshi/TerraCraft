@@ -1,0 +1,9 @@
+
+{
+  "go_ice_dungeon": {
+    "itemId": "more_dungeons:dungeon_wall_blue",
+    "parentId": "go_deep_snow",
+    "showTip": true,
+    "broadcase": true
+  }
+}

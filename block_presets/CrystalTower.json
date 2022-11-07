@@ -1,0 +1,10 @@
+
+{
+  "CrystalTower": {
+    "pOnScreenUpdate": "UpdateCrystalTower",
+    "entityId": "Tower",
+    "pOnPlaced": "TowerPlaced",
+    "pOnDestroy": "TowerDestroy",
+    "pOnClicked": "ClickTower"
+  }
+}

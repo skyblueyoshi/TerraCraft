@@ -1,0 +1,19 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "anvil",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "AAA",
+    "OBO",
+    "BBB"
+  ],
+  "elements": [
+    [ "A", "block_iron" ],
+    [ "B", "OD_IRON_INGOT" ]
+  ]
+}

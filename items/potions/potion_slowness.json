@@ -1,0 +1,19 @@
+
+{
+  "potion_slowness": {
+    "ai": "Potion",
+    "type": "MATERIALS",
+    "iconTextureData": "glass_bottle_2_icon.png",
+    "group": "GROUP_POTION",
+    "iconColor2": [ 255, 87, 105, 126 ],
+    "eatable": true,
+    "useSound": "drink",
+    "eatReturnId": "glass_bottle",
+    "buffs": [
+      {
+        "id": "slowness",
+        "time": 10800
+      }
+    ]
+  }
+}

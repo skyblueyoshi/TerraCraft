@@ -1,0 +1,35 @@
+{
+  "block": {
+    "wood_stripped_birch": {
+      "textureData": "wood_stripped_birch.png",
+      "color": [ 220, 206, 166 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 4,
+      "type": "TILE",
+      "group": "WOOD_A",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 100,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": false,
+      "wallCheck": "NO_GENERABLE",
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 200, 200, 130 ]
+    }
+  },
+  "item": {
+    "wood_stripped_birch": {
+      "type": "BLOCKS",
+      "iconTextureData": "wood_stripped_birch_icon.png",
+      "group": "GROUP_WOOD_STRIPPED",
+      "blockId": "wood_stripped_birch",
+      "fuelTime": 60,
+      "oreDictionary": ["OD_WOOD_STRIPPED"]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+
+{
+  "fire_boomerang": {
+    "type": "TOOLS",
+    "iconTextureData": "fire_boomerang_icon.png",
+    "group": "GROUP_BOOMERANG",
+    "toolType": "BOOMERANG",
+    "projectileId": "fire_boomerang",
+    "speed": 12.0,
+    "damage": 5,
+    "knockBack": 6,
+    "coldTime": 20,
+    "durable": 256,
+    "canThrow": true,
+    "attachThrowable": true
+  }
+}

@@ -1,0 +1,16 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "ghost",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "AAA",
+    "BAB",
+    "AAA"
+  ],
+  "elements": [ [ "A", "ghost_crystal"], [ "B", "ghost_element" ] ]
+}

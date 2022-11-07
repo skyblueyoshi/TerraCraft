@@ -1,0 +1,35 @@
+{
+  "block": {
+    "bookcase_spruce": {
+      "textureData": "bookcase_spruce.png",
+      "color": [ 144, 119, 93 ],
+      "type": "FURNITURE",
+      "subGroup": "BOOKCASE",
+      "width": 3,
+      "height": 4,
+      "collision": "PLATFORM",
+      "attach": "BOTTOM",
+      "attachable": "TOP",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 140,
+      "slipperiness": 1.0,
+      "isKilledByLava": true,
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "functionSoundId": "chest",
+      "functionSoundId2": "chestclosed",
+      "particleColor": [ 255, 120, 90, 60 ],
+      "preset": "Storage"
+    }
+  },
+  "item": {
+    "bookcase_spruce": {
+      "type": "BLOCKS",
+      "iconTextureData": "bookcase_spruce.png",
+      "group": "GROUP_BOOKCASE",
+      "blockId": "bookcase_spruce",
+      "fuelTime": 60
+    }
+  }
+}

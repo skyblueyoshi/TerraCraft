@@ -1,0 +1,8 @@
+
+{
+  "Cat": {
+    "script": {
+      "path": "Cat.lua"
+    }
+  }
+}

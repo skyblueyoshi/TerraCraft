@@ -1,0 +1,55 @@
+{
+  "squid": {
+    "ai": "Squid",
+    "textureData": "squid.png",
+    "type": "ANIMAL",
+    "width": 20,
+    "height": 20,
+    "gfxWidth": 32,
+    "gfxHeight": 48,
+    "gfxOffsetX": -6,
+    "gfxOffsetY": -14,
+    "frameStyle": 1,
+    "frames": 4,
+    "frameSpeed": 6,
+    "shape": "BOX",
+    "maxSpeed": 2.0,
+    "jumpForce": 5.0,
+    "disappearTime": 750,
+    "spawnCount": 0.25,
+    "health": 10,
+    "defense": 0,
+    "attack": 1,
+    "knockBack": 0,
+    "knockBackDefense": 0.10,
+    "gravity": true,
+    "climbWall": false,
+    "foreground": false,
+    "noFixByBlock": false,
+    "friendly": true,
+    "exps": 3,
+    "sunBurning": false,
+    "angry": false,
+    "antiLava": false,
+    "saySounds": [],
+    "hurtSounds": [
+      "rabbit_hurt1",
+      "rabbit_hurt1",
+      "rabbit_hurt2",
+      "rabbit_hurt3"
+    ],
+    "loots": [
+      {
+        "item": "ink_sac",
+        "count": [ 2, 4 ]
+      }
+    ],
+    "special": 0,
+    "paticularColor": [ 255, 200, 100, 50 ],
+    "spawn": "WATER",
+    "gore": "gore_squid",
+    "magicRate": 0,
+    "checkPlayerTarget": false,
+    "visionNoCrossTile": false
+  }
+}

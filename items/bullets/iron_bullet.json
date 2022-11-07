@@ -1,0 +1,15 @@
+
+{
+  "iron_bullet": {
+    "type": "PROJECTILES",
+    "iconTextureData": "iron_bullet_icon.png",
+    "group": "GROUP_BULLET",
+    "ammo": "bullet",
+    "ammoLevel": 0,
+    "projectileId": "bullet",
+    "speed": 0.0,
+    "shootable": true,
+    "damage": 6,
+    "knockBack": 1
+  }
+}

@@ -1,0 +1,13 @@
+
+{
+  "potion_water": {
+    "ai": "Potion",
+    "type": "MATERIALS",
+    "iconTextureData": "glass_bottle_icon.png",
+    "group": "GROUP_POTION",
+    "iconColor2": [ 255, 90, 140, 255 ],
+    "eatable": true,
+    "useSound": "drink",
+    "eatReturnId": "glass_bottle"
+  }
+}

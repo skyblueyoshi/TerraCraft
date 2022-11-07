@@ -1,0 +1,24 @@
+
+{
+  "sword_arrow": {
+    "ai": "SwordArrow",
+    "textureData": "sword_arrow.png",
+    "width": 32,
+    "height": 20,
+    "gfxWidth": 32,
+    "gfxHeight": 20,
+    "gfxOffsetX": 0,
+    "gfxOffsetY": 0,
+    "hots": [[0, 10]],
+    "frameStyle": 1,
+    "frames": 1,
+    "frameSpeed": 8,
+    "shape": "ROTATED_BOX",
+    "maxSpeed": 10.0,
+    "gravity": true,
+    "foreground": false,
+    "fixByBlocks": false,
+    "througthBlock": false,
+    "keepStrick": true
+  }
+}

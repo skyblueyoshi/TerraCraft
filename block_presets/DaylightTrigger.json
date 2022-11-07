@@ -1,0 +1,7 @@
+
+{
+  "DaylightTrigger": {
+    "isTrigger": true,
+    "pOnRandomEvent": "RandomDayLightTrigger"
+  }
+}

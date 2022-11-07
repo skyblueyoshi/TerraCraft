@@ -1,0 +1,42 @@
+{
+  "block": {
+    "redstone_lamp": {
+      "textureData": "redstone_lamp.png",
+      "color": [ 166, 166, 0 ],
+      "type": "FURNITURE",
+      "width": 1,
+      "height": 1,
+      "collision": "SOLID",
+      "attach": "ALL",
+      "attachable": "ALL",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "lightOpacity": 3,
+      "lightColor": [ 32, 0, 0, 0 ],
+      "lightX": 0,
+      "lightY": 0,
+      "lightWi": 1,
+      "lightHi": 1,
+      "hardness": 72,
+      "slipperiness": 1.0,
+      "soundGroupId": "glass",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 100, 60, 30 ],
+      "preset": "RedstoneLamp",
+      "animation": [
+        {
+          "animationId": 0,
+          "tagUsage": "TAG_ADD_FRAME_INDEX_X"
+        }
+      ]
+    }
+  },
+  "item": {
+    "redstone_lamp": {
+      "type": "BLOCKS",
+      "iconTextureData": "redstone_lamp_icon.png",
+      "group": "GROUP_LIGHTING",
+      "blockId": "redstone_lamp"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+
+{
+  "Snake_Body": {
+    "script": {
+      "path": "BaseSnakeBody.lua"
+    }
+  }
+}

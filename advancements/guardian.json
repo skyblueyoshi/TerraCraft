@@ -1,0 +1,9 @@
+
+{
+  "guardian": {
+    "itemId": "guardian",
+    "parentId": "hunter",
+    "showTip": true,
+    "broadcase": true
+  }
+}

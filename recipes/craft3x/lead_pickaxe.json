@@ -1,0 +1,20 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "lead_pickaxe",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "AAA",
+    "OBO",
+    "OBO"
+  ],
+  "elements": [
+    [ "A", "lead_ingot" ],
+    [ "B", "stick" ]
+  ],
+  "importantElements": [ "A" ]
+}

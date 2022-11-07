@@ -1,0 +1,13 @@
+
+{
+  "raw_beef": {
+    "ai": "Food",
+    "type": "MATERIALS",
+    "iconTextureData": "raw_beef_icon.png",
+    "group": "GROUP_FOOD",
+    "eatable": true,
+    "useSoundGroup": "eat",
+    "food": 15,
+    "foodSaturation": 18
+  }
+}

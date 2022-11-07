@@ -1,0 +1,61 @@
+{
+  "wither_skeleton": {
+    "ai": "WitherSkeleton",
+    "textureData": "wither_skeleton.png",
+    "type": "SMITE",
+    "width": 24,
+    "height": 64,
+    "gfxWidth": 48,
+    "gfxHeight": 48,
+    "gfxOffsetX": 4,
+    "gfxOffsetY": 10,
+    "frameStyle": 1,
+    "frames": 4,
+    "frameSpeed": 8,
+    "shape": "BOX",
+    "maxSpeed": 1.5,
+    "jumpForce": 9.0,
+    "disappearTime": 750,
+    "spawnCount": 1.0,
+    "health": 100,
+    "defense": 13,
+    "attack": 20,
+    "knockBack": 7,
+    "knockBackDefense": 0.60,
+    "gravity": true,
+    "climbWall": false,
+    "foreground": false,
+    "noFixByBlock": false,
+    "friendly": false,
+    "exps": 10,
+    "sunBurning": false,
+    "angry": false,
+    "antiLava": true,
+    "saySounds": [],
+    "hurtSounds": [
+      "skeleton_death",
+      "skeleton1",
+      "skeleton2",
+      "skeleton3"
+    ],
+    "loots": [
+      {
+        "item": "bone",
+        "min": 0,
+        "max": 2
+      },
+      {
+        "item": "coal",
+        "min": 0,
+        "max": 2
+      }
+    ],
+    "special": 0,
+    "paticularColor": [ 255, 33, 33, 33 ],
+    "spawn": "LAND",
+    "gore": "gore_wither_skeleton",
+    "magicRate": 25,
+    "checkPlayerTarget": true,
+    "visionNoCrossTile": false
+  }
+}

@@ -1,0 +1,16 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "bread",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "AAA",
+    "OOO",
+    "OOO"
+  ],
+  "elements": [ [ "A", "wheat" ] ]
+}

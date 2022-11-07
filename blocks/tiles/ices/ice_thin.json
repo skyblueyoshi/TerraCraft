@@ -1,0 +1,27 @@
+{
+  "block": {
+    "ice_thin": {
+      "textureData": "ice_thin.png",
+      "color": [ 190, 190, 255 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 8,
+      "type": "TILE",
+      "group": "ARTIFICAL",
+      "collision": "SOLID",
+      "lightOpacity": 2,
+      "toolType": "PICKAXE",
+      "mineGrade": "GRASS",
+      "hardness": 60,
+      "slipperiness": 0.6,
+      "isLossyCollection": true,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": true,
+      "wallCheck": "NATURE_GENERABLE_ONLY",
+      "soundGroupId": "glass",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 200, 220, 240 ],
+      "preset": "IceSmelt"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+
+{
+  "dirt": {
+    "script": {
+      "path": "dirt.lua"
+    }
+  }
+}

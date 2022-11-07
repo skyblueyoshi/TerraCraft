@@ -1,0 +1,19 @@
+
+{
+  "potion_water_breathing_long": {
+    "ai": "Potion",
+    "type": "MATERIALS",
+    "iconTextureData": "glass_bottle_super_2_icon.png",
+    "group": "GROUP_POTION",
+    "iconColor2": [ 255, 60, 100, 200 ],
+    "eatable": true,
+    "useSound": "drink",
+    "eatReturnId": "glass_bottle",
+    "buffs": [
+      {
+        "id": "water_breathing",
+        "time": 28800
+      }
+    ]
+  }
+}

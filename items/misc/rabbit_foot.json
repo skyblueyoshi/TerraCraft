@@ -1,0 +1,8 @@
+
+{
+  "rabbit_foot": {
+    "type": "MATERIALS",
+    "iconTextureData": "rabbit_foot_icon.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

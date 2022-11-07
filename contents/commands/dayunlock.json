@@ -1,0 +1,13 @@
+
+{
+  "dayunlock": {
+    "isClient": false,
+    "fromPlayer": false,
+    "gameMode": "creative",
+    "op": "any",
+    "parameters": [],
+    "script": {
+      "path": "dayunlock.lua"
+    }
+  }
+}

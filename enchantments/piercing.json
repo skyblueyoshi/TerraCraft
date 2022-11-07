@@ -1,0 +1,14 @@
+
+{
+  "piercing": {
+    "noCreating": false,
+    "minCreatingLevel": 18,
+    "allowMaxLevel": 8,
+    "tool": [
+      "CROSS_BOW"
+    ],
+    "conflict": [
+      "multishot"
+    ]
+  }
+}

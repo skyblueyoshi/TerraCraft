@@ -1,0 +1,55 @@
+
+{
+  "shulker": {
+    "ai": "Shulker",
+    "textureData": "shulker.png",
+    "type": "NORMAL",
+    "width": 32,
+    "height": 32,
+    "gfxWidth": 32,
+    "gfxHeight": 48,
+    "gfxOffsetX": 0,
+    "gfxOffsetY": -8,
+    "frameStyle": 1,
+    "frames": 4,
+    "frameSpeed": 8,
+    "shape": "BOX",
+    "maxSpeed": 1.0,
+    "jumpForce": 5.0,
+    "disappearTime": 750,
+    "spawnCount": 1.0,
+    "health": 75,
+    "defense": 7,
+    "attack": 17,
+    "knockBack": 6,
+    "knockBackDefense": 0.80,
+    "gravity": false,
+    "climbWall": false,
+    "foreground": false,
+    "noFixByBlock": false,
+    "friendly": false,
+    "exps": 7,
+    "sunBurning": false,
+    "angry": false,
+    "antiLava": false,
+    "saySounds": [],
+    "hurtSounds": [
+      "shulker_hit1",
+      "shulker_hit1"
+    ],
+    "loots": [
+      {
+        "item": "shulker_shell",
+        "count": [ 2, 5 ]
+      }
+    ],
+    "special": 0,
+    "paticularColor": [ 255, 120, 100, 80 ],
+    "spawn": "AIR",
+    "gore": "gore_shulker",
+    "magicRate": 25,
+    "checkPlayerTarget": true,
+    "visionNoCrossTile": false,
+    "checkTargetDistance": 666
+  }
+}

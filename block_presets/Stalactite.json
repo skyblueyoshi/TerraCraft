@@ -1,0 +1,7 @@
+
+{
+  "Stalactite": {
+    "pOnDraw": "DrawGeneral",
+    "pOnScreenUpdate": "UpdateStalactite"
+  }
+}

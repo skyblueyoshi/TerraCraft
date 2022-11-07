@@ -1,0 +1,19 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "sword_arrow",
+      "stackSize": 16
+    }
+  ],
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "elements": [
+    [ "A", "wooden_arrow" ],
+    [ "B", "ender_pearl" ]
+  ]
+}

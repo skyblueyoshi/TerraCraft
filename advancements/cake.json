@@ -1,0 +1,9 @@
+
+{
+  "cake": {
+    "itemId": "cake",
+    "parentId": "farm",
+    "showTip": true,
+    "broadcase": true
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "block": {
+    "potion": {
+      "textureData": "potion.png",
+      "color": [ 66, 66, 255 ],
+      "type": "FURNITURE",
+      "width": 1,
+      "height": 1,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 10,
+      "slipperiness": 1.0,
+      "isKilledByLava": true,
+      "isFragile": true,
+      "soundGroupId": "glass",
+      "particleColor": [ 255, 55, 55, 255 ]
+    }
+  }
+}

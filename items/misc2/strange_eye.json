@@ -1,0 +1,9 @@
+
+{
+  "strange_eye": {
+    "ai": "CrisonEye",
+    "type": "MATERIALS",
+    "iconTextureData": "strange_eye.png",
+    "group": "GROUP_BOSS"
+  }
+}

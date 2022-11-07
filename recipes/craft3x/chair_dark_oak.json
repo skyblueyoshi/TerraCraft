@@ -1,0 +1,16 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "chair_dark_oak",
+      "stackSize": 2
+    }
+  ],
+  "pattern": [
+    "AOO",
+    "AAA",
+    "AOA"
+  ],
+  "elements": [ [ "A", "dark_oak_plank" ] ]
+}

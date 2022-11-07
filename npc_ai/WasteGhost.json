@@ -1,0 +1,8 @@
+
+{
+  "WasteGhost": {
+    "script": {
+      "path": "WasteGhost.lua"
+    }
+  }
+}

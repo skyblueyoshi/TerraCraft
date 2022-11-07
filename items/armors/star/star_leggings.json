@@ -1,0 +1,13 @@
+
+{
+  "star_leggings": {
+    "type": "TOOLS",
+    "iconTextureData": "leggings6.png",
+    "textureData": "leg6.png",
+    "group": "GROUP_LEGGINGS",
+    "toolType": "LEGGINGS",
+    "isArmor": true,
+    "defense": 5,
+    "durable": 3160
+  }
+}

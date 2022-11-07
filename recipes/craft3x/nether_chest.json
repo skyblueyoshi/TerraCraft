@@ -1,0 +1,19 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "nether_chest",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "OAO",
+    "ABA",
+    "OAO"
+  ],
+  "elements": [
+    [ "A", "nether_brick" ],
+    [ "B", "chest" ]
+  ]
+}

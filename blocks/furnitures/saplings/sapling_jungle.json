@@ -1,0 +1,45 @@
+{
+  "block": {
+    "sapling_jungle": {
+      "textureData": "sapling_jungle.png",
+      "color": [ 54, 123, 54 ],
+      "type": "FURNITURE",
+      "width": 2,
+      "height": 2,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "placeCheck": "PLACE_PLANT_CHECK",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 80,
+      "slipperiness": 1.0,
+      "isKilledByLava": true,
+      "isFragile": true,
+      "soundGroupId": "grass",
+      "stepSoundGroupId": "step_grass",
+      "particleColor": [ 255, 55, 123, 55 ],
+      "transformId": "log_jungle",
+      "preset": "Sapling",
+      "animation": [
+        {
+          "animationId": 0,
+          "shake": true,
+          "shakeCenterX": 16,
+          "shakeCenterY": 32,
+          "shakePeriod": 128,
+          "shakeAngle": 0.05
+        }
+      ]
+    }
+  },
+  "item": {
+    "sapling_jungle": {
+      "type": "BLOCKS",
+      "iconTextureData": "sapling_jungle.png",
+      "group": "GROUP_SAPLING",
+      "blockId": "sapling_jungle",
+      "fuelTime": 20
+    }
+  }
+}

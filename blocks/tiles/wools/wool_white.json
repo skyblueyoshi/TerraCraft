@@ -1,0 +1,36 @@
+{
+  "block": {
+    "wool_white": {
+      "note": "各色羊毛 138:0-15",
+      "textureData": "wool_white.png",
+      "color": [ 201, 208, 208 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 4,
+      "type": "TILE",
+      "group": "ARTIFICAL",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "GRASS",
+      "hardness": 60,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": false,
+      "wallCheck": "NO_GENERABLE",
+      "soundGroupId": "cloth",
+      "stepSoundId": "step_cloth",
+      "particleColor": [ 255, 200, 170, 150 ]
+    }
+  },
+  "item": {
+    "wool_white": {
+      "type": "BLOCKS",
+      "iconTextureData": "wool_white_icon.png",
+      "group": "GROUP_WOOL",
+      "blockId": "wool_white",
+      "fuelTime": 20,
+      "oreDictionary": ["OD_WOOL"]
+    }
+  }
+}

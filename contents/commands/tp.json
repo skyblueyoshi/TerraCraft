@@ -1,0 +1,20 @@
+
+{
+  "tp": {
+    "isClient": false,
+    "fromPlayer": true,
+    "gameMode": "creative",
+    "op": "any",
+    "parameters": [
+      {
+        "type": "CP_POSITION_CELL_X"
+      },
+      {
+        "type": "CP_POSITION_CELL_Y"
+      }
+    ],
+    "script": {
+      "path": "tp.lua"
+    }
+  }
+}

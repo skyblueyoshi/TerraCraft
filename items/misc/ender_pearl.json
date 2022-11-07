@@ -1,0 +1,8 @@
+
+{
+  "ender_pearl": {
+    "type": "MATERIALS",
+    "iconTextureData": "ender_pearl_icon.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

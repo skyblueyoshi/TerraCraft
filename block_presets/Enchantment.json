@@ -1,0 +1,8 @@
+
+{
+  "Enchantment": {
+    "script": {
+      "path": "EnchantmentTable.lua"
+    }
+  }
+}

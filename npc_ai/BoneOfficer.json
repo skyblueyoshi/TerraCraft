@@ -1,0 +1,8 @@
+
+{
+  "BoneOfficer": {
+    "script": {
+      "path": "BoneOfficer.lua"
+    }
+  }
+}

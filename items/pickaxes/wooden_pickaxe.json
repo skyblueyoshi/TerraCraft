@@ -1,0 +1,24 @@
+
+{
+  "wooden_pickaxe": {
+    "type": "TOOLS",
+    "iconTextureData": "wooden_pickaxe_entity.png",
+    "textureData": "wooden_pickaxe_entity.png",
+    "group": "GROUP_PICKAXE",
+    "toolType": "PICKAXE",
+    "toolGrade": "WOOD",
+    "efficiency": 1.5,
+    "ai": "Pickaxe",
+    "coldTime": 16,
+    "entityWidth": 30,
+    "entityHeight": 36,
+    "handX": 16,
+    "handY": 26,
+    "holdType": "NORMAL",
+    "durable": 280,
+    "fuelTime": 40,
+    "damage": 2,
+    "knockBack": 1,
+    "crit": 0
+  }
+}

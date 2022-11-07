@@ -1,0 +1,9 @@
+
+{
+  "furnace": {
+    "itemId": "furnace",
+    "parentId": "stone",
+    "showTip": true,
+    "broadcase": true
+  }
+}

@@ -1,0 +1,13 @@
+
+{
+  "bronze_leggings": {
+    "type": "TOOLS",
+    "iconTextureData": "bronze_leggings_icon.png",
+    "textureData": "leg.png",
+    "group": "GROUP_LEGGINGS",
+    "toolType": "LEGGINGS",
+    "isArmor": true,
+    "defense": 4,
+    "durable": 624
+  }
+}

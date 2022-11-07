@@ -1,0 +1,8 @@
+
+{
+  "ancient_ingot": {
+    "type": "MATERIALS",
+    "iconTextureData": "ancient_ingot.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

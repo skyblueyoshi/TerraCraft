@@ -1,0 +1,49 @@
+{
+  "block": {
+    "grass": {
+      "textureData": "grass.png",
+      "color": [ 110, 162, 63 ],
+      "type": "FURNITURE",
+      "width": 1,
+      "height": 2,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "placeCheck": "PLACE_PLANT_CHECK",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 10,
+      "slipperiness": 1.0,
+      "isKilledByLava": true,
+      "isFragile": true,
+      "isDestroyByWeapon": false,
+      "isLossyCollection": true,
+      "soundId": "grass",
+      "stepSoundId": "grass",
+      "particleColor": [ 255, 100, 150, 60 ],
+      "preset": "Grass",
+      "animation": [
+        {
+          "animationId": 0,
+          "frameRandom": true,
+          "frameStart": 0,
+          "frameCount": 6,
+          "shake": true,
+          "shakeCenterX": 8,
+          "shakeCenterY": 32,
+          "shakePeriod": 128,
+          "shakeAngle": 0.2
+        }
+      ]
+    }
+  },
+  "item": {
+    "grass": {
+      "type": "BLOCKS",
+      "iconTextureData": "grass_icon.png",
+      "group": "GROUP_GRASS",
+      "blockId": "grass",
+      "fuelTime": 20
+    }
+  }
+}

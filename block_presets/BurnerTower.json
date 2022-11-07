@@ -1,0 +1,10 @@
+
+{
+  "BurnerTower": {
+    "entityId": "Tower",
+    "pOnScreenUpdate": "UpdateBurnerTower",
+    "pOnPlaced": "TowerPlaced",
+    "pOnDestroy": "TowerDestroy",
+    "pOnClicked": "ClickTower"
+  }
+}

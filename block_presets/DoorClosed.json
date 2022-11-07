@@ -1,0 +1,8 @@
+
+{
+  "DoorClosed": {
+    "pOnDraw": "DrawDoorClosed",
+    "pOnClicked": "ClickOpenDoor",
+    "pOnActivated": "DoorActivated"
+  }
+}

@@ -1,0 +1,22 @@
+
+{
+  "exp": {
+    "isClient": false,
+    "fromPlayer": false,
+    "gameMode": "creative",
+    "op": "admin",
+    "parameters": [
+      {
+        "type": "CP_PLAYER"
+      },
+      {
+        "type": "CP_INTEGER",
+        "min": 1,
+        "max": 10000000
+      }
+    ],
+    "script": {
+      "path": "ex.lua"
+    }
+  }
+}

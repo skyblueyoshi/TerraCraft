@@ -1,0 +1,8 @@
+
+{
+  "BallMagic": {
+    "script": {
+      "path": "BallMagic.lua"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "magic_wave": {
+    "ai": "MagicWave",
+    "textureData": "magic_wave.png",
+    "width": 48,
+    "height": 32,
+    "gfxWidth": 48,
+    "gfxHeight": 32,
+    "gfxOffsetX": 0,
+    "gfxOffsetY": 0,
+    "hots": [[0, 16]],
+    "frameStyle": 1,
+    "frames": 2,
+    "frameSpeed": 4,
+    "shape": "ROTATED_BOX",
+    "maxSpeed": 12.0,
+    "gravity": false,
+    "foreground": true,
+    "fixByBlocks": false,
+    "througthBlock": false,
+    "keepStrick": true
+  }
+}

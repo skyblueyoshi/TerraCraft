@@ -1,0 +1,11 @@
+
+{
+  "tantalum_ingot": {
+    "ai": "Ingot",
+    "type": "MATERIALS",
+    "iconTextureData": "ingot_icon.png",
+    "iconColor": [ 255, 210, 210, 210 ],
+    "group": "GROUP_INGOT",
+    "iconColor2": [ 255, 255, 255, 255 ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "block": {
+    "flesh_tentacle_hanging": {
+      "textureData": "flesh_tentacle_hanging.png",
+      "color": [ 131, 37, 34 ],
+      "type": "FURNITURE",
+      "width": 2,
+      "height": 8,
+      "collision": "NONE",
+      "attach": "TOP",
+      "attachable": "NONE",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 300,
+      "slipperiness": 1.0,
+      "isKilledByLava": true,
+      "isFragile": false,
+      "isDestroyByWeapon": false,
+      "soundGroupId": "grass",
+      "stepSoundGroupId": "step_grass",
+      "particleColor": [ 255, 131, 37, 34 ],
+      "animation": [
+        {
+          "animationId": 0,
+          "frameRandom": true,
+          "frameStart": 0,
+          "frameCount": 4,
+          "shake": true,
+          "shakeCenterX": 16,
+          "shakeCenterY": 0,
+          "shakePeriod": 256,
+          "shakeAngle": 0.1
+        }
+      ]
+    }
+  }
+}

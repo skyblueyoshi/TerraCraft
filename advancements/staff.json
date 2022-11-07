@@ -1,0 +1,9 @@
+
+{
+  "staff": {
+    "itemId": "amethyst_staff",
+    "parentId": "hunter",
+    "showTip": true,
+    "broadcase": true
+  }
+}

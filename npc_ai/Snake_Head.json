@@ -1,0 +1,8 @@
+
+{
+  "Snake_Head": {
+    "script": {
+      "path": "BaseSnake.lua"
+    }
+  }
+}

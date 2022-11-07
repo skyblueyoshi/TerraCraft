@@ -1,0 +1,29 @@
+{
+  "block": {
+    "enchantment_table": {
+      "textureData": "enchantment_table.png",
+      "type": "FURNITURE",
+      "width": 3,
+      "height": 2,
+      "collision": "PLATFORM",
+      "attach": "BOTTOM",
+      "attachable": "TOP",
+      "toolType": "PICKAXE",
+      "mineGrade": "DIAMOND",
+      "hardness": 500,
+      "slipperiness": 1.0,
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 76, 76, 155 ],
+      "preset": "Enchantment"
+    }
+  },
+  "item": {
+    "enchantment_table": {
+      "type": "BLOCKS",
+      "iconTextureData": "enchantment_table.png",
+      "group": "GROUP_OTHERS_FURNITURE",
+      "blockId": "enchantment_table"
+    }
+  }
+}

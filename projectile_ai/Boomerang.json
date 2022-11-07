@@ -1,0 +1,9 @@
+
+{
+  "Boomerang": {
+    "script": {
+      "path": "Boomerang.lua"
+    },
+    "netUpdate": false
+  }
+}

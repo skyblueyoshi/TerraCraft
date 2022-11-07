@@ -1,0 +1,19 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "cabinet_spruce",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "elements": [
+    [ "A", "spruce_plank" ],
+    [ "B", "chest" ]
+  ]
+}

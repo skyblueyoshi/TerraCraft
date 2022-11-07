@@ -1,0 +1,21 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "wooden_arrow",
+      "stackSize": 6
+    }
+  ],
+  "pattern": [
+    "AOO",
+    "BOO",
+    "COO"
+  ],
+  "elements": [
+    [ "A", "flint" ],
+    [ "B", "stick" ],
+    [ "C", "feather" ]
+  ],
+  "importantElements": [ "A", "C" ]
+}

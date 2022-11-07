@@ -1,0 +1,53 @@
+{
+  "block": {
+    "candle_holder": {
+      "textureData": "candle_holder.png",
+      "color": [ 255, 168, 77 ],
+      "type": "FURNITURE",
+      "width": 2,
+      "height": 3,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "toolType": "PICKAXE",
+      "mineGrade": "GRASS",
+      "hardness": 20,
+      "isKilledByLava": true,
+      "isFragile": true,
+      "isLighting": true,
+      "lightColor": [ 26, 4, 4, 0 ],
+      "lightX": 0,
+      "lightY": 0,
+      "lightWi": 3,
+      "lightHi": 1,
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 50, 70, 80 ],
+      "covers": [
+        {
+          "modTextureId": "candle_fire",
+          "offsetX": 8,
+          "offsetY": -10
+        },
+        {
+          "modTextureId": "candle_fire",
+          "offsetX": -4,
+          "offsetY": -2
+        },
+        {
+          "modTextureId": "candle_fire",
+          "offsetX": 20,
+          "offsetY": -2
+        }
+      ]
+    }
+  },
+  "item": {
+    "candle_holder": {
+      "type": "BLOCKS",
+      "iconTextureData": "candle_holder.png",
+      "group": "GROUP_OTHERS_FURNITURE",
+      "blockId": "candle_holder"
+    }
+  }
+}

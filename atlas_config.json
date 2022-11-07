@@ -1,0 +1,80 @@
+[
+  {
+    "name": "ui",
+    "path": "ui_res",
+    "size": 512
+  },
+  {
+    "name": "trees",
+    "path": "trees",
+    "size": 2048
+  },
+  {
+    "name": "skins",
+    "path": "skins",
+    "size": 1024
+  },
+  {
+    "name": "buffs",
+    "path": "buffs",
+    "size": 256
+  },
+  {
+    "name": "effects",
+    "path": "effects",
+    "size": 256,
+    "excludes": [ "gore_([a-zA-Z0-9_]+).png" ]
+  },
+  {
+    "name": "gores",
+    "path": "effects",
+    "size": 256,
+    "includes": [ "gore_([a-zA-Z0-9_]+).png" ]
+  },
+  {
+    "name": "npcs",
+    "path": "npcs",
+    "size": 1024
+  },
+  {
+    "name": "projectiles",
+    "path": "projectiles",
+    "size": 256
+  },
+  {
+    "name": "items",
+    "path": "items",
+    "size": 512,
+    "excludes": [ "hat([0-9]+|).png", "body([0-9]+|).png", "leg([0-9]+|).png" ]
+  },
+  {
+    "name": "skins",
+    "path": "items",
+    "size": 1024,
+    "includes": [ "hat([0-9]+|).png", "body([0-9]+|).png", "leg([0-9]+|).png" ]
+  },
+  {
+    "name": "furnitures",
+    "path": "blocks/furnitures",
+    "size": 512,
+    "excludes": [ "[a-zA-Z0-9_]+_icon.png" ]
+  },
+  {
+    "name": "items",
+    "path": "blocks/furnitures",
+    "size": 512,
+    "includes": [ "[a-zA-Z0-9_]+_icon.png" ]
+  },
+  {
+    "name": "tiles",
+    "path": "blocks/tiles",
+    "size": 1024,
+    "excludes": [ "[a-zA-Z0-9_]+_icon.png" ]
+  },
+  {
+    "name": "items",
+    "path": "blocks/tiles",
+    "size": 512,
+    "includes": [ "[a-zA-Z0-9_]+_icon.png" ]
+  }
+]

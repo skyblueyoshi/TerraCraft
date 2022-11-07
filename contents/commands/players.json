@@ -1,0 +1,13 @@
+
+{
+  "players": {
+    "isClient": false,
+    "fromPlayer": false,
+    "gameMode": "creative",
+    "op": "admin",
+    "parameters": [],
+    "script": {
+      "path": "players.lua"
+    }
+  }
+}

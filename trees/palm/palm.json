@@ -1,0 +1,39 @@
+{
+  "tree": {
+    "palm": {
+      "length": 10,
+      "baseTiles": [ "sand" ],
+      "leafs": [],
+      "branches": [],
+      "crowns": [
+        [
+          "crown.png"
+        ],
+        [
+          "crown_2.png"
+        ],
+        [
+          "crown_3.png"
+        ]
+      ],
+      "woodId": "wood_palm",
+      "saplingId": "sapling_palm",
+      "fruits": []
+    }
+  },
+  "block": {
+    "log_palm": {
+      "textureData": "stem.png",
+      "color": [ 150, 130, 77 ],
+      "subGroup": "LOG",
+      "placeCheck": "PLACE_TREE_CHECK",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 600,
+      "treeId": "palm",
+      "soundGroupId": "wood",
+      "particleColor": [ 255, 100, 120, 40 ]
+    }
+  }
+}
+

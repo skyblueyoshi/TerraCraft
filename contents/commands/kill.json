@@ -1,0 +1,12 @@
+{
+  "kill": {
+    "isClient": false,
+    "fromPlayer": true,
+    "gameMode": "survival",
+    "op": "any",
+    "parameters": [],
+    "script": {
+      "path": "kill.lua"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+
+{
+  "netherite_scrap": {
+    "type": "MATERIALS",
+    "iconTextureData": "netherite_scrap_icon.png",
+    "group": "GROUP_MATERIAL",
+    "antiLava": true
+  }
+}

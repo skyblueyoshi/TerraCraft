@@ -1,0 +1,15 @@
+
+{
+  "iron": {
+    "itemId": "iron_ingot",
+    "parentId": "furnace",
+    "showTip": true,
+    "broadcase": true,
+    "trigger": {
+      "name": "get_item_group",
+      "conditions": {
+        "group": "GROUP_INGOT"
+      }
+    }
+  }
+}

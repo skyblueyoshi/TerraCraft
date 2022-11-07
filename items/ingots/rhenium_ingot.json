@@ -1,0 +1,11 @@
+
+{
+  "rhenium_ingot": {
+    "ai": "Ingot",
+    "type": "MATERIALS",
+    "iconTextureData": "ingot_icon.png",
+    "iconColor": [ 255, 66, 66, 66 ],
+    "iconColor2": [ 0, 255, 255, 255 ],
+    "group": "GROUP_INGOT"
+  }
+}

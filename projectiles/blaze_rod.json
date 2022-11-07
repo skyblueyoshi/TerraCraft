@@ -1,0 +1,24 @@
+
+{
+  "blaze_rod": {
+    "ai": "BlazeRod",
+    "textureData": "blaze_rod.png",
+    "width": 48,
+    "height": 16,
+    "gfxWidth": 48,
+    "gfxHeight": 16,
+    "gfxOffsetX": 0,
+    "gfxOffsetY": 0,
+    "hots": [[24, 8]],
+    "frameStyle": 1,
+    "frames": 1,
+    "frameSpeed": 8,
+    "shape": "ROTATED_BOX",
+    "maxSpeed": 6.0,
+    "gravity": false,
+    "foreground": true,
+    "fixByBlocks": false,
+    "througthBlock": true,
+    "keepStrick": false
+  }
+}

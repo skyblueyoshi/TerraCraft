@@ -1,0 +1,35 @@
+{
+  "block": {
+    "plank_acacia": {
+      "textureData": "plank_acacia.png",
+      "color": [ 190, 125, 90 ],
+      "renderMode": "RENDER_BORDER_CUT",
+      "renderSortedInterval": 8,
+      "type": "TILE",
+      "group": "ARTIFICAL",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 100,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": false,
+      "wallCheck": "NO_GENERABLE",
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 180, 100, 60 ]
+    }
+  },
+  "item": {
+    "acacia_plank": {
+      "type": "BLOCKS",
+      "iconTextureData": "plank_acacia_icon.png",
+      "group": "GROUP_WOODEN_PLANK",
+      "oreDictionary": [ "OD_WOODEN_PLANK" ],
+      "blockId": "plank_acacia",
+      "fuelTime": 60
+    }
+  }
+}

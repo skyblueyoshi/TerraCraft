@@ -1,0 +1,28 @@
+
+{
+  "flash": {
+    "ai": "Smoke",
+    "textureData": "flash.png",
+    "width": 6,
+    "height": 6,
+    "gfxOffsetX": 0,
+    "gfxOffsetY": 0,
+    "gfxWidth": 6,
+    "gfxHeight": 6,
+    "frameStyle": 0,
+    "frameStyles": 1,
+    "frames": 1,
+    "frameSpeed": 8,
+    "disappearTime": 32,
+    "isForeground": true,
+    "gravity": false,
+    "collisionWithBlocks": false,
+    "fixByBlocks": false,
+    "fadeScale": true,
+    "fadeAlpha": true,
+    "isLighting": true,
+    "slowSpeed": true,
+    "slowRotateSpeed": true,
+    "lightColor": [ 24, 0, 0, 0 ]
+  }
+}

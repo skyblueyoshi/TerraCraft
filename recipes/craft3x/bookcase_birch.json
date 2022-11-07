@@ -1,0 +1,19 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "bookcase_birch",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "AAA",
+    "BBB",
+    "AAA"
+  ],
+  "elements": [
+    [ "A", "birch_plank" ],
+    [ "B", "book_block" ]
+  ]
+}

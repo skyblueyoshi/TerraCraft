@@ -1,0 +1,16 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "fence_nether",
+      "stackSize": 6
+    }
+  ],
+  "pattern": [
+    "AAA",
+    "AAA",
+    "OOO"
+  ],
+  "elements": [ [ "A", "nether_brick_block" ] ]
+}

@@ -1,0 +1,21 @@
+
+{
+  "config": "Craft3x",
+  "searchActions": [ [ 0, "SA_UNORDER" ] ],
+  "results": [
+    {
+      "id": "mushroom_stew",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "ABC",
+    "OOO",
+    "OOO"
+  ],
+  "elements": [
+    [ "A", "bowl" ],
+    [ "B", "brown_mushroom" ],
+    [ "C", "red_mushroom" ]
+  ]
+}

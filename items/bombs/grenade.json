@@ -1,0 +1,15 @@
+
+{
+  "grenade": {
+    "type": "PROJECTILES",
+    "iconTextureData": "grenade_icon.png",
+    "group": "GROUP_BOMB",
+    "projectileId": "grenade",
+    "speed": 6.0,
+    "canThrow": true,
+    "damage": 5,
+    "knockBack": 5,
+    "coldTime": 180,
+    "shootable": true
+  }
+}

@@ -1,0 +1,13 @@
+
+{
+  "config": "Smelt",
+  "pattern": [ "A" ],
+  "results": [
+    {
+      "id": "tin_ingot",
+      "stackSize": 1
+    }
+  ],
+  "elements": [ [ "A", "ore_tin", 3 ] ],
+  "exData": { "time": 40 }
+}

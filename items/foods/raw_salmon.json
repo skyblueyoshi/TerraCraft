@@ -1,0 +1,13 @@
+
+{
+  "raw_salmon": {
+    "ai": "Food",
+    "type": "MATERIALS",
+    "iconTextureData": "raw_salmon_icon.png",
+    "group": "GROUP_FOOD",
+    "eatable": true,
+    "useSoundGroup": "eat",
+    "food": 10,
+    "foodSaturation": 4
+  }
+}

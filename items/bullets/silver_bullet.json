@@ -1,0 +1,15 @@
+
+{
+  "silver_bullet": {
+    "type": "PROJECTILES",
+    "iconTextureData": "silver_bullet_icon.png",
+    "group": "GROUP_BULLET",
+    "ammo": "bullet",
+    "ammoLevel": 0,
+    "projectileId": "bullet",
+    "speed": 1.0,
+    "shootable": true,
+    "damage": 8,
+    "knockBack": 1
+  }
+}

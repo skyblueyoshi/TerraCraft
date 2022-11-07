@@ -1,0 +1,9 @@
+
+{
+  "lava_necklace": {
+    "type": "MATERIALS",
+    "iconTextureData": "lava_necklace.png",
+    "ai": "LavaNecklace",
+    "group": "GROUP_MATERIAL"
+  }
+}

@@ -1,0 +1,24 @@
+
+{
+  "tnt": {
+    "ai": "Bomb",
+    "textureData": "tnt.png",
+    "width": 16,
+    "height": 16,
+    "gfxWidth": 16,
+    "gfxHeight": 16,
+    "gfxOffsetX": 0,
+    "gfxOffsetY": 0,
+    "hots": [[8, 0]],
+    "frameStyle": 1,
+    "frames": 1,
+    "frameSpeed": 8,
+    "shape": "BOX",
+    "maxSpeed": 8.0,
+    "gravity": true,
+    "foreground": false,
+    "fixByBlocks": true,
+    "througthBlock": false,
+    "keepStrick": true
+  }
+}

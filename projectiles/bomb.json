@@ -1,0 +1,24 @@
+
+{
+  "bomb": {
+    "ai": "Bomb",
+    "textureData": "bomb.png",
+    "width": 20,
+    "height": 20,
+    "gfxWidth": 36,
+    "gfxHeight": 36,
+    "gfxOffsetX": -8,
+    "gfxOffsetY": -8,
+    "hots": [[18, 4]],
+    "frameStyle": 1,
+    "frames": 1,
+    "frameSpeed": 8,
+    "shape": "BOX",
+    "maxSpeed": 8.0,
+    "gravity": true,
+    "foreground": false,
+    "fixByBlocks": true,
+    "througthBlock": false,
+    "keepStrick": true
+  }
+}

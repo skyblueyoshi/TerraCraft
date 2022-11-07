@@ -1,0 +1,9 @@
+
+{
+  "stone": {
+    "itemId": "stone_brick",
+    "parentId": "mine",
+    "showTip": true,
+    "broadcase": true
+  }
+}

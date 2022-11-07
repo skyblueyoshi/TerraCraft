@@ -1,0 +1,9 @@
+
+{
+  "steel": {
+    "itemId": "steel_ingot",
+    "parentId": "iron",
+    "showTip": true,
+    "broadcase": true
+  }
+}

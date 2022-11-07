@@ -1,0 +1,31 @@
+{
+  "block": {
+    "table_nether": {
+      "textureData": "table_nether.png",
+      "color": [ 72, 29, 34 ],
+      "type": "FURNITURE",
+      "width": 3,
+      "height": 2,
+      "collision": "PLATFORM",
+      "attach": "BOTTOM",
+      "attachable": "TOP",
+      "toolType": "PICKAXE",
+      "mineGrade": "GRASS",
+      "hardness": 140,
+      "slipperiness": 1.0,
+      "isKilledByLava": false,
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 72, 29, 34 ]
+    }
+  },
+  "item": {
+    "table_nether": {
+      "type": "BLOCKS",
+      "iconTextureData": "table_nether.png",
+      "group": "GROUP_WOODEN_TABLE",
+      "blockId": "table_nether",
+      "antiLava": true
+    }
+  }
+}

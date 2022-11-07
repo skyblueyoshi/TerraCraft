@@ -1,0 +1,16 @@
+
+{
+  "config": "Brew",
+  "results": [
+    {
+      "id": "potion_invisibility",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [ "AB" ],
+  "elements": [
+    [ "A", "potion_night_vision" ],
+    [ "B", "fermented_spider_eye" ]
+  ],
+  "exData": { "time": 400 }
+}

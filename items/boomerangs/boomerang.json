@@ -1,0 +1,17 @@
+
+{
+  "boomerang": {
+    "type": "TOOLS",
+    "iconTextureData": "boomerang_icon.png",
+    "group": "GROUP_BOOMERANG",
+    "toolType": "BOOMERANG",
+    "projectileId": "boomerang",
+    "speed": 8.0,
+    "damage": 7,
+    "knockBack": 8,
+    "coldTime": 40,
+    "durable": 256,
+    "canThrow": true,
+    "attachThrowable": true
+  }
+}

@@ -1,0 +1,16 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "shears",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "OAO",
+    "AOO",
+    "OOO"
+  ],
+  "elements": [ [ "A", "OD_IRON_INGOT" ] ]
+}

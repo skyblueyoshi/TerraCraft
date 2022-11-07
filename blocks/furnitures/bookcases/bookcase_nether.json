@@ -1,0 +1,35 @@
+{
+  "block": {
+    "bookcase_nether": {
+      "textureData": "bookcase_nether.png",
+      "color": [ 73, 29, 34 ],
+      "type": "FURNITURE",
+      "subGroup": "BOOKCASE",
+      "width": 3,
+      "height": 4,
+      "collision": "PLATFORM",
+      "attach": "BOTTOM",
+      "attachable": "TOP",
+      "toolType": "PICKAXE",
+      "mineGrade": "GRASS",
+      "hardness": 140,
+      "slipperiness": 1.0,
+      "isKilledByLava": false,
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "functionSoundId": "chest",
+      "functionSoundId2": "chestclosed",
+      "particleColor": [ 255, 73, 29, 34 ],
+      "preset": "Storage"
+    }
+  },
+  "item": {
+    "bookcase_nether": {
+      "type": "BLOCKS",
+      "iconTextureData": "bookcase_nether.png",
+      "group": "GROUP_BOOKCASE",
+      "blockId": "bookcase_nether",
+      "antiLava": true
+    }
+  }
+}

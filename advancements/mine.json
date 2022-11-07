@@ -1,0 +1,9 @@
+
+{
+  "mine": {
+    "itemId": "wooden_pickaxe",
+    "parentId": "crafting_table",
+    "showTip": true,
+    "broadcase": true
+  }
+}

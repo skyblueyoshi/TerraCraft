@@ -1,0 +1,17 @@
+
+{
+  "master": {
+    "isClient": false,
+    "fromPlayer": false,
+    "gameMode": "creative",
+    "op": "developer",
+    "parameters": [
+      {
+        "type": "CP_PLAYER"
+      }
+    ],
+    "script": {
+      "path": "master.lua"
+    }
+  }
+}

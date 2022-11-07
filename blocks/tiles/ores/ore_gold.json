@@ -1,0 +1,34 @@
+{
+  "block": {
+    "ore_gold": {
+      "textureData": "ore_gold.png",
+      "color": [ 210, 210, 160 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 4,
+      "type": "TILE",
+      "group": "ORE_GOLD",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "IRON",
+      "hardness": 180,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": true,
+      "wallCheck": "GENERABLE",
+      "soundGroupId": "tink",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 200, 200, 160 ],
+      "exParticle": "ore_particle"
+    }
+  },
+  "item": {
+    "ore_gold": {
+      "type": "BLOCKS",
+      "iconTextureData": "ore_gold_icon.png",
+      "group": "GROUP_ORE",
+      "blockId": "ore_gold"
+    }
+  }
+}

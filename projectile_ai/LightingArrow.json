@@ -1,0 +1,9 @@
+
+{
+  "LightingArrow": {
+    "defaultAI": "Arrow",
+    "script": {
+      "path": "LightingArrow.lua"
+    }
+  }
+}

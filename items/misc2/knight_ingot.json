@@ -1,0 +1,8 @@
+
+{
+  "knight_ingot": {
+    "type": "MATERIALS",
+    "iconTextureData": "knight_ingot.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

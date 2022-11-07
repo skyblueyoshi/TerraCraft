@@ -1,0 +1,13 @@
+
+{
+  "curse_of_binding": {
+    "noCreating": true,
+    "minCreatingLevel": 1000,
+    "allowMaxLevel": 8,
+    "tool": [
+      "HELMET",
+      "CHESTPLATE",
+      "LEGGINGS"
+    ]
+  }
+}

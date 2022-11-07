@@ -1,0 +1,9 @@
+
+{
+  "portal": {
+    "itemId": "portal:nature_portal",
+    "parentId": "crafting_table",
+    "showTip": true,
+    "broadcase": true
+  }
+}

@@ -1,0 +1,28 @@
+
+{
+  "flow_particular": {
+    "ai": "GlowingFlow",
+    "textureData": "flow_particular.png",
+    "width": 8,
+    "height": 8,
+    "gfxOffsetX": 0,
+    "gfxOffsetY": 0,
+    "gfxWidth": 8,
+    "gfxHeight": 8,
+    "frameStyle": 0,
+    "frameStyles": 1,
+    "frames": 4,
+    "frameSpeed": 8,
+    "disappearTime": 180,
+    "isForeground": true,
+    "gravity": false,
+    "collisionWithBlocks": false,
+    "fixByBlocks": false,
+    "fadeScale": false,
+    "fadeAlpha": false,
+    "slowSpeed": false,
+    "slowRotateSpeed": false,
+    "isLighting": true,
+    "lightColor": [ 28, 0, 0, 0 ]
+  }
+}

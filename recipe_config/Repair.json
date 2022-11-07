@@ -1,0 +1,15 @@
+{
+  "Repair": {
+    "iconItem": "anvil",
+    "sourceGroups": [
+      {
+        "slotCount": 2,
+        "searchAction": "SA_FIX"
+      }
+    ],
+    "resultSlotCount": 1,
+    "exData": [
+      ["double", "repairRate"]
+    ]
+  }
+}

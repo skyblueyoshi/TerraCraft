@@ -1,0 +1,23 @@
+{
+  "block": {
+    "stalactite_hanging_desert": {
+      "textureData": "desert_stalactite_hanging.png",
+      "color": [ 176, 162, 123 ],
+      "type": "FURNITURE",
+      "width": 1,
+      "height": 2,
+      "collision": "NONE",
+      "attach": "TOP",
+      "attachable": "NONE",
+      "placeCheck": "PLACE_SAND_DECO_CHECK",
+      "toolType": "PICKAXE",
+      "mineGrade": "WOOD",
+      "hardness": 200,
+      "slipperiness": 1.0,
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 200, 160, 140 ],
+      "preset": "Stalactite"
+    }
+  }
+}

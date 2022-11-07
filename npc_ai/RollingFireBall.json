@@ -1,0 +1,8 @@
+
+{
+  "RollingFireBall": {
+    "script": {
+      "path": "RollingFireBall.lua"
+    }
+  }
+}

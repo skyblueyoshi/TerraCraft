@@ -1,0 +1,34 @@
+{
+  "block": {
+    "terracotta_gray": {
+      "textureData": "terracotta_gray.png",
+      "color": [ 144, 144, 144 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 4,
+      "type": "TILE",
+      "group": "ARTIFICAL",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "WOOD",
+      "hardness": 160,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": false,
+      "wallCheck": "NO_GENERABLE",
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 60, 60, 60 ]
+    }
+  },
+  "item": {
+    "terracotta_gray": {
+      "type": "BLOCKS",
+      "iconTextureData": "terracotta_gray_icon.png",
+      "group": "GROUP_TERRACOTTA",
+      "blockId": "terracotta_gray",
+      "oreDictionary": [ "OD_TERRACOTTA" ]
+    }
+  }
+}

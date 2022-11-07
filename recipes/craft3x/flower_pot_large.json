@@ -1,0 +1,16 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "flower_pot_large",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "AOA",
+    "AOA",
+    "OAO"
+  ],
+  "elements": [ [ "A", "red_brick" ] ]
+}

@@ -1,0 +1,8 @@
+
+{
+  "blue_crystal": {
+    "type": "MATERIALS",
+    "iconTextureData": "blue_crystal.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

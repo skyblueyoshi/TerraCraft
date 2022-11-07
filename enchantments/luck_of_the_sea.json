@@ -1,0 +1,11 @@
+
+{
+  "luck_of_the_sea": {
+    "noCreating": false,
+    "minCreatingLevel": 29,
+    "allowMaxLevel": 8,
+    "tool": [
+      "FISHING_ROD"
+    ]
+  }
+}

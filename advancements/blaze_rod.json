@@ -1,0 +1,9 @@
+
+{
+  "blaze_rod": {
+    "itemId": "blaze_rod",
+    "parentId": "nether",
+    "showTip": true,
+    "broadcase": true
+  }
+}

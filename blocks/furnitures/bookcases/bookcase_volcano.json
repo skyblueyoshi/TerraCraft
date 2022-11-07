@@ -1,0 +1,35 @@
+{
+  "block": {
+    "bookcase_volcano": {
+      "textureData": "bookcase_volcano.png",
+      "color": [ 200, 60, 60 ],
+      "type": "FURNITURE",
+      "subGroup": "BOOKCASE",
+      "width": 3,
+      "height": 4,
+      "collision": "PLATFORM",
+      "attach": "BOTTOM",
+      "attachable": "TOP",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 140,
+      "slipperiness": 1.0,
+      "isKilledByLava": true,
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "functionSoundId": "chest",
+      "functionSoundId2": "chestclosed",
+      "particleColor": [ 255, 200, 60, 60 ],
+      "preset": "Storage"
+    }
+  },
+  "item": {
+    "bookcase_volcano": {
+      "type": "BLOCKS",
+      "iconTextureData": "bookcase_volcano.png",
+      "group": "GROUP_BOOKCASE",
+      "blockId": "bookcase_volcano",
+      "fuelTime": 60
+    }
+  }
+}

@@ -1,0 +1,8 @@
+
+{
+  "bone_meal": {
+    "type": "MATERIALS",
+    "iconTextureData": "bone_meal_icon.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

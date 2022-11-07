@@ -1,0 +1,13 @@
+
+{
+  "raw_porkchop": {
+    "ai": "Food",
+    "type": "MATERIALS",
+    "iconTextureData": "raw_porkchop_icon.png",
+    "group": "GROUP_FOOD",
+    "eatable": true,
+    "useSoundGroup": "eat",
+    "food": 15,
+    "foodSaturation": 18
+  }
+}

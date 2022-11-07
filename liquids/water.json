@@ -1,0 +1,17 @@
+{
+  "water": {
+    "textureData": "water.png",
+    "borderTextureData": "water_border.png",
+    "texWidth": 256,
+    "texHeight": 16,
+    "color": [ 96, 122, 122, 255 ],
+    "paticularColor": [ 255, 32, 160, 200 ],
+    "offsetSpeedX": 0,
+    "offsetSpeedY": 0,
+    "delay": 4,
+    "stickyRate": 0.5,
+    "damage": 0,
+    "buffs": [],
+    "noBuffs": [ "fire" ]
+  }
+}

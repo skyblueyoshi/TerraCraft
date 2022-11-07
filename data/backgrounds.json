@@ -1,0 +1,293 @@
+{
+  "sun": "backgrounds/sky/elements/sun.png",
+  "moon": "backgrounds/sky/elements/moon.png",
+  "smallClouds": [
+    "backgrounds/sky/clouds/small.png",
+    "backgrounds/sky/clouds/small2.png",
+    "backgrounds/sky/clouds/small3.png",
+    "backgrounds/sky/clouds/small4.png",
+    "backgrounds/sky/clouds/small5.png"
+  ],
+  "largeClouds": [
+    "backgrounds/sky/clouds/large.png",
+    "backgrounds/sky/clouds/large2.png"
+  ],
+  "stars": [
+    "backgrounds/sky/stars/star.png",
+    "backgrounds/sky/stars/star2.png",
+    "backgrounds/sky/stars/star3.png",
+    "backgrounds/sky/stars/star4.png",
+    "backgrounds/sky/stars/star5.png"
+  ],
+  "walls": [
+    {
+      "stone_wall": "backgrounds/walls/stone_wall.png"
+    },
+    {
+      "stone_wall_link": "backgrounds/walls/stone_wall_link.png"
+    },
+    {
+      "dirt_wall": "backgrounds/walls/dirt_wall.png"
+    },
+    {
+      "dirt_wall_link": "backgrounds/walls/dirt_wall_link.png"
+    },
+    {
+      "tainted_wall": "backgrounds/walls/tainted_wall.png"
+    },
+    {
+      "tainted_wall_link": "backgrounds/walls/tainted_wall_link.png"
+    },
+    {
+      "sand_wall": "backgrounds/walls/sand_wall.png"
+    },
+    {
+      "sand_wall_link": "backgrounds/walls/sand_wall_link.png"
+    },
+    {
+      "ice_wall": "backgrounds/walls/ice_wall.png"
+    },
+    {
+      "ice_wall_link": "backgrounds/walls/ice_wall_link.png"
+    },
+    {
+      "lava_wall": "backgrounds/walls/lava_wall.png"
+    },
+    {
+      "lava_wall_link": "backgrounds/walls/lava_wall_link.png"
+    },
+    {
+      "mud_wall": "backgrounds/walls/mud_wall.png"
+    },
+    {
+      "mud_wall_link": "backgrounds/walls/mud_wall_link.png"
+    },
+    {
+      "red_sand_wall": "backgrounds/walls/red_sand_wall.png"
+    },
+    {
+      "red_sand_wall_link": "backgrounds/walls/red_sand_wall_link.png"
+    },
+    {
+      "flesh_wall": "backgrounds/walls/flesh_wall.png"
+    },
+    {
+      "flesh_wall_link": "backgrounds/walls/flesh_wall_link.png"
+    },
+    {
+      "pile_cave_wall": "backgrounds/walls/pile_cave_wall.png"
+    },
+    {
+      "long_lava_wall": "backgrounds/walls/long_lava_wall.png"
+    },
+    {
+      "pile_ice_wall": "backgrounds/walls/pile_ice_wall.png"
+    },
+    {
+      "mushroom_wall": "backgrounds/walls/mushroom_wall.png"
+    }
+  ],
+  "backgrounds": [
+    {
+      "large_tree_leaf": "backgrounds/layers/large_tree_leaf.png"
+    },
+    {
+      "large_tree_leaf2": "backgrounds/layers/large_tree_leaf2.png"
+    },
+    {
+      "large_tree_stem": "backgrounds/layers/large_tree_stem.png"
+    },
+    {
+      "snowy_hill": "backgrounds/layers/snowy_hill.png"
+    },
+    {
+      "dirty_hill": "backgrounds/layers/dirty_hill.png"
+    },
+    {
+      "stone_hill": "backgrounds/layers/stone_hill.png"
+    },
+    {
+      "large_grass": "backgrounds/layers/large_grass.png"
+    },
+    {
+      "large_grass_tree": "backgrounds/layers/large_grass_tree.png"
+    },
+    {
+      "large_grass_medium_tree": "backgrounds/layers/large_grass_medium_tree.png"
+    },
+    {
+      "large_grass_small_tree": "backgrounds/layers/large_grass_small_tree.png"
+    },
+    {
+      "large_bush": "backgrounds/layers/large_bush.png"
+    },
+    {
+      "desert_back": "backgrounds/layers/desert_back.png"
+    },
+    {
+      "desert_hill": "backgrounds/layers/desert_hill.png"
+    },
+    {
+      "desert_hill_new": "backgrounds/layers/desert_hill_new.png"
+    },
+    {
+      "desert_hill_new_2": "backgrounds/layers/desert_hill_new_2.png"
+    },
+    {
+      "desert_back_hill": "backgrounds/layers/desert_back_hill.png"
+    },
+    {
+      "desert": "backgrounds/layers/desert.png"
+    },
+    {
+      "desert_2": "backgrounds/layers/desert_2.png"
+    },
+    {
+      "desert_back_hill2": "backgrounds/layers/desert_back_hill2.png"
+    },
+    {
+      "desert_back_hill3": "backgrounds/layers/desert_back_hill3.png"
+    },
+    {
+      "desert_front": "backgrounds/layers/desert_front.png"
+    },
+    {
+      "desert_rock": "backgrounds/layers/desert_rock.png"
+    },
+    {
+      "snow_back": "backgrounds/layers/snow_back.png"
+    },
+    {
+      "snow_hill": "backgrounds/layers/snow_hill.png"
+    },
+    {
+      "snow_trees": "backgrounds/layers/snow_trees.png"
+    },
+    {
+      "snow_trees2": "backgrounds/layers/snow_trees2.png"
+    },
+    {
+      "snow_trees3": "backgrounds/layers/snow_trees3.png"
+    },
+    {
+      "snow_dune": "backgrounds/layers/snow_dune.png"
+    },
+    {
+      "jungle_bush": "backgrounds/layers/jungle_bush.png"
+    },
+    {
+      "tainted_hill": "backgrounds/layers/tainted_hill.png"
+    },
+    {
+      "tainted_hill2": "backgrounds/layers/tainted_hill2.png"
+    },
+    {
+      "tainted_bush": "backgrounds/layers/tainted_bush.png"
+    },
+    {
+      "tainted_bush_strick": "backgrounds/layers/tainted_bush_strick.png"
+    },
+    {
+      "tainted_rock": "backgrounds/layers/tainted_rock.png"
+    },
+    {
+      "lava_lake": "backgrounds/layers/lava_lake.png"
+    },
+    {
+      "lava_layer": "backgrounds/layers/lava_layer.png"
+    },
+    {
+      "lava_rock": "backgrounds/layers/lava_rock.png"
+    },
+    {
+      "lava_pile": "backgrounds/layers/lava_pile.png"
+    },
+    {
+      "lava_layer_hanging": "backgrounds/layers/lava_layer_hanging.png"
+    },
+    {
+      "lava_rock_hanging": "backgrounds/layers/lava_rock_hanging.png"
+    },
+    {
+      "lava_pile_hanging": "backgrounds/layers/lava_pile_hanging.png"
+    },
+    {
+      "fossil": "backgrounds/layers/fossil.png"
+    },
+    {
+      "waste_back": "backgrounds/layers/waste_back.png"
+    },
+    {
+      "waste_back2": "backgrounds/layers/waste_back2.png"
+    },
+    {
+      "waste_hill": "backgrounds/layers/waste_hill.png"
+    },
+    {
+      "waste_hill2": "backgrounds/layers/waste_hill2.png"
+    },
+    {
+      "flesh_fossil": "backgrounds/layers/flesh_fossil.png"
+    },
+    {
+      "flesh_fossil2": "backgrounds/layers/flesh_fossil2.png"
+    },
+    {
+      "flesh_back": "backgrounds/layers/flesh_back.png"
+    },
+    {
+      "flesh_back2": "backgrounds/layers/flesh_back2.png"
+    },
+    {
+      "flesh_hill": "backgrounds/layers/flesh_hill.png"
+    },
+    {
+      "flesh_hill2": "backgrounds/layers/flesh_hill2.png"
+    },
+    {
+      "flesh_bush": "backgrounds/layers/flesh_bush.png"
+    },
+    {
+      "mushroom_grass": "backgrounds/layers/mushroom_grass.png"
+    },
+    {
+      "large_mushrooms": "backgrounds/layers/large_mushrooms.png"
+    },
+    {
+      "large_mushrooms2": "backgrounds/layers/large_mushrooms2.png"
+    },
+    {
+      "volcano_back": "backgrounds/layers/volcano_back.png"
+    },
+    {
+      "volcano_back2": "backgrounds/layers/volcano_back2.png"
+    },
+    {
+      "volcano_back3": "backgrounds/layers/volcano_back3.png"
+    },
+    {
+      "snowy_hill2": "backgrounds/layers/snowy_hill2.png"
+    },
+    {
+      "tainted_hill3": "backgrounds/layers/tainted_hill3.png"
+    },
+    {
+      "flesh_hill3": "backgrounds/layers/flesh_hill3.png"
+    },
+    {
+      "waste_hill3": "backgrounds/layers/waste_hill3.png"
+    },
+    {
+      "volcano_hill": "backgrounds/layers/volcano_hill.png"
+    },
+    {
+      "snow_mountain": "backgrounds/layers/snow_mountain.png"
+    },
+    {
+      "snow_trees_new": "backgrounds/layers/snow_trees_new.png"
+    },
+    {
+      "snow_trees_new2": "backgrounds/layers/snow_trees_new2.png"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "tree": {
+    "tainted": {
+      "length": 6,
+      "baseTiles": [ "tainted_dirt" ],
+      "leafs": [
+        "leaf.png",
+        "leaf_2.png",
+        "leaf_3.png",
+        "leaf_4.png",
+        "leaf_5.png",
+        "leaf_6.png"
+      ],
+      "branches": [
+        [
+          "branch.png",
+          [ 68, 136 ],
+          [ 88, 118 ],
+          [ 211, 112 ]
+        ],
+        [
+          "branch_2.png",
+          [ 51, 101 ],
+          [ 104, 113 ],
+          [ 226, 131 ],
+          [ 180, 80 ]
+        ],
+        [
+          "branch_3.png",
+          [ 59, 118 ],
+          [ 84, 100 ],
+          [ 228, 112 ],
+          [ 206, 83 ]
+        ]
+      ],
+      "crowns": [
+        [
+          "crown.png",
+          [ 74, 146 ],
+          [ 80, 130 ],
+          [ 100, 100 ],
+          [ 193, 84 ],
+          [ 156, 146 ]
+        ],
+        [
+          "crown_2.png",
+          [ 120, 138 ],
+          [ 188, 116 ],
+          [ 68, 96 ],
+          [ 216, 80 ],
+          [ 136, 58 ]
+        ],
+        [
+          "crown_3.png",
+          [ 140, 140 ],
+          [ 60, 112 ],
+          [ 228, 113 ],
+          [ 183, 72 ],
+          [ 103, 40 ]
+        ]
+      ],
+      "woodId": "wood_tainted",
+      "saplingId": "sapling_tainted",
+      "fruits": []
+    }
+  },
+  "block": {
+    "log_tainted": {
+      "textureData": "stem.png",
+      "color": [ 74, 41, 107 ],
+      "subGroup": "LOG",
+      "placeCheck": "PLACE_TREE_CHECK",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 600,
+      "treeId": "tainted",
+      "soundGroupId": "wood",
+      "particleColor": [ 255, 100, 50, 130 ]
+    }
+  }
+}

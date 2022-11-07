@@ -1,0 +1,15 @@
+
+{
+  "ender_mirror": {
+    "ai": "EnderMirror",
+    "type": "TOOLS",
+    "iconTextureData": "ender_mirror.png",
+    "textureData": "ender_mirror.png",
+    "group": "GROUP_MATERIAL",
+    "toolType": "ENDER_MIRROR",
+    "entityWidth": 32,
+    "entityHeight": 32,
+    "handX": 10,
+    "handY": 20
+  }
+}

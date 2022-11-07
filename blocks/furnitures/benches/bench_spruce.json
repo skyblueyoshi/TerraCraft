@@ -1,0 +1,31 @@
+{
+  "block": {
+    "bench_spruce": {
+      "textureData": "bench_spruce.png",
+      "color": [ 144, 119, 93 ],
+      "type": "FURNITURE",
+      "width": 3,
+      "height": 2,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 80,
+      "slipperiness": 1.0,
+      "isKilledByLava": true,
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 120, 90, 60 ]
+    }
+  },
+  "item": {
+    "bench_spruce": {
+      "type": "BLOCKS",
+      "iconTextureData": "bench_spruce.png",
+      "group": "GROUP_BENCH",
+      "blockId": "bench_spruce",
+      "fuelTime": 60
+    }
+  }
+}

@@ -1,0 +1,11 @@
+
+{
+  "Spike": {
+    "script": {
+      "path": "Spike.lua"
+    },
+    "modData": [
+      [ "int", "crossCount" ]
+    ]
+  }
+}

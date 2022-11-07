@@ -1,0 +1,10 @@
+
+{
+  "state": {
+    "isClient": false,
+    "fromPlayer": true,
+    "gameMode": "creative",
+    "op": "admin",
+    "parameters": []
+  }
+}

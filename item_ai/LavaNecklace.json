@@ -1,0 +1,7 @@
+{
+  "LavaNecklace": {
+    "script": {
+      "path": "LavaNecklace.lua"
+    }
+  }
+}

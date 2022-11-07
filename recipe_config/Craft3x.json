@@ -1,0 +1,16 @@
+{
+  "Craft3x": {
+    "iconItem": "crafting_table",
+    "sourceGroups": [
+      {
+        "slotCount": 9,
+        "align": true,
+        "alignWidth": 3,
+        "alignHeight": 3,
+        "searchAction": "SA_NORMAL"
+      }
+    ],
+    "resultSlotCount": 2,
+    "exData": []
+  }
+}

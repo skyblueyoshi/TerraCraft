@@ -1,0 +1,8 @@
+{
+  "kelp": {
+    "type": "BLOCKS",
+    "iconTextureData": "kelp_icon.png",
+    "group": "GROUP_FOOD",
+    "blockId": "kelp"
+  }
+}

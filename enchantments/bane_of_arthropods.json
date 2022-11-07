@@ -1,0 +1,15 @@
+
+{
+  "bane_of_arthropods": {
+    "noCreating": false,
+    "minCreatingLevel": 5,
+    "allowMaxLevel": 8,
+    "tool": [
+      "SWORD"
+    ],
+    "conflict": [
+      "smite",
+      "sharpness"
+    ]
+  }
+}

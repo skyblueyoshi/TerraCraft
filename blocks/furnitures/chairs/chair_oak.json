@@ -1,0 +1,32 @@
+{
+  "block": {
+    "chair_oak": {
+      "textureData": "wooden_chair_oak.png",
+      "color": [ 167, 136, 79 ],
+      "type": "FURNITURE",
+      "width": 1,
+      "height": 2,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 80,
+      "slipperiness": 1.0,
+      "isKilledByLava": true,
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 173, 137, 80 ],
+      "preset": "Facing"
+    }
+  },
+  "item": {
+    "chair_oak": {
+      "type": "BLOCKS",
+      "iconTextureData": "wooden_chair_oak_icon.png",
+      "group": "GROUP_WOODEN_CHAIR",
+      "blockId": "chair_oak",
+      "fuelTime": 60
+    }
+  }
+}

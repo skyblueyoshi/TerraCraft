@@ -1,0 +1,35 @@
+{
+  "block": {
+    "fence_oak": {
+      "textureData": "fence_oak.png",
+      "color": [ 159, 132, 77 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 2,
+      "type": "TILE",
+      "group": "FENCE",
+      "collision": "SOLID",
+      "lightOpacity": 1,
+      "lightTransparent": true,
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 100,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": false,
+      "wallCheck": "NO_GENERABLE",
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 173, 137, 80 ]
+    }
+  },
+  "item": {
+    "fence_oak": {
+      "type": "BLOCKS",
+      "iconTextureData": "fence_oak_icon.png",
+      "group": "GROUP_WOODEN_FENCE",
+      "blockId": "fence_oak",
+      "fuelTime": 60
+    }
+  }
+}

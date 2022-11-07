@@ -1,0 +1,8 @@
+
+{
+  "red_brick": {
+    "type": "MATERIALS",
+    "iconTextureData": "brick_icon.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

@@ -1,0 +1,13 @@
+
+{
+  "fine_tin_helmet": {
+    "type": "TOOLS",
+    "iconTextureData": "ihat4.png",
+    "textureData": "hat4.png",
+    "group": "GROUP_HELMET",
+    "toolType": "HELMET",
+    "isArmor": true,
+    "defense": 3,
+    "durable": 788
+  }
+}

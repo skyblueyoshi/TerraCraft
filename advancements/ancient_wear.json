@@ -1,0 +1,9 @@
+
+{
+  "ancient_wear": {
+    "itemId": "ancient_helmet",
+    "parentId": "ancient_ingot",
+    "showTip": true,
+    "broadcase": true
+  }
+}

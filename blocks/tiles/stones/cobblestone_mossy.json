@@ -1,0 +1,33 @@
+{
+  "block": {
+    "cobblestone_mossy": {
+      "textureData": "cobblestone_mossy.png",
+      "color": [ 88, 103, 66 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 8,
+      "type": "TILE",
+      "group": "ARTIFICAL",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "WOOD",
+      "hardness": 180,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": true,
+      "isWallDark": true,
+      "wallCheck": "NATURE_GENERABLE_ONLY",
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 40, 72, 40 ]
+    }
+  },
+  "item": {
+    "cobblestone_mossy": {
+      "type": "BLOCKS",
+      "iconTextureData": "cobblestone_mossy_icon.png",
+      "group": "GROUP_COBBLESTONE",
+      "blockId": "cobblestone_mossy"
+    }
+  }
+}

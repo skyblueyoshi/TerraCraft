@@ -1,0 +1,19 @@
+
+{
+  "day": {
+    "isClient": false,
+    "fromPlayer": false,
+    "gameMode": "creative",
+    "op": "any",
+    "parameters": [
+      {
+        "type": "CP_INTEGER",
+        "min": 0,
+        "max": 86400
+      }
+    ],
+    "script": {
+      "path": "day.lua"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "wooden_door_birch",
+      "stackSize": 3
+    }
+  ],
+  "pattern": [
+    "AAO",
+    "AAO",
+    "AAO"
+  ],
+  "elements": [ [ "A", "birch_plank" ] ]
+}

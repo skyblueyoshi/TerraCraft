@@ -1,0 +1,33 @@
+{
+  "block": {
+    "block_iron": {
+      "textureData": "block_iron.png",
+      "color": [ 233, 233, 233 ],
+      "renderMode": "RENDER_BLOCK",
+      "renderSortedInterval": 2,
+      "type": "TILE",
+      "group": "ARTIFICAL",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "WOOD",
+      "hardness": 120,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": false,
+      "wallCheck": "NO_GENERABLE",
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 222, 222, 222 ]
+    }
+  },
+  "item": {
+    "block_iron": {
+      "type": "BLOCKS",
+      "iconTextureData": "block_iron_icon.png",
+      "group": "GROUP_ORE_BLOCK",
+      "blockId": "block_iron"
+    }
+  }
+}

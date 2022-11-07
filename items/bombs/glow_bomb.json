@@ -1,0 +1,15 @@
+
+{
+  "glow_bomb": {
+    "type": "PROJECTILES",
+    "iconTextureData": "glow_bomb_icon.png",
+    "group": "GROUP_BOMB",
+    "projectileId": "glow_bomb",
+    "speed": 6.0,
+    "canThrow": true,
+    "damage": 3,
+    "knockBack": 8,
+    "coldTime": 400,
+    "shootable": true
+  }
+}

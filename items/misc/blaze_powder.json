@@ -1,0 +1,8 @@
+
+{
+  "blaze_powder": {
+    "type": "MATERIALS",
+    "iconTextureData": "blaze_powder_icon.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

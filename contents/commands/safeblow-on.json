@@ -1,0 +1,13 @@
+
+{
+  "safeblow-on": {
+    "isClient": false,
+    "fromPlayer": false,
+    "gameMode": "creative",
+    "op": "admin",
+    "parameters": [],
+    "script": {
+      "path": "safeblowon.lua"
+    }
+  }
+}

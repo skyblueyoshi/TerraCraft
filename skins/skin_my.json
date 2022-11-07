@@ -1,0 +1,13 @@
+
+{
+  "skin_my": {
+    "isFemale": true,
+    "headTexture": "base\\head.png",
+    "bodyTexture": "base\\body.png",
+    "legTexture": "base\\leg.png",
+    "hairTexture": "my\\hair.png",
+    "clothTexture": "my\\cloth.png",
+    "pantTexture": "my\\pant.png",
+    "authors": [ "BlueYoshi" ]
+  }
+}

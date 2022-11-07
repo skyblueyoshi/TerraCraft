@@ -1,0 +1,55 @@
+
+{
+  "rolling_fire_ball": {
+    "ai": "RollingFireBall",
+    "textureData": "rolling_fire_ball.png",
+    "type": "SMITE",
+    "width": 48,
+    "height": 48,
+    "gfxWidth": 48,
+    "gfxHeight": 48,
+    "gfxOffsetX": 0,
+    "gfxOffsetY": 0,
+    "frameStyle": 1,
+    "frames": 1,
+    "frameSpeed": 6,
+    "shape": "BOX",
+    "maxSpeed": 2.0,
+    "jumpForce": 5.0,
+    "disappearTime": 750,
+    "spawnCount": 1.0,
+    "health": 120,
+    "defense": 2,
+    "attack": 18,
+    "knockBack": 6,
+    "knockBackDefense": 0.20,
+    "gravity": false,
+    "climbWall": false,
+    "foreground": false,
+    "noFixByBlock": false,
+    "friendly": false,
+    "exps": 15,
+    "sunBurning": false,
+    "angry": false,
+    "antiLava": true,
+    "saySounds": [],
+    "hurtSounds": [
+      "gore3",
+      "gore1",
+      "gore2"
+    ],
+    "drops": [
+      {
+        "item": "gunpowder",
+        "min": 2,
+        "max": 5
+      }
+    ],
+    "special": 1,
+    "paticularColor": [ 255, 200, 100, 50 ],
+    "spawn": "AIR",
+    "magicRate": 25,
+    "checkPlayerTarget": true,
+    "visionNoCrossTile": false
+  }
+}

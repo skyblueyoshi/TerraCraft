@@ -1,0 +1,16 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "purpur_block",
+      "stackSize": 4
+    }
+  ],
+  "pattern": [
+    "AAO",
+    "AAO",
+    "OOO"
+  ],
+  "elements": [ [ "A", "popped_chorus_fruits" ] ]
+}

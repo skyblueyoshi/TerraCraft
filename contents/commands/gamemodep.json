@@ -1,0 +1,20 @@
+
+{
+  "gamemodep": {
+    "isClient": false,
+    "fromPlayer": false,
+    "gameMode": "creative",
+    "op": "admin",
+    "parameters": [
+      {
+        "type": "CP_PLAYER"
+      },
+      {
+        "type": "CP_GAME_MODE"
+      }
+    ],
+    "script": {
+      "path": "gamemodep.lua"
+    }
+  }
+}

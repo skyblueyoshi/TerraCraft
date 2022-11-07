@@ -1,0 +1,9 @@
+
+{
+  "StarArrow": {
+    "defaultAI": "Arrow",
+    "script": {
+      "path": "StarArrow.lua"
+    }
+  }
+}

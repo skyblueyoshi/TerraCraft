@@ -1,0 +1,37 @@
+{
+  "block": {
+    "lever": {
+      "textureData": "lever.png",
+      "color": [ 33, 166, 180 ],
+      "type": "FURNITURE",
+      "width": 2,
+      "height": 2,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "toolType": "PICKAXE",
+      "mineGrade": "GRASS",
+      "hardness": 72,
+      "slipperiness": 1.0,
+      "soundGroupId": "stone",
+      "functionSoundId": "button1",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 100, 100, 100 ],
+      "preset": "Button",
+      "animation": [
+        {
+          "animationId": 0,
+          "tagUsage": "TAG_ADD_FRAME_INDEX_X"
+        }
+      ]
+    }
+  },
+  "item": {
+    "lever": {
+      "type": "BLOCKS",
+      "iconTextureData": "lever_icon.png",
+      "group": "GROUP_BUTTON",
+      "blockId": "lever"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "lantern",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "BBB",
+    "BAB",
+    "BBB"
+  ],
+  "elements": [
+    [ "A", "torch" ],
+    [ "B", "iron_nugget" ]
+  ]
+}

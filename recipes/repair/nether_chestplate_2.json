@@ -1,0 +1,17 @@
+
+{
+  "config": "Repair",
+  "results": [
+    {
+      "id": "nether_chestplate",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [ "AB" ],
+  "elements": [
+    [ "A", "diamond_chestplate" ],
+    [ "B", "netherite_ingot" ]
+  ],
+  "exData": { "repairRate": 0.15 },
+  "importantElements": [ "A" ]
+}

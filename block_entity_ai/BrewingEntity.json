@@ -1,0 +1,8 @@
+
+{
+  "BrewingEntity": {
+    "script": {
+      "path": "BrewingEntity.lua"
+    }
+  }
+}

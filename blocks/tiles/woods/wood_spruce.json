@@ -1,0 +1,37 @@
+{
+  "block": {
+    "wood_spruce": {
+      "textureData": "wood_spruce.png",
+      "color": [ 91, 80, 75 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 4,
+      "type": "TILE",
+      "group": "WOOD_B",
+      "subGroup": "WOOD",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 100,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": false,
+      "transformId": "wood_stripped_spruce",
+      "wallCheck": "NO_GENERABLE",
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 120, 90, 60 ]
+    }
+  },
+  "item": {
+    "wood_spruce": {
+      "type": "BLOCKS",
+      "iconTextureData": "wood_spruce_icon.png",
+      "group": "GROUP_WOOD",
+      "blockId": "wood_spruce",
+      "fuelTime": 60,
+      "oreDictionary": [ "OD_WOOD" ]
+    }
+  }
+}

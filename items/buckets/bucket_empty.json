@@ -1,0 +1,8 @@
+
+{
+  "bucket_empty": {
+    "type": "MATERIALS",
+    "iconTextureData": "bucket_empty_icon.png",
+    "group": "GROUP_BUCKET"
+  }
+}

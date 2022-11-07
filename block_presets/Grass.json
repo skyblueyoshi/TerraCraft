@@ -1,0 +1,6 @@
+
+{
+  "Grass": {
+    "pOnDestroy": "GrassDestroy"
+  }
+}

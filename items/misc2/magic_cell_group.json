@@ -1,0 +1,8 @@
+
+{
+  "magic_cell_group": {
+    "type": "MATERIALS",
+    "iconTextureData": "magic_cell_group.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

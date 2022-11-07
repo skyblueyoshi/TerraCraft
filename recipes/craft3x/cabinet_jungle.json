@@ -1,0 +1,19 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "cabinet_jungle",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "elements": [
+    [ "A", "jungle_plank" ],
+    [ "B", "chest" ]
+  ]
+}

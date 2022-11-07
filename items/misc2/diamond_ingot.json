@@ -1,0 +1,8 @@
+
+{
+  "diamond_ingot": {
+    "type": "MATERIALS",
+    "iconTextureData": "diamond_ingot.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

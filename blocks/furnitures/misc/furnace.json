@@ -1,0 +1,41 @@
+{
+  "block": {
+    "furnace": {
+      "textureData": "furnace.png",
+      "color": [ 133, 133, 133 ],
+      "type": "FURNITURE",
+      "width": 3,
+      "height": 2,
+      "collision": "PLATFORM",
+      "attach": "BOTTOM",
+      "attachable": "TOP",
+      "toolType": "PICKAXE",
+      "mineGrade": "GRASS",
+      "hardness": 200,
+      "slipperiness": 1.0,
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 100, 100, 100 ],
+      "exParticle": "furnace_particle",
+      "preset": "Furnace",
+      "animation": [
+        {
+          "animationId": 0,
+          "frameStart": 0
+        },
+        {
+          "animationId": 1,
+          "frameStart": 1
+        }
+      ]
+    }
+  },
+  "item": {
+    "furnace": {
+      "type": "BLOCKS",
+      "iconTextureData": "furnace_icon.png",
+      "group": "GROUP_STONE_FURNITURE",
+      "blockId": "furnace"
+    }
+  }
+}

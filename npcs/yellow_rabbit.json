@@ -1,0 +1,77 @@
+{
+  "yellow_rabbit": {
+    "ai": "Animal",
+    "textureData": "yellow_rabbit.png",
+    "type": "ANIMAL",
+    "width": 24,
+    "height": 24,
+    "gfxWidth": 32,
+    "gfxHeight": 32,
+    "gfxOffsetX": -4,
+    "gfxOffsetY": -8,
+    "frameStyle": 1,
+    "frames": 4,
+    "frameSpeed": 6,
+    "shape": "BOX",
+    "maxSpeed": 1.0,
+    "jumpForce": 6.0,
+    "disappearTime": 750,
+    "spawnCount": 1.0,
+    "health": 10,
+    "defense": 0,
+    "attack": 1,
+    "knockBack": 0,
+    "knockBackDefense": 0.10,
+    "gravity": true,
+    "climbWall": false,
+    "foreground": false,
+    "noFixByBlock": false,
+    "friendly": true,
+    "exps": 2,
+    "sunBurning": false,
+    "angry": false,
+    "antiLava": false,
+    "saySounds": [],
+    "hurtSounds": [
+      "rabbit_hurt1",
+      "rabbit_hurt1",
+      "rabbit_hurt2",
+      "rabbit_hurt3"
+    ],
+    "loots": [
+      {
+        "item": "rabbit_foot",
+        "possibility": 0.5
+      },
+      {
+        "item": "rabbit_hide",
+        "count": [ 1, 2 ]
+      },
+      {
+        "item": "raw_rabbit",
+        "possibility": 0.5
+      }
+    ],
+    "burnLoots": [
+      {
+        "item": "rabbit_foot",
+        "possibility": 0.5
+      },
+      {
+        "item": "rabbit_hide",
+        "count": [ 1, 2 ]
+      },
+      {
+        "item": "cooked_rabbit",
+        "possibility": 0.5
+      }
+    ],
+    "special": 0,
+    "paticularColor": [ 255, 200, 100, 50 ],
+    "spawn": "LAND",
+    "gore": "gore_yellow_rabbit",
+    "magicRate": 0,
+    "checkPlayerTarget": false,
+    "visionNoCrossTile": false
+  }
+}

@@ -1,0 +1,16 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "table_tainted",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "AAA",
+    "AOA",
+    "OOO"
+  ],
+  "elements": [ [ "A", "tainted_plank" ] ]
+}

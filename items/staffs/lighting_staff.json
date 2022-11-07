@@ -1,0 +1,30 @@
+
+{
+  "lighting_staff": {
+    "type": "TOOLS",
+    "iconTextureData": "lighting_staff_entity.png",
+    "textureData": "lighting_staff_entity.png",
+    "group": "GROUP_STAFF",
+    "oreDictionary": [ "OD_STAFF" ],
+    "toolType": "STAFF",
+    "ai": "Staff",
+    "speed": 6.0,
+    "deviation": 0.03,
+    "shootTimes": 1,
+    "shootProjectileId": "star",
+    "usePosture": 1,
+    "useSound": "wand1",
+    "coldTime": 36,
+    "entityWidth": 8,
+    "entityHeight": 48,
+    "handX": 4,
+    "handY": 32,
+    "firePoints": [[4,4]],
+    "holdType": "HOLD_STAFF",
+    "twoHands": false,
+    "damage": 12,
+    "knockBack": 5,
+    "crit": 3,
+    "consumeMana": 6
+  }
+}

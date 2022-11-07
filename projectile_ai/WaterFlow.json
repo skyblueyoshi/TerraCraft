@@ -1,0 +1,8 @@
+
+{
+  "WaterFlow": {
+    "script": {
+      "path": "WaterFlow.lua"
+    }
+  }
+}

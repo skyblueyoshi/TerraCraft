@@ -1,0 +1,3 @@
+---@class int:number
+---@class double:number
+---@class float:number

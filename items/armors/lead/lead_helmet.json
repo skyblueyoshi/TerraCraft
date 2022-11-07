@@ -1,0 +1,13 @@
+
+{
+  "lead_helmet": {
+    "type": "TOOLS",
+    "iconTextureData": "lead_helmet_icon.png",
+    "textureData": "hat.png",
+    "group": "GROUP_HELMET",
+    "toolType": "HELMET",
+    "isArmor": true,
+    "defense": 3,
+    "durable": 500
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "block": {
+    "stone": {
+      "textureData": "stone.png",
+      "color": [ 110, 110, 110 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 8,
+      "type": "TILE",
+      "group": "STONE",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "WOOD",
+      "hardness": 120,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": true,
+      "wallCheck": "NATURE_GENERABLE_ONLY",
+      "isLossyCollection": true,
+      "lossyItemId": "cobblestone",
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 100, 100, 100 ]
+    }
+  },
+  "item": {
+    "stone": {
+      "type": "BLOCKS",
+      "iconTextureData": "stone_icon.png",
+      "group": "GROUP_STONE",
+      "blockId": "stone"
+    }
+  }
+}

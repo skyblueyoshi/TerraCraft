@@ -1,0 +1,23 @@
+
+{
+  "nether_sword": {
+    "type": "TOOLS",
+    "iconTextureData": "nether_sword_entity.png",
+    "textureData": "nether_sword_entity.png",
+    "group": "GROUP_SWORD",
+    "oreDictionary": [ "OD_SWORD" ],
+    "toolType": "SWORD",
+    "ai": "Sword",
+    "coldTime": 24,
+    "entityWidth": 22,
+    "entityHeight": 56,
+    "handX": 10,
+    "handY": 48,
+    "holdType": "NORMAL",
+    "durable": 1820,
+    "damage": 15,
+    "knockBack": 5,
+    "crit": 5,
+    "antiLava": true
+  }
+}

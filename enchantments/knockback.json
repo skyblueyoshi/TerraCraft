@@ -1,0 +1,11 @@
+
+{
+  "knockback": {
+    "noCreating": false,
+    "minCreatingLevel": 15,
+    "allowMaxLevel": 8,
+    "tool": [
+      "SWORD"
+    ]
+  }
+}

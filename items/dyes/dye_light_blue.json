@@ -1,0 +1,8 @@
+
+{
+  "dye_light_blue": {
+    "type": "MATERIALS",
+    "iconTextureData": "dye_light_blue_icon.png",
+    "group": "GROUP_DYE"
+  }
+}

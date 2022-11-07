@@ -1,0 +1,30 @@
+
+{
+  "dark_staff": {
+    "type": "TOOLS",
+    "iconTextureData": "dark_staff.png",
+    "textureData": "dark_staff.png",
+    "group": "GROUP_STAFF",
+    "oreDictionary": [ "OD_STAFF" ],
+    "toolType": "STAFF",
+    "ai": "Staff",
+    "speed": 6.0,
+    "deviation": 0.00,
+    "shootTimes": 1,
+    "shootProjectileId": "black_hole",
+    "usePosture": 1,
+    "coldTime": 128,
+    "entityWidth": 16,
+    "entityHeight": 48,
+    "handX": 8,
+    "handY": 32,
+    "firePoints": [[4,4]],
+    "holdType": "HOLD_STAFF",
+    "twoHands": false,
+    "damage": 3,
+    "knockBack": 1,
+    "crit": 3,
+    "consumeMana": 17,
+    "useSound": "fireball"
+  }
+}

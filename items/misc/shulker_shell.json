@@ -1,0 +1,8 @@
+
+{
+  "shulker_shell": {
+    "type": "MATERIALS",
+    "iconTextureData": "shulker_shell_icon.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

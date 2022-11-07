@@ -1,0 +1,8 @@
+
+{
+  "BlockSlime": {
+    "script": {
+      "path": "BlockSlime.lua"
+    }
+  }
+}

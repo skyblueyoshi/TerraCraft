@@ -1,0 +1,7 @@
+{
+  "LavaSword": {
+    "script": {
+      "path": "LavaSword.lua"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+
+{
+  "raw_chicken": {
+    "ai": "Food",
+    "type": "MATERIALS",
+    "iconTextureData": "raw_chicken_icon.png",
+    "group": "GROUP_FOOD",
+    "eatable": true,
+    "useSoundGroup": "eat",
+    "food": 15,
+    "foodSaturation": 12,
+    "buffs": [
+      {
+        "id": "hunger",
+        "time": 10
+      }
+    ]
+  }
+}

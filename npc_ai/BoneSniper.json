@@ -1,0 +1,8 @@
+
+{
+  "BoneSniper": {
+    "script": {
+      "path": "BoneSniper.lua"
+    }
+  }
+}

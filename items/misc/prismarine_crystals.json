@@ -1,0 +1,8 @@
+
+{
+  "prismarine_crystals": {
+    "type": "MATERIALS",
+    "iconTextureData": "prismarine_crystals_icon.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

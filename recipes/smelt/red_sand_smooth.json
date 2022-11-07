@@ -1,0 +1,13 @@
+
+{
+  "config": "Smelt",
+  "pattern": [ "A" ],
+  "results": [
+    {
+      "id": "red_sand_smooth",
+      "stackSize": 1
+    }
+  ],
+  "elements": [ [ "A", "red_sand_stone" ] ],
+  "exData": { "time": 10 }
+}

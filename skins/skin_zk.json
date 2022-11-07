@@ -1,0 +1,13 @@
+
+{
+  "skin_zk": {
+    "isFemale": true,
+    "headTexture": "base\\head.png",
+    "bodyTexture": "base\\body.png",
+    "legTexture": "base\\leg.png",
+    "hairTexture": "zk\\hair.png",
+    "clothTexture": "zk\\cloth.png",
+    "pantTexture": "zk\\pant.png",
+    "authors": [ "BlueYoshi" ]
+  }
+}

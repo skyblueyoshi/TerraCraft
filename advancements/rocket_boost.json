@@ -1,0 +1,9 @@
+
+{
+  "rocket_boost": {
+    "itemId": "rocket_boost",
+    "parentId": "crafting_table",
+    "showTip": true,
+    "broadcase": true
+  }
+}

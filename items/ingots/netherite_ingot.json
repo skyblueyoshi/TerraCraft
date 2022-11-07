@@ -1,0 +1,12 @@
+
+{
+  "netherite_ingot": {
+    "ai": "Ingot",
+    "type": "MATERIALS",
+    "iconTextureData": "ingot_icon.png",
+    "iconColor": [ 255, 90, 87, 90 ],
+    "iconColor2": [ 0, 255, 255, 255 ],
+    "group": "GROUP_INGOT",
+    "antiLava": true
+  }
+}

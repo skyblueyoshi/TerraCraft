@@ -1,0 +1,32 @@
+{
+  "block": {
+    "chair_birch": {
+      "textureData": "wooden_chair_birch.png",
+      "color": [ 220, 210, 160 ],
+      "type": "FURNITURE",
+      "width": 1,
+      "height": 2,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 80,
+      "slipperiness": 1.0,
+      "isKilledByLava": true,
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 200, 200, 130 ],
+      "preset": "Facing"
+    }
+  },
+  "item": {
+    "chair_birch": {
+      "type": "BLOCKS",
+      "iconTextureData": "wooden_chair_birch_icon.png",
+      "group": "GROUP_WOODEN_CHAIR",
+      "blockId": "chair_birch",
+      "fuelTime": 60
+    }
+  }
+}

@@ -1,0 +1,9 @@
+
+{
+  "leather": {
+    "itemId": "leather",
+    "parentId": "sword",
+    "showTip": true,
+    "broadcase": true
+  }
+}

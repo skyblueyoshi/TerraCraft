@@ -1,0 +1,42 @@
+{
+  "block": {
+    "peony": {
+      "textureData": "peony.png",
+      "color": [ 227, 180, 255 ],
+      "type": "FURNITURE",
+      "width": 2,
+      "height": 4,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "placeCheck": "PLACE_PLANT_CHECK",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 80,
+      "slipperiness": 1.0,
+      "isKilledByLava": true,
+      "isFragile": true,
+      "soundGroupId": "grass",
+      "stepSoundGroupId": "step_grass",
+      "particleColor": [ 255, 222, 180, 255 ],
+      "animation": [
+        {
+          "animationId": 0,
+          "shake": true,
+          "shakeCenterX": 16,
+          "shakeCenterY": 64,
+          "shakePeriod": 128,
+          "shakeAngle": 0.05
+        }
+      ]
+    }
+  },
+  "item": {
+    "peony": {
+      "type": "BLOCKS",
+      "iconTextureData": "peony.png",
+      "group": "GROUP_LARGE_FLOWER",
+      "blockId": "peony"
+    }
+  }
+}

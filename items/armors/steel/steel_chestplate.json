@@ -1,0 +1,13 @@
+
+{
+  "steel_chestplate": {
+    "type": "TOOLS",
+    "iconTextureData": "steel_chestplate_icon.png",
+    "textureData": "body.png",
+    "group": "GROUP_CHESTPLATE",
+    "toolType": "CHESTPLATE",
+    "isArmor": true,
+    "defense": 5,
+    "durable": 624
+  }
+}

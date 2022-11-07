@@ -1,0 +1,7 @@
+{
+  "Torch": {
+    "script": {
+      "path": "Torch.lua"
+    }
+  }
+}

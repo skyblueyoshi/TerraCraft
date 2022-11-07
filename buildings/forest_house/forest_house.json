@@ -1,0 +1,319 @@
+
+{
+  "forest_house": {
+    "maxGenPartCount": 50,
+    "limitSize": 300,
+    "rewards": [
+      {
+        "name": "normal_reward",
+        "rareGenCount": 1,
+        "rares": [
+          {
+            "itemId": "stone_sword",
+            "count": 1
+          },
+          {
+            "itemId": "stone_pickaxe",
+            "count": 1
+          },
+          {
+            "itemId": "wooden_bow",
+            "count": 1
+          },
+          {
+            "itemId": "cross_bow",
+            "count": 1
+          }
+        ],
+        "normals": [
+          {
+            "itemIds": [ "wood_dark_oak" ],
+            "rate": 0.9,
+            "min": 3,
+            "max": 5
+          },
+          {
+            "itemIds": [ "iron_ingot", "copper_ingot", "tin_ingot", "lead_ingot" ],
+            "rate": 0.3,
+            "min": 3,
+            "max": 10
+          },
+          {
+            "itemIds": [ "potato" ],
+            "rate": 0.5,
+            "min": 3,
+            "max": 6
+          },
+          {
+            "itemIds": [ "wheat" ],
+            "rate": 0.7,
+            "min": 3,
+            "max": 6
+          },
+          {
+            "itemIds": [ "carrot" ],
+            "rate": 0.5,
+            "min": 3,
+            "max": 6
+          },
+          {
+            "itemIds": [ "string" ],
+            "rate": 0.4,
+            "min": 2,
+            "max": 7
+          },
+          {
+            "itemIds": [ "wooden_arrow" ],
+            "rate": 0.4,
+            "min": 2,
+            "max": 7
+          }
+        ]
+      }
+    ],
+    "commandColors": [
+      {
+        "color": [ 255, 64, 64, 64 ],
+        "note": "无操作",
+        "command": [
+          [ "BC_NO_OP" ]
+        ]
+      },
+      {
+        "color": [ 255, 192, 192, 192 ],
+        "note": "前景记号"
+      },
+      {
+        "color": [ 255, 0, 0, 0 ],
+        "note": "空气",
+        "command": [
+          [ "BC_CLEAR_LAKE" ],
+          [ "BC_CLEAR" ]
+        ]
+      },
+      {
+        "color": [ 255, 0, 64, 255 ],
+        "pipe": true
+      },
+      {
+        "color": [ 255, 0, 255, 255 ],
+        "note": "箱子",
+        "command": [
+        ]
+      },
+      {
+        "color": [ 255, 102, 102, 204 ],
+        "note": "橡木门",
+        "command": [
+          [ "BC_PLACE_FURNITURE", "wooden_door_oak" ]
+        ]
+      },
+      {
+        "color": [ 255, 255, 0, 255 ],
+        "note": "橡木平台",
+        "command": [
+          [ "BC_PLACE_TILE", "platform_oak" ]
+        ]
+      },
+      {
+        "color": [ 255, 50, 50, 100 ],
+        "note": "有空气就放水",
+        "command": [
+          [ "BC_PLACE_LIQUID", "water" ]
+        ]
+      },
+      {
+        "color": [ 255, 54, 40, 27 ],
+        "note": "有空气就放泥土",
+        "command": [
+          [ "BC_CLEAR_FURNITURE" ],
+          [ "BC_PLACE_TILE", "dirt" ]
+        ]
+      },
+      {
+        "color": [ 255, 54, 100, 27 ],
+        "note": "有空气就放草泥土",
+        "command": [
+          [ "BC_CLEAR_FURNITURE" ],
+          [ "BC_PLACE_TILE", "dirt", 1 ]
+        ]
+      },
+      {
+        "color": [ 255, 120, 30, 30 ],
+        "note": "木板前景",
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_BACK", "plank_oak" ],
+          [ "BC_PLACE_TILE", "plank_oak" ]
+        ]
+      },
+      {
+        "color": [ 255, 40, 0, 0 ],
+        "note": "木板后景",
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_BACK", "plank_oak" ]
+        ]
+      },
+      {
+        "color": [ 255, 100, 100, 100 ],
+        "note": "石砖前景",
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_BACK", "stone_brick" ],
+          [ "BC_PLACE_TILE", "stone_brick" ]
+        ]
+      },
+      {
+        "color": [ 255, 100, 0, 0 ],
+        "note": "红砖前景",
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_BACK", "brick" ],
+          [ "BC_PLACE_TILE", "brick" ]
+        ]
+      },
+      {
+        "color": [ 255, 100, 66, 66 ],
+        "note": "木板前景石砖后景",
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_BACK", "stone_brick" ],
+          [ "BC_PLACE_TILE", "plank_oak" ]
+        ]
+      },
+      {
+        "color": [ 255, 10, 10, 10 ],
+        "note": "石砖后景",
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_BACK", "stone_brick" ]
+        ]
+      },
+      {
+        "color": [ 255, 222, 222, 244 ],
+        "note": "玻璃后景",
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_BACK", "glass" ]
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "name": "entrance",
+        "image": [ "entrance", "entrance_o1" ],
+        "type": "PT_START",
+        "hotX": 50,
+        "hotY": 43,
+        "unlinkParts": [ "entrance" ],
+        "weight": 10
+      },
+      {
+        "name": "h1",
+        "image": "h1",
+        "type": "PT_NORMAL",
+        "unlinkParts": [ "entrance" ],
+        "weight": 10
+      },
+      {
+        "name": "h2",
+        "image": "h2",
+        "type": "PT_NORMAL",
+        "unlinkParts": [ "entrance" ],
+        "weight": 10
+      },
+      {
+        "name": "h3",
+        "image": "h3",
+        "type": "PT_NORMAL",
+        "unlinkParts": [ "entrance" ],
+        "weight": 10
+      },
+      {
+        "name": "h4",
+        "image": "h4",
+        "type": "PT_NORMAL",
+        "unlinkParts": [ "entrance" ],
+        "weight": 10
+      },
+      {
+        "name": "h5",
+        "image": "h5",
+        "type": "PT_NORMAL",
+        "unlinkParts": [ "entrance" ],
+        "weight": 10
+      },
+      {
+        "name": "h6",
+        "image": "h6",
+        "type": "PT_NORMAL",
+        "unlinkParts": [ "entrance" ],
+        "weight": 10
+      },
+      {
+        "name": "h7",
+        "image": "h7",
+        "type": "PT_NORMAL",
+        "unlinkParts": [ "entrance" ],
+        "weight": 10
+      },
+      {
+        "name": "h8",
+        "image": "h8",
+        "type": "PT_NORMAL",
+        "unlinkParts": [ "entrance" ],
+        "weight": 10
+      },
+      {
+        "name": "h9",
+        "image": "h9",
+        "type": "PT_NORMAL",
+        "unlinkParts": [ "entrance" ],
+        "weight": 10
+      },
+      {
+        "name": "h10",
+        "image": "h10",
+        "type": "PT_NORMAL",
+        "unlinkParts": [ "entrance" ],
+        "weight": 10
+      },
+      {
+        "name": "h11",
+        "image": "h11",
+        "type": "PT_NORMAL",
+        "unlinkParts": [ "entrance" ],
+        "weight": 10
+      },
+      {
+        "name": "h12",
+        "image": "h12",
+        "type": "PT_END",
+        "unlinkParts": [ "entrance" ],
+        "weight": 10
+      },
+      {
+        "name": "h13",
+        "image": "h13",
+        "type": "PT_END",
+        "unlinkParts": [ "entrance" ],
+        "weight": 10
+      },
+      {
+        "name": "h14",
+        "image": "h14",
+        "type": "PT_END",
+        "unlinkParts": [ "entrance" ],
+        "weight": 10
+      },
+      {
+        "name": "h15",
+        "image": "h15",
+        "type": "PT_END",
+        "unlinkParts": [ "entrance" ],
+        "weight": 10
+      }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+
+{
+  "SnowGuardianArcher": {
+    "script": {
+      "path": "SnowGuardianArcher.lua"
+    }
+  }
+}

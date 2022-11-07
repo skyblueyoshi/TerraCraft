@@ -1,0 +1,19 @@
+
+{
+  "potion_invisibility": {
+    "ai": "Potion",
+    "type": "MATERIALS",
+    "iconTextureData": "glass_bottle_6_icon.png",
+    "group": "GROUP_POTION",
+    "iconColor2": [ 255, 130, 130, 140 ],
+    "eatable": true,
+    "useSound": "drink",
+    "eatReturnId": "glass_bottle",
+    "buffs": [
+      {
+        "id": "invisibility",
+        "time": 10800
+      }
+    ]
+  }
+}

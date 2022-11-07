@@ -1,0 +1,38 @@
+{
+  "block": {
+    "wooden_button": {
+      "textureData": "wooden_button.png",
+      "color": [ 159, 132, 77 ],
+      "type": "FURNITURE",
+      "width": 1,
+      "height": 1,
+      "collision": "NONE",
+      "attach": "WALL",
+      "attachable": "NONE",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 72,
+      "slipperiness": 1.0,
+      "soundGroupId": "wood",
+      "functionSoundId": "button1",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 160, 130, 80 ],
+      "preset": "Button",
+      "animation": [
+        {
+          "animationId": 0,
+          "tagUsage": "TAG_ADD_FRAME_INDEX_X"
+        }
+      ]
+    }
+  },
+  "item": {
+    "wooden_button": {
+      "type": "BLOCKS",
+      "iconTextureData": "wooden_button_icon.png",
+      "group": "GROUP_BUTTON",
+      "blockId": "wooden_button",
+      "fuelTime": 20
+    }
+  }
+}

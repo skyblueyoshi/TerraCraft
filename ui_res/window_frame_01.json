@@ -1,0 +1,12 @@
+{
+  "textureInfo": {
+    "name": "tc:window_frame_01"
+  },
+  "style": "Slices9",
+  "slices9": {
+    "left": 16,
+    "right": 16,
+    "top": 16,
+    "bottom": 16
+  }
+}

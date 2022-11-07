@@ -1,0 +1,8 @@
+
+{
+  "HumanFighter": {
+    "script": {
+      "path": "HumanFighter.lua"
+    }
+  }
+}

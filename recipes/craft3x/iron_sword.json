@@ -1,0 +1,20 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "iron_sword",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "AOO",
+    "AOO",
+    "BOO"
+  ],
+  "elements": [
+    [ "A", "OD_IRON_INGOT" ],
+    [ "B", "stick" ]
+  ],
+  "importantElements": [ "A" ]
+}

@@ -1,0 +1,19 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "diorite",
+      "stackSize": 2
+    }
+  ],
+  "pattern": [
+    "ABO",
+    "BAO",
+    "OOO"
+  ],
+  "elements": [
+    [ "A", "cobblestone" ],
+    [ "B", "quartz" ]
+  ]
+}

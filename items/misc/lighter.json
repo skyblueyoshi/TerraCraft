@@ -1,0 +1,17 @@
+
+{
+  "lighter": {
+    "type": "TOOLS",
+    "iconTextureData": "lighter_icon.png",
+    "textureData": "lighter_entity.png",
+    "group": "GROUP_LIGHTER",
+    "toolType": "SWORD",
+    "ai": "sword",
+    "coldTime": 22,
+    "handX": 10,
+    "handY": 48,
+    "holdType": "NORMAL",
+    "durable": 128,
+    "onTest": true
+  }
+}

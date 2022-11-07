@@ -1,0 +1,46 @@
+{
+  "block": {
+    "campfire": {
+      "textureData": "campfire.png",
+      "color": [ 249, 235, 170 ],
+      "type": "FURNITURE",
+      "width": 2,
+      "height": 2,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "toolType": "PICKAXE",
+      "mineGrade": "GRASS",
+      "hardness": 20,
+      "isKilledByLava": true,
+      "isNoWater": true,
+      "isFragile": true,
+      "isLighting": true,
+      "lightColor": [ 32, 8, 8, 0 ],
+      "lightX": 0,
+      "lightY": 0,
+      "lightWi": 2,
+      "lightHi": 2,
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 249, 235, 170 ],
+      "exParticle": "campfire_particle",
+      "animation": [
+        {
+          "animationId": 0,
+          "frameSpeed": 8,
+          "frameStart": 0,
+          "frameCount": 4
+        }
+      ]
+    }
+  },
+  "item": {
+    "campfire": {
+      "type": "BLOCKS",
+      "iconTextureData": "campfire_icon.png",
+      "group": "GROUP_WOODEN_FURNITURE",
+      "blockId": "campfire"
+    }
+  }
+}

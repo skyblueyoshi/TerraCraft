@@ -1,0 +1,35 @@
+{
+  "block": {
+    "glass": {
+      "textureData": "glass.png",
+      "color": [ 233, 233, 255 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 10,
+      "type": "TILE",
+      "group": "GLASS",
+      "collision": "SOLID",
+      "lightOpacity": 1,
+      "lightTransparent": true,
+      "toolType": "PICKAXE",
+      "mineGrade": "GRASS",
+      "hardness": 50,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": false,
+      "wallCheck": "NO_GENERABLE",
+      "soundGroupId": "glass",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 200, 200, 200 ]
+    }
+  },
+  "item": {
+    "glass": {
+      "type": "BLOCKS",
+      "iconTextureData": "glass_icon.png",
+      "group": "GROUP_GLASS",
+      "blockId": "glass",
+      "oreDictionary": [ "OD_GLASS" ]
+    }
+  }
+}

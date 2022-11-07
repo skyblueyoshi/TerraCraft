@@ -1,0 +1,9 @@
+
+{
+  "LaserBullet": {
+    "defaultAI": "Bullet",
+    "script": {
+      "path": "LaserBullet.lua"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+
+{
+  "gamemode": {
+    "isClient": false,
+    "fromPlayer": true,
+    "gameMode": "creative",
+    "op": "any",
+    "parameters": [
+      {
+        "type": "CP_GAME_MODE"
+      }
+    ],
+    "script": {
+      "path": "gamemodep.lua"
+    }
+  }
+}

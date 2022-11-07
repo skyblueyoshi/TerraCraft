@@ -1,0 +1,8 @@
+
+{
+  "magma_cream": {
+    "type": "MATERIALS",
+    "iconTextureData": "magma_cream_icon.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

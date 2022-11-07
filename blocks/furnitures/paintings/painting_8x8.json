@@ -1,0 +1,40 @@
+{
+  "block": {
+    "painting_8x8": {
+      "textureData": "painting_8x8.png",
+      "color": [ 255, 0, 255 ],
+      "type": "FURNITURE",
+      "width": 8,
+      "height": 8,
+      "collision": "NONE",
+      "attach": "WALL",
+      "attachable": "NONE",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 20,
+      "isKilledByLava": true,
+      "isNoWater": true,
+      "isFragile": true,
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 255, 0, 255 ],
+      "preset": "Painting",
+      "maxTag": 3,
+      "animation": [
+        {
+          "animationId": 0,
+          "tagUsage": "TAG_ADD_FRAME_INDEX_X"
+        }
+      ]
+    }
+  },
+  "item": {
+    "painting_8x8": {
+      "type": "BLOCKS",
+      "iconTextureData": "painting_8x8_icon.png",
+      "group": "GROUP_PAINTING",
+      "blockId": "painting_8x8",
+      "fuelTime": 20
+    }
+  }
+}

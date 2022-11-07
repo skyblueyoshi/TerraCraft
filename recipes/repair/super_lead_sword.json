@@ -1,0 +1,17 @@
+
+{
+  "config": "Repair",
+  "results": [
+    {
+      "id": "super_lead_sword",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [ "AB" ],
+  "elements": [
+    [ "A", "super_lead_sword" ],
+    [ "B", "lead_ingot" ]
+  ],
+  "exData": { "repairRate": 0.15 },
+  "importantElements": [ "A" ]
+}

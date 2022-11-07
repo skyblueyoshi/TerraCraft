@@ -1,0 +1,23 @@
+
+{
+  "copper_pickaxe": {
+    "type": "TOOLS",
+    "iconTextureData": "copper_pickaxe_entity.png",
+    "textureData": "copper_pickaxe_entity.png",
+    "group": "GROUP_PICKAXE",
+    "toolType": "PICKAXE",
+    "toolGrade": "IRON",
+    "efficiency": 2.5,
+    "ai": "Pickaxe",
+    "coldTime": 16,
+    "entityWidth": 30,
+    "entityHeight": 38,
+    "handX": 16,
+    "handY": 26,
+    "holdType": "NORMAL",
+    "durable": 824,
+    "damage": 4,
+    "knockBack": 1,
+    "crit": 0
+  }
+}

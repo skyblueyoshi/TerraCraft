@@ -1,0 +1,31 @@
+{
+  "block": {
+    "table_birch": {
+      "textureData": "wooden_table_birch.png",
+      "color": [ 220, 210, 160 ],
+      "type": "FURNITURE",
+      "width": 3,
+      "height": 2,
+      "collision": "PLATFORM",
+      "attach": "BOTTOM",
+      "attachable": "TOP",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 140,
+      "slipperiness": 1.0,
+      "isKilledByLava": true,
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 200, 200, 130 ]
+    }
+  },
+  "item": {
+    "table_birch": {
+      "type": "BLOCKS",
+      "iconTextureData": "wooden_table_birch.png",
+      "group": "GROUP_WOODEN_TABLE",
+      "blockId": "table_birch",
+      "fuelTime": 60
+    }
+  }
+}

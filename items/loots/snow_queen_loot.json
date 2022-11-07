@@ -1,0 +1,9 @@
+
+{
+  "snow_queen_loot": {
+    "type": "MATERIALS",
+    "iconTextureData": "snow_queen_loot_icon.png",
+    "group": "GROUP_LOOT",
+    "antiLava": true
+  }
+}

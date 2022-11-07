@@ -1,0 +1,11 @@
+
+{
+  "molybdenum_ingot": {
+    "ai": "Ingot",
+    "type": "MATERIALS",
+    "iconTextureData": "ingot_icon.png",
+    "iconColor": [ 255, 160, 160, 200 ],
+    "group": "GROUP_INGOT",
+    "iconColor2": [ 255, 255, 255, 255 ]
+  }
+}

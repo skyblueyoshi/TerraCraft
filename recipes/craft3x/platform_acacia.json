@@ -1,0 +1,16 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "platform_acacia",
+      "stackSize": 6
+    }
+  ],
+  "pattern": [
+    "AAA",
+    "OOO",
+    "OOO"
+  ],
+  "elements": [ [ "A", "acacia_plank" ] ]
+}

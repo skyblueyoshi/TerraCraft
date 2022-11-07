@@ -1,0 +1,8 @@
+
+{
+  "ancient_sample": {
+    "type": "MATERIALS",
+    "iconTextureData": "ancient_sample.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

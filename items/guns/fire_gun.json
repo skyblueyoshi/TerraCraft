@@ -1,0 +1,32 @@
+
+{
+  "fire_gun": {
+    "type": "TOOLS",
+    "iconTextureData": "fire_gun_entity.png",
+    "textureData": "fire_gun_entity.png",
+    "group": "GROUP_GUN",
+    "toolType": "GUN",
+    "ai": "fire_gun",
+    "entityWidth": 40,
+    "entityHeight": 22,
+    "handX": 14,
+    "handY": 14,
+    "firePoints": [[40,5]],
+    "noConsumeChance": 0.0,
+    "speed": 10.0,
+    "deviation": 0.15,
+    "shootTimes": 1,
+    "special": 2,
+    "shootProjectileId": "gun_fire",
+    "usePosture": 0,
+    "coldTime": 2,
+    "holdType": "FOLLOW_MOUSE",
+    "twoHands": true,
+    "backForce": true,
+    "durable": 2020,
+    "damage": 2,
+    "knockBack": 0,
+    "crit": 3,
+    "noEnchanted": true
+  }
+}

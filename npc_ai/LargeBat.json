@@ -1,0 +1,8 @@
+
+{
+  "LargeBat": {
+    "script": {
+      "path": "LargeBat.lua"
+    }
+  }
+}

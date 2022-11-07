@@ -1,0 +1,56 @@
+
+{
+  "evil": {
+    "ai": "Evil",
+    "textureData": "evil.png",
+    "type": "SMITE",
+    "width": 32,
+    "height": 32,
+    "gfxWidth": 96,
+    "gfxHeight": 96,
+    "gfxOffsetX": -32,
+    "gfxOffsetY": -32,
+    "frameStyle": 1,
+    "frames": 4,
+    "frameSpeed": 4,
+    "shape": "BOX",
+    "maxSpeed": 3.0,
+    "jumpForce": 5.0,
+    "disappearTime": 750,
+    "spawnCount": 1.0,
+    "health": 160,
+    "defense": 2,
+    "attack": 18,
+    "knockBack": 6,
+    "knockBackDefense": 0.20,
+    "gravity": false,
+    "climbWall": false,
+    "foreground": false,
+    "noFixByBlock": false,
+    "friendly": false,
+    "exps": 14,
+    "angry": false,
+    "antiLava": false,
+    "saySounds": [],
+    "hurtSounds": [
+      "phantom_death",
+      "phantom_hurt1",
+      "phantom_hurt2",
+      "phantom_hurt3"
+    ],
+    "drops": [
+      {
+        "item": "evil_part",
+        "min": 1,
+        "max": 3
+      }
+    ],
+    "special": 0,
+    "paticularColor": [ 255, 50, 50, 50 ],
+    "spawn": "AIR",
+    "gore": "gore_phantom",
+    "magicRate": 25,
+    "checkPlayerTarget": true,
+    "visionNoCrossTile": false
+  }
+}

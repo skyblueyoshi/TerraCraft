@@ -1,0 +1,19 @@
+
+{
+  "potion_glowing": {
+    "ai": "Potion",
+    "type": "MATERIALS",
+    "iconTextureData": "glass_bottle_icon.png",
+    "group": "GROUP_POTION",
+    "iconColor2": [ 255, 244, 244, 64 ],
+    "eatable": true,
+    "useSound": "drink",
+    "eatReturnId": "glass_bottle",
+    "buffs": [
+      {
+        "id": "glowing",
+        "time": 10800
+      }
+    ]
+  }
+}

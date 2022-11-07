@@ -1,0 +1,16 @@
+
+{
+  "laser_gun": {
+    "script": {
+      "path": "Gun.lua"
+    },
+    "destroyFragileBlocks": false,
+    "crossTiles": false,
+    "consumeItems": false,
+    "consumeMana": false,
+    "directHitPlayer": false,
+    "directHitNpc": false,
+    "hitDecreaseDurable": 0.0,
+    "shootDecreaseDurable": 1.0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "block": {
+    "ore_lapis": {
+      "textureData": "ore_lapis.png",
+      "color": [ 49, 106, 133 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 6,
+      "type": "TILE",
+      "group": "ORE_LAPIS",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "STONE",
+      "hardness": 160,
+      "isChipCollection": true,
+      "lossyItemId": "lapis_lazuli",
+      "chipCount": 3,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": true,
+      "wallCheck": "GENERABLE",
+      "soundGroupId": "tink",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 30, 70, 180 ],
+      "exParticle": "ore_particle"
+    }
+  },
+  "item": {
+    "ore_lapis": {
+      "type": "BLOCKS",
+      "iconTextureData": "ore_lapis_icon.png",
+      "group": "GROUP_ORE",
+      "blockId": "ore_lapis"
+    }
+  }
+}

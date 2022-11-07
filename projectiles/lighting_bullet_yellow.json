@@ -1,0 +1,24 @@
+
+{
+  "lighting_bullet_yellow": {
+    "ai": "LightingBulletYellow",
+    "textureData": "lighting_bullet_yellow.png",
+    "width": 32,
+    "height": 32,
+    "gfxWidth": 32,
+    "gfxHeight": 32,
+    "gfxOffsetX": 0,
+    "gfxOffsetY": 0,
+    "hots": [[16, 16]],
+    "frameStyle": 1,
+    "frames": 1,
+    "frameSpeed": 8,
+    "shape": "BOX",
+    "maxSpeed": 6.0,
+    "gravity": false,
+    "foreground": true,
+    "fixByBlocks": false,
+    "througthBlock": false,
+    "keepStrick": true
+  }
+}

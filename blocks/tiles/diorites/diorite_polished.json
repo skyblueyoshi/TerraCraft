@@ -1,0 +1,33 @@
+{
+  "block": {
+    "diorite_polished": {
+      "textureData": "diorite_polished.png",
+      "color": [ 210, 210, 210 ],
+      "renderMode": "RENDER_BORDER_CUT",
+      "renderSortedInterval": 4,
+      "type": "TILE",
+      "group": "ARTIFICAL",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "WOOD",
+      "hardness": 140,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": false,
+      "wallCheck": "NO_GENERABLE",
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 170, 170, 170 ]
+    }
+  },
+  "item": {
+    "diorite_polished": {
+      "type": "BLOCKS",
+      "iconTextureData": "diorite_polished_icon.png",
+      "group": "GROUP_DIORITE",
+      "blockId": "diorite_polished"
+    }
+  }
+}

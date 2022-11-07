@@ -1,0 +1,8 @@
+
+{
+  "string": {
+    "type": "MATERIALS",
+    "iconTextureData": "string_icon.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

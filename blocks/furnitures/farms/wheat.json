@@ -1,0 +1,51 @@
+{
+  "block": {
+    "wheat": {
+      "textureData": "wheat.png",
+      "color": [ 106, 118, 11 ],
+      "type": "FURNITURE",
+      "width": 1,
+      "height": 1,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "placeCheck": "PLACE_PLANT_CHECK",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 10,
+      "slipperiness": 1.0,
+      "isKilledByLava": true,
+      "isFragile": true,
+      "isLossyCollection": true,
+      "isRipen": true,
+      "soundGroupId": "grass",
+      "stepSoundGroupId": "step_grass",
+      "particleColor": [ 255, 106, 118, 17 ],
+      "preset": "Crop",
+      "maxTag": 3,
+      "cropDrops": [
+        {
+          "itemId": "wheat",
+          "minCount": 2,
+          "maxCount": 4
+        },
+        {
+          "itemId": "seed",
+          "minCount": 1,
+          "maxCount": 2
+        }
+      ],
+      "animation": [
+        {
+          "animationId": 0,
+          "tagUsage": "TAG_ADD_FRAME_INDEX_X",
+          "shake": true,
+          "shakeCenterX": 8,
+          "shakeCenterY": 16,
+          "shakePeriod": 128,
+          "shakeAngle": 0.2
+        }
+      ]
+    }
+  }
+}

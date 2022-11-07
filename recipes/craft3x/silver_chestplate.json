@@ -1,0 +1,16 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "silver_chestplate",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "AOA",
+    "AAA",
+    "AAA"
+  ],
+  "elements": [ [ "A", "silver_ingot" ] ]
+}

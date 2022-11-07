@@ -1,0 +1,20 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "torch",
+      "stackSize": 6
+    }
+  ],
+  "pattern": [
+    "AOO",
+    "BOO",
+    "OOO"
+  ],
+  "elements": [
+    [ "A", "charcoal" ],
+    [ "B", "stick" ]
+  ],
+  "importantElements": [ "A" ]
+}

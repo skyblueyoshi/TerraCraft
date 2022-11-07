@@ -1,0 +1,31 @@
+
+{
+  "dayf": {
+    "isClient": false,
+    "fromPlayer": false,
+    "gameMode": "creative",
+    "op": "any",
+    "parameters": [
+      {
+        "type": "CP_INTEGER",
+        "min": 0,
+        "max": 23
+      },
+      {
+        "type": "CP_INTEGER",
+        "min": 0,
+        "max": 59,
+        "default": 0
+      },
+      {
+        "type": "CP_INTEGER",
+        "min": 0,
+        "max": 59,
+        "default": 0
+      }
+    ],
+    "script": {
+      "path": "dayf.lua"
+    }
+  }
+}

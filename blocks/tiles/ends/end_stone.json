@@ -1,0 +1,34 @@
+{
+  "block": {
+    "end_stone": {
+      "textureData": "end_stone.png",
+      "color": [ 198, 198, 188 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 8,
+      "type": "TILE",
+      "group": "ENDSTONE",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "STONE",
+      "hardness": 240,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": true,
+      "isWallDark": true,
+      "wallCheck": "GENERABLE",
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 180, 180, 150 ]
+    }
+  },
+  "item": {
+    "end_stone": {
+      "type": "BLOCKS",
+      "iconTextureData": "end_stone_icon.png",
+      "group": "GROUP_ENDSTONE",
+      "blockId": "end_stone",
+      "onTest": true
+    }
+  }
+}

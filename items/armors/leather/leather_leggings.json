@@ -1,0 +1,13 @@
+
+{
+  "leather_leggings": {
+    "type": "TOOLS",
+    "iconTextureData": "leather_leggings_icon.png",
+    "textureData": "leg.png",
+    "group": "GROUP_LEGGINGS",
+    "toolType": "LEGGINGS",
+    "isArmor": true,
+    "defense": 1,
+    "durable": 64
+  }
+}

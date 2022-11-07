@@ -1,0 +1,9 @@
+
+{
+  "crison_eye": {
+    "itemId": "strange_eye",
+    "parentId": "strange_len",
+    "showTip": true,
+    "broadcase": true
+  }
+}

@@ -1,0 +1,13 @@
+
+{
+  "config": "Smelt",
+  "pattern": [ "A" ],
+  "results": [
+    {
+      "id": "steak",
+      "stackSize": 1
+    }
+  ],
+  "elements": [ [ "A", "raw_beef" ] ],
+  "exData": { "time": 40 }
+}

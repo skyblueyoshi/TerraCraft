@@ -1,0 +1,36 @@
+{
+  "block": {
+    "watermelon": {
+      "textureData": "watermelon.png",
+      "color": [ 108, 121, 33 ],
+      "type": "FURNITURE",
+      "width": 2,
+      "height": 2,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "placeCheck": "PLACE_PLANT_CHECK",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "isChipCollection": true,
+      "lossyItemId": "melon_slice",
+      "chipCount": 6,
+      "hardness": 10,
+      "slipperiness": 1.0,
+      "isKilledByLava": true,
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 144, 144, 38 ],
+      "transformId": "melon_stem",
+      "preset": "Melon"
+    }
+  },
+  "item": {
+    "watermelon": {
+      "type": "BLOCKS",
+      "iconTextureData": "watermelon_icon.png",
+      "group": "GROUP_MELON",
+      "blockId": "watermelon"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+
+{
+  "diamond_chestplate": {
+    "type": "TOOLS",
+    "iconTextureData": "diamond_chestplate_icon.png",
+    "textureData": "body.png",
+    "group": "GROUP_CHESTPLATE",
+    "subGroup": "SUB_GROUP_DIAMOND",
+    "toolType": "CHESTPLATE",
+    "isArmor": true,
+    "defense": 7,
+    "durable": 1552
+  }
+}

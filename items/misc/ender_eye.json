@@ -1,0 +1,8 @@
+
+{
+  "ender_eye": {
+    "type": "MATERIALS",
+    "iconTextureData": "ender_eye_icon.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

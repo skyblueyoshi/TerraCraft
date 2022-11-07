@@ -1,0 +1,8 @@
+
+{
+  "DeadMage": {
+    "script": {
+      "path": "DeadMage.lua"
+    }
+  }
+}

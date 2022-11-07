@@ -1,0 +1,41 @@
+{
+  "block": {
+    "redstone_torch": {
+      "textureData": "torch.png",
+      "color": [ 143, 115, 73 ],
+      "type": "FURNITURE",
+      "width": 1,
+      "height": 1,
+      "collision": "NONE",
+      "attach": "TORCH",
+      "attachable": "NONE",
+      "toolType": "PICKAXE",
+      "mineGrade": "GRASS",
+      "hardness": 20,
+      "isFragile": true,
+      "isKilledByLava": true,
+      "isNoWater": true,
+      "modTextureId": "TORCH_REDSTONE",
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 100, 100, 40 ],
+      "exParticle": "torch_particle",
+      "preset": "RedstoneTorch",
+      "covers": [
+        {
+          "modTextureId": "torch_redstone",
+          "offsetX": 0,
+          "offsetY": -14
+        }
+      ]
+    }
+  },
+  "item": {
+    "redstone_torch": {
+      "type": "BLOCKS",
+      "iconTextureData": "redstone_torch_icon.png",
+      "group": "GROUP_LIGHTING",
+      "blockId": "redstone_torch"
+    }
+  }
+}

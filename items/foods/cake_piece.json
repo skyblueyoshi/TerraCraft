@@ -1,0 +1,13 @@
+
+{
+  "cake_piece": {
+    "ai": "Food",
+    "type": "MATERIALS",
+    "iconTextureData": "cake_piece_icon.png",
+    "group": "GROUP_FOOD",
+    "eatable": true,
+    "useSoundGroup": "eat",
+    "food": 10,
+    "foodSaturation": 5
+  }
+}

@@ -1,0 +1,447 @@
+
+{
+  "tainted_land": {
+    "biomeType": "Surface",
+    "dayLight": 0.75,
+    "skyColor": {
+      "midDayTopColor": [ 60, 70, 180 ],
+      "midDayBottomColor": [ 90, 100, 220 ],
+      "midNightTopColor": [ 5, 8, 32 ],
+      "midNightBottomColor": [ 20, 30, 68 ],
+      "transATopColor": [ 50, 60, 160 ],
+      "transABottomColor": [ 70, 80, 170 ],
+      "transBTopColor": [ 40, 50, 100 ],
+      "transBBottomColor": [ 60, 70, 140 ],
+      "transCTopColor": [ 20, 30, 60 ],
+      "transCBottomColor": [ 40, 50, 100 ]
+    },
+    "subBiomes": {
+      "subs": [
+      ]
+    },
+    "terrains": {
+      "terrains": [
+        {
+          "id": "MountainTerrain",
+          "times": 5.0,
+          "size": 100,
+          "height": 10
+        },
+        {
+          "id": "BasinTerrain",
+          "times": 3.0,
+          "size": 50,
+          "height": 5
+        },
+        {
+          "id": "HillTerrain",
+          "times": 4.0,
+          "size": 200,
+          "height": 10
+        }
+      ],
+      "specialTerrains": [
+        {
+          "id": "SurfaceCave",
+          "times": 4.0,
+          "size": 80,
+          "height": 0
+        },
+        {
+          "id": "SurfaceCave",
+          "times": 8.0,
+          "size": 40,
+          "height": 0
+        }
+      ],
+      "transition": "LinerTransition",
+      "transitionTag": 2
+    },
+    "parallaxes": {
+      "deepRate": 0.95,
+      "base": [
+        {
+          "id": "tainted_hill2",
+          "parallel": 3.0,
+          "level": 358
+        },
+        {
+          "id": "tainted_hill",
+          "parallel": 2.6,
+          "level": 362
+        },
+        {
+          "id": "tainted_bush",
+          "parallel": 2.0,
+          "level": 384
+        },
+        {
+          "id": "tainted_bush_strick",
+          "parallel": 1.75,
+          "level": 384
+        },
+        {
+          "id": "tainted_rock",
+          "parallel": 1.25,
+          "level": 402
+        }
+      ],
+      "underground": "tainted_wall",
+      "linked": "tainted_wall_link"
+    },
+    "musics": {
+      "daySurface": [
+        "day2",
+        "day3",
+        "day4",
+        "day5",
+        "mcday1",
+        "mcday2",
+        "mcday3",
+        "mcday4"
+      ],
+      "nightSurface": [
+        "night1",
+        "night2",
+        "night3",
+        "night4"
+      ]
+    },
+    "weather": "rain",
+    "composition": {
+      "main": {
+        "id": "tainted_dirt"
+      },
+      "subs": [
+        {
+          "id": "tainted_stone"
+        }
+      ]
+    },
+    "oreGroupName": "default",
+    "liquidInfo": {
+      "liquid": "water",
+      "maxAllowCount": 500
+    },
+    "treeInfo": {
+      "styles": [
+        "log_tainted"
+      ],
+      "density": 0.7
+    },
+    "grass": 1,
+    "distributions": {
+      "airWeight": 50,
+      "surfacePlaceables": [
+        {
+          "id": "tainted_grass",
+          "weight": 50
+        },
+        {
+          "id": "pot",
+          "tag": 3,
+          "weight": 10
+        },
+        {
+          "id": "small_tree_tainted",
+          "weight": 10
+        },
+        {
+          "id": "large_poison_mushroom",
+          "weight": 10
+        },
+        {
+          "id": "poison_mushroom",
+          "weight": 10
+        },
+        {
+          "id": "stone_decos_tainted",
+          "weight": 10
+        },
+        {
+          "id": "stone_pillar_tainted",
+          "weight": 10
+        }
+      ],
+      "underWeight": 50,
+      "undergroundPlaceables": [
+        {
+          "id": "pot",
+          "tag": 3,
+          "weight": 10
+        },
+        {
+          "id": "large_poison_mushroom",
+          "weight": 10
+        },
+        {
+          "id": "poison_mushroom",
+          "weight": 10
+        },
+        {
+          "id": "stone_decos_tainted",
+          "weight": 10
+        },
+        {
+          "id": "stone_pillar_tainted",
+          "weight": 10
+        },
+        {
+          "id": "stalactite_tainted",
+          "weight": 10
+        },
+        {
+          "id": "stalactite_small_tainted",
+          "weight": 10
+        },
+        {
+          "id": "stab_tainted",
+          "weight": 10
+        }
+      ],
+      "hangingWeight": 60,
+      "hangingPlaceables": [
+        {
+          "id": "tainted_vine",
+          "weight": 40
+        },
+        {
+          "id": "stalactite_hanging_tainted",
+          "weight": 10
+        },
+        {
+          "id": "stalactite_hanging_small_tainted",
+          "weight": 10
+        },
+        {
+          "id": "stab_hanging_tainted",
+          "weight": 4
+        }
+      ]
+    },
+    "pot": [
+      {
+        "itemId": "torch",
+        "min": 1,
+        "max": 5,
+        "weight": 15
+      },
+      {
+        "itemId": "potion_healing",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "potion_night_vision",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "potion_strength",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "potion_harming",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "potion_leaping",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "potion_weakness",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "potion_slow_falling",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "wooden_arrow",
+        "min": 3,
+        "max": 10,
+        "weight": 10
+      },
+      {
+        "itemId": "coal",
+        "min": 1,
+        "max": 2,
+        "weight": 8
+      },
+      {
+        "itemId": "lighting_arrow",
+        "min": 3,
+        "max": 10,
+        "weight": 6
+      },
+      {
+        "itemId": "grenade",
+        "min": 1,
+        "max": 2,
+        "weight": 3
+      }
+    ],
+    "daySpawn": {
+      "mobSpeed": 200,
+      "maxMobSpawn": 5,
+      "mobs": [
+        {
+          "id": "tainted_slime",
+          "weight": 10
+        },
+        {
+          "id": "large_tainted_slime",
+          "weight": 5
+        },
+        {
+          "id": "enderman",
+          "weight": 12
+        },
+        {
+          "id": "tainted_creeper",
+          "weight": 5
+        },
+        {
+          "id": "flower_creeper",
+          "weight": 2
+        },
+        {
+          "id": "tainted_skeleton",
+          "weight": 2
+        }
+      ],
+      "animalSpeed": 300,
+      "maxAnimalSpawn": 5,
+      "animals": []
+    },
+    "nightSpawn": {
+      "mobSpeed": 200,
+      "maxMobSpawn": 10,
+      "mobs": [
+        {
+          "id": "tainted_skeleton",
+          "weight": 6
+        },
+        {
+          "id": "large_tainted_slime",
+          "weight": 5
+        },
+        {
+          "id": "zombie",
+          "weight": 10
+        },
+        {
+          "id": "tainted_slime",
+          "weight": 20
+        },
+        {
+          "id": "enderman",
+          "weight": 8
+        },
+        {
+          "id": "evoker",
+          "weight": 3
+        },
+        {
+          "id": "purple_slime",
+          "weight": 4
+        },
+        {
+          "id": "arrow_zombie",
+          "weight": 8
+        },
+        {
+          "id": "skeleton",
+          "weight": 4
+        },
+        {
+          "id": "flower_creeper",
+          "weight": 3
+        },
+        {
+          "id": "phantom",
+          "weight": 8
+        }
+      ],
+      "animalSpeed": 400,
+      "maxAnimalSpawn": 5,
+      "animals": []
+    },
+    "underSpawn": {
+      "mobSpeed": 400,
+      "maxMobSpawn": 6,
+      "mobs": [
+        {
+          "id": "tainted_slime",
+          "weight": 10
+        },
+        {
+          "id": "enderman",
+          "weight": 8
+        },
+        {
+          "id": "evoker",
+          "weight": 3
+        },
+        {
+          "id": "purple_slime",
+          "weight": 4
+        },
+        {
+          "id": "phantom",
+          "weight": 5
+        },
+        {
+          "id": "tainted_skeleton",
+          "weight": 5
+        },
+        {
+          "id": "tainted_creeper",
+          "weight": 2
+        }
+      ],
+      "animalSpeed": 600,
+      "maxAnimalSpawn": 5,
+      "animals": [
+        {
+          "id": "squid",
+          "weight": 10
+        }
+      ]
+    },
+    "buildingInfo": [
+      {
+        "buildingId": "end_outpost",
+        "density": 1.0,
+        "fixSurfaceLine": true,
+        "genBeginXi": 100,
+        "genEndXi": 900
+      }
+    ],
+    "environmentBlocks": {
+      "total": 1000,
+      "blocks": [
+        {
+          "id": "tainted_dirt",
+          "weight": 1
+        },
+        {
+          "id": "tainted_stone",
+          "weight": 1
+        }
+      ]
+    }
+  }
+}

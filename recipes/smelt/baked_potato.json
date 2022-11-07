@@ -1,0 +1,13 @@
+
+{
+  "config": "Smelt",
+  "pattern": [ "A" ],
+  "results": [
+    {
+      "id": "baked_potato",
+      "stackSize": 1
+    }
+  ],
+  "elements": [ [ "A", "potato" ] ],
+  "exData": { "time": 40 }
+}

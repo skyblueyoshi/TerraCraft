@@ -1,0 +1,33 @@
+{
+  "block": {
+    "purpur_block": {
+      "textureData": "purpur_block.png",
+      "color": [ 177, 105, 177 ],
+      "renderMode": "RENDER_BORDER_CUT",
+      "renderSortedInterval": 4,
+      "type": "TILE",
+      "group": "ARTIFICAL",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "WOOD",
+      "hardness": 220,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": false,
+      "wallCheck": "NATURE_GENERABLE_ONLY",
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 150, 100, 150 ]
+    }
+  },
+  "item": {
+    "purpur_block": {
+      "type": "BLOCKS",
+      "iconTextureData": "purpur_block_icon.png",
+      "group": "GROUP_OTHERS_BLOCK",
+      "blockId": "purpur_block"
+    }
+  }
+}

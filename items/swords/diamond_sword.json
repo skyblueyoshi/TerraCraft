@@ -1,0 +1,22 @@
+
+{
+  "diamond_sword": {
+    "type": "TOOLS",
+    "iconTextureData": "diamond_sword_entity.png",
+    "textureData": "diamond_sword_entity.png",
+    "group": "GROUP_SWORD",
+    "oreDictionary": [ "OD_SWORD" ],
+    "toolType": "SWORD",
+    "ai": "Sword",
+    "coldTime": 24,
+    "entityWidth": 22,
+    "entityHeight": 56,
+    "handX": 10,
+    "handY": 48,
+    "holdType": "NORMAL",
+    "durable": 1552,
+    "damage": 14,
+    "knockBack": 5,
+    "crit": 5
+  }
+}

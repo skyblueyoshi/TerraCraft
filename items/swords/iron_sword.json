@@ -1,0 +1,22 @@
+
+{
+  "iron_sword": {
+    "type": "TOOLS",
+    "iconTextureData": "iron_sword_entity.png",
+    "textureData": "iron_sword_entity.png",
+    "group": "GROUP_SWORD",
+    "oreDictionary": [ "OD_SWORD" ],
+    "toolType": "SWORD",
+    "ai": "Sword",
+    "coldTime": 24,
+    "entityWidth": 22,
+    "entityHeight": 56,
+    "handX": 10,
+    "handY": 48,
+    "holdType": "NORMAL",
+    "durable": 500,
+    "damage": 10,
+    "knockBack": 4,
+    "crit": 4
+  }
+}

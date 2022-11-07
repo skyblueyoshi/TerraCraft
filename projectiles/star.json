@@ -1,0 +1,24 @@
+
+{
+  "star": {
+    "ai": "StarMagic",
+    "textureData": "star.png",
+    "width": 22,
+    "height": 24,
+    "gfxWidth": 22,
+    "gfxHeight": 24,
+    "gfxOffsetX": 0,
+    "gfxOffsetY": 0,
+    "hots": [ [ 11, 12 ] ],
+    "frameStyle": 1,
+    "frames": 1,
+    "frameSpeed": 8,
+    "shape": "BOX",
+    "maxSpeed": 8.0,
+    "gravity": false,
+    "foreground": true,
+    "fixByBlocks": false,
+    "througthBlock": true,
+    "keepStrick": false
+  }
+}

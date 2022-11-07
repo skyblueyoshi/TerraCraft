@@ -1,0 +1,15 @@
+
+{
+  "potato": {
+    "ai": "Food",
+    "type": "MATERIALS",
+    "iconTextureData": "potato_icon.png",
+    "group": "GROUP_FOOD",
+    "isSeed": true,
+    "eatable": true,
+    "useSoundGroup": "eat",
+    "food": 10,
+    "foodSaturation": 6,
+    "blockId": "potato"
+  }
+}

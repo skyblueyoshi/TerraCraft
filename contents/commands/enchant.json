@@ -1,0 +1,22 @@
+
+{
+  "enchant": {
+    "isClient": false,
+    "fromPlayer": true,
+    "gameMode": "creative",
+    "op": "any",
+    "parameters": [
+      {
+        "type": "CP_ENCHANTMENT"
+      },
+      {
+        "type": "CP_INTEGER",
+        "min": 1,
+        "max": 8
+      }
+    ],
+    "script": {
+      "path": "enchant.lua"
+    }
+  }
+}

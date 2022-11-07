@@ -1,0 +1,7 @@
+{
+  "CursedArrow": {
+    "script": {
+      "path": "CursedArrow.lua"
+    }
+  }
+}

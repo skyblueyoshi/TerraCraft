@@ -1,0 +1,22 @@
+
+{
+  "super_iron_sword": {
+    "type": "TOOLS",
+    "iconTextureData": "super_iron_sword_entity.png",
+    "textureData": "super_iron_sword_entity.png",
+    "group": "GROUP_SWORD",
+    "oreDictionary": [ "OD_SWORD" ],
+    "toolType": "SWORD",
+    "ai": "Sword",
+    "coldTime": 24,
+    "entityWidth": 22,
+    "entityHeight": 56,
+    "handX": 10,
+    "handY": 48,
+    "holdType": "NORMAL",
+    "durable": 558,
+    "damage": 11,
+    "knockBack": 4,
+    "crit": 4
+  }
+}

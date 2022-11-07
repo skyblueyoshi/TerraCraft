@@ -1,0 +1,12 @@
+
+{
+  "efficiency": {
+    "noCreating": false,
+    "minCreatingLevel": 1,
+    "allowMaxLevel": 8,
+    "tool": [
+      "AXE",
+      "PICKAXE"
+    ]
+  }
+}

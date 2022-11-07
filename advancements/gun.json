@@ -1,0 +1,9 @@
+
+{
+  "gun": {
+    "itemId": "handgun",
+    "parentId": "nether",
+    "showTip": true,
+    "broadcase": true
+  }
+}

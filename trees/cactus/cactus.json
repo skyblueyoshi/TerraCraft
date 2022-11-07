@@ -1,0 +1,48 @@
+{
+  "tree": {
+    "cactus": {
+      "length": 4,
+      "baseTiles": [ "sand", "sandstone" ],
+      "leafs": [],
+      "branches": [
+        [
+          "branch.png"
+        ],
+        [
+          "branch_2.png"
+        ],
+        [
+          "branch_3.png"
+        ]
+      ],
+      "crowns": [
+        [
+          "crown.png"
+        ],
+        [
+          "crown_2.png"
+        ],
+        [
+          "crown_3.png"
+        ]
+      ],
+      "woodId": "sapling_cactus",
+      "saplingId": "sapling_cactus",
+      "fruits": []
+    }
+  },
+  "block": {
+    "log_cactus": {
+      "textureData": "stem.png",
+      "color": [ 150, 120, 40 ],
+      "subGroup": "LOG",
+      "placeCheck": "PLACE_TREE_CHECK",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 650,
+      "treeId": "cactus",
+      "soundGroupId": "wood",
+      "particleColor": [ 255, 166, 233, 166 ]
+    }
+  }
+}

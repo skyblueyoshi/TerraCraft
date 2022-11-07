@@ -1,0 +1,42 @@
+{
+  "block": {
+    "ender_chest": {
+      "textureData": "ender_chest.png",
+      "color": [ 36, 55, 52 ],
+      "type": "FURNITURE",
+      "width": 2,
+      "height": 2,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "toolType": "PICKAXE",
+      "mineGrade": "IRON",
+      "hardness": 500,
+      "slipperiness": 1.0,
+      "soundGroupId": "stone",
+      "functionSoundId": "chest",
+      "functionSoundId2": "chestclosed",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 33, 33, 33 ],
+      "preset": "EnderStorage",
+      "animation": [
+        {
+          "animationId": 0,
+          "frameStart": 0
+        },
+        {
+          "animationId": 1,
+          "frameStart": 3
+        }
+      ]
+    }
+  },
+  "item": {
+    "ender_chest": {
+      "type": "BLOCKS",
+      "iconTextureData": "ender_chest_icon.png",
+      "group": "GROUP_OTHERS_FURNITURE",
+      "blockId": "ender_chest"
+    }
+  }
+}

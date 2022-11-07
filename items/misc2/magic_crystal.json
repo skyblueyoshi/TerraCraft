@@ -1,0 +1,8 @@
+
+{
+  "magic_crystal": {
+    "type": "MATERIALS",
+    "iconTextureData": "magic_crystal.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

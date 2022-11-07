@@ -1,0 +1,20 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "fire_lamp",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "OAO",
+    "BAB",
+    "CCC"
+  ],
+  "elements": [
+    [ "A", "OD_IRON_INGOT" ],
+    [ "B", "torch" ]
+  ],
+  "group3": "OD_WOODEN_PLANK"
+}

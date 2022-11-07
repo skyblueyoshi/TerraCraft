@@ -1,0 +1,9 @@
+
+{
+  "slimeball": {
+    "type": "MATERIALS",
+    "iconTextureData": "slimeball_icon.png",
+    "group": "GROUP_MATERIAL",
+    "fuelTime": 20
+  }
+}

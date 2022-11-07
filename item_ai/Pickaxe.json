@@ -1,0 +1,16 @@
+
+{
+  "Pickaxe": {
+    "script": {
+      "path": "Pickaxe.lua"
+    },
+    "destroyFragileBlocks": true,
+    "crossTiles": false,
+    "consumeItems": false,
+    "consumeMana": false,
+    "directHitPlayer": true,
+    "directHitNpc": true,
+    "hitDecreaseDurable": 0.2,
+    "shootDecreaseDurable": 0.0
+  }
+}

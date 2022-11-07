@@ -1,0 +1,13 @@
+
+{
+  "super_diamond_helmet": {
+    "type": "TOOLS",
+    "iconTextureData": "ihat10.png",
+    "textureData": "hat10.png",
+    "group": "GROUP_HELMET",
+    "toolType": "HELMET",
+    "isArmor": true,
+    "defense": 5,
+    "durable": 1552
+  }
+}

@@ -1,0 +1,11 @@
+
+{
+  "flame": {
+    "noCreating": false,
+    "minCreatingLevel": 29,
+    "allowMaxLevel": 8,
+    "tool": [
+      "BOW"
+    ]
+  }
+}

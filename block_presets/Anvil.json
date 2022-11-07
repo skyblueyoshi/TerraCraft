@@ -1,0 +1,8 @@
+
+{
+  "Anvil": {
+    "script": {
+      "path": "Anvil.lua"
+    }
+  }
+}

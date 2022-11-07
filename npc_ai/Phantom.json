@@ -1,0 +1,8 @@
+
+{
+  "Phantom": {
+    "script": {
+      "path": "Phantom.lua"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+
+{
+  "stone_sword": {
+    "type": "TOOLS",
+    "iconTextureData": "stone_sword_entity.png",
+    "textureData": "stone_sword_entity.png",
+    "group": "GROUP_SWORD",
+    "oreDictionary": [ "OD_SWORD" ],
+    "toolType": "SWORD",
+    "ai": "Sword",
+    "coldTime": 26,
+    "entityWidth": 22,
+    "entityHeight": 56,
+    "handX": 10,
+    "handY": 48,
+    "holdType": "NORMAL",
+    "durable": 262,
+    "damage": 7,
+    "knockBack": 4,
+    "crit": 4
+  }
+}

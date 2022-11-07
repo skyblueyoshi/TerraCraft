@@ -1,0 +1,28 @@
+
+{
+  "air_sword": {
+    "type": "TOOLS",
+    "iconTextureData": "air_sword_entity.png",
+    "textureData": "air_sword_entity.png",
+    "group": "GROUP_SWORD",
+    "oreDictionary": [ "OD_SWORD" ],
+    "toolType": "SWORD",
+    "ai": "magic_sword",
+    "coldTime": 24,
+    "speed": 8.0,
+    "deviation": 0.04,
+    "shootTimes": 1,
+    "shootProjectileId": "small_air_bullet",
+    "entityWidth": 18,
+    "entityHeight": 56,
+    "firePoints": [[8,8]],
+    "handX": 9,
+    "handY": 48,
+    "holdType": "NORMAL",
+    "durable": 512,
+    "damage": 8,
+    "knockBack": 4,
+    "crit": 4,
+    "consumeMana": 4
+  }
+}

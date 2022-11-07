@@ -1,0 +1,20 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "fence_palm",
+      "stackSize": 3
+    }
+  ],
+  "pattern": [
+    "ABA",
+    "ABA",
+    "OOO"
+  ],
+  "elements": [
+    [ "A", "palm_plank" ],
+    [ "B", "stick" ]
+  ],
+  "importantElements": [ "A" ]
+}

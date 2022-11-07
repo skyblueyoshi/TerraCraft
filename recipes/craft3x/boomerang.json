@@ -1,0 +1,16 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "boomerang",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "OAO",
+    "AOO",
+    "OAO"
+  ],
+  "elements": [ [ "A", "copper_ingot" ] ]
+}

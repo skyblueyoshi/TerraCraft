@@ -1,0 +1,11 @@
+
+{
+  "fire": {
+    "textureData": "fire.png",
+    "width": 24,
+    "height": 24,
+    "frameXs": 4,
+    "frameSpeed": 8,
+    "loopPlay": true
+  }
+}

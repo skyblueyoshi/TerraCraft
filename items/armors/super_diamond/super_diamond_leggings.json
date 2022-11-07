@@ -1,0 +1,13 @@
+
+{
+  "super_diamond_leggings": {
+    "type": "TOOLS",
+    "iconTextureData": "leggings10.png",
+    "textureData": "leg10.png",
+    "group": "GROUP_LEGGINGS",
+    "toolType": "LEGGINGS",
+    "isArmor": true,
+    "defense": 6,
+    "durable": 1552
+  }
+}

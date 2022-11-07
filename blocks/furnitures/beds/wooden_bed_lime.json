@@ -1,0 +1,31 @@
+{
+  "block": {
+    "wooden_bed_lime": {
+      "textureData": "wooden_bed_lime.png",
+      "type": "FURNITURE",
+      "subGroup": "BED",
+      "width": 4,
+      "height": 2,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 130,
+      "slipperiness": 1.0,
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 50, 100, 0 ],
+      "preset": "Bed"
+    }
+  },
+  "item": {
+    "wooden_bed_lime": {
+      "type": "BLOCKS",
+      "iconTextureData": "wooden_bed_lime.png",
+      "group": "GROUP_WOODEN_BED",
+      "blockId": "wooden_bed_lime",
+      "fuelTime": 60
+    }
+  }
+}

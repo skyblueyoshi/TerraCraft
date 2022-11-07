@@ -1,0 +1,20 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "blue_stone_bow",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "BAC",
+    "AOC",
+    "BAC"
+  ],
+  "elements": [
+    [ "A", "diamond" ],
+    [ "B", "lapis_lazuli" ],
+    [ "C", "string" ]
+  ]
+}

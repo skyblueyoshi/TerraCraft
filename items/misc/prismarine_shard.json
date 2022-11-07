@@ -1,0 +1,8 @@
+
+{
+  "prismarine_shard": {
+    "type": "MATERIALS",
+    "iconTextureData": "prismarine_shard_icon.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

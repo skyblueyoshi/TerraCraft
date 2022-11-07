@@ -1,0 +1,9 @@
+
+{
+  "hunter": {
+    "itemId": "bone",
+    "parentId": "sword",
+    "showTip": true,
+    "broadcase": true
+  }
+}

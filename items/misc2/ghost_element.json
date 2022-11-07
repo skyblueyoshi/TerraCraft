@@ -1,0 +1,8 @@
+
+{
+  "ghost_element": {
+    "type": "MATERIALS",
+    "iconTextureData": "ghost_element.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

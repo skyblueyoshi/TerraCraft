@@ -1,0 +1,35 @@
+{
+  "block": {
+    "wood_stripped_palm": {
+      "textureData": "wood_stripped_palm.png",
+      "color": [ 182, 141, 86 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 4,
+      "type": "TILE",
+      "group": "WOOD_B",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 100,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": false,
+      "wallCheck": "NO_GENERABLE",
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 182, 141, 86 ]
+    }
+  },
+  "item": {
+    "wood_stripped_palm": {
+      "type": "BLOCKS",
+      "iconTextureData": "wood_stripped_palm_icon.png",
+      "group": "GROUP_WOOD_STRIPPED",
+      "blockId": "wood_stripped_palm",
+      "fuelTime": 60,
+      "oreDictionary": ["OD_WOOD_STRIPPED"]
+    }
+  }
+}

@@ -1,0 +1,10 @@
+
+{
+  "pumpkin_seed": {
+    "type": "MATERIALS",
+    "iconTextureData": "pumpkin_seed_icon.png",
+    "group": "GROUP_SEED",
+    "isSeed": true,
+    "blockId": "pumpkin_stem"
+  }
+}

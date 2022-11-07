@@ -1,0 +1,30 @@
+
+{
+  "amethyst_staff": {
+    "type": "TOOLS",
+    "iconTextureData": "amethyst_staff_entity.png",
+    "textureData": "amethyst_staff_entity.png",
+    "group": "GROUP_STAFF",
+    "oreDictionary": [ "OD_STAFF" ],
+    "toolType": "STAFF",
+    "ai": "Staff",
+    "speed": 6.0,
+    "deviation": 0.03,
+    "shootTimes": 1,
+    "shootProjectileId": "amethyst_magic",
+    "usePosture": 1,
+    "useSound": "wand1",
+    "coldTime": 36,
+    "entityWidth": 12,
+    "entityHeight": 48,
+    "handX": 6,
+    "handY": 32,
+    "firePoints": [[6,6]],
+    "holdType": "HOLD_STAFF",
+    "twoHands": false,
+    "damage": 12,
+    "knockBack": 5,
+    "crit": 3,
+    "consumeMana": 4
+  }
+}

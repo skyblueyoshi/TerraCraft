@@ -1,0 +1,15 @@
+
+{
+  "blue_arrow": {
+    "type": "PROJECTILES",
+    "iconTextureData": "blue_arrow.png",
+    "group": "GROUP_ARROW",
+    "ammo": "arrow",
+    "ammoLevel": 6,
+    "projectileId": "blue_arrow",
+    "speed": 2.0,
+    "shootable": true,
+    "damage": 3,
+    "knockBack": 1
+  }
+}

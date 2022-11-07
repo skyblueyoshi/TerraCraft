@@ -1,0 +1,30 @@
+
+{
+  "soul_staff": {
+    "type": "TOOLS",
+    "iconTextureData": "soul_staff.png",
+    "textureData": "soul_staff.png",
+    "group": "GROUP_STAFF",
+    "oreDictionary": [ "OD_STAFF" ],
+    "toolType": "STAFF",
+    "ai": "Staff",
+    "speed": 8.0,
+    "deviation": 0.05,
+    "shootTimes": 1,
+    "shootProjectileId": "magic_wave3",
+    "usePosture": 1,
+    "coldTime": 58,
+    "entityWidth": 16,
+    "entityHeight": 56,
+    "handX": 8,
+    "handY": 46,
+    "firePoints": [[4,4]],
+    "holdType": "HOLD_STAFF",
+    "twoHands": false,
+    "damage": 18,
+    "knockBack": 1,
+    "crit": 3,
+    "consumeMana": 7,
+    "useSound": "wand1"
+  }
+}

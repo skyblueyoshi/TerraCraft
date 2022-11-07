@@ -1,0 +1,15 @@
+
+{
+  "lighting_arrow": {
+    "type": "PROJECTILES",
+    "iconTextureData": "lighting_arrow_icon.png",
+    "group": "GROUP_ARROW",
+    "ammo": "arrow",
+    "ammoLevel": 1,
+    "projectileId": "lighting_arrow",
+    "speed": 1.0,
+    "shootable": true,
+    "damage": 2,
+    "knockBack": 1
+  }
+}

@@ -1,0 +1,355 @@
+
+{
+  "mushroom_fields": {
+    "biomeType": "Surface",
+    "dayLight": 1.0,
+    "skyColor": {
+      "midDayTopColor": [ 98, 170, 192 ],
+      "midDayBottomColor": [ 210, 226, 236 ],
+      "midNightTopColor": [ 5, 8, 32 ],
+      "midNightBottomColor": [ 20, 30, 68 ],
+      "transATopColor": [ 98, 170, 192 ],
+      "transABottomColor": [ 217, 198, 10 ],
+      "transBTopColor": [ 44, 33, 10 ],
+      "transBBottomColor": [ 155, 32, 10 ],
+      "transCTopColor": [ 5, 8, 32 ],
+      "transCBottomColor": [ 115, 32, 10 ]
+    },
+    "subBiomes": {
+      "subs": [
+        {
+          "biome": "jungle",
+          "minSize": 300,
+          "maxSize": 400,
+          "minX": 400,
+          "maxX": 600
+        },
+        {
+          "biome": "forest",
+          "minSize": 300,
+          "maxSize": 400,
+          "minX": 400,
+          "maxX": 600
+        },
+        {
+          "biome": "desert",
+          "minSize": 300,
+          "maxSize": 400,
+          "minX": 400,
+          "maxX": 600
+        },
+        {
+          "biome": "snow_land",
+          "minSize": 400,
+          "maxSize": 500,
+          "minX": 400,
+          "maxX": 600
+        },
+        {
+          "biome": "ocean",
+          "minSize": 100,
+          "maxSize": 200,
+          "minX": 400,
+          "maxX": 600
+        }
+      ]
+    },
+    "terrains": {
+      "terrains": [
+        {
+          "id": "MountainTerrain",
+          "times": 3.0,
+          "size": 200,
+          "height": 20
+        },
+        {
+          "id": "BasinTerrain",
+          "times": 1.0,
+          "size": 50,
+          "height": 12
+        },
+        {
+          "id": "HillTerrain",
+          "times": 4.0,
+          "size": 300,
+          "height": 12
+        }
+      ],
+      "specialTerrains": [
+        {
+          "id": "Chasm",
+          "times": 0.5,
+          "size": 20,
+          "height": 30
+        },
+        {
+          "id": "Lake",
+          "times": 0.5,
+          "size": 60,
+          "height": 10
+        },
+        {
+          "id": "Lake",
+          "times": 1.0,
+          "size": 40,
+          "height": 10
+        },
+        {
+          "id": "SurfaceCave",
+          "times": 1.0,
+          "size": 80,
+          "height": 0
+        },
+        {
+          "id": "SurfaceCave",
+          "times": 2.0,
+          "size": 60,
+          "height": 0
+        }
+      ],
+      "transition": "LinerTransition",
+      "transitionTag": 2
+    },
+    "parallaxes": {
+      "deepRate": 1.0,
+      "base": [
+        {
+          "id": "dirty_hill",
+          "parallel": 8.0,
+          "level": 375
+        },
+        {
+          "id": "large_mushrooms",
+          "parallel": 6.0,
+          "level": 368
+        },
+        {
+          "id": "mushroom_grass",
+          "parallel": 4.0,
+          "level": 383
+        },
+        {
+          "id": "large_mushrooms2",
+          "parallel": 3.0,
+          "level": 380
+        },
+        {
+          "id": "mushroom_grass",
+          "parallel": 2.0,
+          "level": 392
+        }
+      ],
+      "underground": "mud_wall",
+      "linked": "mud_wall_link"
+    },
+    "musics": {
+      "daySurface": [
+        "day1",
+        "day2",
+        "day3",
+        "day4",
+        "day5",
+        "mcday1",
+        "mcday2",
+        "mcday3",
+        "mcday4"
+      ],
+      "nightSurface": [
+        "night1",
+        "night2",
+        "night3",
+        "night4"
+      ]
+    },
+    "weather": "rain",
+    "composition": {
+      "main": {
+        "id": "mycelium"
+      },
+      "subs": [
+        {
+          "id": "cobblestone"
+        },
+        {
+          "id": "brown_mushroom_block"
+        }
+      ]
+    },
+    "oreGroupName": "default",
+    "liquidInfo": {
+      "liquid": "water",
+      "maxAllowCount": 500
+    },
+    "treeInfo": {
+      "styles": [],
+      "density": 0.18
+    },
+    "mushroomInfo": {
+      "styles": [
+        "brown_mushroom_block",
+        "red_mushroom_block"
+      ],
+      "density": 0.6
+    },
+    "grass": 1,
+    "distributions": {
+      "airWeight": 50,
+      "surfacePlaceables": [
+        {
+          "id": "brown_mushroom",
+          "weight": 20
+        },
+        {
+          "id": "red_mushroom",
+          "weight": 20
+        },
+        {
+          "id": "large_brown_mushroom",
+          "weight": 5
+        },
+        {
+          "id": "large_red_mushroom",
+          "weight": 10
+        }
+      ],
+      "underWeight": 100,
+      "undergroundPlaceables": [
+        {
+          "id": "pot",
+          "tag": 0,
+          "weight": 40
+        },
+        {
+          "id": "brown_mushroom",
+          "weight": 20
+        },
+        {
+          "id": "red_mushroom",
+          "weight": 20
+        },
+        {
+          "id": "large_brown_mushroom",
+          "weight": 4
+        },
+        {
+          "id": "large_red_mushroom",
+          "weight": 3
+        }
+      ],
+      "hangingWeight": 40,
+      "hangingPlaceables": []
+    },
+    "pot": [
+      {
+        "itemId": "torch",
+        "min": 1,
+        "max": 5,
+        "weight": 15
+      },
+      {
+        "itemId": "potion_healing",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "potion_night_vision",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "potion_strength",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "wooden_arrow",
+        "min": 3,
+        "max": 10,
+        "weight": 12
+      },
+      {
+        "itemId": "coal",
+        "min": 1,
+        "max": 2,
+        "weight": 10
+      },
+      {
+        "itemId": "flint",
+        "min": 1,
+        "max": 4,
+        "weight": 8
+      },
+      {
+        "itemId": "grenade",
+        "min": 1,
+        "max": 2,
+        "weight": 3
+      }
+    ],
+    "daySpawn": {
+      "mobSpeed": 500,
+      "maxMobSpawn": 5,
+      "mobs": [],
+      "animalSpeed": 300,
+      "maxAnimalSpawn": 5,
+      "animals": [
+        {
+          "id": "brown_mushroom_cow",
+          "weight": 10
+        },
+        {
+          "id": "red_mushroom_cow",
+          "weight": 10
+        }
+      ]
+    },
+    "nightSpawn": {
+      "mobSpeed": 460,
+      "maxMobSpawn": 6,
+      "mobs": [],
+      "animalSpeed": 600,
+      "maxAnimalSpawn": 5,
+      "animals": [
+        {
+          "id": "brown_mushroom_cow",
+          "weight": 10
+        },
+        {
+          "id": "red_mushroom_cow",
+          "weight": 10
+        }
+      ]
+    },
+    "underSpawn": {
+      "mobSpeed": 400,
+      "maxMobSpawn": 6,
+      "mobs": [],
+      "animalSpeed": 600,
+      "maxAnimalSpawn": 5,
+      "animals": [
+        {
+          "id": "brown_mushroom_cow",
+          "weight": 10
+        },
+        {
+          "id": "red_mushroom_cow",
+          "weight": 10
+        }
+      ]
+    },
+    "buildingInfo": [
+    ],
+    "environmentBlocks": {
+      "total": 1000,
+      "blocks": [
+        {
+          "id": "mycelium",
+          "weight": 1
+        }
+      ]
+    }
+  }
+}

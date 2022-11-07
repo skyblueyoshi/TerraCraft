@@ -1,0 +1,9 @@
+
+{
+  "mine_netherite": {
+    "itemId": "nether_pickaxe",
+    "parentId": "mine_diamond",
+    "showTip": true,
+    "broadcase": true
+  }
+}

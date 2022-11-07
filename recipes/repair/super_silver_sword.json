@@ -1,0 +1,17 @@
+
+{
+  "config": "Repair",
+  "results": [
+    {
+      "id": "super_silver_sword",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [ "AB" ],
+  "elements": [
+    [ "A", "super_silver_sword" ],
+    [ "B", "silver_ingot" ]
+  ],
+  "exData": { "repairRate": 0.15 },
+  "importantElements": [ "A" ]
+}

@@ -1,0 +1,13 @@
+
+{
+  "iron_helmet": {
+    "type": "TOOLS",
+    "iconTextureData": "iron_helmet_icon.png",
+    "textureData": "hat.png",
+    "group": "GROUP_HELMET",
+    "toolType": "HELMET",
+    "isArmor": true,
+    "defense": 2,
+    "durable": 500
+  }
+}

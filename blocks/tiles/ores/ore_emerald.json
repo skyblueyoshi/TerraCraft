@@ -1,0 +1,37 @@
+{
+  "block": {
+    "ore_emerald": {
+      "textureData": "ore_emerald.png",
+      "color": [ 85, 149, 94 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 4,
+      "type": "TILE",
+      "group": "ORE_EMERALD",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "IRON",
+      "hardness": 180,
+      "isChipCollection": true,
+      "lossyItemId": "emerald",
+      "chipCount": 1,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": true,
+      "wallCheck": "GENERABLE",
+      "soundGroupId": "tink",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 40, 220, 120 ],
+      "exParticle": "ore_particle"
+    }
+  },
+  "item": {
+    "ore_emerald": {
+      "type": "BLOCKS",
+      "iconTextureData": "ore_emerald_icon.png",
+      "group": "GROUP_ORE",
+      "blockId": "ore_emerald"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "candle_holder",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "AAA",
+    "OBO",
+    "BBB"
+  ],
+  "elements": [
+    [ "A", "candle" ],
+    [ "B", "OD_IRON_INGOT" ]
+  ]
+}

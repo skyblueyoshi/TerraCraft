@@ -1,0 +1,13 @@
+
+{
+  "lead_leggings": {
+    "type": "TOOLS",
+    "iconTextureData": "lead_leggings_icon.png",
+    "textureData": "leg.png",
+    "group": "GROUP_LEGGINGS",
+    "toolType": "LEGGINGS",
+    "isArmor": true,
+    "defense": 3,
+    "durable": 500
+  }
+}

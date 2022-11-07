@@ -1,0 +1,13 @@
+
+{
+  "config": "Smelt",
+  "pattern": [ "A" ],
+  "results": [
+    {
+      "id": "dried_kelp",
+      "stackSize": 1
+    }
+  ],
+  "elements": [ [ "A", "kelp" ] ],
+  "exData": { "time": 20 }
+}

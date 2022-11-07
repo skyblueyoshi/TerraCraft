@@ -1,0 +1,20 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "diamond_sword",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "AOO",
+    "AOO",
+    "BOO"
+  ],
+  "elements": [
+    [ "A", "diamond" ],
+    [ "B", "stick" ]
+  ],
+  "importantElements": [ "A" ]
+}

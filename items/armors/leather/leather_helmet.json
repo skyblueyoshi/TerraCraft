@@ -1,0 +1,14 @@
+
+{
+  "leather_helmet": {
+    "type": "TOOLS",
+    "iconTextureData": "leather_helmet_icon.png",
+    "textureData": "hat.png",
+    "showHair": true,
+    "group": "GROUP_HELMET",
+    "toolType": "HELMET",
+    "isArmor": true,
+    "defense": 1,
+    "durable": 64
+  }
+}

@@ -1,0 +1,11 @@
+
+{
+  "tower_core": {
+    "type": "TOOLS",
+    "iconTextureData": "tower_core.png",
+    "textureData": "tower_core.png",
+    "group": "GROUP_TOWER_CORE",
+    "toolType": "TOWER_CORE",
+    "durable": 2000
+  }
+}

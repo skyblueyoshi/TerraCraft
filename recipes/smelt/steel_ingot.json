@@ -1,0 +1,13 @@
+
+{
+  "config": "Smelt",
+  "pattern": [ "A" ],
+  "results": [
+    {
+      "id": "steel_ingot",
+      "stackSize": 1
+    }
+  ],
+  "elements": [ [ "A", "iron_ingot", 2 ] ],
+  "exData": { "time": 80 }
+}

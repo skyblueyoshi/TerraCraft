@@ -1,0 +1,8 @@
+
+{
+  "gold_talisman": {
+    "type": "MATERIALS",
+    "iconTextureData": "gold_talisman.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

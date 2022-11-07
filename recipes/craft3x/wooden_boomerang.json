@@ -1,0 +1,16 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "wooden_boomerang",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "OAO",
+    "AOO",
+    "OAO"
+  ],
+  "elements": [ [ "A", "OD_WOODEN_PLANK" ] ]
+}

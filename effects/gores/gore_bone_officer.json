@@ -1,0 +1,25 @@
+{
+	"gore_bone_officer": {
+		"ai": "Gore", 
+			"textureData" : "bone_officer.png", 
+			"width" : 20, 
+			"height" : 20, 
+			"gfxOffsetX" : -6, 
+			"gfxOffsetY" : -3, 
+			"gfxWidth" : 32, 
+			"gfxHeight" : 26, 
+			"frameStyle" : 0, 
+			"frameStyles" : 1, 
+			"frames" : 1, 
+			"frameSpeed" : 8, 
+			"disappearTime" : 600, 
+			"isForeground" : false, 
+			"gravity" : true, 
+			"collisionWithBlocks" : true, 
+			"fixByBlocks" : true, 
+			"fadeScale" : false, 
+			"fadeAlpha" : false, 
+			"slowSpeed" : false, 
+			"slowRotateSpeed" : false
+	}
+}

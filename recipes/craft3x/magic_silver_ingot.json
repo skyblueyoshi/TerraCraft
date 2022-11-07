@@ -1,0 +1,16 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "magic_silver_ingot",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "OBO",
+    "BAB",
+    "OBO"
+  ],
+  "elements": [ [ "A", "silver_ingot" ], [ "B", "magic_cell" ] ]
+}

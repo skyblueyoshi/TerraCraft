@@ -1,0 +1,9 @@
+
+{
+  "magic_gold_wear": {
+    "itemId": "magic_gold_helmet",
+    "parentId": "gold",
+    "showTip": true,
+    "broadcase": true
+  }
+}

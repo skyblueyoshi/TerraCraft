@@ -1,0 +1,10 @@
+
+{
+  "melon_seed": {
+    "type": "MATERIALS",
+    "iconTextureData": "melon_seed_icon.png",
+    "group": "GROUP_SEED",
+    "isSeed": true,
+    "blockId": "melon_stem"
+  }
+}

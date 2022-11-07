@@ -1,0 +1,16 @@
+
+{
+  "config": "Brew",
+  "results": [
+    {
+      "id": "potion_regeneration",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [ "AB" ],
+  "elements": [
+    [ "A", "potion_awkward" ],
+    [ "B", "ghast_tear" ]
+  ],
+  "exData": { "time": 400 }
+}

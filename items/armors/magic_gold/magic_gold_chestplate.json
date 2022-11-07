@@ -1,0 +1,13 @@
+
+{
+  "magic_gold_chestplate": {
+    "type": "TOOLS",
+    "iconTextureData": "chestplate2.png",
+    "textureData": "body2.png",
+    "group": "GROUP_CHESTPLATE",
+    "toolType": "CHESTPLATE",
+    "isArmor": true,
+    "defense": 6,
+    "durable": 1440
+  }
+}

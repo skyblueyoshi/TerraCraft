@@ -1,0 +1,15 @@
+
+{
+  "nether_leggings": {
+    "type": "TOOLS",
+    "iconTextureData": "nether_leggings_icon.png",
+    "textureData": "leg.png",
+    "group": "GROUP_LEGGINGS",
+    "subGroup": "SUB_GROUP_NETHERITE",
+    "toolType": "LEGGINGS",
+    "isArmor": true,
+    "defense": 6,
+    "durable": 2020,
+    "antiLava": true
+  }
+}

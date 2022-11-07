@@ -1,0 +1,9 @@
+
+{
+  "electric_direction": {
+    "textureData": "electric_direction.png",
+    "width": 16,
+    "height": 16,
+    "frameXs": 4
+  }
+}

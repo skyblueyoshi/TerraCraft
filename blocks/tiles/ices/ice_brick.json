@@ -1,0 +1,33 @@
+{
+  "block": {
+    "ice_brick": {
+      "textureData": "ice_brick.png",
+      "color": [ 80, 251, 251 ],
+      "renderMode": "RENDER_BORDER_CUT",
+      "renderSortedInterval": 6,
+      "type": "TILE",
+      "group": "ARTIFICAL",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "WOOD",
+      "hardness": 140,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": false,
+      "wallCheck": "NO_GENERABLE",
+      "soundGroupId": "glass",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 30, 255, 255 ]
+    }
+  },
+  "item": {
+    "ice_brick": {
+      "type": "BLOCKS",
+      "iconTextureData": "ice_brick_icon.png",
+      "group": "GROUP_ICE_BRICK",
+      "blockId": "ice_brick"
+    }
+  }
+}

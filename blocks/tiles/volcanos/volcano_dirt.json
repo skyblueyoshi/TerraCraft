@@ -1,0 +1,34 @@
+{
+  "block": {
+    "volcano_dirt": {
+      "textureData": "volcano_dirt.png",
+      "color": [ 100, 34, 0 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 8,
+      "type": "TILE",
+      "group": "DIRT",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "GRASS",
+      "hardness": 60,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": true,
+      "isWallDark": true,
+      "hasGrassCover": false,
+      "wallCheck": "GENERABLE",
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_grass",
+      "particleColor": [ 255, 100, 34, 0 ]
+    }
+  },
+  "item": {
+    "volcano_dirt": {
+      "type": "BLOCKS",
+      "iconTextureData": "volcano_dirt_icon.png",
+      "group": "GROUP_VOLCANO",
+      "blockId": "volcano_dirt"
+    }
+  }
+}

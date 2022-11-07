@@ -1,0 +1,25 @@
+{
+  "block": {
+    "sugar_cane": {
+      "textureData": "sugar_cane.png",
+      "color": [ 133, 189, 59 ],
+      "type": "FURNITURE",
+      "width": 1,
+      "height": 1,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "TOP",
+      "placeCheck": "PLACE_PLANT_CHECK",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 10,
+      "slipperiness": 1.0,
+      "isKilledByLava": true,
+      "isFragile": true,
+      "soundGroupId": "grass",
+      "stepSoundGroupId": "step_grass",
+      "particleColor": [ 255, 133, 188, 60 ],
+      "preset": "Sugarcane"
+    }
+  }
+}

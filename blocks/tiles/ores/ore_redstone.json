@@ -1,0 +1,37 @@
+{
+  "block": {
+    "ore_redstone": {
+      "textureData": "ore_redstone.png",
+      "color": [ 156, 121, 121 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 4,
+      "type": "TILE",
+      "group": "ORE_REDSTONE",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "IRON",
+      "hardness": 140,
+      "isChipCollection": true,
+      "lossyItemId": "redstone",
+      "chipCount": 4,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": true,
+      "wallCheck": "GENERABLE",
+      "soundGroupId": "tink",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 250, 30, 30 ],
+      "exParticle": "ore_particle"
+    }
+  },
+  "item": {
+    "ore_redstone": {
+      "type": "BLOCKS",
+      "iconTextureData": "ore_redstone_icon.png",
+      "group": "GROUP_ORE",
+      "blockId": "ore_redstone"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+
+{
+  "config": "Brew",
+  "results": [
+    {
+      "id": "potion_night_vision",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [ "AB" ],
+  "elements": [
+    [ "A", "potion_awkward" ],
+    [ "B", "golden_carrot" ]
+  ],
+  "exData": { "time": 400 }
+}

@@ -1,0 +1,9 @@
+
+{
+  "blaze_rod": {
+    "type": "MATERIALS",
+    "iconTextureData": "blaze_rod_icon.png",
+    "group": "GROUP_MATERIAL",
+    "fuelTime": 480
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "block": {
+    "large_blue_mushroom": {
+      "textureData": "large_blue_mushroom.png",
+      "color": [ 157, 120, 72 ],
+      "type": "FURNITURE",
+      "width": 2,
+      "height": 2,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "placeCheck": "PLACE_BLUE_MUSHROOM_CHECK",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 10,
+      "slipperiness": 1.0,
+      "isKilledByLava": true,
+      "isLighting": true,
+      "lightColor": [ 12, 0, 0, 4 ],
+      "lightX": 0,
+      "lightY": 0,
+      "lightWi": 1,
+      "lightHi": 2,
+      "isFragile": true,
+      "isDestroyByWeapon": false,
+      "soundGroupId": "grass",
+      "stepSoundGroupId": "step_grass",
+      "particleColor": [ 255, 170, 140, 80 ],
+      "animation": [
+        {
+          "animationId": 0,
+          "shake": true,
+          "shakeCenterX": 8,
+          "shakeCenterY": 16,
+          "shakePeriod": 128,
+          "shakeAngle": 0.2
+        }
+      ],
+      "preset": "RandomDisplay"
+    }
+  },
+  "item": {
+    "large_blue_mushroom": {
+      "type": "BLOCKS",
+      "iconTextureData": "large_blue_mushroom_icon.png",
+      "group": "GROUP_OTHERS_FURNITURE",
+      "blockId": "large_blue_mushroom"
+    }
+  }
+}

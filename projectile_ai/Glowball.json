@@ -1,0 +1,8 @@
+
+{
+  "Glowball": {
+    "script": {
+      "path": "Glowball.lua"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+
+{
+  "wooden_hoe": {
+    "type": "TOOLS",
+    "iconTextureData": "wooden_hoe_icon.png",
+    "textureData": "wooden_hoe_entity.png",
+    "group": "GROUP_HOE",
+    "toolType": "HOE",
+    "toolGrade": "STONE",
+    "efficiency": 2.0,
+    "coldTime": 16,
+    "entityWidth": 26,
+    "entityHeight": 36,
+    "handX": 13,
+    "handY": 26,
+    "holdType": "NORMAL",
+    "durable": 128,
+    "oreDictionary": [ "OD_HOE" ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "textureInfo": {
+    "name": "tc:base_list_cell_highlight"
+  },
+  "style": "Slices9",
+  "slices9": {
+    "left": 16,
+    "right": 16,
+    "top": 16,
+    "bottom": 16
+  }
+}

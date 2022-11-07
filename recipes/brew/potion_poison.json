@@ -1,0 +1,16 @@
+
+{
+  "config": "Brew",
+  "results": [
+    {
+      "id": "potion_poison",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [ "AB" ],
+  "elements": [
+    [ "A", "potion_awkward" ],
+    [ "B", "poison_mushroom" ]
+  ],
+  "exData": { "time": 400 }
+}

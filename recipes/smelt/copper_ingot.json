@@ -1,0 +1,13 @@
+
+{
+  "config": "Smelt",
+  "pattern": [ "A" ],
+  "results": [
+    {
+      "id": "copper_ingot",
+      "stackSize": 1
+    }
+  ],
+  "elements": [ [ "A", "ore_copper", 3 ] ],
+  "exData": { "time": 40 }
+}

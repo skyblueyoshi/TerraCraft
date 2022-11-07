@@ -1,0 +1,26 @@
+{
+  "block": {
+    "eyeball_vine": {
+      "textureData": "eyeball_vine.png",
+      "color": [ 100, 55, 55 ],
+      "type": "FURNITURE",
+      "width": 1,
+      "height": 1,
+      "collision": "NONE",
+      "attach": "TOP",
+      "attachable": "BOTTOM",
+      "placeCheck": "PLACE_VINE_CHECK",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 10,
+      "slipperiness": 1.0,
+      "isKilledByLava": true,
+      "isFragile": false,
+      "isDestroyByWeapon": false,
+      "soundId": "grass",
+      "stepSoundGroupId": "step_grass",
+      "particleColor": [ 255, 100, 55, 55 ],
+      "preset": "Vine"
+    }
+  }
+}

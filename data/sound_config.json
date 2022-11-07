@@ -1,0 +1,31 @@
+{
+  "soundGroup": [
+    { "step_grass": [ "step_snow1", "step_snow2", "step_snow3", "step_snow4" ] },
+    { "step_stone": [ "step_stone1", "step_stone2", "step_stone3", "step_stone4", "step_stone5", "step_stone6" ] },
+    { "step_wood": [ "step_wood1", "step_wood2", "step_wood3", "step_wood4", "step_wood5", "step_wood6" ] },
+    { "step_snow": [ "step_snow1", "step_snow2", "step_snow3", "step_snow4" ] },
+    { "dirt": [ "dirt1", "dirt2", "dirt3" ] },
+    { "sand": [ "sand1", "sand2", "sand3" ] },
+    { "stone": [ "stone1", "stone2", "stone3" ] },
+    { "wood": [ "wood1", "wood2", "wood3" ] },
+    { "snow": [ "snow1", "snow2", "snow3" ] },
+    { "grass": [ "grass1", "grass2", "grass3" ] },
+    { "shatter": [ "shatter1", "shatter2", "shatter3" ] },
+    { "glass": [ "glass1", "glass2", "glass3" ] },
+    { "cloth": [ "cloth1", "cloth2", "cloth3" ] },
+    { "tink": [ "tink1", "tink2", "tink3" ] },
+    { "swim": [ "swim1", "swim2", "swim3", "swim4" ] },
+    { "farm": [ "sand1", "sand2", "sand3" ] },
+    { "strip": [ "strip1", "strip2", "strip3", "strip4" ] },
+    { "door": [ "door1", "door2" ] },
+    { "explode": [ "explode1", "explode2", "explode3", "explode4" ] },
+    { "portal": [ "portal", "portal2" ] },
+    { "hit": [ "hit1", "hit2", "hit3" ] },
+    { "eat": [ "eat1", "eat2", "eat3" ] },
+    { "thunder": [ "thunder1", "thunder2", "thunder3" ] },
+    { "rain": [ "rain1", "rain2", "rain3", "rain4" ] },
+    { "wand": [ "wand1", "wand2", "wand3" ] },
+    { "thorns_hit": [ "thorns_hit1", "thorns_hit2", "thorns_hit3", "thorns_hit4" ] },
+    { "enchant": [ "enchant1", "enchant2", "enchant3" ] }
+  ]
+}

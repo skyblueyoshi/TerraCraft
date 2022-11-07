@@ -1,0 +1,31 @@
+{
+  "block": {
+    "bench_jungle": {
+      "textureData": "bench_jungle.png",
+      "color": [ 137, 110, 92 ],
+      "type": "FURNITURE",
+      "width": 3,
+      "height": 2,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 80,
+      "slipperiness": 1.0,
+      "isKilledByLava": true,
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 100, 70, 50 ]
+    }
+  },
+  "item": {
+    "bench_jungle": {
+      "type": "BLOCKS",
+      "iconTextureData": "bench_jungle.png",
+      "group": "GROUP_BENCH",
+      "blockId": "bench_jungle",
+      "fuelTime": 60
+    }
+  }
+}

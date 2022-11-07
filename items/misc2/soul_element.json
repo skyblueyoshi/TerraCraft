@@ -1,0 +1,8 @@
+
+{
+  "soul_element": {
+    "type": "MATERIALS",
+    "iconTextureData": "soul_element.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

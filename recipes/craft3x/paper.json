@@ -1,0 +1,16 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "paper",
+      "stackSize": 3
+    }
+  ],
+  "pattern": [
+    "AAA",
+    "OOO",
+    "OOO"
+  ],
+  "elements": [ [ "A", "sugar_cane" ] ]
+}

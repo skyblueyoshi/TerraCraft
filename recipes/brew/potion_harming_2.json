@@ -1,0 +1,16 @@
+
+{
+  "config": "Brew",
+  "results": [
+    {
+      "id": "potion_harming",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [ "AB" ],
+  "elements": [
+    [ "A", "potion_poison" ],
+    [ "B", "fermented_spider_eye" ]
+  ],
+  "exData": { "time": 400 }
+}

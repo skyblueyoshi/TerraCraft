@@ -1,0 +1,11 @@
+
+{
+  "platinum_ingot": {
+    "ai": "Ingot",
+    "type": "MATERIALS",
+    "iconTextureData": "ingot_icon.png",
+    "iconColor": [ 255, 222, 222, 160 ],
+    "group": "GROUP_INGOT",
+    "iconColor2": [ 255, 255, 255, 240 ]
+  }
+}

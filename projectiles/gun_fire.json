@@ -1,0 +1,24 @@
+
+{
+  "gun_fire": {
+    "ai": "Fire",
+    "textureData": "gun_fire.png",
+    "width": 16,
+    "height": 16,
+    "gfxWidth": 16,
+    "gfxHeight": 16,
+    "gfxOffsetX": 0,
+    "gfxOffsetY": 0,
+    "hots": [[8, 8]],
+    "frameStyle": 1,
+    "frames": 3,
+    "frameSpeed": 8,
+    "shape": "BOX",
+    "maxSpeed": 32.0,
+    "gravity": false,
+    "foreground": false,
+    "fixByBlocks": false,
+    "througthBlock": false,
+    "keepStrick": false
+  }
+}

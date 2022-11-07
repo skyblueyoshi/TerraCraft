@@ -1,0 +1,23 @@
+
+{
+  "stone_pickaxe": {
+    "type": "TOOLS",
+    "iconTextureData": "stone_pickaxe_entity.png",
+    "textureData": "stone_pickaxe_entity.png",
+    "group": "GROUP_PICKAXE",
+    "toolType": "PICKAXE",
+    "toolGrade": "STONE",
+    "efficiency": 2.0,
+    "ai": "Pickaxe",
+    "coldTime": 16,
+    "entityWidth": 26,
+    "entityHeight": 36,
+    "handX": 13,
+    "handY": 28,
+    "holdType": "NORMAL",
+    "durable": 524,
+    "damage": 3,
+    "knockBack": 1,
+    "crit": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "block": {
+    "bench_palm": {
+      "textureData": "bench_palm.png",
+      "color": [ 182, 141, 86 ],
+      "type": "FURNITURE",
+      "width": 3,
+      "height": 2,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 80,
+      "slipperiness": 1.0,
+      "isKilledByLava": true,
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 182, 141, 86 ]
+    }
+  },
+  "item": {
+    "bench_palm": {
+      "type": "BLOCKS",
+      "iconTextureData": "bench_palm.png",
+      "group": "GROUP_BENCH",
+      "blockId": "bench_palm",
+      "fuelTime": 60
+    }
+  }
+}

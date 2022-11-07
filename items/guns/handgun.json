@@ -1,0 +1,35 @@
+
+{
+  "handgun": {
+    "type": "TOOLS",
+    "iconTextureData": "handgun_entity.png",
+    "textureData": "handgun_entity.png",
+    "group": "GROUP_GUN",
+    "toolType": "GUN",
+    "ai": "Gun",
+    "ammo": "bullet",
+    "entityWidth": 36,
+    "entityHeight": 20,
+    "handX": 13,
+    "handY": 14,
+    "firePoints": [[35,4]],
+    "noConsumeChance": 0.0,
+    "speed": 20.0,
+    "deviation": 0.02,
+    "shootTimes": 1,
+    "ammoLevel": 0,
+    "special": 1,
+    "shootProjectileId": "bullet",
+    "usePosture": 0,
+    "useSound": "pistol_fire",
+    "coldTime": 30,
+    "holdType": "FOLLOW_MOUSE",
+    "twoHands": true,
+    "backForce": true,
+    "durable": 512,
+    "damage": 6,
+    "knockBack": 1,
+    "crit": 3,
+    "noEnchanted": true
+  }
+}

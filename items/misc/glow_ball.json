@@ -1,0 +1,15 @@
+
+{
+  "glow_ball": {
+    "type": "PROJECTILES",
+    "iconTextureData": "glow_ball_icon.png",
+    "group": "GROUP_DROPABLE",
+    "projectileId": "glow_ball",
+    "speed": 6.0,
+    "canThrow": true,
+    "damage": 3,
+    "knockBack": 2,
+    "coldTime": 1000,
+    "shootable": true
+  }
+}

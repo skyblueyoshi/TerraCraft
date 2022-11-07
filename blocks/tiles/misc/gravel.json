@@ -1,0 +1,35 @@
+{
+  "block": {
+    "gravel": {
+      "textureData": "gravel.png",
+      "color": [ 150, 130, 130 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 4,
+      "type": "TILE",
+      "group": "GRAVEL",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "GRASS",
+      "hardness": 60,
+      "slipperiness": 1.0,
+      "gravity": true,
+      "allowSlope": false,
+      "isWallDark": true,
+      "wallCheck": "GENERABLE",
+      "chanceItemId": "flint",
+      "chanceDrop": 0.4,
+      "soundGroupId": "dirt",
+      "stepSoundGroupId": "step_grass",
+      "particleColor": [ 255, 100, 100, 100 ]
+    }
+  },
+  "item": {
+    "gravel": {
+      "type": "BLOCKS",
+      "iconTextureData": "gravel_icon.png",
+      "group": "GROUP_OTHERS_BLOCK",
+      "blockId": "gravel"
+    }
+  }
+}

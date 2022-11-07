@@ -1,0 +1,16 @@
+
+{
+  "fishing_rod": {
+    "script": {
+      "path": "fishing_rod.lua"
+    },
+    "destroyFragileBlocks": false,
+    "crossTiles": false,
+    "consumeItems": true,
+    "consumeMana": false,
+    "directHitPlayer": false,
+    "directHitNpc": false,
+    "hitDecreaseDurable": 0.0,
+    "shootDecreaseDurable": 0.0
+  }
+}

@@ -1,0 +1,9 @@
+
+{
+  "flesh_wear": {
+    "itemId": "flesh_helmet",
+    "parentId": "flesh_ingot",
+    "showTip": true,
+    "broadcase": true
+  }
+}

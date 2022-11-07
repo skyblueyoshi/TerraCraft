@@ -1,0 +1,8 @@
+
+{
+  "Evoker": {
+    "script": {
+      "path": "Evoker.lua"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+
+{
+  "tpp": {
+    "isClient": false,
+    "fromPlayer": false,
+    "gameMode": "creative",
+    "op": "admin",
+    "parameters": [
+      {
+        "type": "CP_PLAYER"
+      },
+      {
+        "type": "CP_POSITION_CELL_X"
+      },
+      {
+        "type": "CP_POSITION_CELL_Y"
+      }
+    ],
+    "script": {
+      "path": "tp.lua"
+    }
+  }
+}

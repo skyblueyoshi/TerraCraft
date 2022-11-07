@@ -1,0 +1,19 @@
+
+{
+  "potion_fire_resistance": {
+    "ai": "Potion",
+    "type": "MATERIALS",
+    "iconTextureData": "glass_bottle_4_icon.png",
+    "group": "GROUP_POTION",
+    "iconColor2": [ 255, 228, 150, 50 ],
+    "eatable": true,
+    "useSound": "drink",
+    "eatReturnId": "glass_bottle",
+    "buffs": [
+      {
+        "id": "fire_defense",
+        "time": 10800
+      }
+    ]
+  }
+}

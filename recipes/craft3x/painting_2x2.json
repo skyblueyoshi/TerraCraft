@@ -1,0 +1,20 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "painting_2x2",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "elements": [
+    [ "A", "stick" ],
+    [ "B", "OD_WOOL" ]
+  ],
+  "importantElements": [ "B" ]
+}

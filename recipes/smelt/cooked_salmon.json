@@ -1,0 +1,13 @@
+
+{
+  "config": "Smelt",
+  "pattern": [ "A" ],
+  "results": [
+    {
+      "id": "cooked_salmon",
+      "stackSize": 1
+    }
+  ],
+  "elements": [ [ "A", "raw_salmon" ] ],
+  "exData": { "time": 40 }
+}

@@ -1,0 +1,16 @@
+{
+  "config": "Repair",
+  "results": [
+    {
+      "id": "leather_helmet",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [ "AB" ],
+  "elements": [
+    [ "A", "leather_helmet" ],
+    [ "B", "leather" ]
+  ],
+  "exData": { "repairRate": 0.25 },
+  "importantElements": [ "A" ]
+}

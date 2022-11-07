@@ -1,0 +1,19 @@
+
+{
+  "config": "Craft3x",
+  "searchActions": [ [ 0, "SA_UNORDER" ] ],
+  "results": [
+    {
+      "id": "machine_part",
+      "stackSize": 2
+    }
+  ],
+  "pattern": [
+    "AAA",
+    "OOO",
+    "OOO"
+  ],
+  "elements": [
+    [ "A", "steel_ingot" ]
+  ]
+}

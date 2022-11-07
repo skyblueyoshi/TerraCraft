@@ -1,0 +1,35 @@
+{
+  "block": {
+    "wood_stripped_acacia": {
+      "textureData": "wood_stripped_acacia.png",
+      "color": [ 208, 150, 130 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 4,
+      "type": "TILE",
+      "group": "WOOD_B",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 100,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": false,
+      "wallCheck": "NO_GENERABLE",
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 180, 100, 60 ]
+    }
+  },
+  "item": {
+    "wood_stripped_acacia": {
+      "type": "BLOCKS",
+      "iconTextureData": "wood_stripped_acacia_icon.png",
+      "group": "GROUP_WOOD_STRIPPED",
+      "blockId": "wood_stripped_acacia",
+      "fuelTime": 60,
+      "oreDictionary": ["OD_WOOD_STRIPPED"]
+    }
+  }
+}

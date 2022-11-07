@@ -1,0 +1,45 @@
+{
+  "block": {
+    "tainted_dirt": {
+      "textureData": "tainted_dirt.png",
+      "color": [ 60, 30, 90 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 8,
+      "type": "TILE",
+      "group": "DIRT",
+      "growGroup": "TAINTED_GROUP",
+      "hangGrowGroup": "TAINTED_GROUP",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "GRASS",
+      "hardness": 60,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": true,
+      "isWallDark": true,
+      "hasGrassCover": true,
+      "isRipen": true,
+      "wallCheck": "GENERABLE",
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_grass",
+      "particleColor": [ 255, 91, 64, 44 ],
+      "preset": "GrowGrass",
+      "covers": [
+        {
+          "modTextureId": "tainted_grass",
+          "offsetX": -8,
+          "offsetY": -8
+        }
+      ]
+    }
+  },
+  "item": {
+    "tainted_dirt": {
+      "type": "BLOCKS",
+      "iconTextureData": "tainted_dirt_icon.png",
+      "group": "GROUP_TAINTED",
+      "blockId": "tainted_dirt"
+    }
+  }
+}

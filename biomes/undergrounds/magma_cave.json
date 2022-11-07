@@ -1,0 +1,216 @@
+
+{
+  "magma_cave": {
+    "biomeType": "Underground",
+    "scale": 1.0,
+    "wallParallaxe": "lava_wall",
+    "musics": {
+      "underground": [
+        "mcunder1",
+        "mcunder2",
+        "mcunder3",
+        "mcunder4"
+      ]
+    },
+    "composition": {
+      "main": {
+        "id": "volcano_burn_stone"
+      },
+      "subs": [
+        {
+          "id": "volcano_stone"
+        },
+        {
+          "id": "volcano_dirt"
+        },
+        {
+          "id": "magma_block"
+        }
+      ]
+    },
+    "wall": {
+      "id": "volcano_dirt",
+      "full": false
+    },
+    "oreGroupName": "default",
+    "liquidInfo": {
+      "liquid": "lava",
+      "maxAllowCount": 500
+    },
+    "distributions": {
+      "airWeight": 100,
+      "surfacePlaceables": [
+        {
+          "id": "pot",
+          "tag": 4,
+          "weight": 40
+        },
+        {
+          "id": "stalactite_stone",
+          "weight": 15
+        },
+        {
+          "id": "stalactite_small_stone",
+          "weight": 10
+        },
+        {
+          "id": "stone_pillar_normal",
+          "weight": 4
+        },
+        {
+          "id": "rock",
+          "weight": 4
+        }
+      ],
+      "hangingWeight": 100,
+      "hangingPlaceables": [
+        {
+          "id": "stalactite_hanging_stone",
+          "weight": 30
+        },
+        {
+          "id": "stalactite_hanging_small_stone",
+          "weight": 30
+        }
+      ]
+    },
+    "pot": [
+      {
+        "itemId": "torch",
+        "min": 1,
+        "max": 5,
+        "weight": 15
+      },
+      {
+        "itemId": "potion_healing",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "potion_night_vision",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "potion_strength",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "potion_leaping",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "potion_water_breathing",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "wooden_arrow",
+        "min": 3,
+        "max": 10,
+        "weight": 12
+      },
+      {
+        "itemId": "lighting_arrow",
+        "min": 3,
+        "max": 10,
+        "weight": 5
+      },
+      {
+        "itemId": "coal",
+        "min": 1,
+        "max": 2,
+        "weight": 10
+      },
+      {
+        "itemId": "flint",
+        "min": 1,
+        "max": 4,
+        "weight": 10
+      },
+      {
+        "itemId": "grenade",
+        "min": 1,
+        "max": 1,
+        "weight": 4
+      },
+      {
+        "itemId": "bomb",
+        "min": 1,
+        "max": 1,
+        "weight": 2
+      }
+    ],
+    "spawn": {
+      "mobSpeed": 240,
+      "maxMobSpawn": 6,
+      "mobs": [
+        {
+          "id": "magma_elf",
+          "weight": 10
+        },
+        {
+          "id": "magma_birdo",
+          "weight": 6
+        },
+        {
+          "id": "meteor",
+          "weight": 4
+        },
+        {
+          "id": "zombie",
+          "weight": 6
+        },
+        {
+          "id": "large_black_slime",
+          "weight": 5
+        },
+        {
+          "id": "skeleton",
+          "weight": 2
+        },
+        {
+          "id": "angry_skeleton",
+          "weight": 2
+        },
+        {
+          "id": "boney_skeleton",
+          "weight": 1
+        },
+        {
+          "id": "enderman",
+          "weight": 1
+        }
+      ],
+      "animalSpeed": 600,
+      "maxAnimalSpawn": 5,
+      "animals": []
+    },
+    "buildingInfo": [
+      {
+        "buildingId": "fossils",
+        "density": 6.0
+      }
+    ],
+    "environmentBlocks": {
+      "total": 100,
+      "blocks": [
+        {
+          "id": "volcano_dirt",
+          "weight": 1
+        },
+        {
+          "id": "volcano_stone",
+          "weight": 1
+        }
+      ]
+    }
+  }
+}

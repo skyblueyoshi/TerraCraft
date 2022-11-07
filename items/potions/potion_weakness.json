@@ -1,0 +1,19 @@
+
+{
+  "potion_weakness": {
+    "ai": "Potion",
+    "type": "MATERIALS",
+    "iconTextureData": "glass_bottle_6_icon.png",
+    "group": "GROUP_POTION",
+    "iconColor2": [ 255, 130, 140, 120 ],
+    "eatable": true,
+    "useSound": "drink",
+    "eatReturnId": "glass_bottle",
+    "buffs": [
+      {
+        "id": "weak",
+        "time": 3600
+      }
+    ]
+  }
+}

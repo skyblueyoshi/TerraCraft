@@ -1,0 +1,30 @@
+
+{
+  "grass_axe": {
+    "type": "TOOLS",
+    "iconTextureData": "grass_axe_entity.png",
+    "textureData": "grass_axe_entity.png",
+    "group": "GROUP_AXE",
+    "toolType": "AXE",
+    "toolGrade": "GRASS",
+    "efficiency": 1.0,
+    "ai": "Axe",
+    "coldTime": 20,
+    "entityWidth": 20,
+    "entityHeight": 30,
+    "handX": 5,
+    "handY": 26,
+    "holdType": "NORMAL",
+    "durable": 128,
+    "damage": 1,
+    "knockBack": 1,
+    "crit": 0,
+    "isNoBreaking": true,
+    "enchantments": [
+      {
+        "id": "phyton",
+        "level": 1
+      }
+    ]
+  }
+}

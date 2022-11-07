@@ -1,0 +1,16 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "wooden_door_acacia",
+      "stackSize": 3
+    }
+  ],
+  "pattern": [
+    "AAO",
+    "AAO",
+    "AAO"
+  ],
+  "elements": [ [ "A", "acacia_plank" ] ]
+}

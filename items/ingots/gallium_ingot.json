@@ -1,0 +1,11 @@
+
+{
+  "gallium_ingot": {
+    "ai": "Ingot",
+    "type": "MATERIALS",
+    "iconTextureData": "ingot_icon.png",
+    "iconColor": [ 255, 195, 195, 223 ],
+    "group": "GROUP_INGOT",
+    "iconColor2": [ 255, 240, 240, 255 ]
+  }
+}

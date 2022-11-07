@@ -1,0 +1,8 @@
+
+{
+  "yellow_crystal": {
+    "type": "MATERIALS",
+    "iconTextureData": "yellow_crystal.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

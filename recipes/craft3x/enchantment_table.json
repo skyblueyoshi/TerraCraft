@@ -1,0 +1,20 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "enchantment_table",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "OAO",
+    "BCB",
+    "CCC"
+  ],
+  "elements": [
+    [ "A", "book" ],
+    [ "B", "diamond" ],
+    [ "C", "obsidian" ]
+  ]
+}

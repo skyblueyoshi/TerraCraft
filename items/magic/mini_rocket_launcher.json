@@ -1,0 +1,34 @@
+
+{
+  "mini_rocket_launcher": {
+    "type": "TOOLS",
+    "iconTextureData": "mini_rocket_launcher.png",
+    "textureData": "mini_rocket_launcher.png",
+    "group": "GROUP_GUN",
+    "toolType": "GUN",
+    "ai": "InfBow",
+    "entityWidth": 56,
+    "entityHeight": 28,
+    "handX": 30,
+    "handY": 24,
+    "firePoints": [[56,14]],
+    "noConsumeChance": 0.0,
+    "speed": 8.0,
+    "deviation": 0.085,
+    "shootTimes": 3,
+    "special": 2,
+    "shootProjectileId": "mini_rocket",
+    "usePosture": 0,
+    "coldTime": 64,
+    "holdType": "FOLLOW_MOUSE",
+    "twoHands": true,
+    "backForce": true,
+    "durable": 2020,
+    "damage": 12,
+    "knockBack": 0,
+    "crit": 3,
+    "noEnchanted": true,
+    "useSound": "launch",
+    "consumeMana": 18
+  }
+}

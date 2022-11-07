@@ -1,0 +1,33 @@
+{
+  "block": {
+    "snow_soft": {
+      "textureData": "snow_soft.png",
+      "color": [ 128, 255, 255 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 8,
+      "type": "TILE",
+      "group": "SNOW",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "GRASS",
+      "hardness": 60,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": true,
+      "isWallDark": true,
+      "wallCheck": "GENERABLE",
+      "soundGroupId": "snow",
+      "stepSoundGroupId": "step_snow",
+      "particleColor": [ 255, 170, 255, 255 ]
+    }
+  },
+  "item": {
+    "snow_soft": {
+      "type": "BLOCKS",
+      "iconTextureData": "snow_soft_icon.png",
+      "group": "GROUP_SNOW",
+      "blockId": "snow_soft"
+    }
+  }
+}

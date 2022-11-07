@@ -1,0 +1,16 @@
+
+{
+  "config": "Brew",
+  "results": [
+    {
+      "id": "potion_strength",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [ "AB" ],
+  "elements": [
+    [ "A", "potion_awkward" ],
+    [ "B", "blaze_powder" ]
+  ],
+  "exData": { "time": 400 }
+}

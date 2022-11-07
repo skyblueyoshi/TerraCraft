@@ -1,0 +1,24 @@
+
+{
+  "mini_rocket": {
+    "ai": "MiniRocket",
+    "textureData": "mini_rocket.png",
+    "width": 24,
+    "height": 16,
+    "gfxWidth": 24,
+    "gfxHeight": 16,
+    "gfxOffsetX": 0,
+    "gfxOffsetY": 0,
+    "hots": [ [ 0, 8 ] ],
+    "frameStyle": 1,
+    "frames": 1,
+    "frameSpeed": 8,
+    "shape": "ROTATED_BOX",
+    "maxSpeed": 6.0,
+    "gravity": false,
+    "foreground": false,
+    "fixByBlocks": false,
+    "througthBlock": false,
+    "keepStrick": true
+  }
+}

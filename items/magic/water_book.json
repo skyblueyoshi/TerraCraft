@@ -1,0 +1,32 @@
+
+{
+  "water_book": {
+    "type": "TOOLS",
+    "iconTextureData": "water_book.png",
+    "textureData": "water_book.png",
+    "group": "GROUP_GUN",
+    "toolType": "GUN",
+    "ai": "InfBow",
+    "entityWidth": 32,
+    "entityHeight": 32,
+    "handX": 8,
+    "handY": 16,
+    "firePoints": [[32,16]],
+    "noConsumeChance": 0.0,
+    "speed": 8.0,
+    "deviation": 0.05,
+    "shootTimes": 1,
+    "special": 2,
+    "shootProjectileId": "water_flow",
+    "usePosture": 0,
+    "coldTime": 24,
+    "holdType": "FOLLOW_MOUSE",
+    "twoHands": true,
+    "backForce": true,
+    "damage": 16,
+    "knockBack": 0,
+    "crit": 3,
+    "noEnchanted": true,
+    "consumeMana": 8
+  }
+}

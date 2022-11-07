@@ -1,0 +1,31 @@
+
+{
+  "bone_gun": {
+    "type": "TOOLS",
+    "iconTextureData": "bone_gun.png",
+    "textureData": "bone_gun.png",
+    "group": "GROUP_STAFF",
+    "oreDictionary": [ "OD_STAFF" ],
+    "toolType": "BOW",
+    "ai": "InfBow",
+    "entityWidth": 56,
+    "entityHeight": 28,
+    "handX": 10,
+    "handY": 24,
+    "firePoints": [[56,14]],
+    "noConsumeChance": 0.0,
+    "speed": 8.0,
+    "deviation": 0.05,
+    "shootProjectileId": "bone",
+    "usePosture": 0,
+    "useSound": "bow",
+    "coldTime": 40,
+    "holdType": "FOLLOW_MOUSE",
+    "twoHands": true,
+    "backForce": false,
+    "damage": 14,
+    "knockBack": 3,
+    "crit": 3,
+    "consumeMana": 17
+  }
+}

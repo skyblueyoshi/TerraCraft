@@ -1,0 +1,13 @@
+
+{
+  "flesh_leggings": {
+    "type": "TOOLS",
+    "iconTextureData": "leggings7.png",
+    "textureData": "leg7.png",
+    "group": "GROUP_LEGGINGS",
+    "toolType": "LEGGINGS",
+    "isArmor": true,
+    "defense": 5,
+    "durable": 1560
+  }
+}

@@ -1,0 +1,9 @@
+
+{
+  "mine_gold": {
+    "itemId": "golden_pickaxe",
+    "parentId": "mine_bronze",
+    "showTip": true,
+    "broadcase": true
+  }
+}

@@ -1,0 +1,13 @@
+
+{
+  "config": "Smelt",
+  "pattern": [ "A" ],
+  "results": [
+    {
+      "id": "popped_chorus_fruits",
+      "stackSize": 1
+    }
+  ],
+  "elements": [ [ "A", "chorus_fruit" ] ],
+  "exData": { "time": 40 }
+}

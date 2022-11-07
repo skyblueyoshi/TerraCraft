@@ -1,0 +1,9 @@
+
+{
+  "Furnace": {
+    "script": {
+      "path": "Furnace.lua"
+    },
+    "entityId": "SmeltEntity"
+  }
+}

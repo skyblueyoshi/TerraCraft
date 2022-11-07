@@ -1,0 +1,23 @@
+{
+  "block": {
+    "stab_hanging_tainted": {
+      "textureData": "tainted_stab_hanging.png",
+      "color": [ 108, 65, 156 ],
+      "type": "FURNITURE",
+      "width": 2,
+      "height": 3,
+      "collision": "NONE",
+      "attach": "TOP",
+      "attachable": "NONE",
+      "placeCheck": "PLACE_TAINTED_DECO_CHECK",
+      "toolType": "PICKAXE",
+      "mineGrade": "WOOD",
+      "hardness": 200,
+      "slipperiness": 1.0,
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 128, 128, 128 ],
+      "preset": "RandomDisplay"
+    }
+  }
+}

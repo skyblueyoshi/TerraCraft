@@ -1,0 +1,559 @@
+{
+  "forest": {
+    "biomeType": "Surface",
+    "dayLight": 1.0,
+    "subBiomes": {
+      "subs": [
+        {
+          "biome": "desert",
+          "minSize": 160,
+          "maxSize": 220,
+          "minX": 100,
+          "maxX": 200
+        },
+        {
+          "biome": "badland",
+          "minSize": 160,
+          "maxSize": 200,
+          "minX": 700,
+          "maxX": 900
+        },
+        {
+          "biome": "ocean",
+          "minSize": 160,
+          "maxSize": 260,
+          "minX": 100,
+          "maxX": 200
+        },
+        {
+          "biome": "ocean",
+          "minSize": 160,
+          "maxSize": 260,
+          "minX": 700,
+          "maxX": 900
+        }
+      ]
+    },
+    "skyColor": {
+      "midDayTopColor": [ 98, 170, 192 ],
+      "midDayBottomColor": [ 210, 226, 236 ],
+      "midNightTopColor": [ 5, 8, 32 ],
+      "midNightBottomColor": [ 20, 30, 68 ],
+      "transATopColor": [ 98, 170, 192 ],
+      "transABottomColor": [ 217, 198, 10 ],
+      "transBTopColor": [ 44, 33, 10 ],
+      "transBBottomColor": [ 155, 32, 10 ],
+      "transCTopColor": [ 5, 8, 32 ],
+      "transCBottomColor": [ 115, 32, 10 ]
+    },
+    "terrains": {
+      "terrains": [
+        {
+          "id": "MountainTerrain",
+          "times": 3.0,
+          "size": 200,
+          "height": 20
+        },
+        {
+          "id": "BasinTerrain",
+          "times": 2.0,
+          "size": 50,
+          "height": 8
+        },
+        {
+          "id": "HillTerrain",
+          "times": 1.0,
+          "size": 300,
+          "height": 10
+        }
+      ],
+      "specialTerrains": [
+        {
+          "id": "Chasm",
+          "times": 0.5,
+          "size": 20,
+          "height": 30
+        },
+        {
+          "id": "Lake",
+          "times": 0.5,
+          "size": 60,
+          "height": 10
+        },
+        {
+          "id": "Lake",
+          "times": 1.0,
+          "size": 40,
+          "height": 10
+        },
+        {
+          "id": "SurfaceCave",
+          "times": 1.0,
+          "size": 80,
+          "height": 0
+        },
+        {
+          "id": "SurfaceCave",
+          "times": 3.0,
+          "size": 60,
+          "height": 0
+        }
+      ],
+      "transition": "LinerTransition",
+      "transitionTag": 2
+    },
+    "parallaxes": {
+      "deepRate": 1.0,
+      "base": [
+        {
+          "id": "snowy_hill",
+          "parallel": 8.0,
+          "level": 360
+        },
+        {
+          "id": "snowy_hill2",
+          "parallel": 6.0,
+          "level": 364
+        },
+        {
+          "id": "stone_hill",
+          "parallel": 4.0,
+          "level": 372
+        },
+        {
+          "id": "large_grass_small_tree",
+          "parallel": 3.5,
+          "level": 363
+        },
+        {
+          "id": "large_grass_medium_tree",
+          "parallel": 3.0,
+          "level": 368
+        },
+        {
+          "id": "large_grass_tree",
+          "parallel": 2.0,
+          "level": 372
+        },
+        {
+          "id": "large_bush",
+          "parallel": 1.5,
+          "level": 394
+        }
+      ],
+      "underground": "mud_wall",
+      "linked": "mud_wall_link"
+    },
+    "musics": {
+      "daySurface": [
+        "day1",
+        "day2",
+        "day3",
+        "day4",
+        "day5",
+        "mcday1",
+        "mcday2",
+        "mcday3",
+        "mcday4"
+      ],
+      "nightSurface": [
+        "night1",
+        "night2",
+        "night3",
+        "night4"
+      ]
+    },
+    "weather": "rain",
+    "composition": {
+      "main": {
+        "id": "dirt"
+      },
+      "subs": [
+        {
+          "id": "cobblestone"
+        },
+        {
+          "id": "clay"
+        }
+      ]
+    },
+    "oreGroupName": "default",
+    "liquidInfo": {
+      "liquid": "water",
+      "maxAllowCount": 500
+    },
+    "treeInfo": {
+      "styles": [
+        "log_oak",
+        "log_birch"
+      ],
+      "density": 0.18
+    },
+    "plantInfo": {
+      "makeSugarcane": true
+    },
+    "grass": 1,
+    "distributions": {
+      "airWeight": 200,
+      "surfacePlaceables": [
+        {
+          "id": "grass",
+          "weight": 100
+        },
+        {
+          "id": "dandelion",
+          "weight": 10
+        },
+        {
+          "id": "allium",
+          "weight": 10
+        },
+        {
+          "id": "sunflower",
+          "weight": 20
+        },
+        {
+          "id": "brown_mushroom",
+          "weight": 20
+        },
+        {
+          "id": "red_mushroom",
+          "weight": 20
+        },
+        {
+          "id": "large_brown_mushroom",
+          "weight": 5
+        },
+        {
+          "id": "large_red_mushroom",
+          "weight": 10
+        },
+        {
+          "id": "lilac",
+          "weight": 5
+        },
+        {
+          "id": "red_tulip",
+          "weight": 5
+        },
+        {
+          "id": "white_tulip",
+          "weight": 5
+        },
+        {
+          "id": "orange_tulip",
+          "weight": 5
+        },
+        {
+          "id": "pink_tulip",
+          "weight": 5
+        },
+        {
+          "id": "small_tree_normal",
+          "weight": 30
+        },
+        {
+          "id": "stone_decos_normal",
+          "weight": 15
+        },
+        {
+          "id": "stone_decos_mossy",
+          "weight": 15
+        },
+        {
+          "id": "rock",
+          "weight": 10
+        },
+        {
+          "id": "bush",
+          "weight": 20
+        }
+      ],
+      "underWeight": 100,
+      "undergroundPlaceables": [
+        {
+          "id": "pot",
+          "tag": 0,
+          "weight": 40
+        },
+        {
+          "id": "small_tree_normal",
+          "weight": 3
+        },
+        {
+          "id": "rock",
+          "weight": 5
+        },
+        {
+          "id": "large_brown_mushroom",
+          "weight": 4
+        },
+        {
+          "id": "large_red_mushroom",
+          "weight": 3
+        }
+      ],
+      "hangingWeight": 40,
+      "hangingPlaceables": [
+        {
+          "id": "vine",
+          "weight": 15
+        },
+        {
+          "id": "stalactite_hanging_stone",
+          "weight": 5
+        },
+        {
+          "id": "stalactite_hanging_small_stone",
+          "weight": 5
+        }
+      ]
+    },
+    "pot": [
+      {
+        "itemId": "torch",
+        "min": 1,
+        "max": 4,
+        "weight": 15
+      },
+      {
+        "itemId": "potion_healing",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "potion_night_vision",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "potion_strength",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "potion_glowing",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "wooden_arrow",
+        "min": 2,
+        "max": 6,
+        "weight": 10
+      },
+      {
+        "itemId": "coal",
+        "min": 1,
+        "max": 2,
+        "weight": 5
+      },
+      {
+        "itemId": "flint",
+        "min": 1,
+        "max": 4,
+        "weight": 6
+      },
+      {
+        "itemId": "fire_bullet",
+        "min": 1,
+        "max": 4,
+        "weight": 4
+      }
+    ],
+    "daySpawn": {
+      "mobSpeed": 640,
+      "maxMobSpawn": 5,
+      "mobs": [
+        {
+          "id": "green_slime",
+          "weight": 10
+        },
+        {
+          "id": "large_green_slime",
+          "weight": 5
+        },
+        {
+          "id": "yellow_slime",
+          "weight": 6
+        },
+        {
+          "id": "blue_slime",
+          "weight": 2
+        },
+        {
+          "id": "purple_slime",
+          "weight": 1
+        },
+        {
+          "id": "enderman",
+          "weight": 1
+        }
+      ],
+      "animalSpeed": 300,
+      "maxAnimalSpawn": 5,
+      "animals": [
+        {
+          "id": "chicken",
+          "weight": 10
+        },
+        {
+          "id": "cow",
+          "weight": 10
+        },
+        {
+          "id": "white_rabbit",
+          "weight": 10
+        },
+        {
+          "id": "squid",
+          "weight": 30
+        },
+        {
+          "id": "light_blue_butterfly",
+          "weight": 4
+        },
+        {
+          "id": "red_butterfly",
+          "weight": 4
+        },
+        {
+          "id": "yellow_butterfly",
+          "weight": 4
+        }
+      ]
+    },
+    "nightSpawn": {
+      "mobSpeed": 460,
+      "maxMobSpawn": 6,
+      "mobs": [
+        {
+          "id": "zombie",
+          "weight": 20
+        },
+        {
+          "id": "spider",
+          "weight": 8
+        },
+        {
+          "id": "arrow_zombie",
+          "weight": 8
+        },
+        {
+          "id": "bald_zombie",
+          "weight": 8
+        },
+        {
+          "id": "villager_zombie",
+          "weight": 6
+        },
+        {
+          "id": "skeleton",
+          "weight": 4
+        },
+        {
+          "id": "creeper",
+          "weight": 3
+        },
+        {
+          "id": "flower_creeper",
+          "weight": 1
+        },
+        {
+          "id": "phantom",
+          "weight": 2
+        },
+        {
+          "id": "fly_eye",
+          "weight": 2
+        },
+        {
+          "id": "enderman",
+          "weight": 2
+        }
+      ],
+      "animalSpeed": 600,
+      "maxAnimalSpawn": 5,
+      "animals": [
+        {
+          "id": "squid",
+          "weight": 10
+        },
+        {
+          "id": "black_rabbit",
+          "weight": 3
+        }
+      ]
+    },
+    "underSpawn": {
+      "mobSpeed": 400,
+      "maxMobSpawn": 6,
+      "mobs": [
+        {
+          "id": "large_black_slime",
+          "weight": 10
+        },
+        {
+          "id": "zombie",
+          "weight": 10
+        },
+        {
+          "id": "spider",
+          "weight": 8
+        },
+        {
+          "id": "bald_zombie",
+          "weight": 8
+        },
+        {
+          "id": "villager_zombie",
+          "weight": 6
+        },
+        {
+          "id": "bat",
+          "weight": 5
+        },
+        {
+          "id": "skeleton",
+          "weight": 2
+        },
+        {
+          "id": "creeper",
+          "weight": 2
+        },
+        {
+          "id": "flower_creeper",
+          "weight": 1
+        },
+        {
+          "id": "enderman",
+          "weight": 3
+        }
+      ],
+      "animalSpeed": 600,
+      "maxAnimalSpawn": 5,
+      "animals": [
+        {
+          "id": "squid",
+          "weight": 10
+        }
+      ]
+    },
+    "buildingInfo": [
+      {
+        "buildingId": "mini_house",
+        "density": 0.5,
+        "isSpecificNoGen": true,
+        "specificChunkXi": 0,
+        "specificChunkYi": 0,
+        "fixSurfaceLine": true,
+        "genBeginXi": 400,
+        "genEndXi": 600
+      }
+    ]
+  }
+}

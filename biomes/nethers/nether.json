@@ -1,0 +1,197 @@
+{
+  "nether": {
+    "biomeType": "Nether",
+    "parallaxes": {
+      "deepRate": 0.9,
+      "base": [
+        {
+          "id": "lava_pile_hanging",
+          "parallel": 4.0,
+          "level": 2588
+        },
+        {
+          "id": "lava_rock_hanging",
+          "parallel": 2.0,
+          "level": 2578
+        },
+        {
+          "id": "lava_layer_hanging",
+          "parallel": 1.25,
+          "level": 2538
+        },
+        {
+          "id": "lava_pile",
+          "parallel": 2.5,
+          "level": 2642
+        },
+        {
+          "id": "lava_rock",
+          "parallel": 2.0,
+          "level": 2650
+        },
+        {
+          "id": "lava_pile",
+          "parallel": 1.75,
+          "level": 2654
+        },
+        {
+          "id": "lava_lake",
+          "parallel": 1.5,
+          "level": 2674
+        },
+        {
+          "id": "lava_layer",
+          "parallel": 1.25,
+          "level": 2676
+        }
+      ],
+      "underground": "lava_wall",
+      "linked": "lava_wall_link"
+    },
+    "musics": {
+      "underground": [
+        "mcnether1"
+      ]
+    },
+    "composition": {
+      "main": {
+        "id": "netherrack"
+      },
+      "subs": [
+        {
+          "id": "soul_sand"
+        },
+        {
+          "id": "glowstone"
+        },
+        {
+          "id": "magma_block"
+        }
+      ]
+    },
+    "oreGroupName": "default",
+    "grass": 1,
+    "treeInfo": {
+      "styles": [
+        "log_volcano_oak"
+      ],
+      "density": 0.25
+    },
+    "distributions": {
+      "airWeight": 100,
+      "surfacePlaceables": [
+        {
+          "id": "pot",
+          "tag": 4,
+          "weight": 20
+        }
+      ],
+      "hangingWeight": 100,
+      "hangingPlaceables": []
+    },
+    "pot": [
+      {
+        "itemId": "torch",
+        "min": 1,
+        "max": 5,
+        "weight": 15
+      },
+      {
+        "itemId": "potion_healing",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "potion_night_vision",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "potion_glowing",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "potion_strength",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "wooden_arrow",
+        "min": 3,
+        "max": 10,
+        "weight": 10
+      },
+      {
+        "itemId": "coal",
+        "min": 1,
+        "max": 2,
+        "weight": 10
+      },
+      {
+        "itemId": "flint",
+        "min": 1,
+        "max": 4,
+        "weight": 10
+      },
+      {
+        "itemId": "bomb",
+        "min": 1,
+        "max": 1,
+        "weight": 2
+      },
+      {
+        "itemId": "grenade",
+        "min": 1,
+        "max": 1,
+        "weight": 2
+      },
+      {
+        "itemId": "fire_bullet",
+        "min": 1,
+        "max": 6,
+        "weight": 3
+      }
+    ],
+    "spawn": {
+      "mobSpeed": 140,
+      "maxMobSpawn": 10,
+      "mobs": [
+        {
+          "id": "magma_elf",
+          "weight": 5
+        },
+        {
+          "id": "magma_slime",
+          "weight": 4
+        },
+        {
+          "id": "zombie_pigman",
+          "weight": 12
+        },
+        {
+          "id": "ghast",
+          "weight": 1
+        },
+        {
+          "id": "blaze",
+          "weight": 2
+        },
+        {
+          "id": "wither_skeleton",
+          "weight": 2
+        }
+      ]
+    },
+    "buildingInfo": [
+      {
+        "buildingId": "nether_fortress",
+        "density": 3.0
+      }
+    ]
+  }
+}

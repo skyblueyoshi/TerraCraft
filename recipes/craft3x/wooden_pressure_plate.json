@@ -1,0 +1,16 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "wooden_pressure_plate",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "AAO",
+    "OOO",
+    "OOO"
+  ],
+  "elements": [ [ "A", "OD_WOODEN_PLANK" ] ]
+}

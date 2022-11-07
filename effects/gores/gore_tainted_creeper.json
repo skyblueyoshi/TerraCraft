@@ -1,0 +1,26 @@
+
+{
+  "gore_tainted_creeper": {
+    "ai": "Gore",
+    "textureData": "tainted_creeper.png",
+    "width": 20,
+    "height": 20,
+    "gfxOffsetX": -6,
+    "gfxOffsetY": -6,
+    "gfxWidth": 32,
+    "gfxHeight": 32,
+    "frameStyle": 0,
+    "frameStyles": 1,
+    "frames": 1,
+    "frameSpeed": 8,
+    "disappearTime": 600,
+    "isForeground": false,
+    "gravity": true,
+    "collisionWithBlocks": true,
+    "fixByBlocks": true,
+    "fadeScale": false,
+    "fadeAlpha": false,
+    "slowSpeed": false,
+    "slowRotateSpeed": false
+  }
+}

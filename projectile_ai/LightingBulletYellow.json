@@ -1,0 +1,8 @@
+
+{
+  "LightingBulletYellow": {
+    "script": {
+      "path": "LightingBulletYellow.lua"
+    }
+  }
+}

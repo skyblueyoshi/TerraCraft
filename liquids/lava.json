@@ -1,0 +1,25 @@
+
+{
+  "lava": {
+    "textureData": "lava.png",
+    "borderTextureData": "lava_border.png",
+    "texWidth": 1024,
+    "texHeight": 1024,
+    "color": [ 244, 255, 255, 255 ],
+    "paticularColor": [ 255, 200, 100, 0 ],
+    "isLighting": true,
+    "lightColor": [ 32, 20, 10, 0 ],
+    "offsetSpeedX": 0.5,
+    "offsetSpeedY": 0.5,
+    "delay": 8,
+    "stickyRate": 0.4,
+    "damage": 8,
+    "buffs": [
+      {
+        "id": "fire",
+        "time": 300
+      }
+    ],
+    "noBuffs": []
+  }
+}

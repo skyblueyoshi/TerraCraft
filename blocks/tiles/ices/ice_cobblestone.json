@@ -1,0 +1,33 @@
+{
+  "block": {
+    "ice_cobblestone": {
+      "textureData": "ice_cobblestone.png",
+      "color": [ 12, 200, 200 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 8,
+      "type": "TILE",
+      "group": "ICECOBBLESTONE",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "WOOD",
+      "hardness": 220,
+      "slipperiness": 0.8,
+      "gravity": false,
+      "allowSlope": true,
+      "isWallDark": true,
+      "wallCheck": "NATURE_GENERABLE_ONLY",
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 180, 220, 220 ]
+    }
+  },
+  "item": {
+    "ice_cobblestone": {
+      "type": "BLOCKS",
+      "iconTextureData": "ice_cobblestone_icon.png",
+      "group": "GROUP_ICE_COBBLESTONE",
+      "blockId": "ice_cobblestone"
+    }
+  }
+}

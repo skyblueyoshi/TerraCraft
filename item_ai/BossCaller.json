@@ -1,0 +1,8 @@
+
+{
+  "BossCaller": {
+    "script": {
+      "path": "BossCaller.lua"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "ender_mirror",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "OAO",
+    "ABA",
+    "OAO"
+  ],
+  "elements": [
+    [ "A", "glass" ],
+    [ "B", "ender_pearl" ]
+  ]
+}

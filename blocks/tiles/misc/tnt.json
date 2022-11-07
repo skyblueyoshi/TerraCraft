@@ -1,0 +1,35 @@
+{
+  "block": {
+    "tnt": {
+      "textureData": "tnt.png",
+      "color": [ 148, 26, 22 ],
+      "renderMode": "RENDER_BLOCK",
+      "renderSortedInterval": 1,
+      "type": "TILE",
+      "group": "ARTIFICAL",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "GRASS",
+      "hardness": 20,
+      "slipperiness": 1.0,
+      "isFragile": true,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": true,
+      "wallCheck": "NO_GENERABLE",
+      "soundGroupId": "grass",
+      "stepSoundGroupId": "step_grass",
+      "particleColor": [ 255, 200, 44, 44 ],
+      "preset": "TNT"
+    }
+  },
+  "item": {
+    "tnt": {
+      "type": "BLOCKS",
+      "iconTextureData": "tnt_icon.png",
+      "group": "GROUP_OTHERS_BLOCK",
+      "blockId": "tnt"
+    }
+  }
+}

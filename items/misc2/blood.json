@@ -1,0 +1,8 @@
+
+{
+  "blood": {
+    "type": "MATERIALS",
+    "iconTextureData": "blood.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

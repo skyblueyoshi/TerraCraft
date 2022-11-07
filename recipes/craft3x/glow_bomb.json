@@ -1,0 +1,19 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "glow_bomb",
+      "stackSize": 2
+    }
+  ],
+  "pattern": [
+    "OBO",
+    "BAB",
+    "OBO"
+  ],
+  "elements": [
+    [ "A", "bomb" ],
+    [ "B", "glowstone_dust" ]
+  ]
+}

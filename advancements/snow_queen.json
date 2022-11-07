@@ -1,0 +1,13 @@
+
+{
+  "snow_queen": {
+    "itemId": "snow_glass_ball",
+    "parentId": "snow_guard",
+    "showTip": true,
+    "broadcase": true,
+    "trigger": {
+      "name": "snow_queen_wake",
+      "conditions": {}
+    }
+  }
+}

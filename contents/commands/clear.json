@@ -1,0 +1,13 @@
+
+{
+  "clear": {
+    "isClient": false,
+    "fromPlayer": true,
+    "gameMode": "creative",
+    "op": "any",
+    "parameters": [],
+    "script": {
+      "path": "clear.lua"
+    }
+  }
+}

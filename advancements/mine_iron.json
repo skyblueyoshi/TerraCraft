@@ -1,0 +1,9 @@
+
+{
+  "mine_iron": {
+    "itemId": "iron_pickaxe",
+    "parentId": "mine_copper",
+    "showTip": true,
+    "broadcase": true
+  }
+}

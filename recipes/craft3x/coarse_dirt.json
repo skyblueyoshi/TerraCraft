@@ -1,0 +1,19 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "coarse_dirt",
+      "stackSize": 4
+    }
+  ],
+  "pattern": [
+    "ABO",
+    "BAO",
+    "OOO"
+  ],
+  "elements": [
+    [ "A", "dirt" ],
+    [ "B", "gravel" ]
+  ]
+}

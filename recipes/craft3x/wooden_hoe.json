@@ -1,0 +1,20 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "wooden_hoe",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "AAO",
+    "OBO",
+    "OBO"
+  ],
+  "elements": [
+    [ "A", "OD_WOODEN_PLANK" ],
+    [ "B", "stick" ]
+  ],
+  "importantElements": [ "A" ]
+}

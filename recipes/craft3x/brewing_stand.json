@@ -1,0 +1,19 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "brewing_stand",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "OAO",
+    "BBB",
+    "OOO"
+  ],
+  "elements": [
+    [ "A", "blaze_rod" ],
+    [ "B", "cobblestone" ]
+  ]
+}

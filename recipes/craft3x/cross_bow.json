@@ -1,0 +1,21 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "cross_bow",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "BAB",
+    "CAC",
+    "OBO"
+  ],
+  "elements": [
+    [ "A", "OD_IRON_INGOT" ],
+    [ "B", "stick" ],
+    [ "C", "string" ]
+  ],
+  "importantElements": [ "A" ]
+}

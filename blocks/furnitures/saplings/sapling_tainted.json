@@ -1,0 +1,45 @@
+{
+  "block": {
+    "sapling_tainted": {
+      "textureData": "sapling_tainted.png",
+      "color": [ 67, 39, 90 ],
+      "type": "FURNITURE",
+      "width": 2,
+      "height": 2,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "placeCheck": "PLACE_PLANT_CHECK",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 80,
+      "slipperiness": 1.0,
+      "isKilledByLava": true,
+      "isFragile": true,
+      "soundGroupId": "grass",
+      "stepSoundGroupId": "step_grass",
+      "particleColor": [ 255, 88, 44, 111 ],
+      "transformId": "log_tainted",
+      "preset": "Sapling",
+      "animation": [
+        {
+          "animationId": 0,
+          "shake": true,
+          "shakeCenterX": 16,
+          "shakeCenterY": 32,
+          "shakePeriod": 128,
+          "shakeAngle": 0.05
+        }
+      ]
+    }
+  },
+  "item": {
+    "sapling_tainted": {
+      "type": "BLOCKS",
+      "iconTextureData": "sapling_tainted.png",
+      "group": "GROUP_SAPLING",
+      "blockId": "sapling_tainted",
+      "fuelTime": 20
+    }
+  }
+}

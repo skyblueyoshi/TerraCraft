@@ -1,0 +1,16 @@
+
+{
+  "drill": {
+    "script": {
+      "path": "drill.lua"
+    },
+    "destroyFragileBlocks": true,
+    "crossTiles": false,
+    "consumeItems": false,
+    "consumeMana": false,
+    "directHitPlayer": true,
+    "directHitNpc": true,
+    "hitDecreaseDurable": 0.5,
+    "shootDecreaseDurable": 0.0
+  }
+}

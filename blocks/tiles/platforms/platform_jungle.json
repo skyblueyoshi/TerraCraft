@@ -1,0 +1,37 @@
+{
+  "block": {
+    "platform_jungle": {
+      "textureData": "platform_jungle.png",
+      "color": [ 132, 105, 88 ],
+      "renderMode": "RENDER_PLATEFORM",
+      "type": "TILE",
+      "group": "PLATFORM",
+      "collision": "PLATFORM",
+      "lightOpacity": 1,
+      "lightTransparent": true,
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 100,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": false,
+      "wallCheck": "NO_GENERABLE",
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 100, 70, 50 ],
+      "isBackground": true,
+      "isNoLinkVertical": true
+    }
+  },
+  "item": {
+    "platform_jungle": {
+      "type": "BLOCKS",
+      "iconTextureData": "platform_jungle_icon.png",
+      "group": "GROUP_WOODEN_PLATFORM",
+      "blockId": "platform_jungle",
+      "fuelTime": 60,
+      "oreDictionary": [ "OD_WOODEN_PLATFORM" ]
+    }
+  }
+}

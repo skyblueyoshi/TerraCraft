@@ -1,0 +1,31 @@
+{
+  "block": {
+    "anvil": {
+      "textureData": "anvil.png",
+      "color": [ 55, 55, 55 ],
+      "type": "FURNITURE",
+      "width": 3,
+      "height": 2,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "toolType": "PICKAXE",
+      "mineGrade": "STONE",
+      "hardness": 200,
+      "slipperiness": 1.0,
+      "placeSoundId": "anvil_land",
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 100, 100, 100 ],
+      "preset": "Anvil"
+    }
+  },
+  "item": {
+    "anvil": {
+      "type": "BLOCKS",
+      "iconTextureData": "anvil.png",
+      "group": "GROUP_OTHERS_FURNITURE",
+      "blockId": "anvil"
+    }
+  }
+}

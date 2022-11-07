@@ -1,0 +1,13 @@
+
+{
+  "dried_kelp": {
+    "ai": "Food",
+    "type": "MATERIALS",
+    "iconTextureData": "dried_kelp_icon.png",
+    "group": "GROUP_FOOD",
+    "eatable": true,
+    "useSoundGroup": "eat",
+    "food": 10,
+    "foodSaturation": 6
+  }
+}

@@ -1,0 +1,13 @@
+
+{
+  "cooked_mutton": {
+    "ai": "Food",
+    "type": "MATERIALS",
+    "iconTextureData": "cooked_mutton_icon.png",
+    "group": "GROUP_FOOD",
+    "eatable": true,
+    "useSoundGroup": "eat",
+    "food": 30,
+    "foodSaturation": 96
+  }
+}

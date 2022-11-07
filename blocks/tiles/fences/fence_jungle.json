@@ -1,0 +1,35 @@
+{
+  "block": {
+    "fence_jungle": {
+      "textureData": "fence_jungle.png",
+      "color": [ 134, 107, 90 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 2,
+      "type": "TILE",
+      "group": "FENCE",
+      "collision": "SOLID",
+      "lightOpacity": 1,
+      "lightTransparent": true,
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 100,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": false,
+      "wallCheck": "NO_GENERABLE",
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 100, 70, 50 ]
+    }
+  },
+  "item": {
+    "fence_jungle": {
+      "type": "BLOCKS",
+      "iconTextureData": "fence_jungle_icon.png",
+      "group": "GROUP_WOODEN_FENCE",
+      "blockId": "fence_jungle",
+      "fuelTime": 60
+    }
+  }
+}

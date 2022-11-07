@@ -1,0 +1,13 @@
+
+{
+  "magic_gold_helmet": {
+    "type": "TOOLS",
+    "iconTextureData": "ihat2.png",
+    "textureData": "hat2.png",
+    "group": "GROUP_HELMET",
+    "toolType": "HELMET",
+    "isArmor": true,
+    "defense": 4,
+    "durable": 1440
+  }
+}

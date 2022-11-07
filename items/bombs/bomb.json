@@ -1,0 +1,15 @@
+
+{
+  "bomb": {
+    "type": "PROJECTILES",
+    "iconTextureData": "bomb_icon.png",
+    "group": "GROUP_BOMB",
+    "projectileId": "bomb",
+    "speed": 5.0,
+    "canThrow": true,
+    "damage": 12,
+    "knockBack": 8,
+    "coldTime": 180,
+    "shootable": true
+  }
+}

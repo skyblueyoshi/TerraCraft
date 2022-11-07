@@ -1,0 +1,9 @@
+
+{
+  "book": {
+    "type": "MATERIALS",
+    "iconTextureData": "book_icon.png",
+    "group": "GROUP_MATERIAL",
+    "fuelTime": 20
+  }
+}

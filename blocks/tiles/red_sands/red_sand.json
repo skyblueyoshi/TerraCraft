@@ -1,0 +1,33 @@
+{
+  "block": {
+    "red_sand": {
+      "textureData": "red_sand.png",
+      "color": [ 140, 62, 20 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 8,
+      "type": "TILE",
+      "group": "REDSAND",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "GRASS",
+      "hardness": 70,
+      "slipperiness": 1.0,
+      "gravity": true,
+      "allowSlope": false,
+      "isWallDark": true,
+      "wallCheck": "GENERABLE",
+      "soundGroupId": "sand",
+      "stepSoundId": "step_sand",
+      "particleColor": [ 255, 200, 120, 50 ]
+    }
+  },
+  "item": {
+    "red_sand": {
+      "type": "BLOCKS",
+      "iconTextureData": "red_sand_icon.png",
+      "group": "GROUP_RED_SAND",
+      "blockId": "red_sand"
+    }
+  }
+}

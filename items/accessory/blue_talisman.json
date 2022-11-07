@@ -1,0 +1,9 @@
+
+{
+  "blue_talisman": {
+    "type": "MATERIALS",
+    "ai": "BlueTalisman",
+    "iconTextureData": "blue_talisman.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

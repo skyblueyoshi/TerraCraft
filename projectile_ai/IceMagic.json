@@ -1,0 +1,11 @@
+
+{
+  "IceMagic": {
+    "script": {
+      "path": "IceMagic.lua"
+    },
+    "modData": [
+      [ "int", "bounceTimes" ]
+    ]
+  }
+}

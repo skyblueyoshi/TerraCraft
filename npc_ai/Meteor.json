@@ -1,0 +1,8 @@
+
+{
+  "Meteor": {
+    "script": {
+      "path": "Meteor.lua"
+    }
+  }
+}

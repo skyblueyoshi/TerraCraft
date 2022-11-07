@@ -1,0 +1,20 @@
+
+{
+  "stone_hoe": {
+    "type": "TOOLS",
+    "iconTextureData": "stone_hoe_icon.png",
+    "textureData": "stone_hoe_entity.png",
+    "group": "GROUP_HOE",
+    "toolType": "HOE",
+    "toolGrade": "STONE",
+    "efficiency": 2.0,
+    "coldTime": 16,
+    "entityWidth": 26,
+    "entityHeight": 36,
+    "handX": 13,
+    "handY": 26,
+    "holdType": "NORMAL",
+    "durable": 256,
+    "oreDictionary": [ "OD_HOE" ]
+  }
+}

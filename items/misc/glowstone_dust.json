@@ -1,0 +1,8 @@
+
+{
+  "glowstone_dust": {
+    "type": "MATERIALS",
+    "iconTextureData": "glowstone_dust_icon.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

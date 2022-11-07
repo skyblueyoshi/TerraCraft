@@ -1,0 +1,13 @@
+
+{
+  "config": "Smelt",
+  "pattern": [ "A" ],
+  "results": [
+    {
+      "id": "charcoal",
+      "stackSize": 1
+    }
+  ],
+  "elements": [ [ "A", "wood_stripped_spruce" ] ],
+  "exData": { "time": 40 }
+}

@@ -1,0 +1,33 @@
+
+{
+  "fire_book": {
+    "type": "TOOLS",
+    "iconTextureData": "fire_book.png",
+    "textureData": "fire_book.png",
+    "group": "GROUP_GUN",
+    "toolType": "GUN",
+    "ai": "InfBow",
+    "entityWidth": 32,
+    "entityHeight": 32,
+    "handX": 8,
+    "handY": 16,
+    "firePoints": [[32,16]],
+    "noConsumeChance": 0.0,
+    "speed": 8.0,
+    "deviation": 0.05,
+    "shootTimes": 1,
+    "special": 2,
+    "shootProjectileId": "fire_element",
+    "usePosture": 0,
+    "coldTime": 24,
+    "holdType": "FOLLOW_MOUSE",
+    "twoHands": false,
+    "backForce": true,
+    "damage": 12,
+    "knockBack": 0,
+    "crit": 3,
+    "noEnchanted": true,
+    "useSound": "fireball",
+    "consumeMana": 8
+  }
+}

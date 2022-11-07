@@ -1,0 +1,21 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "campfire",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "OBO",
+    "BAB",
+    "CCC"
+  ],
+  "elements": [
+    [ "A", "charcoal" ],
+    [ "B", "stick" ]
+  ],
+  "group3": "OD_WOOD_STRIPPED",
+  "importantElements": [ "A" ]
+}

@@ -1,0 +1,9 @@
+
+{
+  "magic_limit": {
+    "itemId": "mana_piece",
+    "parentId": "staff",
+    "showTip": true,
+    "broadcase": true
+  }
+}

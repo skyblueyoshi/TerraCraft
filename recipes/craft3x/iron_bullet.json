@@ -1,0 +1,20 @@
+
+{
+  "config": "Craft3x",
+  "searchActions": [ [ 0, "SA_UNORDER" ] ],
+  "results": [
+    {
+      "id": "iron_bullet",
+      "stackSize": 16
+    }
+  ],
+  "pattern": [
+    "ABO",
+    "OOO",
+    "OOO"
+  ],
+  "elements": [
+    [ "A", "fire_charge" ],
+    [ "B", "OD_IRON_INGOT" ]
+  ]
+}

@@ -1,0 +1,19 @@
+
+{
+  "rotten_flesh": {
+    "ai": "Food",
+    "type": "MATERIALS",
+    "iconTextureData": "rotten_flesh_icon.png",
+    "group": "GROUP_FOOD",
+    "eatable": true,
+    "useSoundGroup": "eat",
+    "food": 20,
+    "foodSaturation": 8,
+    "buffs": [
+      {
+        "id": "hunger",
+        "time": 1440
+      }
+    ]
+  }
+}

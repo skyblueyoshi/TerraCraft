@@ -1,0 +1,48 @@
+
+{
+  "waste_ghost": {
+    "ai": "WasteGhost",
+    "textureData": "waste_ghost.png",
+    "type": "SMITE",
+    "width": 38,
+    "height": 38,
+    "gfxWidth": 38,
+    "gfxHeight": 38,
+    "gfxOffsetX": 0,
+    "gfxOffsetY": 0,
+    "frameStyle": 1,
+    "frames": 1,
+    "frameSpeed": 8,
+    "maxSpeed": 2.0,
+    "jumpForce": 5.0,
+    "disappearTime": 750,
+    "spawnCount": 1.0,
+    "health": 40,
+    "defense": 10,
+    "attack": 7,
+    "knockBack": 5,
+    "knockBackDefense": 0.10,
+    "gravity": true,
+    "climbWall": false,
+    "foreground": false,
+    "noFixByBlock": false,
+    "friendly": false,
+    "exps": 5,
+    "sunBurning": false,
+    "angry": false,
+    "antiLava": true,
+    "saySounds": [],
+    "hurtSounds": [
+      "gore3",
+      "gore1",
+      "gore2"
+    ],
+    "loots": [],
+    "special": 0,
+    "paticularColor": [ 255, 200, 100, 50 ],
+    "spawn": "AIR",
+    "magicRate": 50,
+    "checkPlayerTarget": true,
+    "visionNoCrossTile": false
+  }
+}

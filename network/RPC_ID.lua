@@ -1,0 +1,9 @@
+local RPC_ID = {
+    SB_PLAYER_MAP_OPERATION = 1,
+    SB_PLAYER_THROWING = 2,
+    SB_REMOVE_WIRE = 3,
+    SB_DROP_ITEM_HELD = 4,
+    SB_DROP_ITEM_MOUSE = 5,
+}
+
+return RPC_ID

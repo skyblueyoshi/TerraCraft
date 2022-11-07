@@ -1,0 +1,23 @@
+
+{
+  "diamond_pickaxe": {
+    "type": "TOOLS",
+    "iconTextureData": "diamond_pickaxe_entity.png",
+    "textureData": "diamond_pickaxe_entity.png",
+    "group": "GROUP_PICKAXE",
+    "toolType": "PICKAXE",
+    "toolGrade": "DIAMOND",
+    "efficiency": 5.0,
+    "ai": "Pickaxe",
+    "coldTime": 16,
+    "entityWidth": 30,
+    "entityHeight": 38,
+    "handX": 16,
+    "handY": 26,
+    "holdType": "NORMAL",
+    "durable": 4040,
+    "damage": 5,
+    "knockBack": 1,
+    "crit": 0
+  }
+}

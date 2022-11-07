@@ -1,0 +1,8 @@
+
+{
+  "Bat": {
+    "script": {
+      "path": "Bat.lua"
+    }
+  }
+}

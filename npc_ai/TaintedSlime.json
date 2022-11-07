@@ -1,0 +1,8 @@
+
+{
+  "TaintedSlime": {
+    "script": {
+      "path": "TaintedSlime.lua"
+    }
+  }
+}

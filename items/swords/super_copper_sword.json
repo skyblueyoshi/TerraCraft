@@ -1,0 +1,22 @@
+
+{
+  "super_copper_sword": {
+    "type": "TOOLS",
+    "iconTextureData": "super_copper_sword_entity.png",
+    "textureData": "super_copper_sword_entity.png",
+    "group": "GROUP_SWORD",
+    "oreDictionary": [ "OD_SWORD" ],
+    "toolType": "SWORD",
+    "ai": "Sword",
+    "coldTime": 24,
+    "entityWidth": 22,
+    "entityHeight": 56,
+    "handX": 10,
+    "handY": 48,
+    "holdType": "NORMAL",
+    "durable": 456,
+    "damage": 10,
+    "knockBack": 3,
+    "crit": 4
+  }
+}

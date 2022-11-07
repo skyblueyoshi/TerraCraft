@@ -1,0 +1,9 @@
+
+{
+  "strength": {
+    "textureData": "strength.png",
+    "script": {
+      "path": "strength.lua"
+    }
+  }
+}

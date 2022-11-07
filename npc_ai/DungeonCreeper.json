@@ -1,0 +1,8 @@
+
+{
+  "DungeonCreeper": {
+    "script": {
+      "path": "DungeonCreeper.lua"
+    }
+  }
+}

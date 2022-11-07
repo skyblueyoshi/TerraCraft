@@ -1,0 +1,11 @@
+
+{
+  "palladium_ingot": {
+    "ai": "Ingot",
+    "type": "MATERIALS",
+    "iconTextureData": "ingot_icon.png",
+    "iconColor": [ 255, 110, 110, 110 ],
+    "group": "GROUP_INGOT",
+    "iconColor2": [ 255, 222, 222, 222 ]
+  }
+}

@@ -1,0 +1,20 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "nether_lamp",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "OAO",
+    "BAB",
+    "CCC"
+  ],
+  "elements": [
+    [ "A", "OD_IRON_INGOT" ],
+    [ "B", "red_torch" ],
+    [ "C", "nether_brick" ]
+  ]
+}

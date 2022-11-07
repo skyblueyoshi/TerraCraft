@@ -1,0 +1,23 @@
+{
+  "block": {
+    "small_tree_snowy": {
+      "textureData": "small_tree_snowy.png",
+      "color": [ 166, 188, 190 ],
+      "type": "FURNITURE",
+      "width": 3,
+      "height": 3,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "placeCheck": "PLACE_ICE_DECO_CHECK",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 200,
+      "slipperiness": 1.0,
+      "isKilledByLava": true,
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 100, 60, 140 ]
+    }
+  }
+}

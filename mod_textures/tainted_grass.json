@@ -1,0 +1,11 @@
+
+{
+  "tainted_grass": {
+    "textureData": "tainted_grass.png",
+    "width": 32,
+    "height": 32,
+    "frameXs": 5,
+    "frameYs": 2,
+    "userDisabled": true
+  }
+}

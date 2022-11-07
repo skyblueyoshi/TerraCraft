@@ -1,0 +1,13 @@
+
+{
+  "config": "Smelt",
+  "pattern": [ "A" ],
+  "results": [
+    {
+      "id": "dye_green",
+      "stackSize": 1
+    }
+  ],
+  "elements": [ [ "A", "sapling_cactus" ] ],
+  "exData": { "time": 40 }
+}

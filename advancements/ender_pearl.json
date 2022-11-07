@@ -1,0 +1,9 @@
+
+{
+  "ender_pearl": {
+    "itemId": "ender_pearl",
+    "parentId": "hunter",
+    "showTip": true,
+    "broadcase": true
+  }
+}

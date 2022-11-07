@@ -1,0 +1,13 @@
+
+{
+  "chorus_fruit": {
+    "ai": "Food",
+    "type": "MATERIALS",
+    "iconTextureData": "chorus_fruit_icon.png",
+    "group": "GROUP_FOOD",
+    "eatable": true,
+    "useSoundGroup": "eat",
+    "food": 20,
+    "foodSaturation": 24
+  }
+}

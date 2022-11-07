@@ -1,0 +1,9 @@
+
+{
+  "go_bone_dungeon": {
+    "itemId": "more_dungeons:skull_block",
+    "parentId": "crafting_table",
+    "showTip": true,
+    "broadcase": true
+  }
+}

@@ -1,0 +1,9 @@
+
+{
+  "lighting_talisman": {
+    "type": "MATERIALS",
+    "ai": "LightingTalisman",
+    "iconTextureData": "lighting_talisman.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

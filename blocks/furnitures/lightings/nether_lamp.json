@@ -1,0 +1,49 @@
+{
+  "block": {
+    "nether_lamp": {
+      "textureData": "nether_lamp.png",
+      "color": [ 73, 29, 34 ],
+      "type": "FURNITURE",
+      "width": 3,
+      "height": 3,
+      "collision": "NONE",
+      "attach": "TOP",
+      "attachable": "NONE",
+      "toolType": "PICKAXE",
+      "mineGrade": "GRASS",
+      "hardness": 20,
+      "isKilledByLava": true,
+      "isFragile": true,
+      "isLighting": true,
+      "lightColor": [ 28, 8, 8, 0 ],
+      "lightX": 0,
+      "lightY": 2,
+      "lightWi": 3,
+      "lightHi": 1,
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 73, 29, 34 ],
+      "animation": [
+        {
+          "animationId": 0,
+          "frameSpeed": 8,
+          "frameStart": 0,
+          "frameCount": 4,
+          "shake": true,
+          "shakeCenterX": 24,
+          "shakeCenterY": 0,
+          "shakePeriod": 128,
+          "shakeAngle": 0.05
+        }
+      ]
+    }
+  },
+  "item": {
+    "nether_lamp": {
+      "type": "BLOCKS",
+      "iconTextureData": "nether_lamp_icon.png",
+      "group": "GROUP_OTHERS_FURNITURE",
+      "blockId": "nether_lamp"
+    }
+  }
+}

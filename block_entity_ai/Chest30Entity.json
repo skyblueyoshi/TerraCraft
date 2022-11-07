@@ -1,0 +1,8 @@
+
+{
+  "Chest30Entity": {
+    "script": {
+      "path": "Chest30Entity.lua"
+    }
+  }
+}

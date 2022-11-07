@@ -1,0 +1,16 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "chair_birch",
+      "stackSize": 2
+    }
+  ],
+  "pattern": [
+    "AOO",
+    "AAA",
+    "AOA"
+  ],
+  "elements": [ [ "A", "birch_plank" ] ]
+}

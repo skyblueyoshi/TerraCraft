@@ -1,0 +1,17 @@
+
+{
+  "config": "Repair",
+  "results": [
+    {
+      "id": "super_nether_sword",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [ "AB" ],
+  "elements": [
+    [ "A", "super_diamond_sword" ],
+    [ "B", "netherite_ingot" ]
+  ],
+  "exData": { "repairRate": 0.15 },
+  "importantElements": [ "A" ]
+}

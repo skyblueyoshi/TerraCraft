@@ -1,0 +1,19 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "sea_lantern",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "BAB",
+    "AAA",
+    "BAB"
+  ],
+  "elements": [
+    [ "A", "prismarine_crystals" ],
+    [ "B", "prismarine_shard" ]
+  ]
+}

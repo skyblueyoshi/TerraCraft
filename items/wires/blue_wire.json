@@ -1,0 +1,9 @@
+
+{
+  "blue_wire": {
+    "type": "WIRES",
+    "iconTextureData": "blue_wire_icon.png",
+    "wireId": 3,
+    "group": "GROUP_REDSTONE_WIRE"
+  }
+}

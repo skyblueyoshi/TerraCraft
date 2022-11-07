@@ -1,0 +1,32 @@
+{
+  "block": {
+    "chair_spruce": {
+      "textureData": "wooden_chair_spruce.png",
+      "color": [ 144, 119, 93 ],
+      "type": "FURNITURE",
+      "width": 1,
+      "height": 2,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 80,
+      "slipperiness": 1.0,
+      "isKilledByLava": true,
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 120, 90, 60 ],
+      "preset": "Facing"
+    }
+  },
+  "item": {
+    "chair_spruce": {
+      "type": "BLOCKS",
+      "iconTextureData": "wooden_chair_spruce_icon.png",
+      "group": "GROUP_WOODEN_CHAIR",
+      "blockId": "chair_spruce",
+      "fuelTime": 60
+    }
+  }
+}

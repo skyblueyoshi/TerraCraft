@@ -1,0 +1,292 @@
+
+{
+  "ocean": {
+    "biomeType": "Surface",
+    "dayLight": 1.0,
+    "skyColor": {
+      "midDayTopColor": [ 98, 170, 192 ],
+      "midDayBottomColor": [ 210, 226, 236 ],
+      "midNightTopColor": [ 5, 8, 32 ],
+      "midNightBottomColor": [ 20, 30, 68 ],
+      "transATopColor": [ 98, 170, 192 ],
+      "transABottomColor": [ 217, 198, 10 ],
+      "transBTopColor": [ 44, 33, 10 ],
+      "transBBottomColor": [ 155, 32, 10 ],
+      "transCTopColor": [ 5, 8, 32 ],
+      "transCBottomColor": [ 115, 32, 10 ]
+    },
+    "terrains": {
+      "terrains": [],
+      "specialTerrains": [],
+      "transition": "LinerTransition",
+      "transitionTag": 2
+    },
+    "parallaxes": {
+      "deepRate": 1.0,
+      "base": [],
+      "underground": "stone_wall",
+      "linked": "stone_wall_link"
+    },
+    "musics": {
+      "daySurface": [
+        "day1",
+        "day2",
+        "day3",
+        "day4",
+        "day5",
+        "mcday1",
+        "mcday2",
+        "mcday3",
+        "mcday4"
+      ],
+      "nightSurface": [
+        "night1",
+        "night2",
+        "night3",
+        "night4"
+      ]
+    },
+    "weather": "rain",
+    "composition": {
+      "main": {
+        "id": "prismarine_mud"
+      },
+      "subs": [
+        {
+          "id": "sand"
+        },
+        {
+          "id": "cobblestone"
+        }
+      ]
+    },
+    "oreGroupName": "default",
+    "liquidInfo": {
+      "liquid": "water",
+      "maxAllowCount": 500
+    },
+    "treeInfo": {
+      "styles": [
+        "log_palm"
+      ],
+      "density": 0.08
+    },
+    "plantInfo": {
+      "makeKelp": true,
+      "makeSugarcane": true
+    },
+    "grass": 0,
+    "distributions": {
+      "airWeight": 100,
+      "surfacePlaceables": [
+        {
+          "id": "sea_shell",
+          "weight": 40
+        }
+      ],
+      "underWeight": 100,
+      "undergroundPlaceables": [
+        {
+          "id": "pot",
+          "tag": 0,
+          "weight": 20
+        },
+        {
+          "id": "sea_grass",
+          "weight": 20
+        },
+        {
+          "id": "coral",
+          "weight": 20
+        },
+        {
+          "id": "sea_shell",
+          "weight": 20
+        }
+      ]
+    },
+    "pot": [
+      {
+        "itemId": "torch",
+        "min": 1,
+        "max": 5,
+        "weight": 10
+      },
+      {
+        "itemId": "potion_healing",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "potion_leaping",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "potion_water_breathing",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "nautilus_shell",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "wooden_arrow",
+        "min": 3,
+        "max": 10,
+        "weight": 8
+      },
+      {
+        "itemId": "lighting_arrow",
+        "min": 3,
+        "max": 6,
+        "weight": 6
+      }
+    ],
+    "daySpawn": {
+      "mobSpeed": 400,
+      "maxMobSpawn": 5,
+      "mobs": [
+        {
+          "id": "green_slime",
+          "weight": 2
+        },
+        {
+          "id": "large_green_slime",
+          "weight": 1
+        },
+        {
+          "id": "guardian",
+          "weight": 5
+        },
+        {
+          "id": "drowned",
+          "weight": 1
+        },
+        {
+          "id": "creeper",
+          "weight": 1
+        }
+      ],
+      "animalSpeed": 200,
+      "maxAnimalSpawn": 5,
+      "animals": [
+        {
+          "id": "pufferfish",
+          "weight": 5
+        },
+        {
+          "id": "dolphin",
+          "weight": 5
+        },
+        {
+          "id": "squid",
+          "weight": 5
+        },
+        {
+          "id": "turtle",
+          "weight": 5
+        }
+      ]
+    },
+    "nightSpawn": {
+      "mobSpeed": 300,
+      "maxMobSpawn": 7,
+      "mobs": [
+        {
+          "id": "drowned",
+          "weight": 3
+        },
+        {
+          "id": "zombie",
+          "weight": 20
+        },
+        {
+          "id": "spider",
+          "weight": 8
+        },
+        {
+          "id": "arrow_zombie",
+          "weight": 8
+        },
+        {
+          "id": "bald_zombie",
+          "weight": 8
+        },
+        {
+          "id": "villager_zombie",
+          "weight": 6
+        },
+        {
+          "id": "skeleton",
+          "weight": 4
+        },
+        {
+          "id": "creeper",
+          "weight": 3
+        },
+        {
+          "id": "flower_creeper",
+          "weight": 1
+        },
+        {
+          "id": "phantom",
+          "weight": 2
+        }
+      ],
+      "animalSpeed": 200,
+      "maxAnimalSpawn": 5,
+      "animals": [
+        {
+          "id": "pufferfish",
+          "weight": 5
+        },
+        {
+          "id": "dolphin",
+          "weight": 5
+        },
+        {
+          "id": "squid",
+          "weight": 5
+        },
+        {
+          "id": "turtle",
+          "weight": 5
+        }
+      ]
+    },
+    "underSpawn": {
+      "mobSpeed": 400,
+      "maxMobSpawn": 6,
+      "mobs": [],
+      "animalSpeed": 600,
+      "maxAnimalSpawn": 5,
+      "animals": []
+    },
+    "buildingInfo": [
+      {
+        "buildingId": "monument_ocean",
+        "density": 0.8,
+        "genBeginXi": 400,
+        "genEndXi": 600,
+        "genBeginYi": 470,
+        "genEndYi": 500
+      }
+    ],
+    "environmentBlocks": {
+      "total": 1000,
+      "blocks": [
+        {
+          "id": "prismarine_mud",
+          "weight": 4
+        }
+      ]
+    }
+  }
+}

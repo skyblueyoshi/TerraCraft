@@ -1,0 +1,14 @@
+
+{
+  "skin_ym": {
+    "isFemale": true,
+    "name": "Red Hair",
+    "headTexture": "base\\head.png",
+    "bodyTexture": "base\\body.png",
+    "legTexture": "base\\leg.png",
+    "hairTexture": "ym\\hair.png",
+    "clothTexture": "ym\\cloth.png",
+    "pantTexture": "ym\\pant.png",
+    "authors": [ "BlueYoshi" ]
+  }
+}

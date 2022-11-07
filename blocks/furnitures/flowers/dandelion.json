@@ -1,0 +1,43 @@
+{
+  "block": {
+    "dandelion": {
+      "textureData": "dandelion.png",
+      "color": [ 240, 210, 17 ],
+      "type": "FURNITURE",
+      "width": 1,
+      "height": 1,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "placeCheck": "PLACE_PLANT_CHECK",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 10,
+      "slipperiness": 1.0,
+      "isKilledByLava": true,
+      "isFragile": true,
+      "isDestroyByWeapon": false,
+      "soundId": "grass",
+      "stepSoundGroupId": "step_grass",
+      "particleColor": [ 255, 255, 233, 24 ],
+      "animation": [
+        {
+          "animationId": 0,
+          "shake": true,
+          "shakeCenterX": 8,
+          "shakeCenterY": 16,
+          "shakePeriod": 128,
+          "shakeAngle": 0.2
+        }
+      ]
+    }
+  },
+  "item": {
+    "dandelion": {
+      "type": "BLOCKS",
+      "iconTextureData": "dandelion.png",
+      "group": "GROUP_FLOWER",
+      "blockId": "dandelion"
+    }
+  }
+}

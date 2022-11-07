@@ -1,0 +1,24 @@
+
+{
+  "ice_bullet": {
+    "ai": "IceBullet",
+    "textureData": "ice_bullet.png",
+    "width": 12,
+    "height": 12,
+    "gfxWidth": 24,
+    "gfxHeight": 24,
+    "gfxOffsetX": -6,
+    "gfxOffsetY": -6,
+    "hots": [[12, 12]],
+    "frameStyle": 1,
+    "frames": 1,
+    "frameSpeed": 8,
+    "shape": "BOX",
+    "maxSpeed": 12.0,
+    "gravity": false,
+    "foreground": true,
+    "fixByBlocks": false,
+    "througthBlock": false,
+    "keepStrick": true
+  }
+}

@@ -1,0 +1,8 @@
+
+{
+  "DungeonEater_Body": {
+    "script": {
+      "path": "DungeonEaterBody.lua"
+    }
+  }
+}

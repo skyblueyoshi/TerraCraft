@@ -1,0 +1,13 @@
+
+{
+  "home": {
+    "isClient": false,
+    "fromPlayer": true,
+    "gameMode": "creative",
+    "op": "any",
+    "parameters": [],
+    "script": {
+      "path": "home.lua"
+    }
+  }
+}

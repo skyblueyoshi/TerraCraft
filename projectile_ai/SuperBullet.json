@@ -1,0 +1,9 @@
+
+{
+  "SuperBullet": {
+    "defaultAI": "Bullet",
+    "script": {
+      "path": "SuperBullet.lua"
+    }
+  }
+}

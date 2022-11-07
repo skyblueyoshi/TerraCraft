@@ -1,0 +1,23 @@
+
+{
+  "stone_axe": {
+    "type": "TOOLS",
+    "iconTextureData": "stone_axe_entity.png",
+    "textureData": "stone_axe_entity.png",
+    "group": "GROUP_AXE",
+    "toolType": "AXE",
+    "toolGrade": "STONE",
+    "efficiency": 2.0,
+    "ai": "Axe",
+    "coldTime": 20,
+    "entityWidth": 20,
+    "entityHeight": 36,
+    "handX": 7,
+    "handY": 28,
+    "holdType": "NORMAL",
+    "durable": 524,
+    "damage": 3,
+    "knockBack": 1,
+    "crit": 0
+  }
+}

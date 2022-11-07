@@ -1,0 +1,16 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "diorite_polished",
+      "stackSize": 4
+    }
+  ],
+  "pattern": [
+    "AAO",
+    "AAO",
+    "OOO"
+  ],
+  "elements": [ [ "A", "diorite" ] ]
+}

@@ -1,0 +1,8 @@
+
+{
+  "LightingWheel": {
+    "script": {
+      "path": "LightingWheel.lua"
+    }
+  }
+}

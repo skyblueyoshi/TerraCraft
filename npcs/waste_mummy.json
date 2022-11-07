@@ -1,0 +1,64 @@
+{
+  "waste_mummy": {
+    "ai": "Zombie",
+    "textureData": "waste_mummy.png",
+    "type": "SMITE",
+    "width": 24,
+    "height": 46,
+    "gfxWidth": 48,
+    "gfxHeight": 48,
+    "gfxOffsetX": 4,
+    "gfxOffsetY": 8,
+    "frameStyle": 1,
+    "frames": 4,
+    "frameSpeed": 8,
+    "shape": "BOX",
+    "maxSpeed": 1.0,
+    "jumpForce": 9.0,
+    "disappearTime": 750,
+    "spawnCount": 1.0,
+    "health": 45,
+    "defense": 6,
+    "attack": 14,
+    "knockBack": 5,
+    "knockBackDefense": 0.50,
+    "gravity": true,
+    "climbWall": false,
+    "foreground": false,
+    "noFixByBlock": false,
+    "friendly": false,
+    "exps": 5,
+    "sunBurning": false,
+    "angry": false,
+    "antiLava": false,
+    "saySounds": [
+      "zombie_say1",
+      "zombie_say2",
+      "zombie_say3"
+    ],
+    "hurtSounds": [
+      "zombie_death",
+      "zombie_hurt1",
+      "zombie_hurt2"
+    ],
+    "noBurnSound": true,
+    "loots": [
+      {
+        "item": "rotten_flesh",
+        "count": [ 1, 4 ]
+      },
+      {
+        "item": "string",
+        "min": 1,
+        "max": 4
+      }
+    ],
+    "special": 0,
+    "paticularColor": [ 255, 200, 50, 20 ],
+    "spawn": "LAND",
+    "gore": "gore_waste_mummy",
+    "magicRate": 30,
+    "checkPlayerTarget": true,
+    "visionNoCrossTile": false
+  }
+}

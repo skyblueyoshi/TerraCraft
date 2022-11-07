@@ -1,0 +1,32 @@
+
+{
+  "blood_bow": {
+    "type": "TOOLS",
+    "iconTextureData": "blood_bow_icon.png",
+    "textureData": "blood_bow_entity.png",
+    "group": "GROUP_BOW",
+    "toolType": "BOW",
+    "ai": "Bow",
+    "ammo": "arrow",
+    "entityWidth": 22,
+    "entityHeight": 36,
+    "handX": 12,
+    "handY": 18,
+    "firePoints": [[22,18]],
+    "noConsumeChance": 0.0,
+    "speed": 14.0,
+    "deviation": 0.05,
+    "shootTimes": 1,
+    "ammoLevel": 3,
+    "shootProjectileId": "blood_arrow",
+    "usePosture": 1,
+    "useSound": "bow",
+    "coldTime": 50,
+    "holdType": "NORMAL",
+    "twoHands": true,
+    "durable": 512,
+    "damage": 14,
+    "knockBack": 5,
+    "crit": 3
+  }
+}

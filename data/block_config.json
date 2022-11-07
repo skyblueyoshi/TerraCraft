@@ -1,0 +1,567 @@
+{
+  "exParticles": [
+    {
+      "torch_particle": [
+        {
+          "condition": {
+            "checkInterval": true,
+            "intervalTime": 24
+          },
+          "action": {
+            "effectId": "fire_smoke",
+            "offsetX": [ 6, 10 ],
+            "offsetY": [ -4, 0 ],
+            "speedX": [ -0.25, 0.25 ],
+            "speedY": [ -0.5 ],
+            "rotateSpeed": [ -0.05, 0.05 ],
+            "scale": [ 0.95, 1.45 ],
+            "alpha": [ 0.8 ],
+            "color": [ 255, 255, 255, 255 ]
+          }
+        },
+        {
+          "condition": {
+            "checkRandom": true,
+            "randomTimes": 256
+          },
+          "action": {
+            "effectId": "liquid_paticular",
+            "offsetX": [ 6, 10 ],
+            "offsetY": [ -4, 0 ],
+            "speedX": [ -0.25, 0.25 ],
+            "speedY": [ -2.0 ],
+            "rotateSpeed": [ -0.05, 0.05 ],
+            "scale": [ 0.5 ],
+            "alpha": [ 1.0 ],
+            "color": [ 255, 255, 255, 0 ]
+          }
+        }
+      ]
+    },
+    {
+      "campfire_particle": [
+        {
+          "condition": {
+            "checkInterval": true,
+            "intervalTime": 32
+          },
+          "action": {
+            "effectId": "fire_smoke",
+            "offsetX": [ 10, 22 ],
+            "offsetY": [ 4, 12 ],
+            "speedX": [ -0.25, 0.25 ],
+            "speedY": [ -2.0 ],
+            "rotateSpeed": [ -0.05, 0.05 ],
+            "scale": [ 1.8, 2.2 ],
+            "alpha": [ 0.8 ],
+            "color": [ 255, 255, 255, 255 ]
+          }
+        },
+        {
+          "condition": {
+            "checkRandom": true,
+            "randomTimes": 256
+          },
+          "action": {
+            "effectId": "liquid_paticular",
+            "offsetX": [ 10, 22 ],
+            "offsetY": [ 4, 12 ],
+            "speedX": [ -1.25, 1.25 ],
+            "speedY": [ -2.0 ],
+            "rotateSpeed": [ -0.05, 0.05 ],
+            "scale": [ 0.5 ],
+            "alpha": [ 1.0 ],
+            "color": [ 255, 255, 255, 0 ]
+          }
+        }
+      ]
+    },
+    {
+      "end_rod_particle": [
+        {
+          "condition": {
+            "checkRandom": true,
+            "randomTimes": 256
+          },
+          "action": {
+            "effectId": "liquid_paticular",
+            "offsetX": [ 6, 10 ],
+            "offsetY": [ 6, 10 ],
+            "speedX": [ -1.25, 1.25 ],
+            "speedY": [ -2.0, 0.0 ],
+            "rotateSpeed": [ -0.05, 0.05 ],
+            "scale": [ 0.85, 1.0 ],
+            "alpha": [ 1.0 ],
+            "color": [ 255, 255, 255, 255 ]
+          }
+        }
+      ]
+    },
+    {
+      "ore_particle": [
+        {
+          "condition": {
+            "checkRandom": true,
+            "randomTimes": 512,
+            "checkLighting": true,
+            "lightingArea": [ 18, 32 ]
+          },
+          "action": {
+            "effectId": "flash",
+            "offsetX": [ 0, 16 ],
+            "offsetY": [ 0, 16 ],
+            "speedX": [ 0.0 ],
+            "speedY": [ 0.0 ],
+            "rotateSpeed": [ 0.0 ],
+            "scale": [ 2.0 ],
+            "alpha": [ 1.0 ],
+            "color": [ 255, 255, 255, 255 ]
+          }
+        }
+      ]
+    },
+    {
+      "furnace_particle": [
+        {
+          "condition": {
+            "checkInterval": true,
+            "intervalTime": 16,
+            "checkAnimation": true,
+            "animationIndex": 1
+          },
+          "action": {
+            "effectId": "fire",
+            "offsetX": [ 18, 30 ],
+            "offsetY": [ 20, 28 ],
+            "speedX": [ 0.0 ],
+            "speedY": [ 0.0 ],
+            "rotateSpeed": [ 0.0 ],
+            "scale": [ 0.8, 1.2 ],
+            "alpha": [ 1.0 ],
+            "color": [ 255, 255, 255, 255 ]
+          }
+        },
+        {
+          "condition": {
+            "checkInterval": true,
+            "intervalTime": 32,
+            "checkAnimation": true,
+            "animationIndex": 1
+          },
+          "action": {
+            "effectId": "fire_smoke",
+            "offsetX": [ 22, 26 ],
+            "offsetY": [ 20, 28 ],
+            "speedX": [ -0.25, 0.25 ],
+            "speedY": [ -0.5 ],
+            "rotateSpeed": [ -0.05, 0.05 ],
+            "scale": [ 0.9, 1.5 ],
+            "alpha": [ 1.0 ],
+            "color": [ 255, 255, 255, 255 ]
+          }
+        }
+      ]
+    }
+  ],
+  "growGroups": [
+    {
+      "NORMAL_GROUP": [
+        [ "grass", 100 ],
+        [ "grass", 100 ],
+        [ "dandelion", 10 ],
+        [ "allium", 10 ],
+        [ "sunflower", 5 ],
+        [ "brown_mushroom", 20 ],
+        [ "red_mushroom", 20 ],
+        [ "large_brown_mushroom", 5 ],
+        [ "large_red_mushroom", 5 ],
+        [ "lilac", 5 ],
+        [ "red_tulip", 8 ],
+        [ "white_tulip", 8 ],
+        [ "orange_tulip", 8 ],
+        [ "pink_tulip", 8 ],
+        [ "azure_bluet", 8 ],
+        [ "blue_orchid", 8 ],
+        [ "fern", 6 ],
+        [ "peony", 5 ],
+        [ "rose_bush", 5 ],
+        [ "poppy", 8 ]
+      ]
+    },
+    {
+      "TAINTED_GROUP": [
+        [ "tainted_grass", 10 ]
+      ]
+    },
+    {
+      "FLESH_GROUP": [
+        [ "blood_grass", 10 ]
+      ]
+    }
+  ],
+  "hangGrowGroups": [
+    {
+      "NORMAL_GROUP": [
+        [ "vine", 10 ]
+      ]
+    },
+    {
+      "TAINTED_GROUP": [
+        [ "tainted_vine", 10 ]
+      ]
+    },
+    {
+      "FLESH_GROUP": [
+        [ "eyeball_vine", 10 ]
+      ]
+    }
+  ],
+  "farmGroups": [
+    {
+      "FARMLAND_GROUP": [
+        "melon_seed",
+        "pumpkin_seed",
+        "seed",
+        "sugar_cane",
+        "carrot",
+        "potato"
+      ]
+    },
+    {
+      "SAND_GROUP": [
+        "sugar_cane"
+      ]
+    },
+    {
+      "SOULSAND_GROUP": [
+        "nether_wart"
+      ]
+    }
+  ],
+  "placeChecks": [
+    {
+      "PLACE_TREE_CHECK": {
+        "bottomBlocks": [],
+        "topBlocks": []
+      }
+    },
+    {
+      "PLACE_PLANT_CHECK": {
+        "bottomBlocks": [],
+        "topBlocks": []
+      }
+    },
+    {
+      "PLACE_VINE_CHECK": {
+        "bottomBlocks": [],
+        "topBlocks": [
+          "dirt",
+          "coarse_dirt",
+          "tainted_dirt",
+          "tainted_stone",
+          "flesh_dirt"
+        ]
+      }
+    },
+    {
+      "PLACE_STONE_DECO_CHECK": {
+        "bottomBlocks": [
+          "cobblestone",
+          "stone"
+        ],
+        "topBlocks": [
+          "cobblestone",
+          "stone"
+        ]
+      }
+    },
+    {
+      "PLACE_ICE_DECO_CHECK": {
+        "bottomBlocks": [
+          "snow",
+          "snow_soft",
+          "ice_cobblestone",
+          "ice_cobblestone_hard"
+        ],
+        "topBlocks": [
+          "snow",
+          "snow_soft",
+          "ice_cobblestone",
+          "ice_cobblestone_hard"
+        ]
+      }
+    },
+    {
+      "PLACE_JUNGLE_DECO_CHECK": {
+        "bottomBlocks": [
+          "dirt",
+          "coarse_dirt"
+        ],
+        "topBlocks": [
+          "dirt",
+          "coarse_dirt"
+        ]
+      }
+    },
+    {
+      "PLACE_SAND_DECO_CHECK": {
+        "bottomBlocks": [
+          "sandstone",
+          "red_sand_stone"
+        ],
+        "topBlocks": [
+          "sandstone",
+          "red_sand_stone"
+        ]
+      }
+    },
+    {
+      "PLACE_TAINTED_DECO_CHECK": {
+        "bottomBlocks": [
+          "tainted_dirt",
+          "tainted_stone"
+        ],
+        "topBlocks": [
+          "tainted_dirt",
+          "tainted_stone"
+        ]
+      }
+    },
+    {
+      "PLACE_WASTE_DECO_CHECK": {
+        "bottomBlocks": [
+          "red_sand_stone"
+        ],
+        "topBlocks": [
+          "red_sand_stone"
+        ]
+      }
+    },
+    {
+      "PLACE_UNDERWATER_CHECK": {
+        "bottomBlocks": [
+          "sandstone"
+        ],
+        "topBlocks": []
+      }
+    },
+    {
+      "PLACE_ANDESITE_DECO_CHECK": {
+        "bottomBlocks": [
+          "andesite"
+        ],
+        "topBlocks": [
+          "andesite"
+        ]
+      }
+    },
+    {
+      "PLACE_DIORITE_DECO_CHECK": {
+        "bottomBlocks": [
+          "diorite"
+        ],
+        "topBlocks": [
+          "diorite"
+        ]
+      }
+    },
+    {
+      "PLACE_GRANITE_DECO_CHECK": {
+        "bottomBlocks": [
+          "granite"
+        ],
+        "topBlocks": [
+          "granite"
+        ]
+      }
+    },
+    {
+      "PLACE_OBSIDIAN_DECO_CHECK": {
+        "bottomBlocks": [
+          "obsidian"
+        ],
+        "topBlocks": [
+          "obsidian"
+        ]
+      }
+    },
+    {
+      "PLACE_MUSHROOM_CHECK": {
+        "bottomBlocks": [
+          "brown_mushroom_block",
+          "red_mushroom_block",
+          "mycelium"
+        ],
+        "topBlocks": []
+      }
+    },
+    {
+      "PLACE_BLUE_MUSHROOM_CHECK": {
+        "bottomBlocks": [
+          "blue_mushroom_dirt",
+          "blue_mushroom_stem"
+        ],
+        "topBlocks": []
+      }
+    }
+  ],
+  "ores": {
+    "none": [],
+    "default": [
+      {
+      "oreId": "ore_iron",
+      "density": 625,
+      "radius": 4,
+      "startYi": 400,
+      "endYi": 2560
+    },
+    {
+      "oreId": "ore_gold",
+      "density": 312,
+      "radius": 5,
+      "startYi": 1000,
+      "endYi": 2560
+    },
+    {
+      "oreId": "ore_coal",
+      "density": 500,
+      "radius": 5,
+      "startYi": 400,
+      "endYi": 2560
+    },
+    {
+      "oreId": "ore_diamond",
+      "density": 230,
+      "radius": 2,
+      "startYi": 1400,
+      "endYi": 2560
+    },
+    {
+      "oreId": "ore_emerald",
+      "density": 190,
+      "radius": 2,
+      "startYi": 1000,
+      "endYi": 2560
+    },
+    {
+      "oreId": "ore_lapis",
+      "density": 320,
+      "radius": 3,
+      "startYi": 1200,
+      "endYi": 2560
+    },
+    {
+      "oreId": "ore_redstone",
+      "density": 850,
+      "radius": 4,
+      "startYi": 1800,
+      "endYi": 2560
+    },
+    {
+      "oreId": "ore_copper",
+      "density": 700,
+      "radius": 4,
+      "startYi": 300,
+      "endYi": 2560
+    },
+    {
+      "oreId": "ore_tin",
+      "density": 650,
+      "radius": 4,
+      "startYi": 300,
+      "endYi": 2560
+    },
+    {
+      "oreId": "ore_lead",
+      "density": 550,
+      "radius": 4,
+      "startYi": 600,
+      "endYi": 2560
+    },
+    {
+      "oreId": "ore_silver",
+      "density": 800,
+      "radius": 4,
+      "startYi": 1200,
+      "endYi": 2560
+    },
+    {
+      "oreId": "ore_ancient_debris",
+      "density": 180,
+      "radius": 3,
+      "startYi": 2560,
+      "endYi": 3072
+    },
+    {
+      "oreId": "ore_nether_quartz",
+      "density": 600,
+      "radius": 4,
+      "startYi": 2560,
+      "endYi": 3072
+    }
+    ]
+  },
+  "groups": [
+    "ORE_GOLD",
+    "ORE_DIAMOND",
+    "ORE_REDSTONE",
+    "ORE_IRON",
+    "ORE_EMERALD",
+    "ORE_LAPIS",
+    "ORE_COAL",
+    "MUSHROOM",
+    "DIRT",
+    "COARSE_DIRT",
+    "TAINTED_DIRT",
+    "COBBLESTONE",
+    "TAINTED_STONE",
+    "STONE",
+    "OBSIDIAN",
+    "PRISMARINE",
+    "DIORITE",
+    "GRANITE",
+    "ANDESITE",
+    "GRAVEL",
+    "CLAY",
+    "SNOW",
+    "ICE",
+    "SAND",
+    "REDSAND",
+    "FLESH_DIRT",
+    "FLESH_STONE",
+    "FLESH_GUT",
+    "MYCELIUM",
+    "GLOWSTONE",
+    "SOUL_SAND",
+    "NETHERRACK",
+    "MAGMA_BLOCK",
+    "ENDSTONE",
+    "ICECOBBLESTONE",
+    "SANDSTONE",
+    "RED_SAND_STONE",
+    "SPONGE",
+    "SLIME_BLOCK",
+    "THRON",
+    "STONE_BRICK",
+    "SANDSTONE_CARVED",
+    "SANDSTONE_SMOOTH",
+    "WOOD_A",
+    "WOOD_B",
+    "ARTIFICAL",
+    "PLATFORM",
+    "FENCE",
+    "BAR",
+    "GLASS",
+    "FURNITURE_ALL",
+    "TREE_ALL"
+  ],
+  "subGroups": [
+    "BED",
+    "CLOSED_DOOR",
+    "OPENED_DOOR",
+    "BOOKCASE",
+    "PRESSURE_PLATE",
+    "WOOD",
+    "LOG"
+  ]
+}

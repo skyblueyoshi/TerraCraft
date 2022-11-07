@@ -1,0 +1,25 @@
+{
+	"gore_mad_skeleton_tall_armed": {
+		"ai": "Gore", 
+			"textureData" : "mad_skeleton_tall_armed.png", 
+			"width" : 20, 
+			"height" : 20, 
+			"gfxOffsetX" : -3, 
+			"gfxOffsetY" : -2, 
+			"gfxWidth" : 26, 
+			"gfxHeight" : 24, 
+			"frameStyle" : 0, 
+			"frameStyles" : 1, 
+			"frames" : 1, 
+			"frameSpeed" : 8, 
+			"disappearTime" : 600, 
+			"isForeground" : false, 
+			"gravity" : true, 
+			"collisionWithBlocks" : true, 
+			"fixByBlocks" : true, 
+			"fadeScale" : false, 
+			"fadeAlpha" : false, 
+			"slowSpeed" : false, 
+			"slowRotateSpeed" : false
+	}
+}

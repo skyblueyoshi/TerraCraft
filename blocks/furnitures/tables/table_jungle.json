@@ -1,0 +1,31 @@
+{
+  "block": {
+    "table_jungle": {
+      "textureData": "wooden_table_jungle.png",
+      "color": [ 137, 110, 92 ],
+      "type": "FURNITURE",
+      "width": 3,
+      "height": 2,
+      "collision": "PLATFORM",
+      "attach": "BOTTOM",
+      "attachable": "TOP",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 140,
+      "slipperiness": 1.0,
+      "isKilledByLava": true,
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 100, 70, 50 ]
+    }
+  },
+  "item": {
+    "table_jungle": {
+      "type": "BLOCKS",
+      "iconTextureData": "wooden_table_jungle.png",
+      "group": "GROUP_WOODEN_TABLE",
+      "blockId": "table_jungle",
+      "fuelTime": 60
+    }
+  }
+}

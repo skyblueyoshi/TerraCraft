@@ -1,0 +1,10 @@
+
+{
+  "sugar_cane": {
+    "type": "BLOCKS",
+    "iconTextureData": "sugar_cane_icon.png",
+    "group": "GROUP_SEED",
+    "isSeed": true,
+    "blockId": "sugar_cane"
+  }
+}

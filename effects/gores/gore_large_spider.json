@@ -1,0 +1,25 @@
+{
+	"gore_large_spider": {
+		"ai": "Gore", 
+			"textureData" : "large_spider.png", 
+			"width" : 20, 
+			"height" : 20, 
+			"gfxOffsetX" : -2, 
+			"gfxOffsetY" : 0, 
+			"gfxWidth" : 24, 
+			"gfxHeight" : 20, 
+			"frameStyle" : 0, 
+			"frameStyles" : 1, 
+			"frames" : 1, 
+			"frameSpeed" : 8, 
+			"disappearTime" : 600, 
+			"isForeground" : false, 
+			"gravity" : true, 
+			"collisionWithBlocks" : true, 
+			"fixByBlocks" : true, 
+			"fadeScale" : false, 
+			"fadeAlpha" : false, 
+			"slowSpeed" : false, 
+			"slowRotateSpeed" : false
+	}
+}

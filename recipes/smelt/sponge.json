@@ -1,0 +1,13 @@
+
+{
+  "config": "Smelt",
+  "pattern": [ "A" ],
+  "results": [
+    {
+      "id": "sponge",
+      "stackSize": 1
+    }
+  ],
+  "elements": [ [ "A", "wet_sponge" ] ],
+  "exData": { "time": 40 }
+}

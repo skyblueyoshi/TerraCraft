@@ -1,0 +1,9 @@
+
+{
+  "wither": {
+    "textureData": "wither.png",
+    "script": {
+      "path": "wither.lua"
+    }
+  }
+}

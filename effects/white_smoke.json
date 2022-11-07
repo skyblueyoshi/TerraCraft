@@ -1,0 +1,26 @@
+
+{
+  "white_smoke": {
+    "ai": "Smoke",
+    "textureData": "white_smoke.png",
+    "width": 32,
+    "height": 32,
+    "gfxOffsetX": 0,
+    "gfxOffsetY": 0,
+    "gfxWidth": 32,
+    "gfxHeight": 32,
+    "frameStyle": 0,
+    "frameStyles": 3,
+    "frames": 1,
+    "frameSpeed": 8,
+    "disappearTime": 60,
+    "isForeground": true,
+    "gravity": false,
+    "collisionWithBlocks": false,
+    "fixByBlocks": false,
+    "fadeScale": true,
+    "fadeAlpha": true,
+    "slowSpeed": true,
+    "slowRotateSpeed": true
+  }
+}

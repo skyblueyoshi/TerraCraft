@@ -1,0 +1,10 @@
+
+{
+  "Shooter": {
+    "entityId": "Shooter",
+    "pOnActivated": "ShooterActivated",
+    "pOnPlaced": "ShooterPlaced",
+    "pOnDestroy": "ShooterDestroy",
+    "pOnClicked": "ClickShooter"
+  }
+}

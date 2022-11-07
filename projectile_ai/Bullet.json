@@ -1,0 +1,8 @@
+
+{
+  "Bullet": {
+    "script": {
+      "path": "Bullet.lua"
+    }
+  }
+}

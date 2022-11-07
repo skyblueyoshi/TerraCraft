@@ -1,0 +1,35 @@
+{
+  "block": {
+    "stained_glass_purple": {
+      "textureData": "stained_glass_purple.png",
+      "color": [ 90, 114, 204 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 4,
+      "type": "TILE",
+      "group": "GLASS",
+      "collision": "SOLID",
+      "lightOpacity": 1,
+      "lightTransparent": true,
+      "toolType": "PICKAXE",
+      "mineGrade": "GRASS",
+      "hardness": 50,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": false,
+      "wallCheck": "NO_GENERABLE",
+      "soundGroupId": "glass",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 60, 30, 120 ]
+    }
+  },
+  "item": {
+    "stained_glass_purple": {
+      "type": "BLOCKS",
+      "iconTextureData": "stained_glass_purple_icon.png",
+      "group": "GROUP_GLASS",
+      "blockId": "stained_glass_purple",
+      "oreDictionary": [ "OD_GLASS" ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "fire_boomerang",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "OAB",
+    "AOO",
+    "OAB"
+  ],
+  "elements": [
+    [ "A", "tin_ingot" ],
+    [ "B", "blaze_rod" ]
+  ]
+}

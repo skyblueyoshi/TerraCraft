@@ -1,0 +1,22 @@
+{
+  "block": {
+    "stone_decos_mossy": {
+      "textureData": "stone_decos_mossy.png",
+      "color": [ 106, 66, 55 ],
+      "type": "FURNITURE",
+      "width": 3,
+      "height": 2,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "toolType": "PICKAXE",
+      "mineGrade": "WOOD",
+      "hardness": 200,
+      "slipperiness": 1.0,
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 100, 140, 110 ],
+      "preset": "RandomDisplay"
+    }
+  }
+}

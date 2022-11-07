@@ -1,0 +1,24 @@
+
+{
+  "rocket": {
+    "ai": "Rocket",
+    "textureData": "rocket.png",
+    "width": 28,
+    "height": 20,
+    "gfxWidth": 28,
+    "gfxHeight": 20,
+    "gfxOffsetX": 0,
+    "gfxOffsetY": 0,
+    "hots": [ [ 0, 10 ] ],
+    "frameStyle": 1,
+    "frames": 1,
+    "frameSpeed": 8,
+    "shape": "ROTATED_BOX",
+    "maxSpeed": 6.0,
+    "gravity": true,
+    "foreground": false,
+    "fixByBlocks": false,
+    "througthBlock": false,
+    "keepStrick": true
+  }
+}

@@ -1,0 +1,9 @@
+
+{
+  "Grenade": {
+    "defaultAI": "Bomb",
+    "script": {
+      "path": "Grenade.lua"
+    }
+  }
+}

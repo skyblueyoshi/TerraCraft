@@ -1,0 +1,406 @@
+
+{
+  "desert_house": {
+    "maxGenPartCount": 1,
+    "limitSize": 100,
+    "blockEntityFormat": {
+      "normal_reward": {
+        "formatId": "tc:common_rewards",
+        "data": {
+          "rareGenCount": 1,
+          "rares": [],
+          "normals": [
+            {
+              "itemIds": [ "water_staff", "amethyst_staff" ],
+              "rate": 0.54,
+              "min": 1,
+              "max": 1
+            },
+            {
+              "itemIds": [ "ender_pearl" ],
+              "rate": 0.3,
+              "min": 1,
+              "max": 2
+            },
+            {
+              "itemIds": [ "bread" ],
+              "rate": 0.40,
+              "min": 1,
+              "max": 4
+            },
+            {
+              "itemIds": [ "iron_ingot", "copper_ingot", "tin_ingot", "lead_ingot" ],
+              "rate": 0.2,
+              "min": 1,
+              "max": 3
+            },
+            {
+              "itemIds": [ "emerald" ],
+              "rate": 0.15,
+              "min": 1,
+              "max": 1
+            },
+            {
+              "itemIds": [ "iron_helmet" ],
+              "rate": 0.15,
+              "min": 1,
+              "max": 1
+            },
+            {
+              "itemIds": [ "iron_chestplate" ],
+              "rate": 0.15,
+              "min": 1,
+              "max": 1
+            },
+            {
+              "itemIds": [ "iron_leggings" ],
+              "rate": 0.15,
+              "min": 1,
+              "max": 1
+            },
+            {
+              "itemIds": [ "raw_porkchop" ],
+              "rate": 0.24,
+              "min": 1,
+              "max": 3
+            },
+            {
+              "itemIds": [ "raw_mutton" ],
+              "rate": 0.24,
+              "min": 1,
+              "max": 3
+            },
+            {
+              "itemIds": [ "raw_beef" ],
+              "rate": 0.24,
+              "min": 1,
+              "max": 3
+            },
+            {
+              "itemIds": [ "wheat" ],
+              "rate": 0.24,
+              "min": 1,
+              "max": 3
+            },
+            {
+              "itemIds": [ "coal", "charcoal" ],
+              "rate": 0.13,
+              "min": 1,
+              "max": 3
+            },
+            {
+              "itemIds": [ "paper", "book" ],
+              "rate": 0.3,
+              "min": 1,
+              "max": 5
+            },
+            {
+              "itemIds": [ "stick" ],
+              "rate": 0.3,
+              "min": 1,
+              "max": 2
+            },
+            {
+              "itemIds": [ "sapling_oak" ],
+              "rate": 0.2,
+              "min": 1,
+              "max": 2
+            },
+            {
+              "itemIds": [ "raw_salmon" ],
+              "rate": 0.2,
+              "min": 1,
+              "max": 3
+            },
+            {
+              "itemIds": [ "raw_cod" ],
+              "rate": 0.2,
+              "min": 1,
+              "max": 3
+            },
+            {
+              "itemIds": [ "bucket_water" ],
+              "rate": 0.2,
+              "min": 1,
+              "max": 3
+            },
+            {
+              "itemIds": [ "feather" ],
+              "rate": 0.25,
+              "min": 1,
+              "max": 3
+            },
+            {
+              "itemIds": [ "wooden_arrow" ],
+              "rate": 0.12,
+              "min": 1,
+              "max": 3
+            },
+            {
+              "itemIds": [ "dye_yellow" ],
+              "rate": 0.12,
+              "min": 1,
+              "max": 1
+            },
+            {
+              "itemIds": [ "dye_green" ],
+              "rate": 0.12,
+              "min": 1,
+              "max": 1
+            }
+          ]
+        }
+      }
+    },
+    "commandColors": [
+      {
+        "color": [ 255, 64, 64, 64 ],
+        "note": "无操作",
+        "command": [
+          [ "BC_NO_OP" ]
+        ]
+      },
+      {
+        "color": [ 255, 192, 192, 192 ],
+        "note": "前景记号"
+      },
+      {
+        "color": [ 255, 0, 0, 0 ],
+        "note": "空气",
+        "command": [
+          [ "BC_CLEAR_LAKE" ],
+          [ "BC_CLEAR" ]
+        ]
+      },
+      {
+        "color": [ 255, 0, 64, 255 ],
+        "pipe": true
+      },
+
+
+
+
+      {
+        "color": [ 255, 255, 255, 0 ],
+        "note": "火把",
+        "command": [
+          [ "BC_PLACE_FURNITURE", "torch", 0 ]
+        ]
+      },
+      {
+        "color": [ 255, 130, 0, 0 ],
+        "note": "桶",
+        "command": [
+          [ "BC_PLACE_FURNITURE", "barrel", 0, "normal_reward" ]
+        ]
+      },
+      {
+        "color": [ 255, 0, 200, 0 ],
+        "note": "罐子",
+        "command": [
+          [ "BC_PLACE_FURNITURE", "pot", 2 ]
+        ]
+      },
+      {
+        "color": [ 255, 0, 255, 255 ],
+        "note": "箱子",
+        "command": [
+          [ "BC_PLACE_FURNITURE", "chest", 0, "normal_reward" ]
+        ]
+      },
+      {
+        "color": [ 255, 102, 102, 204 ],
+        "note": "橡木门",
+        "command": [
+          [ "BC_PLACE_FURNITURE", "wooden_door_birch" ]
+        ]
+      },
+      {
+        "color": [ 255, 255, 0, 255 ],
+        "note": "平台",
+        "command": [
+          [ "BC_PLACE_TILE", "platform_sandstone" ]
+        ]
+      },
+      {
+        "color": [ 255, 0, 255, 0 ],
+        "note": "吊灯",
+        "command": [
+          [ "BC_PLACE_FURNITURE", "fire_lamp" ]
+        ]
+      },
+      {
+        "color": [ 255, 128, 64, 32 ],
+        "note": "熔炉",
+        "command": [
+          [ "BC_PLACE_FURNITURE", "furnace" ]
+        ]
+      },
+      {
+        "color": [ 255, 255, 0, 0 ],
+        "note": "桌子",
+        "command": [
+          [ "BC_PLACE_FURNITURE", "table_birch" ]
+        ]
+      },
+      {
+        "color": [ 255, 128, 0, 0 ],
+        "note": "椅子",
+        "command": [
+          [ "BC_PLACE_FURNITURE", "chair_birch", 1 ]
+        ]
+      },
+      {
+        "color": [ 255, 160, 0, 0 ],
+        "note": "椅子",
+        "command": [
+          [ "BC_PLACE_FURNITURE", "chair_birch", 0 ]
+        ]
+      },
+      {
+        "color": [ 255, 0, 128, 255 ],
+        "note": "床",
+        "command": [
+          [ "BC_PLACE_FURNITURE", "wooden_bed_red", 0 ]
+        ]
+      },
+      {
+        "color": [ 255, 100, 100, 0 ],
+        "note": "书架",
+        "command": [
+          [ "BC_PLACE_FURNITURE", "bookcase_birch", 0, "normal_reward" ]
+        ]
+      },
+      {
+        "color": [ 255, 200, 200, 0 ],
+        "note": "桌柜",
+        "command": [
+          [ "BC_PLACE_FURNITURE", "cabinet_birch", 0, "normal_reward" ]
+        ]
+      },
+      {
+        "color": [ 255, 200, 200, 120 ],
+        "note": "蜡烛",
+        "command": [
+          [ "BC_PLACE_FURNITURE", "candle" ]
+        ]
+      },
+      {
+        "color": [ 255, 0, 130, 0 ],
+        "note": "长凳",
+        "command": [
+          [ "BC_PLACE_FURNITURE", "bench_birch" ]
+        ]
+      },
+
+
+
+
+      {
+        "color": [ 255, 50, 50, 100 ],
+        "note": "有空气就放水",
+        "command": [
+          [ "BC_PLACE_LIQUID", "water" ]
+        ]
+      },
+      {
+        "color": [ 255, 54, 40, 27 ],
+        "note": "有空气就放沙石",
+        "command": [
+          [ "BC_CLEAR_FURNITURE" ],
+          [ "BC_PLACE_TILE", "sandstone" ]
+        ]
+      },
+      {
+        "color": [ 255, 120, 30, 30 ],
+        "note": "主前景1",
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_BACK", "sandstone_smooth", 1 ],
+          [ "BC_PLACE_TILE", "sandstone_smooth" ]
+        ]
+      },
+      {
+        "color": [ 255, 40, 0, 0 ],
+        "note": "主后景1",
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_BACK", "sandstone_smooth", 1 ]
+        ]
+      },
+      {
+        "color": [ 255, 100, 100, 100 ],
+        "note": "木板前景",
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_BACK", "plank_spruce", 1 ],
+          [ "BC_PLACE_TILE", "plank_spruce" ]
+        ]
+      },
+      {
+        "color": [ 255, 10, 10, 10 ],
+        "note": "木板后景",
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_BACK", "fence_spruce", 1 ]
+        ]
+      },
+      {
+        "color": [ 255, 222, 222, 244 ],
+        "note": "玻璃后景",
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_BACK", "glass", 1 ]
+        ]
+      },
+
+      {
+        "color": [ 255, 128, 64, 64 ],
+        "note": "木头前景",
+        "command": [
+          [ "BC_CLEAR" ],
+          [ "BC_PLACE_BACK", "plank_dark_oak", 1 ],
+          [ "BC_PLACE_TILE", "plank_dark_oak" ]
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "name": "entrance",
+        "image": [ "entrance", "entrance_o1" ],
+        "type": "PT_START",
+        "hotX": 50,
+        "hotY": 55,
+        "unlinkParts": [ "entrance" ],
+        "weight": 10
+      },
+      {
+        "name": "entrance2",
+        "image": [ "entrance2", "entrance2_o1" ],
+        "type": "PT_START",
+        "hotX": 50,
+        "hotY": 55,
+        "unlinkParts": [ "entrance2" ],
+        "weight": 100
+      },
+      {
+        "name": "entrance3",
+        "image": [ "entrance3", "entrance3_o1" ],
+        "type": "PT_START",
+        "hotX": 50,
+        "hotY": 55,
+        "unlinkParts": [ "entrance3" ],
+        "weight": 10
+      },
+      {
+        "name": "entrance4",
+        "image": [ "entrance4", "entrance4_o1" ],
+        "type": "PT_START",
+        "hotX": 50,
+        "hotY": 55,
+        "unlinkParts": [ "entrance4" ],
+        "weight": 10
+      }
+    ]
+  }
+}

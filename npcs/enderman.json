@@ -1,0 +1,60 @@
+
+{
+  "enderman": {
+    "ai": "Enderman",
+    "textureData": "enderman.png",
+    "type": "NORMAL",
+    "width": 24,
+    "height": 64,
+    "gfxWidth": 48,
+    "gfxHeight": 48,
+    "gfxOffsetX": 4,
+    "gfxOffsetY": 10,
+    "frameStyle": 1,
+    "frames": 4,
+    "frameSpeed": 6,
+    "shape": "BOX",
+    "maxSpeed": 2.0,
+    "jumpForce": 8.0,
+    "disappearTime": 750,
+    "spawnCount": 1.0,
+    "health": 80,
+    "defense": 9,
+    "attack": 18,
+    "knockBack": 5,
+    "knockBackDefense": 0.30,
+    "gravity": true,
+    "climbWall": false,
+    "foreground": false,
+    "noFixByBlock": false,
+    "friendly": true,
+    "exps": 15,
+    "sunBurning": false,
+    "angry": true,
+    "antiLava": false,
+    "saySounds": [
+      "enderman_idle1",
+      "enderman_idle2",
+      "enderman_idle3"
+    ],
+    "hurtSounds": [
+      "enderman_death",
+      "enderman_hit1",
+      "enderman_hit2",
+      "enderman_hit3"
+    ],
+    "loots": [
+      {
+        "item": "ender_pearl",
+        "count": [ 1, 3 ]
+      }
+    ],
+    "special": 0,
+    "paticularColor": [ 255, 50, 50, 50 ],
+    "spawn": "LAND",
+    "gore": "gore_enderman",
+    "magicRate": 20,
+    "checkPlayerTarget": false,
+    "visionNoCrossTile": false
+  }
+}

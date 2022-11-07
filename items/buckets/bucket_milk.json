@@ -1,0 +1,9 @@
+
+{
+  "bucket_milk": {
+    "type": "MATERIALS",
+    "iconTextureData": "bucket_milk_icon.png",
+    "group": "GROUP_BUCKET",
+    "eatReturnId": "bucket_empty"
+  }
+}

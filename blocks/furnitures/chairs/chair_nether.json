@@ -1,0 +1,32 @@
+{
+  "block": {
+    "chair_nether": {
+      "textureData": "chair_nether.png",
+      "color": [ 73, 29, 34 ],
+      "type": "FURNITURE",
+      "width": 1,
+      "height": 2,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "toolType": "PICKAXE",
+      "mineGrade": "GRASS",
+      "hardness": 80,
+      "slipperiness": 1.0,
+      "isKilledByLava": false,
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 73, 29, 34 ],
+      "preset": "Facing"
+    }
+  },
+  "item": {
+    "chair_nether": {
+      "type": "BLOCKS",
+      "iconTextureData": "chair_nether_icon.png",
+      "group": "GROUP_WOODEN_CHAIR",
+      "blockId": "chair_nether",
+      "antiLava": true
+    }
+  }
+}

@@ -1,0 +1,13 @@
+
+{
+  "silver_leggings": {
+    "type": "TOOLS",
+    "iconTextureData": "silver_leggings_icon.png",
+    "textureData": "leg.png",
+    "group": "GROUP_LEGGINGS",
+    "toolType": "LEGGINGS",
+    "isArmor": true,
+    "defense": 5,
+    "durable": 788
+  }
+}

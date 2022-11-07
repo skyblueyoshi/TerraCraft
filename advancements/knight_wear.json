@@ -1,0 +1,9 @@
+
+{
+  "knight_wear": {
+    "itemId": "knight_helmet",
+    "parentId": "knight_ingot",
+    "showTip": true,
+    "broadcase": true
+  }
+}

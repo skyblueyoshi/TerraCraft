@@ -1,0 +1,20 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "blood_bow",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "BAC",
+    "AOC",
+    "BAC"
+  ],
+  "elements": [
+    [ "A", "copper_ingot" ],
+    [ "B", "rotten_flesh" ],
+    [ "C", "string" ]
+  ]
+}

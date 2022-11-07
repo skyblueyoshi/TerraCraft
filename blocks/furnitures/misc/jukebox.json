@@ -1,0 +1,29 @@
+{
+  "block": {
+    "jukebox": {
+      "textureData": "jukebox.png",
+      "color": [ 222, 100, 62 ],
+      "type": "FURNITURE",
+      "width": 3,
+      "height": 3,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 120,
+      "slipperiness": 1.0,
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 200, 100, 60 ]
+    }
+  },
+  "item": {
+    "jukebox": {
+      "type": "MATERIALS",
+      "iconTextureData": "jukebox.png",
+      "group": "GROUP_OTHERS_FURNITURE",
+      "onTest": true
+    }
+  }
+}

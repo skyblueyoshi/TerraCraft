@@ -1,0 +1,22 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "shot_bow",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "AAA",
+    "CDC",
+    "OBO"
+  ],
+  "elements": [
+    [ "A", "gold_ingot" ],
+    [ "B", "stick" ],
+    [ "C", "string" ],
+    [ "D", "cross_bow" ]
+  ],
+  "importantElements": [ "A", "D" ]
+}

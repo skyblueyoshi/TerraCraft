@@ -1,0 +1,7 @@
+
+{
+  "Torch": {
+    "pOnDraw": "DrawTorch",
+    "noSmartAct": true
+  }
+}

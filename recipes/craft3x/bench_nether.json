@@ -1,0 +1,19 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "bench_nether",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "AAA",
+    "BOB",
+    "OOO"
+  ],
+  "elements": [
+    [ "A", "nether_brick" ],
+    [ "B", "platform_nether_brick" ]
+  ]
+}

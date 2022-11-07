@@ -1,0 +1,11 @@
+
+{
+  "BlazeRod": {
+    "script": {
+      "path": "BlazeRod.lua"
+    },
+    "modData": [
+      [ "int", "beginDir" ]
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+
+{
+  "heart_of_sea": {
+    "type": "MATERIALS",
+    "iconTextureData": "heart_of_sea_icon.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

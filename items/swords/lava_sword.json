@@ -1,0 +1,22 @@
+
+{
+  "lava_sword": {
+    "type": "TOOLS",
+    "iconTextureData": "lava_sword.png",
+    "textureData": "lava_sword.png",
+    "group": "GROUP_SWORD",
+    "oreDictionary": [ "OD_SWORD" ],
+    "toolType": "SWORD",
+    "ai": "LavaSword",
+    "coldTime": 24,
+    "entityWidth": 22,
+    "entityHeight": 56,
+    "handX": 10,
+    "handY": 48,
+    "holdType": "NORMAL",
+    "durable": 412,
+    "damage": 12,
+    "knockBack": 3,
+    "crit": 4
+  }
+}

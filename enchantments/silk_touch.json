@@ -1,0 +1,14 @@
+{
+  "silk_touch": {
+    "noCreating": false,
+    "minCreatingLevel": 29,
+    "allowMaxLevel": 2,
+    "tool": [
+      "AXE",
+      "PICKAXE"
+    ],
+    "conflict": [
+      "fortune"
+    ]
+  }
+}

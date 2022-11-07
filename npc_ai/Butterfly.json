@@ -1,0 +1,8 @@
+
+{
+  "Butterfly": {
+    "script": {
+      "path": "Butterfly.lua"
+    }
+  }
+}

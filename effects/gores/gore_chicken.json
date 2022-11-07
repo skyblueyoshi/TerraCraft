@@ -1,0 +1,26 @@
+
+{
+  "gore_chicken": {
+    "ai": "Gore",
+    "textureData": "chicken.png",
+    "width": 14,
+    "height": 14,
+    "gfxOffsetX": -2,
+    "gfxOffsetY": 0,
+    "gfxWidth": 18,
+    "gfxHeight": 14,
+    "frameStyle": 0,
+    "frameStyles": 1,
+    "frames": 1,
+    "frameSpeed": 8,
+    "disappearTime": 600,
+    "isForeground": false,
+    "gravity": true,
+    "collisionWithBlocks": true,
+    "fixByBlocks": true,
+    "fadeScale": false,
+    "fadeAlpha": false,
+    "slowSpeed": false,
+    "slowRotateSpeed": false
+  }
+}

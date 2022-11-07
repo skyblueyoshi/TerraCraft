@@ -1,0 +1,505 @@
+
+{
+  "desert": {
+    "biomeType": "Surface",
+    "dayLight": 1.0,
+    "skyColor": {
+      "midDayTopColor": [ 98, 170, 192 ],
+      "midDayBottomColor": [ 210, 226, 236 ],
+      "midNightTopColor": [ 5, 8, 32 ],
+      "midNightBottomColor": [ 20, 30, 68 ],
+      "transATopColor": [ 98, 170, 192 ],
+      "transABottomColor": [ 217, 198, 10 ],
+      "transBTopColor": [ 44, 33, 10 ],
+      "transBBottomColor": [ 155, 32, 10 ],
+      "transCTopColor": [ 5, 8, 32 ],
+      "transCBottomColor": [ 115, 32, 10 ]
+    },
+    "subBiomes": {
+      "subs": [
+        {
+          "biome": "jungle",
+          "minSize": 300,
+          "maxSize": 500,
+          "minX": 200,
+          "maxX": 400
+        },
+        {
+          "biome": "jungle",
+          "minSize": 300,
+          "maxSize": 500,
+          "minX": 600,
+          "maxX": 800
+        },
+        {
+          "biome": "tainted_land",
+          "minSize": 300,
+          "maxSize": 500,
+          "minX": 200,
+          "maxX": 400
+        },
+        {
+          "biome": "tainted_land",
+          "minSize": 300,
+          "maxSize": 500,
+          "minX": 600,
+          "maxX": 800
+        },
+        {
+          "biome": "flesh",
+          "minSize": 300,
+          "maxSize": 500,
+          "minX": 200,
+          "maxX": 400
+        },
+        {
+          "biome": "flesh",
+          "minSize": 300,
+          "maxSize": 500,
+          "minX": 600,
+          "maxX": 800
+        },
+        {
+          "biome": "volcano",
+          "minSize": 300,
+          "maxSize": 500,
+          "minX": 200,
+          "maxX": 400
+        },
+        {
+          "biome": "volcano",
+          "minSize": 300,
+          "maxSize": 500,
+          "minX": 600,
+          "maxX": 800
+        }
+      ]
+    },
+    "terrains": {
+      "terrains": [
+        {
+          "id": "MountainTerrain",
+          "times": 4.0,
+          "size": 160,
+          "height": 16
+        },
+        {
+          "id": "BasinTerrain",
+          "times": 3.0,
+          "size": 50,
+          "height": 20
+        },
+        {
+          "id": "HillTerrain",
+          "times": 5.0,
+          "size": 60,
+          "height": 7
+        },
+        {
+          "id": "HillTerrain",
+          "times": 5.0,
+          "size": 100,
+          "height": 8
+        },
+        {
+          "id": "PlateauTerrain",
+          "times": 3.0,
+          "size": 100,
+          "height": 12
+        }
+      ],
+      "specialTerrains": [
+        {
+          "id": "Chasm",
+          "times": 0.5,
+          "size": 20,
+          "height": 30
+        },
+        {
+          "id": "SurfaceCave",
+          "times": 2.0,
+          "size": 60,
+          "height": 0
+        },
+        {
+          "id": "SurfaceCave",
+          "times": 2.0,
+          "size": 40,
+          "height": 0
+        },
+        {
+          "id": "SurfaceCave",
+          "times": 8.0,
+          "size": 20,
+          "height": 0
+        }
+      ],
+      "transition": "LinerTransition",
+      "transitionTag": 2
+    },
+    "parallaxes": {
+      "deepRate": 1.0,
+      "base": [
+        {
+          "id": "desert_hill_new_2",
+          "parallel": 6.0,
+          "level": 371
+        },
+        {
+          "id": "desert_hill_new",
+          "parallel": 4.0,
+          "level": 377
+        },
+        {
+          "id": "desert_2",
+          "parallel": 3.0,
+          "level": 387
+        }
+      ],
+      "underground": "sand_wall",
+      "linked": "sand_wall_link"
+    },
+    "musics": {
+      "daySurface": [
+        "day2",
+        "day3",
+        "day4",
+        "day5",
+        "mcday1",
+        "mcday2",
+        "mcday3",
+        "mcday4"
+      ],
+      "nightSurface": [
+        "night1",
+        "night2",
+        "night3",
+        "night4"
+      ]
+    },
+    "weather": "overcast",
+    "composition": {
+      "main": {
+        "id": "sandstone"
+      },
+      "subs": [
+        {
+          "id": "sand"
+        },
+        {
+          "id": "cobblestone"
+        }
+      ]
+    },
+    "oreGroupName": "default",
+    "liquidInfo": {},
+    "treeInfo": {
+      "styles": [
+        "log_cactus"
+      ],
+      "density": 0.28
+    },
+    "grass": 0,
+    "distributions": {
+      "airWeight": 300,
+      "surfacePlaceables": [
+        {
+          "id": "pot",
+          "tag": 2,
+          "weight": 10
+        },
+        {
+          "id": "small_tree_desert",
+          "weight": 20
+        },
+        {
+          "id": "sapling_cactus",
+          "weight": 30
+        }
+      ],
+      "underWeight": 200,
+      "undergroundPlaceables": [
+        {
+          "id": "pot",
+          "tag": 2,
+          "weight": 10
+        },
+        {
+          "id": "small_tree_desert",
+          "weight": 10
+        },
+        {
+          "id": "rock",
+          "weight": 10
+        },
+        {
+          "id": "stone_pillar_desert",
+          "weight": 10
+        },
+        {
+          "id": "stalactite_desert",
+          "weight": 20
+        },
+        {
+          "id": "stalactite_small_desert",
+          "weight": 20
+        },
+        {
+          "id": "glowing_mushroom",
+          "weight": 1
+        }
+      ],
+      "hangingWeight": 100,
+      "hangingPlaceables": [
+        {
+          "id": "stalactite_hanging_desert",
+          "weight": 20
+        },
+        {
+          "id": "stalactite_hanging_small_desert",
+          "weight": 20
+        }
+      ]
+    },
+    "pot": [
+      {
+        "itemId": "torch",
+        "min": 1,
+        "max": 3,
+        "weight": 15
+      },
+      {
+        "itemId": "potion_healing",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "potion_awkward",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "potion_fire_resistance",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "potion_glowing",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "wooden_arrow",
+        "min": 3,
+        "max": 5,
+        "weight": 15
+      },
+      {
+        "itemId": "coal",
+        "min": 1,
+        "max": 2,
+        "weight": 8
+      },
+      {
+        "itemId": "flint",
+        "min": 1,
+        "max": 4,
+        "weight": 8
+      },
+      {
+        "itemId": "fire_bullet",
+        "min": 1,
+        "max": 4,
+        "weight": 8
+      }
+    ],
+    "daySpawn": {
+      "mobSpeed": 500,
+      "maxMobSpawn": 5,
+      "mobs": [
+        {
+          "id": "desert_slime",
+          "weight": 5
+        },
+        {
+          "id": "large_desert_slime",
+          "weight": 4
+        },
+        {
+          "id": "eagle",
+          "weight": 3
+        },
+        {
+          "id": "mummy",
+          "weight": 4
+        },
+        {
+          "id": "creeper",
+          "weight": 2
+        },
+        {
+          "id": "husk",
+          "weight": 3
+        },
+        {
+          "id": "enderman",
+          "weight": 1
+        }
+      ],
+      "animalSpeed": 300,
+      "maxAnimalSpawn": 5,
+      "animals": []
+    },
+    "nightSpawn": {
+      "mobSpeed": 450,
+      "maxMobSpawn": 6,
+      "mobs": [
+        {
+          "id": "large_desert_slime",
+          "weight": 10
+        },
+        {
+          "id": "eagle",
+          "weight": 6
+        },
+        {
+          "id": "mummy",
+          "weight": 24
+        },
+        {
+          "id": "zombie",
+          "weight": 20
+        },
+        {
+          "id": "husk",
+          "weight": 20
+        },
+        {
+          "id": "arrow_zombie",
+          "weight": 8
+        },
+        {
+          "id": "bald_zombie",
+          "weight": 8
+        },
+        {
+          "id": "villager_zombie",
+          "weight": 6
+        },
+        {
+          "id": "skeleton",
+          "weight": 4
+        },
+        {
+          "id": "creeper",
+          "weight": 3
+        },
+        {
+          "id": "flower_creeper",
+          "weight": 1
+        },
+        {
+          "id": "phantom",
+          "weight": 2
+        },
+        {
+          "id": "enderman",
+          "weight": 4
+        }
+      ],
+      "animalSpeed": 600,
+      "maxAnimalSpawn": 5,
+      "animals": []
+    },
+    "underSpawn": {
+      "mobSpeed": 400,
+      "maxMobSpawn": 6,
+      "mobs": [
+        {
+          "id": "large_desert_slime",
+          "weight": 10
+        },
+        {
+          "id": "mummy",
+          "weight": 24
+        },
+        {
+          "id": "zombie",
+          "weight": 5
+        },
+        {
+          "id": "husk",
+          "weight": 8
+        },
+        {
+          "id": "bald_zombie",
+          "weight": 8
+        },
+        {
+          "id": "spider",
+          "weight": 18
+        },
+        {
+          "id": "bat",
+          "weight": 5
+        },
+        {
+          "id": "skeleton",
+          "weight": 3
+        },
+        {
+          "id": "creeper",
+          "weight": 2
+        },
+        {
+          "id": "flower_creeper",
+          "weight": 1
+        },
+        {
+          "id": "enderman",
+          "weight": 3
+        }
+      ],
+      "animalSpeed": 600,
+      "maxAnimalSpawn": 5,
+      "animals": []
+    },
+    "buildingInfo": [
+      {
+        "buildingId": "pyramid",
+        "density": 1.0,
+        "fixSurfaceLine": true,
+        "genBeginXi": 50,
+        "genEndXi": 1000
+      },
+      {
+        "buildingId": "desert_house",
+        "density": 2.0,
+        "fixSurfaceLine": true,
+        "genBeginXi": 50,
+        "genEndXi": 1000
+      }
+    ],
+    "environmentBlocks": {
+      "total": 1000,
+      "blocks": [
+        {
+          "id": "sandstone",
+          "weight": 1
+        },
+        {
+          "id": "sand",
+          "weight": 1
+        },
+        {
+          "id": "sandstone_smooth",
+          "weight": 1
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "stick",
+      "stackSize": 4
+    }
+  ],
+  "pattern": [
+    "AOO",
+    "AOO",
+    "OOO"
+  ],
+  "elements": [ [ "A", "OD_WOODEN_PLANK" ] ]
+}

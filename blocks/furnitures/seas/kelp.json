@@ -1,0 +1,36 @@
+{
+  "block": {
+    "kelp": {
+      "textureData": "kelp.png",
+      "color": [ 88, 171, 48 ],
+      "type": "FURNITURE",
+      "width": 2,
+      "height": 2,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "TOP",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 10,
+      "isChipCollection": true,
+      "lossyItemId": "kelp",
+      "chipCount": 4,
+      "slipperiness": 1.0,
+      "isKilledByLava": true,
+      "isFragile": true,
+      "isDestroyByWeapon": true,
+      "soundId": "grass",
+      "stepSoundGroupId": "step_grass",
+      "particleColor": [ 255, 88, 171, 48 ],
+      "preset": "Kelp",
+      "animation": [
+        {
+          "animationId": 0,
+          "frameSpeed": 8,
+          "frameStart": 0,
+          "frameCount": 4
+        }
+      ]
+    }
+  }
+}

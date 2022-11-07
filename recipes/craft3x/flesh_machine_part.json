@@ -1,0 +1,20 @@
+
+{
+  "config": "Craft3x",
+  "searchActions": [ [ 0, "SA_UNORDER" ] ],
+  "results": [
+    {
+      "id": "flesh_machine_part",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "ABO",
+    "OOO",
+    "OOO"
+  ],
+  "elements": [
+    [ "A", "machine_part" ],
+    [ "B", "magic_cell" ]
+  ]
+}

@@ -1,0 +1,19 @@
+
+{
+  "potion_strength": {
+    "ai": "Potion",
+    "type": "MATERIALS",
+    "iconTextureData": "glass_bottle_3_icon.png",
+    "group": "GROUP_POTION",
+    "iconColor2": [ 255, 220, 50, 45 ],
+    "eatable": true,
+    "useSound": "drink",
+    "eatReturnId": "glass_bottle",
+    "buffs": [
+      {
+        "id": "strength",
+        "time": 10800
+      }
+    ]
+  }
+}

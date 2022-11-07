@@ -1,0 +1,16 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "wooden_door_oak",
+      "stackSize": 3
+    }
+  ],
+  "pattern": [
+    "AAO",
+    "AAO",
+    "AAO"
+  ],
+  "elements": [ [ "A", "oak_plank" ] ]
+}

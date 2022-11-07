@@ -1,0 +1,16 @@
+
+{
+  "config": "Brew",
+  "results": [
+    {
+      "id": "potion_slowness_long",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [ "AB" ],
+  "elements": [
+    [ "A", "potion_slowness" ],
+    [ "B", "redstone" ]
+  ],
+  "exData": { "time": 400 }
+}

@@ -1,0 +1,13 @@
+
+{
+  "golden_chestplate": {
+    "type": "TOOLS",
+    "iconTextureData": "golden_chestplate_icon.png",
+    "textureData": "body.png",
+    "group": "GROUP_CHESTPLATE",
+    "toolType": "CHESTPLATE",
+    "isArmor": true,
+    "defense": 6,
+    "durable": 788
+  }
+}

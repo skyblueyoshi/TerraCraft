@@ -1,0 +1,33 @@
+{
+  "block": {
+    "volcano_stone": {
+      "textureData": "volcano_stone.png",
+      "color": [ 134, 51, 10 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 8,
+      "type": "TILE",
+      "group": "COBBLESTONE",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "WOOD",
+      "hardness": 120,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": true,
+      "isWallDark": true,
+      "wallCheck": "GENERABLE",
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 134, 51, 10 ]
+    }
+  },
+  "item": {
+    "volcano_stone": {
+      "type": "BLOCKS",
+      "iconTextureData": "volcano_stone_icon.png",
+      "group": "GROUP_VOLCANO",
+      "blockId": "volcano_stone"
+    }
+  }
+}

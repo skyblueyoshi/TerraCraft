@@ -1,0 +1,19 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "star_arrow",
+      "stackSize": 4
+    }
+  ],
+  "pattern": [
+    "OAO",
+    "ABA",
+    "OAO"
+  ],
+  "elements": [
+    [ "A", "lighting_arrow" ],
+    [ "B", "gold_nugget" ]
+  ]
+}

@@ -1,0 +1,243 @@
+
+{
+  "tainted_cave": {
+    "biomeType": "Underground",
+    "scale": 1.0,
+    "wallParallaxe": "tainted_wall",
+    "musics": {
+      "underground": [
+        "mcunder1",
+        "mcunder2",
+        "mcunder3",
+        "mcunder4"
+      ]
+    },
+    "composition": {
+      "main": {
+        "id": "tainted_stone"
+      },
+      "subs": [
+        {
+          "id": "tainted_dirt"
+        }
+      ]
+    },
+    "wall": {
+      "id": "tainted_stone",
+      "full": false
+    },
+    "oreGroupName": "default",
+    "liquidInfo": {
+      "liquid": "water",
+      "maxAllowCount": 500
+    },
+    "distributions": {
+      "airWeight": 100,
+      "surfacePlaceables": [
+        {
+          "id": "pot",
+          "tag": 3,
+          "weight": 40
+        },
+        {
+          "id": "small_tree_tainted",
+          "weight": 10
+        },
+        {
+          "id": "large_poison_mushroom",
+          "weight": 10
+        },
+        {
+          "id": "poison_mushroom",
+          "weight": 10
+        },
+        {
+          "id": "tainted_grass",
+          "weight": 50
+        },
+        {
+          "id": "stone_decos_tainted",
+          "weight": 10
+        },
+        {
+          "id": "stone_pillar_tainted",
+          "weight": 10
+        },
+        {
+          "id": "stalactite_tainted",
+          "weight": 10
+        },
+        {
+          "id": "stalactite_small_tainted",
+          "weight": 10
+        },
+        {
+          "id": "stab_tainted",
+          "weight": 10
+        }
+      ],
+      "hangingWeight": 100,
+      "hangingPlaceables": [
+        {
+          "id": "tainted_vine",
+          "weight": 40
+        },
+        {
+          "id": "stalactite_hanging_tainted",
+          "weight": 10
+        },
+        {
+          "id": "stalactite_hanging_small_tainted",
+          "weight": 10
+        },
+        {
+          "id": "stab_hanging_tainted",
+          "weight": 4
+        }
+      ]
+    },
+    "pot": [
+      {
+        "itemId": "torch",
+        "min": 1,
+        "max": 5,
+        "weight": 15
+      },
+      {
+        "itemId": "potion_healing",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "potion_night_vision",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "potion_strength",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "potion_leaping",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "potion_water_breathing",
+        "min": 1,
+        "max": 1,
+        "weight": 1
+      },
+      {
+        "itemId": "wooden_arrow",
+        "min": 3,
+        "max": 10,
+        "weight": 12
+      },
+      {
+        "itemId": "lighting_arrow",
+        "min": 3,
+        "max": 10,
+        "weight": 5
+      },
+      {
+        "itemId": "coal",
+        "min": 1,
+        "max": 2,
+        "weight": 10
+      },
+      {
+        "itemId": "flint",
+        "min": 1,
+        "max": 4,
+        "weight": 10
+      },
+      {
+        "itemId": "grenade",
+        "min": 1,
+        "max": 1,
+        "weight": 4
+      },
+      {
+        "itemId": "bomb",
+        "min": 1,
+        "max": 1,
+        "weight": 2
+      }
+    ],
+    "spawn": {
+      "mobSpeed": 220,
+      "maxMobSpawn": 6,
+      "mobs": [
+        {
+          "id": "large_tainted_slime",
+          "weight": 10
+        },
+        {
+          "id": "spider",
+          "weight": 8
+        },
+        {
+          "id": "enderman",
+          "weight": 15
+        },
+        {
+          "id": "evoker",
+          "weight": 6
+        },
+        {
+          "id": "phantom",
+          "weight": 5
+        },
+        {
+          "id": "tainted_skeleton",
+          "weight": 2
+        },
+        {
+          "id": "tainted_creeper",
+          "weight": 2
+        },
+        {
+          "id": "enderman",
+          "weight": 2
+        }
+      ],
+      "animalSpeed": 600,
+      "maxAnimalSpawn": 5,
+      "animals": [
+        {
+          "id": "squid",
+          "weight": 10
+        }
+      ]
+    },
+    "buildingInfo": [
+      {
+        "buildingId": "under_tainted_cabin",
+        "density": 3.0
+      },
+      {
+        "buildingId": "fossils",
+        "density": 4.0
+      }
+    ],
+    "environmentBlocks": {
+      "total": 100,
+      "blocks": [
+        {
+          "id": "tainted_dirt",
+          "weight": 1
+        },
+        {
+          "id": "tainted_stone",
+          "weight": 1
+        }
+      ]
+    }
+  }
+}

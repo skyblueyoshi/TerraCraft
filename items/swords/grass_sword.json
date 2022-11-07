@@ -1,0 +1,30 @@
+
+{
+  "grass_sword": {
+    "type": "TOOLS",
+    "iconTextureData": "grass_sword_entity.png",
+    "textureData": "grass_sword_entity.png",
+    "group": "GROUP_SWORD",
+    "oreDictionary": [ "OD_SWORD" ],
+    "toolType": "SWORD",
+    "ai": "Sword",
+    "coldTime": 24,
+    "entityWidth": 22,
+    "entityHeight": 46,
+    "handX": 10,
+    "handY": 40,
+    "firePoints": [[10,0]],
+    "holdType": "NORMAL",
+    "durable": 128,
+    "damage": 3,
+    "knockBack": 2,
+    "crit": 3,
+    "isNoBreaking": true,
+    "enchantments": [
+      {
+        "id": "phyton",
+        "level": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "block": {
+    "bookcase_acacia": {
+      "textureData": "bookcase_acacia.png",
+      "color": [ 190, 125, 90 ],
+      "type": "FURNITURE",
+      "subGroup": "BOOKCASE",
+      "width": 3,
+      "height": 4,
+      "collision": "PLATFORM",
+      "attach": "BOTTOM",
+      "attachable": "TOP",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 140,
+      "slipperiness": 1.0,
+      "isKilledByLava": true,
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "functionSoundId": "chest",
+      "functionSoundId2": "chestclosed",
+      "particleColor": [ 255, 180, 100, 60 ],
+      "preset": "Storage"
+    }
+  },
+  "item": {
+    "bookcase_acacia": {
+      "type": "BLOCKS",
+      "iconTextureData": "bookcase_acacia.png",
+      "group": "GROUP_BOOKCASE",
+      "blockId": "bookcase_acacia",
+      "fuelTime": 60
+    }
+  }
+}

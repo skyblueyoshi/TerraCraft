@@ -1,0 +1,35 @@
+{
+  "block": {
+    "plank_oak": {
+      "textureData": "plank_oak.png",
+      "color": [ 167, 136, 79 ],
+      "renderMode": "RENDER_BORDER_CUT",
+      "renderSortedInterval": 8,
+      "type": "TILE",
+      "group": "ARTIFICAL",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 100,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": true,
+      "isWallDark": false,
+      "wallCheck": "NO_GENERABLE",
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 173, 137, 80 ]
+    }
+  },
+  "item": {
+    "oak_plank": {
+      "type": "BLOCKS",
+      "iconTextureData": "plank_oak_icon.png",
+      "group": "GROUP_WOODEN_PLANK",
+      "oreDictionary": [ "OD_WOODEN_PLANK" ],
+      "blockId": "plank_oak",
+      "fuelTime": 60
+    }
+  }
+}

@@ -1,0 +1,8 @@
+
+{
+  "NetherAltar": {
+    "script": {
+      "path": "NetherAltar.lua"
+    }
+  }
+}

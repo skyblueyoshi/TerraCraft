@@ -1,0 +1,25 @@
+{
+  "block": {
+    "thorn": {
+      "textureData": "thorn.png",
+      "color": [ 111, 111, 111 ],
+      "renderMode": "RENDER_PIPE",
+      "type": "TILE",
+      "group": "THRON",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "lightTransparent": true,
+      "toolType": "PICKAXE",
+      "mineGrade": "DIAMOND",
+      "hardness": 500000,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": false,
+      "wallCheck": "NO_GENERABLE",
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 111, 111, 111 ]
+    }
+  }
+}

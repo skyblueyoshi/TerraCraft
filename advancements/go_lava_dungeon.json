@@ -1,0 +1,9 @@
+
+{
+  "go_lava_dungeon": {
+    "itemId": "bucket_lava",
+    "parentId": "go_ice_dungeon",
+    "showTip": true,
+    "broadcase": true
+  }
+}

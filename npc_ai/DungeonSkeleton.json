@@ -1,0 +1,8 @@
+
+{
+  "DungeonSkeleton": {
+    "script": {
+      "path": "DungeonSkeleton.lua"
+    }
+  }
+}

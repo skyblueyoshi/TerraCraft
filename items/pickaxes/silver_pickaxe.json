@@ -1,0 +1,23 @@
+
+{
+  "silver_pickaxe": {
+    "type": "TOOLS",
+    "iconTextureData": "silver_pickaxe_entity.png",
+    "textureData": "silver_pickaxe_entity.png",
+    "group": "GROUP_PICKAXE",
+    "toolType": "PICKAXE",
+    "toolGrade": "GOLD",
+    "efficiency": 4.0,
+    "ai": "Pickaxe",
+    "coldTime": 16,
+    "entityWidth": 30,
+    "entityHeight": 38,
+    "handX": 16,
+    "handY": 26,
+    "holdType": "NORMAL",
+    "durable": 1856,
+    "damage": 4,
+    "knockBack": 1,
+    "crit": 0
+  }
+}

@@ -1,0 +1,15 @@
+
+{
+  "rocket": {
+    "type": "PROJECTILES",
+    "iconTextureData": "rocket_icon.png",
+    "group": "GROUP_ROCKET",
+    "ammo": "rocket",
+    "ammoLevel": 0,
+    "projectileId": "rocket",
+    "speed": 0.0,
+    "shootable": true,
+    "damage": 10,
+    "knockBack": 1
+  }
+}

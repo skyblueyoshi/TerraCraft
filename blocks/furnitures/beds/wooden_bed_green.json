@@ -1,0 +1,32 @@
+{
+  "block": {
+    "wooden_bed_green": {
+      "textureData": "wooden_bed_green.png",
+      "color": [ 144, 66, 92 ],
+      "type": "FURNITURE",
+      "subGroup": "BED",
+      "width": 4,
+      "height": 2,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 130,
+      "slipperiness": 1.0,
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 0, 120, 0 ],
+      "preset": "Bed"
+    }
+  },
+  "item": {
+    "wooden_bed_green": {
+      "type": "BLOCKS",
+      "iconTextureData": "wooden_bed_green.png",
+      "group": "GROUP_WOODEN_BED",
+      "blockId": "wooden_bed_green",
+      "fuelTime": 60
+    }
+  }
+}

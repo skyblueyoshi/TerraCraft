@@ -1,0 +1,13 @@
+
+{
+  "lava_leggings": {
+    "type": "TOOLS",
+    "iconTextureData": "leggings8.png",
+    "textureData": "leg8.png",
+    "group": "GROUP_LEGGINGS",
+    "toolType": "LEGGINGS",
+    "isArmor": true,
+    "defense": 5,
+    "durable": 1552
+  }
+}

@@ -1,0 +1,26 @@
+
+{
+  "gore_flower_creeper": {
+    "ai": "Gore",
+    "textureData": "flower_creeper.png",
+    "width": 8,
+    "height": 8,
+    "gfxOffsetX": -10,
+    "gfxOffsetY": -5,
+    "gfxWidth": 28,
+    "gfxHeight": 18,
+    "frameStyle": 0,
+    "frameStyles": 1,
+    "frames": 1,
+    "frameSpeed": 8,
+    "disappearTime": 600,
+    "isForeground": false,
+    "gravity": true,
+    "collisionWithBlocks": true,
+    "fixByBlocks": true,
+    "fadeScale": false,
+    "fadeAlpha": false,
+    "slowSpeed": false,
+    "slowRotateSpeed": false
+  }
+}

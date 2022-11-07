@@ -1,0 +1,9 @@
+
+{
+  "crison_eye_killed": {
+    "itemId": "strange_eye",
+    "parentId": "crison_eye",
+    "showTip": true,
+    "broadcase": true
+  }
+}

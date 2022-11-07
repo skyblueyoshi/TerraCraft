@@ -1,0 +1,30 @@
+{
+  "block": {
+    "brewing_stand": {
+      "textureData": "brewing_stand.png",
+      "color": [ 44, 44, 44 ],
+      "type": "FURNITURE",
+      "width": 3,
+      "height": 2,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 60,
+      "slipperiness": 1.0,
+      "soundGroupId": "wood",
+      "stepSoundGroupId": "step_wood",
+      "particleColor": [ 255, 90, 80, 40 ],
+      "preset": "Brewing"
+    }
+  },
+  "item": {
+    "brewing_stand": {
+      "type": "BLOCKS",
+      "iconTextureData": "brewing_stand.png",
+      "group": "GROUP_OTHERS_FURNITURE",
+      "blockId": "brewing_stand"
+    }
+  }
+}

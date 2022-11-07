@@ -1,0 +1,7 @@
+{
+  "LightingTalisman": {
+    "script": {
+      "path": "LightingTalisman.lua"
+    }
+  }
+}

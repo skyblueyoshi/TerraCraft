@@ -1,0 +1,9 @@
+
+{
+  "ancient_ingot": {
+    "itemId": "ancient_ingot",
+    "parentId": "netherite",
+    "showTip": true,
+    "broadcase": true
+  }
+}

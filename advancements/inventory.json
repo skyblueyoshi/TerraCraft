@@ -1,0 +1,11 @@
+{
+  "inventory": {
+    "itemId": "book",
+    "showTip": true,
+    "broadcase": true,
+    "trigger": {
+      "name": "open_advance_ui",
+      "conditions": {}
+    }
+  }
+}

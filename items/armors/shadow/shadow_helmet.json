@@ -1,0 +1,13 @@
+
+{
+  "shadow_helmet": {
+    "type": "TOOLS",
+    "iconTextureData": "ihat3.png",
+    "textureData": "hat3.png",
+    "group": "GROUP_HELMET",
+    "toolType": "HELMET",
+    "isArmor": true,
+    "defense": 4,
+    "durable": 788
+  }
+}

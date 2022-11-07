@@ -1,0 +1,23 @@
+
+{
+  "steel_pickaxe": {
+    "type": "TOOLS",
+    "iconTextureData": "steel_pickaxe_entity.png",
+    "textureData": "steel_pickaxe_entity.png",
+    "group": "GROUP_PICKAXE",
+    "toolType": "PICKAXE",
+    "toolGrade": "GOLD",
+    "efficiency": 3.5,
+    "ai": "Pickaxe",
+    "coldTime": 16,
+    "entityWidth": 30,
+    "entityHeight": 38,
+    "handX": 16,
+    "handY": 26,
+    "holdType": "NORMAL",
+    "durable": 1248,
+    "damage": 4,
+    "knockBack": 1,
+    "crit": 0
+  }
+}

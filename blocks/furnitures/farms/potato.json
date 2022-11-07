@@ -1,0 +1,45 @@
+{
+  "block": {
+    "potato": {
+      "textureData": "potato.png",
+      "color": [ 13, 132, 13 ],
+      "type": "FURNITURE",
+      "width": 1,
+      "height": 1,
+      "collision": "NONE",
+      "attach": "BOTTOM",
+      "attachable": "NONE",
+      "placeCheck": "PLACE_PLANT_CHECK",
+      "toolType": "AXE",
+      "mineGrade": "GRASS",
+      "hardness": 10,
+      "slipperiness": 1.0,
+      "isKilledByLava": true,
+      "isFragile": true,
+      "isRipen": true,
+      "soundGroupId": "grass",
+      "stepSoundGroupId": "step_grass",
+      "particleColor": [ 255, 13, 133, 13 ],
+      "preset": "Crop",
+      "maxTag": 3,
+      "cropDrops": [
+        {
+          "itemId": "potato",
+          "minCount": 2,
+          "maxCount": 4
+        }
+      ],
+      "animation": [
+        {
+          "animationId": 0,
+          "tagUsage": "TAG_ADD_FRAME_INDEX_X",
+          "shake": true,
+          "shakeCenterX": 8,
+          "shakeCenterY": 16,
+          "shakePeriod": 128,
+          "shakeAngle": 0.2
+        }
+      ]
+    }
+  }
+}

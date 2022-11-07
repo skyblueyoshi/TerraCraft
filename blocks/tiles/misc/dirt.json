@@ -1,0 +1,44 @@
+{
+  "block": {
+    "dirt": {
+      "textureData": "dirt.png",
+      "color": [ 90, 57, 43 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 8,
+      "type": "TILE",
+      "group": "DIRT",
+      "collision": "SOLID",
+      "growGroup": "NORMAL_GROUP",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "GRASS",
+      "hardness": 60,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": true,
+      "isWallDark": true,
+      "hasGrassCover": true,
+      "isRipen": true,
+      "wallCheck": "GENERABLE",
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_grass",
+      "particleColor": [ 255, 91, 64, 44 ],
+      "preset": "GrowGrass",
+      "covers": [
+        {
+          "modTextureId": "grass",
+          "offsetX": -8,
+          "offsetY": -8
+        }
+      ]
+    }
+  },
+  "item": {
+    "dirt": {
+      "type": "BLOCKS",
+      "iconTextureData": "dirt_icon.png",
+      "group": "GROUP_DIRT",
+      "blockId": "dirt"
+    }
+  }
+}

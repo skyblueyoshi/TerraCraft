@@ -1,0 +1,23 @@
+
+{
+  "iron_axe": {
+    "type": "TOOLS",
+    "iconTextureData": "iron_axe_entity.png",
+    "textureData": "iron_axe_entity.png",
+    "group": "GROUP_AXE",
+    "toolType": "AXE",
+    "toolGrade": "IRON",
+    "efficiency": 3.0,
+    "ai": "Axe",
+    "coldTime": 18,
+    "entityWidth": 20,
+    "entityHeight": 36,
+    "handX": 8,
+    "handY": 32,
+    "holdType": "NORMAL",
+    "durable": 1000,
+    "damage": 4,
+    "knockBack": 1,
+    "crit": 0
+  }
+}

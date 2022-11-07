@@ -1,0 +1,19 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "jack_o_lantern",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "AOO",
+    "BOO",
+    "OOO"
+  ],
+  "elements": [
+    [ "A", "pumpkin_carved" ],
+    [ "B", "torch" ]
+  ]
+}

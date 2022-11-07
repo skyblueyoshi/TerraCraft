@@ -1,0 +1,24 @@
+
+{
+  "shadow_magic": {
+    "ai": "ShadowMagic",
+    "textureData": "shadow_magic.png",
+    "width": 20,
+    "height": 20,
+    "gfxWidth": 20,
+    "gfxHeight": 20,
+    "gfxOffsetX": 0,
+    "gfxOffsetY": 0,
+    "hots": [[10, 10]],
+    "frameStyle": 1,
+    "frames": 1,
+    "frameSpeed": 8,
+    "shape": "BOX",
+    "maxSpeed": 8.0,
+    "gravity": false,
+    "foreground": true,
+    "fixByBlocks": false,
+    "througthBlock": false,
+    "keepStrick": true
+  }
+}

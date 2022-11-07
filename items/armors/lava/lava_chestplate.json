@@ -1,0 +1,13 @@
+
+{
+  "lava_chestplate": {
+    "type": "TOOLS",
+    "iconTextureData": "chestplate8.png",
+    "textureData": "body8.png",
+    "group": "GROUP_CHESTPLATE",
+    "toolType": "CHESTPLATE",
+    "isArmor": true,
+    "defense": 6,
+    "durable": 1552
+  }
+}

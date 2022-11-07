@@ -1,0 +1,8 @@
+
+{
+  "ice_element_ball": {
+    "type": "MATERIALS",
+    "iconTextureData": "ice_element_ball.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

@@ -1,0 +1,21 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "lighting_bow",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "BDC",
+    "AOC",
+    "BDC"
+  ],
+  "elements": [
+    [ "A", "gold_ingot" ],
+    [ "B", "glowstone_dust" ],
+    [ "C", "string" ],
+    [ "D", "blaze_rod" ]
+  ]
+}

@@ -1,0 +1,8 @@
+
+{
+  "nether_brick": {
+    "type": "MATERIALS",
+    "iconTextureData": "nether_brick_icon.png",
+    "group": "GROUP_MATERIAL"
+  }
+}

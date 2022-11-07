@@ -1,0 +1,13 @@
+
+{
+  "config": "Smelt",
+  "pattern": [ "A" ],
+  "results": [
+    {
+      "id": "nether_brick",
+      "stackSize": 1
+    }
+  ],
+  "elements": [ [ "A", "netherrack" ] ],
+  "exData": { "time": 20 }
+}

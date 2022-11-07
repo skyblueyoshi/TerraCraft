@@ -1,0 +1,21 @@
+{
+  "walls": [
+    {
+      "id": "aurora_block"
+    }
+  ],
+  "spawn": {
+    "mobSpeed": 150,
+    "maxMobSpawn": 6,
+    "mobs": [
+      {
+        "id": "snow_guardian",
+        "weight": 5
+      },
+      {
+        "id": "snow_guardian_archer",
+        "weight": 5
+      }
+    ]
+  }
+}

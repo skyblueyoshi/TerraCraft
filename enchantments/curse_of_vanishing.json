@@ -1,0 +1,18 @@
+
+{
+  "curse_of_vanishing": {
+    "noCreating": true,
+    "minCreatingLevel": 1000,
+    "allowMaxLevel": 8,
+    "tool": [
+      "AXE",
+      "PICKAXE",
+      "SWORD",
+      "BOW",
+      "FISHING_ROD",
+      "HELMET",
+      "CHESTPLATE",
+      "LEGGINGS"
+    ]
+  }
+}

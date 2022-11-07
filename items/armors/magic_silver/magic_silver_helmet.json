@@ -1,0 +1,13 @@
+
+{
+  "magic_silver_helmet": {
+    "type": "TOOLS",
+    "iconTextureData": "ihat1.png",
+    "textureData": "hat1.png",
+    "group": "GROUP_HELMET",
+    "toolType": "HELMET",
+    "isArmor": true,
+    "defense": 4,
+    "durable": 1440
+  }
+}

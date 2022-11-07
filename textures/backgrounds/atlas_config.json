@@ -1,0 +1,17 @@
+[
+  {
+    "name": "sky",
+    "path": "sky",
+    "size": 512
+  },
+  {
+    "name": "backgrounds",
+    "path": "layers",
+    "size": 2048
+  },
+  {
+    "name": "cave_backgrounds",
+    "path": "walls",
+    "size": 2048
+  }
+]

@@ -1,0 +1,55 @@
+
+{
+  "blood_eye": {
+    "ai": "BloodyEye",
+    "textureData": "blood_eye.png",
+    "type": "NORMAL",
+    "width": 40,
+    "height": 40,
+    "gfxWidth": 40,
+    "gfxHeight": 40,
+    "gfxOffsetX": 0,
+    "gfxOffsetY": 0,
+    "frameStyle": 0,
+    "frames": 1,
+    "frameSpeed": 4,
+    "shape": "BOX",
+    "maxSpeed": 1.25,
+    "jumpForce": 5.0,
+    "disappearTime": 750,
+    "spawnCount": 1.0,
+    "health": 40,
+    "defense": 6,
+    "attack": 15,
+    "knockBack": 4,
+    "knockBackDefense": 0.10,
+    "gravity": false,
+    "climbWall": false,
+    "foreground": false,
+    "noFixByBlock": false,
+    "friendly": false,
+    "exps": 5,
+    "sunBurning": false,
+    "angry": false,
+    "antiLava": false,
+    "saySounds": [],
+    "hurtSounds": [
+      "gore3",
+      "gore1",
+      "gore2"
+    ],
+    "loots": [
+      {
+        "item": "gold_nugget",
+        "count": [ 1, 5 ]
+      }
+    ],
+    "special": 0,
+    "paticularColor": [ 255, 200, 100, 50 ],
+    "spawn": "AIR",
+    "gore": "gore_blood_eye",
+    "magicRate": 30,
+    "checkPlayerTarget": true,
+    "visionNoCrossTile": false
+  }
+}

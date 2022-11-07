@@ -1,0 +1,7 @@
+
+{
+  "RedstoneLamp": {
+    "pOnActivated": "LampActivated",
+    "pOnScreenUpdate": "UpdateLamp"
+  }
+}

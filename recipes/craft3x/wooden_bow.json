@@ -1,0 +1,20 @@
+
+{
+  "config": "Craft3x",
+  "results": [
+    {
+      "id": "wooden_bow",
+      "stackSize": 1
+    }
+  ],
+  "pattern": [
+    "OAB",
+    "AOB",
+    "OAB"
+  ],
+  "elements": [
+    [ "A", "stick" ],
+    [ "B", "string" ]
+  ],
+  "importantElements": [ "B" ]
+}

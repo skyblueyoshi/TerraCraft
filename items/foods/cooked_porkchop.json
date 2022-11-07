@@ -1,0 +1,13 @@
+
+{
+  "cooked_porkchop": {
+    "ai": "Food",
+    "type": "MATERIALS",
+    "iconTextureData": "cooked_porkchop_icon.png",
+    "group": "GROUP_FOOD",
+    "eatable": true,
+    "useSoundGroup": "eat",
+    "food": 40,
+    "foodSaturation": 100
+  }
+}

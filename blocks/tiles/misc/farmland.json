@@ -1,0 +1,37 @@
+{
+  "block": {
+    "farmland": {
+      "textureData": "farmland.png",
+      "color": [ 96, 68, 49 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 4,
+      "type": "TILE",
+      "group": "DIRT",
+      "farmGroup": "FARMLAND_GROUP",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "GRASS",
+      "hardness": 60,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": true,
+      "wallCheck": "NO_GENERABLE",
+      "isLossyCollection": true,
+      "lossyItemId": "dirt",
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_grass",
+      "particleColor": [ 255, 116, 80, 60 ],
+      "preset": "Farmland"
+    }
+  },
+  "item": {
+    "farmland": {
+      "type": "BLOCKS",
+      "iconTextureData": "farmland_icon.png",
+      "group": "GROUP_DIRT",
+      "blockId": "farmland"
+    }
+  }
+}
