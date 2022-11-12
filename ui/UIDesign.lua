@@ -119,12 +119,12 @@ function UIDesign.getOptionUI()
         marginsLR = { 0, 0, false }
     }))
     sy = sy + UIDefault.ButtonOffset
-    panel:addChild(UIUtil.createButton("btn_recipe", Locale.RECIPE_SEARCH, 0, sy, UI_SIZE.width, UIDefault.ButtonHeight, {
+    panel:addChild(UIUtil.createButton("btn_recipe", Locale.RECIPE_SEARCH .. "(R)", 0, sy, UI_SIZE.width, UIDefault.ButtonHeight, {
         anchorPoint = { 0.5, 0 },
         marginsLR = { 0, 0, false }
     }))
     sy = sy + UIDefault.ButtonOffset
-    panel:addChild(UIUtil.createButton("btn_advancement", Locale.ADVANCEMENT, 0, sy, UI_SIZE.width, UIDefault.ButtonHeight, {
+    panel:addChild(UIUtil.createButton("btn_advancement", Locale.ADVANCEMENT .. "(F)", 0, sy, UI_SIZE.width, UIDefault.ButtonHeight, {
         anchorPoint = { 0.5, 0 },
         marginsLR = { 0, 0, false }
     }))

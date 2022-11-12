@@ -1,0 +1,9 @@
+{
+  "captureLoadedChunk": true,
+  "hideCmd": true,
+  "maxFps": false,
+  "singlePlayerPort": 0,
+  "stopNpcSpawn": false,
+  "isSpawnNpcQuick": false,
+  "ignoreHeartbeatPacket": true
+}
