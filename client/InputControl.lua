@@ -63,6 +63,7 @@ function InputControl:__init()
     self.pcMouseAtMapY = 0
     self.pcMouseAtMapXi = 0
     self.pcMouseAtMapYi = 0
+    self.pcMouseScrollDeltaY = 0
 
     self.isPcMouseLeftInstantDown = false
     self.isPcMouseLeftInstantDownAtMap = false
@@ -85,6 +86,15 @@ function InputControl:__init()
         self._pressingKeys[k] = false
         self._instantPressedKeys[k] = false
     end
+
+    Input.mouse:addScrollListener({ InputControl._onMouseScroll, self })
+end
+
+function InputControl:_onMouseScroll(_, deltaY)
+    if deltaY == 0 then
+        return
+    end
+    self.pcMouseScrollDeltaY = deltaY
 end
 
 function InputControl.isPressing(keyName)

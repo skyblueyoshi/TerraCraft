@@ -82,13 +82,40 @@ function HudUI:__init()
     self._initPlayerData = false
     self._shortcutSlotNodes = {}
 
+    self:loadHotkeys()
+    self:initContent()
+end
+
+function HudUI:loadHotkeys()
     local inputControl = InputControl.getInstance()
     self._backpackHotKey = Input.keyboard:getHotKeys(inputControl.keyMap.Backpack):addListener({ HudUI._tryOpenBackpack, self })
     self._taskHotKey = Input.keyboard:getHotKeys(inputControl.keyMap.Task):addListener({ HudUI._tryOpenTask, self })
-    self._taskHotKey = Input.keyboard:getHotKeys(inputControl.keyMap.Nei):addListener({ HudUI._tryOpenNei, self })
+    self._neiHotKey = Input.keyboard:getHotKeys(inputControl.keyMap.Nei):addListener({ HudUI._tryOpenNei, self })
     self._optionHotKey = Input.keyboard:getHotKeys(inputControl.keyMap.Esc):addListener({ HudUI._onEsc, self })
-    self._optionHotKey = Input.keyboard:getHotKeys(inputControl.keyMap.Ctrl):addListener({ HudUI._onCtrl, self })
-    self:initContent()
+    self._smartHotKey = Input.keyboard:getHotKeys(inputControl.keyMap.Ctrl):addListener({ HudUI._onCtrl, self })
+end
+
+function HudUI:destroyHotkeys()
+    if self._backpackHotKey then
+        Input.keyboard:getHotKeys(InputControl.getInstance().keyMap.Backpack):removeListener(self._backpackHotKey)
+        self._backpackHotKey = nil
+    end
+    if self._taskHotKey then
+        Input.keyboard:getHotKeys(InputControl.getInstance().keyMap.Task):removeListener(self._taskHotKey)
+        self._taskHotKey = nil
+    end
+    if self._neiHotKey then
+        Input.keyboard:getHotKeys(InputControl.getInstance().keyMap.Nei):removeListener(self._neiHotKey)
+        self._neiHotKey = nil
+    end
+    if self._optionHotKey then
+        Input.keyboard:getHotKeys(InputControl.getInstance().keyMap.Esc):removeListener(self._optionHotKey)
+        self._optionHotKey = nil
+    end
+    if self._smartHotKey then
+        Input.keyboard:getHotKeys(InputControl.getInstance().keyMap.Ctrl):removeListener(self._smartHotKey)
+        self._smartHotKey = nil
+    end
 end
 
 function HudUI:initContent()
@@ -685,18 +712,7 @@ function HudUI:_onRenderExpBar(node, canvasPos)
 end
 
 function HudUI:closeWindow()
-    if self._backpackHotKey then
-        Input.keyboard:getHotKeys(InputControl.getInstance().keyMap.Backpack):removeListener(self._backpackHotKey)
-        self._backpackHotKey = nil
-    end
-    if self._taskHotKey then
-        Input.keyboard:getHotKeys(InputControl.getInstance().keyMap.Task):removeListener(self._taskHotKey)
-        self._taskHotKey = nil
-    end
-    if self._optionHotKey then
-        Input.keyboard:getHotKeys(InputControl.getInstance().keyMap.Esc):removeListener(self._optionHotKey)
-        self._optionHotKey = nil
-    end
+    self:destroyHotkeys()
     HudUI.super.closeWindow(self)
     s_instance = nil
 end

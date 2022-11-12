@@ -302,14 +302,6 @@ function GPlayer:Awake()
             [Behavior.GunShooting] = GPlayer.ClientGunShooting,
             [Behavior.StaffShooting] = GPlayer.ClientStaffShooting,
         }
-
-        Input.mouse:addScrollListener({ GPlayer._onMouseScroll, self })
-
-        Input.keyboard:getHotKeys(Keys.F6):addListener({ function(self)
-            PlayerBoneInfo.getInstance():reload()
-            self.bone = PlayerBoneInfo.createBySkinID(skinID)
-        end, self })
-
     else
         self.player.health = PlayerConstants.StartHealth
         self.player.maxHealth = PlayerConstants.StartMaxHealth
@@ -600,6 +592,9 @@ function GPlayer:Motion()
             self.aimOffsetY = inputControl.pcMouseAtMapY - player.centerY
         end
     end
+
+    -- Mouse scrolling
+    self:CheckScrollMouse()
 
     -- Drop items
     if InputControl.isInstantPressing("Drop") then
@@ -1007,20 +1002,20 @@ function GPlayer:OnHoldLookingAnimationUpdate()
     self:UpdateLookAngle()
 end
 
-function GPlayer:_onMouseScroll(_, deltaY)
-    if deltaY == 0 then
-        return
-    end
+function GPlayer:CheckScrollMouse()
     local player = self.player
     if not player.isCurrentClientPlayer then
         return
     end
-
+    local deltaY = InputControl.getInstance().pcMouseScrollDeltaY
+    if deltaY == 0 then
+        return
+    end
+    InputControl.getInstance().pcMouseScrollDeltaY = 0
     local UIManager = require("ui.UIManager")
     if UIManager.getInstance():hasUIGroup(require("ui.UIDefault").GROUP_GAME_WINDOW) then
         return
     end
-
     if deltaY > 0 then
         if player.heldSlotIndex == 0 then
             player.heldSlotIndex = 9
