@@ -1,5 +1,5 @@
 {
-  "captureLoadedChunk": true,
+  "captureLoadedChunk": false,
   "hideCmd": true,
   "maxFps": false,
   "singlePlayerPort": 0,

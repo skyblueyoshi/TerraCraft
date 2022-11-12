@@ -1,5 +1,5 @@
 local DebugHelperConfig = {
-    Enable = true,
+    Enable = false,
 
     FlyDebug = {
         HotKey = Keys.P,
