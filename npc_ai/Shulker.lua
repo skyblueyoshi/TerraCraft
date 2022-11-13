@@ -73,7 +73,7 @@ function Shulker:Update()
 	end
 	if npc.tickTime % 128 == 0 then
 		if Utils.RandTry(2) then
-			Teleport()
+			self:Teleport()
 		end
 	end
 end

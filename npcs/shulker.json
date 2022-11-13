@@ -38,10 +38,6 @@
       "shulker_hit1"
     ],
     "loots": [
-      {
-        "item": "shulker_shell",
-        "count": [ 2, 5 ]
-      }
     ],
     "special": 0,
     "paticularColor": [ 255, 120, 100, 80 ],
