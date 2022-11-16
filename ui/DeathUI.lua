@@ -12,6 +12,9 @@ function DeathUI:__init()
 end
 
 function DeathUI:_onUpdate()
+    if ClientState.current ~= ClientState.Gaming then
+        DeathUI.super.closeWindow(self) -- tried to fix sticking DeathUI by suddenly close it when try to exit gaming state
+    end
     if self._cd > 1 then
         self._cd = self._cd - 1
     end
