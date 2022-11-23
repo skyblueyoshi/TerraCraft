@@ -1,9 +1,10 @@
----@class Slot
----@field hasStack boolean
----@field tag int
+---@class Slot 描述一个物品格子，物品格子可能为空格子，也可能包含一个ItemStack。
+---@field hasStack boolean 当前格子是否包含物品堆栈。
+---@field tag int 格子附加值。
 local Slot = {}
 
----@return boolean
+---判断格子是否有效。
+---@return boolean 格子是否有效。
 function Slot:Valid()
 end
 
