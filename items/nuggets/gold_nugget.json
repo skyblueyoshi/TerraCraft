@@ -1,9 +1,10 @@
-
 {
-  "gold_nugget": {
+  "gold_ingot": {
+    "ai": "Ingot",
     "type": "MATERIALS",
     "iconTextureData": "nugget_icon.png",
     "iconColor": [ 255, 255, 255, 0 ],
+    "iconColor2": [ 0, 255, 255, 255 ],
     "group": "GROUP_NUGGET"
   }
 }
