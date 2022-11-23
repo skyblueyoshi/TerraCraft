@@ -1,4 +1,4 @@
----@class DataWatcher
+---@class DataWatcher 数据同步类，内部封装了网络同步逻辑。
 local DataWatcher = {}
 
 ---
@@ -9,15 +9,15 @@ local DataWatcher = {}
 function DataWatcher:AddBool(value, canRemote)
 end
 
----
+---由指定通道，向
 ---@param channel int
 ---@param value boolean
 function DataWatcher:UpdateBool(channel, value)
 end
 
----
----@param channel int
----@return boolean
+---由指定通道，从远端获取数据。
+---@param channel int 通道。
+---@return boolean 布尔型数据。
 function DataWatcher:GetBool(channel)
 end
 
@@ -138,3 +138,5 @@ end
 ---@return Inventory
 function DataWatcher:GetInventory(channel)
 end
+
+return DataWatcher
