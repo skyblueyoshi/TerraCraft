@@ -1,22 +1,22 @@
----@class BiomeUtils
+---@class BiomeUtils 生物群系通用类。
 local BiomeUtils = {}
 
----GetBiomeIDByType
----@param biomeTypeID int
----@param index int
----@return int
+---由指定生物群系类型和在该生物群系类型的索引，返回生物群系数据。
+---@param biomeTypeID int 生物群系类型。
+---@param index int 在该生物群系类型的索引。
+---@return int 生物群系数据。
 function BiomeUtils.GetBiomeIDByType(biomeTypeID, index)
 end
 
----GetBiomeCountByType
----@param biomeTypeID int
----@return int
+---返回指定生物群系类型的生物群系数量。
+---@param biomeTypeID int 生物群系类型。
+---@return int 指定生物群系类型的生物群系数量。
 function BiomeUtils.GetBiomeCountByType(biomeTypeID)
 end
 
----GetData
----@param biomeID int
----@return BiomeData
+---由生物群系ID，返回生物群系数据。
+---@param biomeID int 生物群系ID。
+---@return BiomeData 生物群系数据。
 function BiomeUtils.GetData(biomeID)
 end
 
