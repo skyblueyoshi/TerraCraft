@@ -1,3 +1,5 @@
+---@API
+
 ---@class AccountUtils 账号通用类，封装了账号相关操作函数。
 local AccountUtils = {}
 

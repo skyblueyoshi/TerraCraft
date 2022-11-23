@@ -1,6 +1,6 @@
 ---@class Enchantment
----@field public id int
----@field public level int
+---@field id int
+---@field level int
 local Enchantment = {}
 
 ---@param id int

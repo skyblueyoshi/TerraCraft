@@ -1,3 +1,5 @@
+---@API
+
 ---@class BiomeUtils 生物群系通用类。
 local BiomeUtils = {}
 

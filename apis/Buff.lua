@@ -1,6 +1,6 @@
 ---@class Buff
----@field public id int
----@field public time int
+---@field id int
+---@field time int
 local Buff = {}
 
 ---@param id int

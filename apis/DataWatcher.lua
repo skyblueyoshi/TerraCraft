@@ -1,3 +1,5 @@
+---@API
+
 ---@class DataWatcher 数据同步类，内部封装了网络同步逻辑。
 local DataWatcher = {}
 

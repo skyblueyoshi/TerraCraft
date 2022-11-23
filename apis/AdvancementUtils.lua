@@ -1,3 +1,5 @@
+---@API
+
 ---@class AdvancementUtils 成就通用类。
 local AdvancementUtils = {}
 

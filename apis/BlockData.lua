@@ -1,3 +1,5 @@
+---@API
+
 ---@class BlockData 描述一个方块数据。
 ---@field textureLocation TextureLocation 方块渲染在地图中的纹理。
 ---@field group int 方块组，决定渲染在地图中纹理衔接方式。

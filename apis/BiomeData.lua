@@ -1,3 +1,5 @@
+---@API
+
 ---@class BiomeTerrain 描述一个地形信息。
 ---@field name string 地形名称。
 ---@field times double 生成次数（小于1表示概率）

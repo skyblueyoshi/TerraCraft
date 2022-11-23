@@ -1,3 +1,5 @@
+---@API
+
 ---@class BlockEntity
 ---@field id int
 ---@field xi int

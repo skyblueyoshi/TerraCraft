@@ -1,3 +1,5 @@
+---@API
+
 ---@class Account 描述一个账号信息。
 ---@field name string 当前账号的名称。
 ---@field skinID int 当前账号的皮肤ID。
