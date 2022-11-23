@@ -1,5 +1,5 @@
 {
-  "gold_ingot": {
+  "gold_nugget": {
     "ai": "Ingot",
     "type": "MATERIALS",
     "iconTextureData": "nugget_icon.png",
