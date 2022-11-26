@@ -27,6 +27,7 @@
 ---@field isContainer boolean
 ---@field allowDoubleClick boolean
 ---@field textBatchRendering boolean
+---@field enableRenderTarget boolean
 ---@field isTouching boolean
 local UINode = {}
 
@@ -277,7 +278,10 @@ end
 ---@param canvasPosition Vector2
 ---@param isTouching boolean
 ---@return UINode
-function UICanvas:getPointedNode(canvasPosition, isTouching)
+function UINode:getPointedNode(canvasPosition, isTouching)
+end
+
+function UINode:flushRender()
 end
 
 return UINode

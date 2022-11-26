@@ -5,6 +5,11 @@
 ---@field primitiveCount number
 local GraphicsDevice = {}
 
+---clear
+---@param color Color
+function GraphicsDevice.clear(color)
+end
+
 ---
 ---@overload fun(a:Vector2,b:Vector2,color:Color)
 ---@param a Vector2
