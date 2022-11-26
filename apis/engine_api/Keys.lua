@@ -1,7 +1,9 @@
----@class Keys_Value
+---@API
+
+---@class Keys_Value 描述一个键盘键值。
 local Keys_Value = {}
 
----@class Keys
+---@class Keys 键盘键值枚举类。
 ---@field None Keys_Value
 ---@field Back Keys_Value
 ---@field Tab Keys_Value
