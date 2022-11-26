@@ -1,34 +1,36 @@
----@class UINode
----@field anchorPoint Vector2
----@field anchorPointX number
----@field anchorPointY number
----@field position Vector2
----@field positionInCanvas Vector2
----@field positionX number
----@field positionY number
----@field size Size
----@field width number
----@field height number
----@field visible boolean
----@field leftMargin number
----@field rightMargin number
----@field topMargin number
----@field bottomMargin number
----@field leftMarginEnabled boolean
----@field rightMarginEnabled boolean
----@field topMarginEnabled boolean
----@field bottomMarginEnabled boolean
----@field autoStretchWidth boolean
----@field autoStretchHeight boolean
----@field touchable boolean
----@field name string
----@field tag number
----@field childTag number
----@field isContainer boolean
----@field allowDoubleClick boolean
+---@API
+
+---@class UINode 基本的UI节点，是所有类型UI节点的基类。
+---@field name string 节点名字。
+---@field anchorPoint Vector2 组件锚点。
+---@field anchorPointX number 锚点横坐标。
+---@field anchorPointY number 锚点纵坐标。
+---@field position Vector2 节点在父节点空间的坐标。
+---@field positionInCanvas Vector2 节点在画布空间的坐标。
+---@field positionX number 节点在父节点空间的横坐标。
+---@field positionY number 节点在父节点空间的纵坐标。
+---@field size Size 节点尺寸。
+---@field width number 节点宽度。
+---@field height number 节点高度。
+---@field visible boolean 节点是否可见。
+---@field leftMargin number 节点到父节点的左侧边距。
+---@field rightMargin number 节点到父节点的右侧边距。
+---@field topMargin number 节点到父节点的上侧边距。
+---@field bottomMargin number 节点到父节点的下侧边距。
+---@field leftMarginEnabled boolean 是否启用节点到父节点的左侧边距。
+---@field rightMarginEnabled boolean 是否启用节点到父节点的右侧边距。
+---@field topMarginEnabled boolean 是否启用节点到父节点的上侧边距。
+---@field bottomMarginEnabled boolean 是否启用节点到父节点的下侧边距。
+---@field autoStretchWidth boolean 是否根据左右侧边距自动拉伸适配宽度，若为false，则为根据左右侧边距水平居中。
+---@field autoStretchHeight boolean 是否根据上下侧边距自动拉伸适配高度，若为false，则为根据上下侧边距竖直居中。
+---@field touchable boolean 节点是否可被触碰。
+---@field tag number 节点附加值。
+---@field childTag number 节点作为子节点时的附加值。
+---@field isContainer boolean 节点是否作为裁切容器。
+---@field allowDoubleClick boolean 节点是否允许进行双击。
 ---@field textBatchRendering boolean
----@field enableRenderTarget boolean
----@field isTouching boolean
+---@field enableRenderTarget boolean 节点是否开启RenderTarget纹理缓存，开启后仅在内部节点更新时重绘纹理缓存。
+---@field isTouching boolean 当前节点是否被触碰中。
 local UINode = {}
 
 ---new
